@@ -1,0 +1,596 @@
+[
+  {
+    "title": "Épisode 1 - L'énigme de l'obéissance",
+    "duration": "20 min",
+    "questions": 6,
+    "href": "quiz/01-episode-1-l-enigme-de-l-obeissance.html"
+  },
+  {
+    "title": "Épisode 2 - L'habitude de servir",
+    "duration": "19 min",
+    "questions": 6,
+    "href": "quiz/02-episode-2-l-habitude-de-servir.html"
+  },
+  {
+    "title": "Épisode 3 - La mémoire des hommes libres",
+    "duration": "20 min",
+    "questions": 6,
+    "href": "quiz/03-episode-3-la-memoire-des-hommes-libres.html"
+  },
+  {
+    "title": "Épisode 4 - Peuple diverti, peuple soumis",
+    "duration": "19 min",
+    "questions": 6,
+    "href": "quiz/04-episode-4-peuple-diverti-peuple-soumis.html"
+  },
+  {
+    "title": "Épisode 5 - Pas d'amitié sans égalité",
+    "duration": "19 min",
+    "questions": 6,
+    "href": "quiz/05-episode-5-pas-d-amitie-sans-egalite.html"
+  },
+  {
+    "title": "La servitude volontaire : le texte visionnaire d'un adolescent",
+    "duration": "56 min",
+    "questions": 8,
+    "href": "quiz/06-la-servitude-volontaire-le-texte-visionnaire-d-un-adolescent.html"
+  },
+  {
+    "title": "La servitude volontaire, une hypothèse hautement transgressive",
+    "duration": "58 min",
+    "questions": 8,
+    "href": "quiz/07-la-servitude-volontaire-une-hypothese-hautement-transgressive.html"
+  },
+  {
+    "title": "Comment la servitude peut-elle être volontaire ?",
+    "duration": "59 min",
+    "questions": 8,
+    "href": "quiz/08-comment-la-servitude-peut-elle-etre-volontaire.html"
+  },
+  {
+    "title": "Comment la servitude peut-elle être volontaire ?",
+    "duration": "3 min",
+    "questions": 3,
+    "href": "quiz/09-comment-la-servitude-peut-elle-etre-volontaire.html"
+  },
+  {
+    "title": "Tyrans et tyranophores : La Boétie ou les tyranophores, c'est nous",
+    "duration": "3 min",
+    "questions": 3,
+    "href": "quiz/10-tyrans-et-tyranophores-la-boetie-ou-les-tyranophores-c-est-nous.html"
+  },
+  {
+    "title": "Discours de la servitude volontaire - La Boétie",
+    "duration": "59 min",
+    "questions": 8,
+    "href": "quiz/11-discours-de-la-servitude-volontaire-la-boetie.html"
+  },
+  {
+    "title": "Étienne de La Boétie (1530-1563)",
+    "duration": "58 min",
+    "questions": 8,
+    "href": "quiz/12-etienne-de-la-boetie-1530-1563.html"
+  },
+  {
+    "title": "Montaigne et La Boétie : « parce que c'était lui, parce que c'était moi »",
+    "duration": "58 min",
+    "questions": 8,
+    "href": "quiz/13-montaigne-et-la-boetie-parce-que-c-etait-lui-parce-que-c-etait-moi.html"
+  },
+  {
+    "title": "Montaigne et La Boétie, une amitié sans égale",
+    "duration": "49 min",
+    "questions": 8,
+    "href": "quiz/14-montaigne-et-la-boetie-une-amitie-sans-egale.html"
+  },
+  {
+    "title": "La servitude volontaire : comprendre le pouvoir et la volonté",
+    "duration": "58 min",
+    "questions": 8,
+    "href": "quiz/15-la-servitude-volontaire-comprendre-le-pouvoir-et-la-volonte.html"
+  },
+  {
+    "title": "Épisode 1 - Acte 1 : Des retrouvailles contrariées",
+    "duration": "28 min",
+    "questions": 7,
+    "href": "quiz/16-episode-1-acte-1-des-retrouvailles-contrariees.html"
+  },
+  {
+    "title": "Épisode 2 - Acte 2 : Le rendez-vous",
+    "duration": "31 min",
+    "questions": 8,
+    "href": "quiz/17-episode-2-acte-2-le-rendez-vous.html"
+  },
+  {
+    "title": "Épisode 3 - Acte 3 : Un jeu dangereux",
+    "duration": "37 min",
+    "questions": 8,
+    "href": "quiz/18-episode-3-acte-3-un-jeu-dangereux.html"
+  },
+  {
+    "title": "Épisode 4 - Comprendre On ne badine pas avec l'amour",
+    "duration": "26 min",
+    "questions": 7,
+    "href": "quiz/19-episode-4-comprendre-on-ne-badine-pas-avec-l-amour.html"
+  },
+  {
+    "title": "Épisode 5 - On ne badine pas avec l'amour d'Alfred de Musset, l'intégrale",
+    "duration": "1 h 38 min",
+    "questions": 20,
+    "href": "quiz/20-episode-5-on-ne-badine-pas-avec-l-amour-d-alfred-de-musset-l-integrale.html"
+  },
+  {
+    "title": "On ne badine pas avec l'amour (1/2)",
+    "duration": "4 min",
+    "questions": 3,
+    "href": "quiz/21-on-ne-badine-pas-avec-l-amour-1-2.html"
+  },
+  {
+    "title": "On ne badine pas avec l'amour (2/2)",
+    "duration": "4 min",
+    "questions": 3,
+    "href": "quiz/22-on-ne-badine-pas-avec-l-amour-2-2.html"
+  },
+  {
+    "title": "On ne badine pas avec l'amour d'Alfred de Musset, aimer sans clichés",
+    "duration": "6 min",
+    "questions": 5,
+    "href": "quiz/23-on-ne-badine-pas-avec-l-amour-d-alfred-de-musset-aimer-sans-cliches.html"
+  },
+  {
+    "title": "Alfred de Musset, on ne badine pas avec le coeur",
+    "duration": "51 min",
+    "questions": 8,
+    "href": "quiz/24-alfred-de-musset-on-ne-badine-pas-avec-le-coeur.html"
+  },
+  {
+    "title": "Alfred de Musset",
+    "duration": "27 min",
+    "questions": 7,
+    "href": "quiz/25-alfred-de-musset.html"
+  },
+  {
+    "title": "George Sand et Alfred de Musset, une passion à Venise",
+    "duration": "56 min",
+    "questions": 8,
+    "href": "quiz/26-george-sand-et-alfred-de-musset-une-passion-a-venise.html"
+  },
+  {
+    "title": "Francis Ponge : lire La rage de l'expression",
+    "duration": "28 min",
+    "questions": 6,
+    "href": "quiz/27-francis-ponge-lire-la-rage-de-l-expression.html"
+  },
+  {
+    "title": "Conditions de travail de quelqu'un qu'on appelle encore un poète (1re partie)",
+    "duration": "21 min",
+    "questions": 5,
+    "href": "quiz/28-conditions-de-travail-de-quelqu-un-qu-on-appelle-encore-un-poete-1.html"
+  },
+  {
+    "title": "Conditions de travail de quelqu'un qu'on appelle encore un poète (2e partie)",
+    "duration": "21 min",
+    "questions": 5,
+    "href": "quiz/29-conditions-de-travail-de-quelqu-un-qu-on-appelle-encore-un-poete-2.html"
+  },
+  {
+    "title": "Le début du vingtième siècle, vécu",
+    "duration": "22 min",
+    "questions": 5,
+    "href": "quiz/30-le-debut-du-vingtieme-siecle-vecu.html"
+  },
+  {
+    "title": "Vie et travail à l'époque surréaliste : 1917-1930",
+    "duration": "21 min",
+    "questions": 5,
+    "href": "quiz/31-vie-et-travail-a-l-epoque-surrealiste-1917-1930.html"
+  },
+  {
+    "title": "Vie et travail à l'époque surréaliste : 1930-1940",
+    "duration": "20 min",
+    "questions": 5,
+    "href": "quiz/32-vie-et-travail-a-l-epoque-surrealiste-1930-1940.html"
+  },
+  {
+    "title": "La peinture et les lettres",
+    "duration": "20 min",
+    "questions": 5,
+    "href": "quiz/33-la-peinture-et-les-lettres.html"
+  },
+  {
+    "title": "Pratique et Théorie : Le Parti pris des choses",
+    "duration": "22 min",
+    "questions": 5,
+    "href": "quiz/34-pratique-et-theorie-le-parti-pris-des-choses.html"
+  },
+  {
+    "title": "Pratique et Théorie : La Rage de l'expression",
+    "duration": "21 min",
+    "questions": 5,
+    "href": "quiz/35-pratique-et-theorie-la-rage-de-l-expression.html"
+  },
+  {
+    "title": "Pratique et Théorie : L'objeu",
+    "duration": "21 min",
+    "questions": 5,
+    "href": "quiz/36-pratique-et-theorie-l-objeu.html"
+  },
+  {
+    "title": "Pour un Malherbe, pour une nouvelle culture",
+    "duration": "21 min",
+    "questions": 5,
+    "href": "quiz/37-pour-un-malherbe-pour-une-nouvelle-culture.html"
+  },
+  {
+    "title": "Rupture et révolution culturelle, un matérialisme sémantique : Le Pré",
+    "duration": "21 min",
+    "questions": 5,
+    "href": "quiz/38-rupture-et-revolution-culturelle-un-materialisme-semantique-le-pre.html"
+  },
+  {
+    "title": "L'écriture, fonctionnement, objoie, le savon",
+    "duration": "19 min",
+    "questions": 5,
+    "href": "quiz/39-l-ecriture-fonctionnement-objoie-le-savon.html"
+  },
+  {
+    "title": "Francis Ponge ou la rage de l'expression",
+    "duration": "11 min",
+    "questions": 5,
+    "href": "quiz/40-francis-ponge-ou-la-rage-de-l-expression.html"
+  },
+  {
+    "title": "Francis Ponge lit Le pain et La pomme de terre",
+    "duration": "1 min",
+    "questions": 2,
+    "href": "quiz/41-francis-ponge-lit-le-pain-et-la-pomme-de-terre.html"
+  },
+  {
+    "title": "Épisode 1 La couleur des étés",
+    "duration": "20 min",
+    "questions": 5,
+    "href": "quiz/42-episode-1-la-couleur-des-etes.html"
+  },
+  {
+    "title": "Épisode 2 Une enfance heureuse",
+    "duration": "19 min",
+    "questions": 5,
+    "href": "quiz/43-episode-2-une-enfance-heureuse.html"
+  },
+  {
+    "title": "Épisode 3 Le capitaine",
+    "duration": "20 min",
+    "questions": 5,
+    "href": "quiz/44-episode-3-le-capitaine.html"
+  },
+  {
+    "title": "Épisode 4 Sido et le capitaine",
+    "duration": "19 min",
+    "questions": 5,
+    "href": "quiz/45-episode-4-sido-et-le-capitaine.html"
+  },
+  {
+    "title": "Épisode 5 Les sauvages",
+    "duration": "19 min",
+    "questions": 5,
+    "href": "quiz/46-episode-5-les-sauvages.html"
+  },
+  {
+    "title": "Épisode 1 Les Vrilles de la vigne, Nuit blanche et Le dernier feu",
+    "duration": "20 min",
+    "questions": 5,
+    "href": "quiz/47-episode-1-les-vrilles-de-la-vigne-nuit-blanche-et-le-dernier-feu.html"
+  },
+  {
+    "title": "Épisode 2 Amours, Un rêve et Nonoche",
+    "duration": "20 min",
+    "questions": 5,
+    "href": "quiz/48-episode-2-amours-un-reve-et-nonoche.html"
+  },
+  {
+    "title": "Épisode 3 Toby-chien parle et Dialogues de bêtes",
+    "duration": "19 min",
+    "questions": 5,
+    "href": "quiz/49-episode-3-toby-chien-parle-et-dialogues-de-betes.html"
+  },
+  {
+    "title": "Épisode 4 Maquillages et Belles-de-jour",
+    "duration": "19 min",
+    "questions": 5,
+    "href": "quiz/50-episode-4-maquillages-et-belles-de-jour.html"
+  },
+  {
+    "title": "Épisode 5 Music halls et Le miroir",
+    "duration": "20 min",
+    "questions": 5,
+    "href": "quiz/51-episode-5-music-halls-et-le-miroir.html"
+  },
+  {
+    "title": "Sido et Les Vrilles de la vigne de Colette",
+    "duration": "58 min",
+    "questions": 8,
+    "href": "quiz/52-sido-et-les-vrilles-de-la-vigne-de-colette.html"
+  },
+  {
+    "title": "Épisode 1 Ne pas se laisser faire",
+    "duration": "29 min",
+    "questions": 6,
+    "href": "quiz/53-episode-1-ne-pas-se-laisser-faire.html"
+  },
+  {
+    "title": "Épisode 2 Explorer les interdits",
+    "duration": "29 min",
+    "questions": 6,
+    "href": "quiz/54-episode-2-explorer-les-interdits.html"
+  },
+  {
+    "title": "Épisode 3 Les Jouvenel père et fils : passions limites",
+    "duration": "29 min",
+    "questions": 6,
+    "href": "quiz/55-episode-3-les-jouvenel-pere-et-fils-passions-limites.html"
+  },
+  {
+    "title": "Épisode 4 Aimer comme une mère",
+    "duration": "29 min",
+    "questions": 6,
+    "href": "quiz/56-episode-4-aimer-comme-une-mere.html"
+  },
+  {
+    "title": "Épisode 5 Vieillir ensemble",
+    "duration": "29 min",
+    "questions": 6,
+    "href": "quiz/57-episode-5-vieillir-ensemble.html"
+  },
+  {
+    "title": "Épisode 6 La vie sauvage",
+    "duration": "29 min",
+    "questions": 6,
+    "href": "quiz/58-episode-6-la-vie-sauvage.html"
+  },
+  {
+    "title": "Colette et la nature",
+    "duration": "36 min",
+    "questions": 6,
+    "href": "quiz/59-colette-et-la-nature.html"
+  },
+  {
+    "title": "Épisode 1 Pourquoi Colette ?",
+    "duration": "4 min",
+    "questions": 3,
+    "href": "quiz/60-episode-1-pourquoi-colette.html"
+  },
+  {
+    "title": "Épisode 2 Comment Colette se mit à écrire ?",
+    "duration": "4 min",
+    "questions": 3,
+    "href": "quiz/61-episode-2-comment-colette-se-mit-a-ecrire.html"
+  },
+  {
+    "title": "Épisode 3 Ce chameau de Willy, le mari de Colette",
+    "duration": "4 min",
+    "questions": 3,
+    "href": "quiz/62-episode-3-ce-chameau-de-willy-le-mari-de-colette.html"
+  },
+  {
+    "title": "Épisode 4 Les beaux cheveux d'or de Colette",
+    "duration": "4 min",
+    "questions": 3,
+    "href": "quiz/63-episode-4-les-beaux-cheveux-d-or-de-colette.html"
+  },
+  {
+    "title": "Épisode 5 Lesbos ou les amours saphiques de Colette",
+    "duration": "4 min",
+    "questions": 3,
+    "href": "quiz/64-episode-5-lesbos-ou-les-amours-saphiques-de-colette.html"
+  },
+  {
+    "title": "Épisode 6 Colette et sa mère, Sidonie Landoy dite « Sido »",
+    "duration": "4 min",
+    "questions": 3,
+    "href": "quiz/65-episode-6-colette-et-sa-mere-sidonie-landoy-dite-sido.html"
+  },
+  {
+    "title": "Épisode 7 Les bêtes : la relation de Colette avec les animaux",
+    "duration": "4 min",
+    "questions": 3,
+    "href": "quiz/66-episode-7-les-betes-la-relation-de-colette-avec-les-animaux.html"
+  },
+  {
+    "title": "Épisode 8 Le faune : ou quand Colette réclamait la liberté de son corps et de sa plume",
+    "duration": "4 min",
+    "questions": 3,
+    "href": "quiz/67-episode-8-le-faune-ou-quand-colette-reclamait-la-liberte-de-son-corps-et-de-sa-plume.html"
+  },
+  {
+    "title": "Épisode 9 Colette : J’appartiens à Missy",
+    "duration": "4 min",
+    "questions": 3,
+    "href": "quiz/68-episode-9-colette-j-appartiens-a-missy.html"
+  },
+  {
+    "title": "Épisode 10 Music-hall : Colette et la musique",
+    "duration": "4 min",
+    "questions": 3,
+    "href": "quiz/69-episode-10-music-hall-colette-et-la-musique.html"
+  },
+  {
+    "title": "Épisode 11 Colette et son père Jules : La vertu d’être triste à bon escient, et de ne jamais se trahir",
+    "duration": "4 min",
+    "questions": 3,
+    "href": "quiz/70-episode-11-colette-et-son-pere-jules-la-vertu-d-etre-triste-a-bon-escient-et-de-ne-jamais-se-trahir.html"
+  },
+  {
+    "title": "Épisode 12 Colette et l'amour",
+    "duration": "4 min",
+    "questions": 3,
+    "href": "quiz/71-episode-12-colette-et-l-amour.html"
+  },
+  {
+    "title": "Épisode 13 Colette la sauvageonne : Je suis restée paysanne",
+    "duration": "4 min",
+    "questions": 3,
+    "href": "quiz/72-episode-13-colette-la-sauvageonne-je-suis-restee-paysanne.html"
+  },
+  {
+    "title": "Épisode 14 Colette et Paris : J’ai trouvé dans Paris encore une province",
+    "duration": "4 min",
+    "questions": 3,
+    "href": "quiz/73-episode-14-colette-et-paris-j-ai-trouve-dans-paris-encore-une-province.html"
+  },
+  {
+    "title": "Épisode 15 Colette et son amour pour Henry de Jouvenel alias Le Pacha",
+    "duration": "4 min",
+    "questions": 3,
+    "href": "quiz/74-episode-15-colette-et-son-amour-pour-henry-de-jouvenel-alias-le-pacha.html"
+  },
+  {
+    "title": "Épisode 16 Plus qu'écrivaine, Colette se voyait journaliste",
+    "duration": "4 min",
+    "questions": 3,
+    "href": "quiz/75-episode-16-plus-qu-ecrivaine-colette-se-voyait-journaliste.html"
+  },
+  {
+    "title": "Épisode 17 Colette : J'aime être gourmande",
+    "duration": "4 min",
+    "questions": 3,
+    "href": "quiz/76-episode-17-colette-j-aime-etre-gourmande.html"
+  },
+  {
+    "title": "Épisode 18 Flore et Pomone, la botanique poétique de Colette",
+    "duration": "4 min",
+    "questions": 3,
+    "href": "quiz/77-episode-18-flore-et-pomone-la-botanique-poetique-de-colette.html"
+  },
+  {
+    "title": "Épisode 19 Colette perçut très tôt l'intérêt du septième art",
+    "duration": "4 min",
+    "questions": 3,
+    "href": "quiz/78-episode-19-colette-percut-tres-tot-l-interet-du-septieme-art.html"
+  },
+  {
+    "title": "Épisode 20 Colette féministe avant-gardiste et paradoxale",
+    "duration": "4 min",
+    "questions": 3,
+    "href": "quiz/79-episode-20-colette-feministe-avant-gardiste-et-paradoxale.html"
+  },
+  {
+    "title": "Épisode 21 Colette réfléchissait déjà sur le genre",
+    "duration": "4 min",
+    "questions": 3,
+    "href": "quiz/80-episode-21-colette-reflechissait-deja-sur-le-genre.html"
+  },
+  {
+    "title": "Épisode 22 Colette choisit la littérature contre la maternité",
+    "duration": "4 min",
+    "questions": 3,
+    "href": "quiz/81-episode-22-colette-choisit-la-litterature-contre-la-maternite.html"
+  },
+  {
+    "title": "Épisode 23 La fratrie de Colette",
+    "duration": "4 min",
+    "questions": 3,
+    "href": "quiz/82-episode-23-la-fratrie-de-colette.html"
+  },
+  {
+    "title": "Épisode 24 Le phalanstère, refuge pour Colette et ses amies",
+    "duration": "4 min",
+    "questions": 3,
+    "href": "quiz/83-episode-24-le-phalanstere-refuge-pour-colette-et-ses-amies.html"
+  },
+  {
+    "title": "Épisode 25 Colette dans la Grande Guerre",
+    "duration": "4 min",
+    "questions": 3,
+    "href": "quiz/84-episode-25-colette-dans-la-grande-guerre.html"
+  },
+  {
+    "title": "Épisode 26 Quand Colette écrit L’Enfant et les Sortilèges livret de féerie-ballet pour Opéra mis en musique par Ravel",
+    "duration": "4 min",
+    "questions": 3,
+    "href": "quiz/85-episode-26-quand-colette-ecrit-l-enfant-et-les-sortileges-livret-de-feerie-ballet-pour-opera-mis-en-musique-par-ravel.html"
+  },
+  {
+    "title": "Épisode 27 Les Liaisons de Colette",
+    "duration": "4 min",
+    "questions": 3,
+    "href": "quiz/86-episode-27-les-liaisons-de-colette.html"
+  },
+  {
+    "title": "Épisode 28 De la Bretagne au Midi, Colette sur les routes",
+    "duration": "4 min",
+    "questions": 3,
+    "href": "quiz/87-episode-28-de-la-bretagne-au-midi-colette-sur-les-routes.html"
+  },
+  {
+    "title": "Épisode 29 Colette entre rancœur et vengeances conjugales posthumes",
+    "duration": "4 min",
+    "questions": 3,
+    "href": "quiz/88-episode-29-colette-entre-ranc-ur-et-vengeances-conjugales-posthumes.html"
+  },
+  {
+    "title": "Épisode 30 Colette conte les petites existences",
+    "duration": "5 min",
+    "questions": 5,
+    "href": "quiz/89-episode-30-colette-conte-les-petites-existences.html"
+  },
+  {
+    "title": "Épisode 31 Proust et Colette se sont connus et reconnus",
+    "duration": "4 min",
+    "questions": 3,
+    "href": "quiz/90-episode-31-proust-et-colette-se-sont-connus-et-reconnus.html"
+  },
+  {
+    "title": "Épisode 32 Chéri, reflet de la plume de Colette",
+    "duration": "4 min",
+    "questions": 3,
+    "href": "quiz/91-episode-32-cheri-reflet-de-la-plume-de-colette.html"
+  },
+  {
+    "title": "Épisode 33 Colette et l'Occupation",
+    "duration": "4 min",
+    "questions": 3,
+    "href": "quiz/92-episode-33-colette-et-l-occupation.html"
+  },
+  {
+    "title": "Épisode 34 Colette, la bonne dame du Palais-Royal",
+    "duration": "4 min",
+    "questions": 3,
+    "href": "quiz/93-episode-34-colette-la-bonne-dame-du-palais-royal.html"
+  },
+  {
+    "title": "Épisode 35 La marque Colette",
+    "duration": "4 min",
+    "questions": 3,
+    "href": "quiz/94-episode-35-la-marque-colette.html"
+  },
+  {
+    "title": "Épisode 36 Colette prend de l'âge",
+    "duration": "4 min",
+    "questions": 3,
+    "href": "quiz/95-episode-36-colette-prend-de-l-age.html"
+  },
+  {
+    "title": "Épisode 37 Colette et la littérature, une fausse histoire d'amour ?",
+    "duration": "4 min",
+    "questions": 3,
+    "href": "quiz/96-episode-37-colette-et-la-litterature-une-fausse-histoire-d-amour.html"
+  },
+  {
+    "title": "Épisode 38 Gigi, le rare roman de Colette qui finit bien",
+    "duration": "4 min",
+    "questions": 3,
+    "href": "quiz/97-episode-38-gigi-le-rare-roman-de-colette-qui-finit-bien.html"
+  },
+  {
+    "title": "Épisode 39 Colette attachée aux traditions",
+    "duration": "4 min",
+    "questions": 3,
+    "href": "quiz/98-episode-39-colette-attachee-aux-traditions.html"
+  },
+  {
+    "title": "Épisode 40 Le bleu, la couleur de Colette",
+    "duration": "4 min",
+    "questions": 3,
+    "href": "quiz/99-episode-40-le-bleu-la-couleur-de-colette.html"
+  }
+]

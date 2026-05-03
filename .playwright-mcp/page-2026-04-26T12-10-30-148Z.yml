@@ -1,0 +1,691 @@
+- generic [ref=e1]:
+  - dialog "Bienvenue chez Radio France Gestion du consentement" [ref=e4]:
+    - document [active] [ref=e5]:
+      - heading "Logo" [level=1] [ref=e7]
+      - generic [ref=e8]:
+        - generic [ref=e12]:
+          - paragraph [ref=e13]:
+            - text: Avec votre accord,
+            - link "nos partenaires" [ref=e14] [cursor=pointer]:
+              - /url: javascript:Didomi.preferences.show('vendors')
+            - text: et nous utilisons des cookies ou technologies similaires pour stocker et accéder à vos informations personnelles, comme votre visite sur ce site. Vous pouvez retirer votre consentement ou vous opposer aux traitements fondés sur l'intérêt légitime à tout moment en cliquant sur "
+            - link "Gérer mes choix" [ref=e15] [cursor=pointer]:
+              - /url: javascript:Didomi.preferences.show()
+            - text: "\" ou dans notre politique de confidentialité présente sur ce site, et dans ce cas vous n'aurez plus accès à du contenu personnalisé basé sur votre navigation, aux contenus et fonctionnalités provenant des réseaux sociaux ou des plateformes de vidéos et nous ne tiendrons pas compte de votre usage pour améliorer notre site."
+          - paragraph [ref=e16]: "Avec nos partenaires, nous traitons vos données pour les finalités suivantes : le fonctionnement du site, la mesure d'audience et web analyse, la personnalisation, la publicité et le ciblage, les publicités et contenus personnalisés, la mesure de performance des publicités et du contenu, le développement de produit, l'activation des fonctionnalités des réseaux sociaux."
+          - paragraph [ref=e17]: Vos préférences seront conservées pendant une durée de 6 mois.
+        - button "Voir nos 155 partenaires" [ref=e18] [cursor=pointer]
+      - generic [ref=e19]:
+        - 'button "Gérer mes choix: Configurer vos consentements" [ref=e20] [cursor=pointer]': Gérer mes choix
+        - 'button "Tout refuser: Refuser notre traitement des données et fermer" [ref=e21] [cursor=pointer]': Tout refuser
+        - 'button "Tout accepter: Accepter notre traitement des données et fermer" [ref=e22] [cursor=pointer]': Tout accepter
+  - generic [ref=e23]:
+    - banner [ref=e24]:
+      - navigation "menu principal" [ref=e25]:
+        - list [ref=e26]:
+          - listitem [ref=e27]:
+            - link "Radio France, aller à la page d'accueil" [ref=e28] [cursor=pointer]:
+              - /url: /
+              - generic [ref=e30]: Radio France, aller à la page d'accueil
+          - listitem [ref=e31]:
+            - button "Radios" [ref=e32]:
+              - generic [ref=e33]: Radios
+          - listitem [ref=e35]:
+            - button "Catégories" [ref=e36]:
+              - generic [ref=e37]: Catégories
+          - listitem [ref=e39]:
+            - link "Podcasts" [ref=e40] [cursor=pointer]:
+              - /url: /podcasts
+              - generic [ref=e41]: Podcasts
+          - listitem [ref=e42]:
+            - search [ref=e43]:
+              - link "Recherche" [ref=e44] [cursor=pointer]:
+                - /url: /recherche
+                - generic [ref=e47]: Recherche
+          - listitem [ref=e48]:
+            - link "Se connecter" [ref=e49] [cursor=pointer]:
+              - /url: /connexion
+              - generic [ref=e52]: Se connecter
+    - main [ref=e53]:
+      - generic [ref=e54]:
+        - generic [ref=e55]:
+          - figure [ref=e58]:
+            - img "\"Discours de la servitude volontaire\"" [ref=e60]
+          - generic [ref=e65]:
+            - button "Suivre" [ref=e66]:
+              - generic [ref=e68]: Suivre
+            - button "Options" [ref=e72]
+          - generic [ref=e76]:
+            - link "France Culture" [ref=e77] [cursor=pointer]:
+              - /url: /franceculture
+              - generic [ref=e78]: France Culture
+            - generic [ref=e81]:
+              - heading "\"Discours de la servitude volontaire\" d'Étienne de La Boétie" [level=1] [ref=e83]
+              - generic [ref=e84]:
+                - text: Œuvre majeure de la littérature d’idées, actuellement au programme du baccalauréat de français, le Discours de la servitude volontaire écrit au 16e siècle par Étienne de La Boétie est une violente critique de la tyrannie en même temps qu’une dénonciation de la lâcheté des peuples.
+                - link "En savoir plus" [ref=e85] [cursor=pointer]:
+                  - /url: "#about"
+            - generic [ref=e90]:
+              - button [ref=e93]:
+                - generic [ref=e94]: Épisodes
+              - button [ref=e97]:
+                - generic [ref=e98]: Podcasts similaires
+        - generic [ref=e99]:
+          - generic [ref=e100]:
+            - paragraph [ref=e101]: 5 épisodes
+            - generic [ref=e102]:
+              - button [ref=e103]
+              - button "Trier les épisodes" [ref=e108]:
+                - generic [ref=e109]: Trier
+          - generic [ref=e113]:
+            - list [ref=e115]:
+              - listitem [ref=e116]:
+                - generic [ref=e118]:
+                  - generic [ref=e121]:
+                    - heading "Épisode 1/5. L’énigme de l’obéissance" [level=2] [ref=e122]:
+                      - generic [ref=e123]: Épisode 1/5. L’énigme de l’obéissance
+                    - paragraph [ref=e124]: "\"Pour le moment, je désirerais seulement qu’on me fit comprendre comment il se peut que tant d’hommes, tant de villes, tant de nations supportent quelquefois tout d’un Tyran seul, qui n’a de puissance que celle qu’on lui donne...\""
+                  - generic [ref=e125]:
+                    - generic [ref=e127]: France Culture
+                    - figure [ref=e131]
+                  - generic [ref=e133]:
+                    - paragraph [ref=e135]: Lundi 2 mars 2026
+                    - generic [ref=e137]:
+                      - generic [ref=e138]:
+                        - button "Ajouter à la liste Écouter plus tard Épisode 1/5. L’énigme de l’obéissance" [ref=e139]
+                        - button "Options pour Épisode 1/5. L’énigme de l’obéissance" [ref=e145]
+                      - generic [ref=e149]:
+                        - paragraph [ref=e151]: 20 min
+                        - button "Écouter Épisode 1/5. L’énigme de l’obéissance" [ref=e152]:
+                          - generic [ref=e153]:
+                            - generic [ref=e154]: Écouter
+                            - generic [ref=e156]: Écouter
+              - listitem [ref=e157]:
+                - generic [ref=e159]:
+                  - generic [ref=e162]:
+                    - heading "Épisode 2/5. L’habitude de servir" [level=2] [ref=e163]:
+                      - generic [ref=e164]: Épisode 2/5. L’habitude de servir
+                    - paragraph [ref=e165]: "\"Il est vrai de dire qu’au commencement, c’est bien malgré soi et par force que l’on sert ; mais ensuite on s’y fait et ceux qui viennent après servent sans regret et font volontairement ce que leurs pères n’avaient fait que par la contrainte\""
+                  - generic [ref=e166]:
+                    - generic [ref=e168]: France Culture
+                    - figure [ref=e172]
+                  - generic [ref=e174]:
+                    - paragraph [ref=e176]: Mardi 3 mars 2026
+                    - generic [ref=e178]:
+                      - generic [ref=e179]:
+                        - button "Ajouter à la liste Écouter plus tard Épisode 2/5. L’habitude de servir" [ref=e180]
+                        - button "Options pour Épisode 2/5. L’habitude de servir" [ref=e186]
+                      - generic [ref=e190]:
+                        - paragraph [ref=e192]: 19 min
+                        - button "Écouter Épisode 2/5. L’habitude de servir" [ref=e193]:
+                          - generic [ref=e194]:
+                            - generic [ref=e195]: Écouter
+                            - generic [ref=e197]: Écouter
+              - listitem [ref=e198]:
+                - generic [ref=e200]:
+                  - generic [ref=e203]:
+                    - heading "Épisode 3/5. La mémoire des hommes libres" [level=2] [ref=e204]:
+                      - generic [ref=e205]: Épisode 3/5. La mémoire des hommes libres
+                    - paragraph [ref=e206]: "\"Toujours en est-il certains qui, plus fiers et mieux inspirés que les autres, sentent le poids du joug et ne peuvent s’empêcher de le secouer ; qui ne se soumettent jamais à la sujétion et qui […] n’ont garde d’oublier leurs droits naturels et s’empressent de les revendiquer en toute occasion\""
+                  - generic [ref=e207]:
+                    - generic [ref=e209]: France Culture
+                    - figure [ref=e213]
+                  - generic [ref=e215]:
+                    - paragraph [ref=e217]: Mercredi 4 mars 2026
+                    - generic [ref=e219]:
+                      - generic [ref=e220]:
+                        - button "Ajouter à la liste Écouter plus tard Épisode 3/5. La mémoire des hommes libres" [ref=e221]
+                        - button "Options pour Épisode 3/5. La mémoire des hommes libres" [ref=e227]
+                      - generic [ref=e231]:
+                        - paragraph [ref=e233]: 20 min
+                        - button "Écouter Épisode 3/5. La mémoire des hommes libres" [ref=e234]:
+                          - generic [ref=e235]:
+                            - generic [ref=e236]: Écouter
+                            - generic [ref=e238]: Écouter
+              - listitem [ref=e239]:
+                - generic [ref=e241]:
+                  - generic [ref=e244]:
+                    - heading "Épisode 4/5. Peuple diverti, peuple soumis" [level=2] [ref=e245]:
+                      - generic [ref=e246]: Épisode 4/5. Peuple diverti, peuple soumis
+                    - paragraph [ref=e247]: "\"Les théâtres, les jeux, les farces, les spectacles, les gladiateurs, les bêtes étranges, les médailles, les tableaux et autres drogues de cette espèce étaient pour les peuples anciens les appâts de la servitude, le prix de leur liberté ravie, les instruments de la tyrannie\""
+                  - generic [ref=e248]:
+                    - generic [ref=e250]: France Culture
+                    - figure [ref=e254]
+                  - generic [ref=e256]:
+                    - paragraph [ref=e258]: Jeudi 5 mars 2026
+                    - generic [ref=e260]:
+                      - generic [ref=e261]:
+                        - button "Ajouter à la liste Écouter plus tard Épisode 4/5. Peuple diverti, peuple soumis" [ref=e262]
+                        - button "Options pour Épisode 4/5. Peuple diverti, peuple soumis" [ref=e268]
+                      - generic [ref=e272]:
+                        - paragraph [ref=e274]: 19 min
+                        - button "Écouter Épisode 4/5. Peuple diverti, peuple soumis" [ref=e275]:
+                          - generic [ref=e276]:
+                            - generic [ref=e277]: Écouter
+                            - generic [ref=e279]: Écouter
+              - listitem [ref=e280]:
+                - generic [ref=e282]:
+                  - generic [ref=e285]:
+                    - heading "Épisode 5/5. Pas d’amitié sans égalité" [level=2] [ref=e286]:
+                      - generic [ref=e287]: Épisode 5/5. Pas d’amitié sans égalité
+                    - paragraph [ref=e288]: "\"Il serait difficile de trouver en un tyran une amitié solide, parce qu’étant au-dessus de tous et n’ayant point de pair, il se trouve déjà au-delà des bornes de l’amitié, qui a son vrai gibier dans l’égalité, qui ne veut jamais clocher mais est toujours égale\""
+                  - generic [ref=e289]:
+                    - generic [ref=e291]: France Culture
+                    - figure [ref=e295]
+                  - generic [ref=e297]:
+                    - paragraph [ref=e299]: Vendredi 6 mars 2026
+                    - generic [ref=e301]:
+                      - generic [ref=e302]:
+                        - button "Ajouter à la liste Écouter plus tard Épisode 5/5. Pas d’amitié sans égalité" [ref=e303]
+                        - button "Options pour Épisode 5/5. Pas d’amitié sans égalité" [ref=e309]
+                      - generic [ref=e313]:
+                        - paragraph [ref=e315]: 19 min
+                        - button "Écouter Épisode 5/5. Pas d’amitié sans égalité" [ref=e316]:
+                          - generic [ref=e317]:
+                            - generic [ref=e318]: Écouter
+                            - generic [ref=e320]: Écouter
+            - navigation "Listes de pages \"Discours de la servitude volontaire\" d'Étienne de La Boétie" [ref=e321]:
+              - list [ref=e322]:
+                - listitem [ref=e323]: "1"
+        - generic [ref=e324]:
+          - generic [ref=e325]:
+            - heading "Provenant du podcast" [level=2] [ref=e326]
+            - generic [ref=e328]:
+              - generic [ref=e330]:
+                - heading "Lectures du soir" [level=3] [ref=e332]:
+                  - link "Lectures du soir" [ref=e333] [cursor=pointer]:
+                    - /url: /franceculture/podcasts/lectures-du-soir
+                - button "Suivre" [ref=e335]:
+                  - generic [ref=e337]: Suivre
+              - figure [ref=e341]
+          - generic [ref=e343]:
+            - heading "À propos de la série" [level=2] [ref=e344]
+            - paragraph [ref=e345]: Œuvre majeure de la littérature d’idées, actuellement au programme du baccalauréat de français, le Discours de la servitude volontaire écrit au 16e siècle par Étienne de La Boétie est une violente critique de la tyrannie en même temps qu’une dénonciation de la lâcheté des peuples.
+            - generic [ref=e347]:
+              - paragraph [ref=e348]:
+                - text: Dans
+                - emphasis [ref=e349]: Discours de la servitude volontaire
+                - text: ", Etienne de La Boétie interroge la légitimité de toute domination autoritaire et la raison pour laquelle des peuples entiers consentent à se soumettre au pouvoir d’un seul. Il part d’un constat : les hommes sont faits pour être libres, or ils acceptent d’être dominés et soutiennent eux-mêmes le pouvoir des tyrans. Ce faisant, La Boétie définit le concept de “servitude volontaire” : élevés dans l’obéissance, les hommes perdent le désir même de liberté, leur servitude n’est ainsi pas imposée mais librement consentie. Or, il suffirait de refuser de se soumettre pour que le pouvoir du tyran s’effondre."
+                - text: "Violente critique de la tyrannie, mais également dénonciation de la lâcheté du peuple, ce texte politique audacieux est publié en édition complète à titre posthume en 1577. Selon Montaigne, le texte aurait été écrit par La Boétie en 1546 ou en 1548 – à l’âge de 16 ou de 18 ans : la France est alors une monarchie absolue de droit divin, marquée par des révoltes paysannes et par les conflits entre catholiques et protestants."
+                - text: Le texte constitue une œuvre majeure de la philosophie politique et figure actuellement au programme de l’épreuve anticipée de français au baccalauréat général et technologique.
+              - paragraph [ref=e350]:
+                - text: Réalisation
+                - strong [ref=e351]: Baptiste Guiton
+                - text: "Coordination éditoriale :"
+                - strong [ref=e352]: Céline Geoffroy
+                - text: Texte intégral d’après l’adaptation de Charles Teste (1836)
+                - text: Lu par
+                - strong [ref=e353]: Olivier Balazuc
+                - text: Assistante à la réalisation
+                - strong [ref=e354]: Céline Schaeffer
+                - text: "Prise de son montage et mixage :"
+                - strong [ref=e355]: Manon Houssin
+                - text: Collaboration
+                - strong [ref=e356]: Léa Warrin
+              - group "Olivier Balazuc et Baptiste guiton lors de l'enregistrement de \"Discours de la servitude volontaire\" d’Etienne de La Boétie ©Radio France - France Culture" [ref=e359]:
+                - img "Olivier Balazuc et Baptiste guiton lors de l'enregistrement de \"Discours de la servitude volontaire\" d’Etienne de La Boétie" [ref=e361]
+                - 'button "ouvrir les crédits photo de : Olivier Balazuc et Baptiste guiton lors de l''enregistrement de \"Discours de la servitude volontaire\" d’Etienne de La Boétie" [ref=e362] [cursor=pointer]':
+                  - generic [ref=e363]: ouvrir crédits photo
+                - generic [ref=e364]: Olivier Balazuc et Baptiste guiton lors de l'enregistrement de "Discours de la servitude volontaire" d’Etienne de La Boétie ©Radio France - France Culture
+              - generic [ref=e367]:
+                - heading "À écouter" [level=2] [ref=e370]
+                - generic [ref=e373]:
+                  - 'heading "Paul Audi, philosophe : \"La Boétie ne demande pas qui est le tyran mais pourquoi on renonce à notre liberté\"" [level=3] [ref=e374]':
+                    - 'link "Paul Audi, philosophe : \"La Boétie ne demande pas qui est le tyran mais pourquoi on renonce à notre liberté\"" [ref=e375] [cursor=pointer]':
+                      - /url: /franceculture/podcasts/le-souffle-de-la-pensee/paul-audi-philosophe-sur-le-discours-de-la-servitude-volontaire-d-etienne-de-la-boetie-8981271
+                  - paragraph [ref=e376]: Le Souffle de la pensée
+                - generic [ref=e377]:
+                  - generic [ref=e379]: France Culture
+                  - figure [ref=e383]
+                - button "Ajouter" [ref=e389]:
+                  - generic [ref=e391]: Ajouter
+              - paragraph [ref=e393]:
+                - strong [ref=e394]: Etienne de La Boétie
+                - text: (1530-1563), après des études de droit, devient très jeune conseiller au parlement de Bordeaux où il rencontre Michel de Montaigne qui deviendra son grand ami. Envoyé à deux reprises en mission de pacification (entre catholiques et protestants), il meurt à 33 ans de dysenterie. Outre son
+                - emphasis [ref=e395]: Discours de la servitude volontaire
+                - text: ", publié grâce à Montaigne après sa mort, il a écrit des recueils de poèmes et un"
+                - emphasis [ref=e396]: Mémoire touchant l’édit de janvier 1562
+                - text: .
+            - button "Partager \"Discours de la servitude volontaire\" d'Étienne de La Boétie" [ref=e401]
+          - generic [ref=e405]:
+            - heading "L'équipe" [level=2] [ref=e408]
+            - generic [ref=e410]:
+              - generic [ref=e417]:
+                - heading [level=3] [ref=e418]:
+                  - link [ref=e419] [cursor=pointer]:
+                    - /url: /personnes/baptiste-guiton
+                    - text: Baptiste Guiton
+                - paragraph [ref=e420]: Réalisation
+              - generic [ref=e432]:
+                - heading [level=3] [ref=e433]:
+                  - link [ref=e434] [cursor=pointer]:
+                    - /url: /personnes/celine-geoffroy
+                    - text: Céline Geoffroy
+                - paragraph [ref=e435]: Conseiller(e) littéraire
+          - generic [ref=e441]:
+            - heading "Thèmes similaires" [level=2] [ref=e444]
+            - list [ref=e445]:
+              - listitem [ref=e446]:
+                - link "Etienne de La Boétie" [ref=e447] [cursor=pointer]:
+                  - /url: /personnes/etienne-de-la-boetie
+                  - generic [ref=e448]: Etienne de La Boétie
+              - listitem [ref=e449]:
+                - link "Arts et Divertissement" [ref=e450] [cursor=pointer]:
+                  - /url: /arts-divertissements
+                  - generic [ref=e451]: Arts et Divertissement
+              - listitem [ref=e452]:
+                - link "Livres" [ref=e453] [cursor=pointer]:
+                  - /url: /arts-divertissements/livres
+                  - generic [ref=e454]: Livres
+              - listitem [ref=e455]:
+                - link "Romans – Nouvelles" [ref=e456] [cursor=pointer]:
+                  - /url: /arts-divertissements/livres/romans-et-nouvelles
+                  - generic [ref=e457]: Romans – Nouvelles
+          - generic [ref=e459]:
+            - heading "Plus de séries" [level=2] [ref=e462]
+            - generic [ref=e464]:
+              - generic [ref=e468]:
+                - generic [ref=e473]:
+                  - heading [level=3] [ref=e474]:
+                    - link [ref=e475] [cursor=pointer]:
+                      - /url: /franceculture/podcasts/serie-novembre-de-flaubert
+                      - text: "\"Novembre\" de Gustave Flaubert"
+                  - paragraph [ref=e476]: Gustave Flaubert n’a que 21 ans quand il écrit "Novembre", un récit de jeunesse qu’il n’a pas voulu publier de son vivant tant il en avait honte. Empreint de romantisme, ce roman dit pourtant avec une infinie délicatesse les émois et les tourments d’un jeune homme qui aime pour la première fois.
+                - figure [ref=e479]:
+                  - img [ref=e481]
+              - generic [ref=e485]:
+                - generic [ref=e490]:
+                  - heading [level=3] [ref=e491]:
+                    - link [ref=e492] [cursor=pointer]:
+                      - /url: /franceculture/podcasts/serie-vingt-quatre-heures-de-la-vie-d-une-femme-de-stefan-zweig
+                      - text: "\"Vingt-quatre heures de la vie d'une femme\" de Stefan Zweig"
+                  - paragraph [ref=e493]: Dans ce récit publié en 1927, Stefan Zweig restitue avec une écriture aussi précise que délicate les sentiments d’une femme traversée par la passion, qui voit son destin bouleversé en seulement 24 heures…!
+                - figure [ref=e496]:
+                  - img [ref=e498]
+              - generic [ref=e502]:
+                - generic [ref=e507]:
+                  - heading [level=3] [ref=e508]:
+                    - link [ref=e509] [cursor=pointer]:
+                      - /url: /franceculture/podcasts/serie-armand-d-emmanuel-bove
+                      - text: "\"Armand\" d'Emmanuel Bove"
+                  - paragraph [ref=e510]: Recommandé par Beckett lui-même, Emmanuel Bove écrit l'histoire d'Armand, un jeune homme qui s'éprend de la sœur d'un ancien camarade... Publié en 1927, "Armand" dit avec finesse la confusion des sentiments et la solitude existentielle.
+                - figure [ref=e513]:
+                  - img [ref=e515]
+              - generic [ref=e519]:
+                - generic [ref=e524]:
+                  - heading [level=3] [ref=e525]:
+                    - link [ref=e526] [cursor=pointer]:
+                      - /url: /franceculture/podcasts/serie-les-reveries-du-promeneur-solitaire-de-j-j-rousseau
+                      - text: "\"Les Rêveries du promeneur solitaire\" de Jean-Jacques Rousseau"
+                  - paragraph [ref=e527]: Dans ces "Rêveries" qui jaillissent au fil de ses promenades et mêlent souvenirs, réflexions et confidences, Jean-Jacques Rousseau restitue au plus près les mouvements de son âme et les contours de sa philosophie.
+                - figure [ref=e530]:
+                  - img [ref=e532]
+              - generic [ref=e536]:
+                - generic [ref=e541]:
+                  - heading [level=3] [ref=e542]:
+                    - link [ref=e543] [cursor=pointer]:
+                      - /url: /franceculture/podcasts/serie-aurelia-de-gerard-de-nerval
+                      - text: "\"Aurélia\" de Gérard de Nerval"
+                  - paragraph [ref=e544]: Dernier texte de Gérard de Nerval publié en 1855, "Aurélia" est le récit d’une conscience traversée par la maladie mentale, à la frontière du songe et de la veille.
+                - figure [ref=e547]:
+                  - img [ref=e549]
+              - generic [ref=e553]:
+                - generic [ref=e558]:
+                  - heading [level=3] [ref=e559]:
+                    - link [ref=e560] [cursor=pointer]:
+                      - /url: /franceculture/podcasts/serie-lettres-d-une-peruvienne-de-francoise-de-graffigny
+                      - text: "\"Lettres d’une Péruvienne\" de Françoise de Graffigny"
+                  - paragraph [ref=e561]: A travers ses Lettres d’une Péruvienne, roman épistolaire et sentimental publié en 1747, Françoise de Graffigny propose à la fois une critique de la société française du XVIIIe siècle et un plaidoyer pour l’émancipation des femmes.
+                - figure [ref=e564]:
+                  - img [ref=e566]
+              - generic [ref=e570]:
+                - generic [ref=e575]:
+                  - heading [level=3] [ref=e576]:
+                    - link [ref=e577] [cursor=pointer]:
+                      - /url: /franceculture/podcasts/serie-gobseck-d-honore-de-balzac
+                      - text: "\"Gobseck\" d’Honoré de Balzac"
+                  - paragraph [ref=e578]: Véritable introduction au monde balzacien, "Gobseck" met en scène un implacable et puissant usurier du Paris de la Restauration. Une dénonciation du règne de l'argent.
+                - figure [ref=e581]:
+                  - img [ref=e583]
+      - navigation "vous êtes ici" [ref=e584]:
+        - list [ref=e585]:
+          - listitem [ref=e586]:
+            - link "Accueil" [ref=e587] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e588]:
+            - link "France Culture" [ref=e589] [cursor=pointer]:
+              - /url: /franceculture
+          - listitem [ref=e590]:
+            - link "Podcasts de France Culture" [ref=e591] [cursor=pointer]:
+              - /url: /franceculture/podcasts
+          - listitem [ref=e592]:
+            - generic [ref=e593]: "\"Discours de la servitude volontaire\" d'Étienne de La Boétie"
+    - contentinfo [ref=e594]:
+      - generic [ref=e595]:
+        - link "France Culture" [ref=e597] [cursor=pointer]:
+          - /url: /franceculture
+          - generic [ref=e598]: France Culture
+        - generic [ref=e602]:
+          - heading "La Radio" [level=2] [ref=e603]:
+            - generic [ref=e604]: La Radio
+          - list [ref=e605]:
+            - listitem [ref=e606]:
+              - link "Grille des programmes" [ref=e607] [cursor=pointer]:
+                - /url: /franceculture/grille-programmes
+                - generic [ref=e608]: Grille des programmes
+            - listitem [ref=e609]:
+              - link "Contacter France Culture" [ref=e610] [cursor=pointer]:
+                - /url: /franceculture/contact
+                - generic [ref=e611]: Contacter France Culture
+            - listitem [ref=e612]:
+              - link "Newsletters" [ref=e613] [cursor=pointer]:
+                - /url: /franceculture/newsletters
+                - generic [ref=e614]: Newsletters
+            - listitem [ref=e615]:
+              - link "Espace presse" [ref=e616] [cursor=pointer]:
+                - /url: /sujets/presse-et-communiques-de-france-culture
+                - generic [ref=e617]: Espace presse
+            - listitem [ref=e618]:
+              - link "Évènements" [ref=e619] [cursor=pointer]:
+                - /url: /franceculture/evenements
+                - generic [ref=e620]: Évènements
+        - generic [ref=e622]:
+          - heading "Podcasts" [level=2] [ref=e623]:
+            - generic [ref=e624]: Podcasts
+          - list [ref=e625]:
+            - listitem [ref=e626]:
+              - link "Podcasts A-Z" [ref=e627] [cursor=pointer]:
+                - /url: /franceculture/liste-podcasts
+                - generic [ref=e628]: Podcasts A-Z
+            - listitem [ref=e629]:
+              - link "Journaux" [ref=e630] [cursor=pointer]:
+                - /url: /franceculture/podcasts/bouquet-les-journaux-de-france-culture
+                - generic [ref=e631]: Journaux
+            - listitem [ref=e632]:
+              - link "Fictions" [ref=e633] [cursor=pointer]:
+                - /url: /fictions
+                - generic [ref=e634]: Fictions
+            - listitem [ref=e635]:
+              - link "Le fil culture" [ref=e636] [cursor=pointer]:
+                - /url: /sujets/le-fil-culture
+                - generic [ref=e637]: Le fil culture
+            - listitem [ref=e638]:
+              - link "Documentaires" [ref=e639] [cursor=pointer]:
+                - /url: /franceculture/podcasts/bouquet-les-documentaires-de-france-culture
+                - generic [ref=e640]: Documentaires
+            - listitem [ref=e641]:
+              - link "Émissions de savoirs" [ref=e642] [cursor=pointer]:
+                - /url: /franceculture/podcasts/bouquet-les-emissions-de-savoir-de-france-culture
+                - generic [ref=e643]: Émissions de savoirs
+            - listitem [ref=e644]:
+              - link "Émissions culturelles" [ref=e645] [cursor=pointer]:
+                - /url: /franceculture/podcasts/bouquet-les-emissions-culturelles-de-france-culture
+                - generic [ref=e646]: Émissions culturelles
+        - generic [ref=e648]:
+          - heading "Catégories" [level=2] [ref=e649]:
+            - generic [ref=e650]: Catégories
+          - list [ref=e651]:
+            - listitem [ref=e652]:
+              - link "Géopolitique" [ref=e653] [cursor=pointer]:
+                - /url: /monde/geopolitique
+                - generic [ref=e654]: Géopolitique
+            - listitem [ref=e655]:
+              - link "Histoire" [ref=e656] [cursor=pointer]:
+                - /url: /sciences-savoirs/histoire
+                - generic [ref=e657]: Histoire
+            - listitem [ref=e658]:
+              - link "Sciences" [ref=e659] [cursor=pointer]:
+                - /url: /sciences-savoirs/sciences
+                - generic [ref=e660]: Sciences
+            - listitem [ref=e661]:
+              - link "Philosophie" [ref=e662] [cursor=pointer]:
+                - /url: /sciences-savoirs/philosophie
+                - generic [ref=e663]: Philosophie
+            - listitem [ref=e664]:
+              - link "Expositions" [ref=e665] [cursor=pointer]:
+                - /url: /arts-divertissements/expositions
+                - generic [ref=e666]: Expositions
+            - listitem [ref=e667]:
+              - link "Théâtre" [ref=e668] [cursor=pointer]:
+                - /url: /arts-divertissements/theatre
+                - generic [ref=e669]: Théâtre
+            - listitem [ref=e670]:
+              - link "Apprendre et réviser" [ref=e671] [cursor=pointer]:
+                - /url: /sujets/des-podcasts-pour-apprendre-et-reviser
+                - generic [ref=e672]: Apprendre et réviser
+        - generic [ref=e674]:
+          - heading "Personnalités" [level=2] [ref=e675]:
+            - generic [ref=e676]: Personnalités
+          - list [ref=e677]:
+            - listitem [ref=e678]:
+              - link "Simone Veil" [ref=e679] [cursor=pointer]:
+                - /url: /personnes/simone-veil
+                - generic [ref=e680]: Simone Veil
+            - listitem [ref=e681]:
+              - link "Édith Piaf" [ref=e682] [cursor=pointer]:
+                - /url: /personnes/edith-piaf
+                - generic [ref=e683]: Édith Piaf
+            - listitem [ref=e684]:
+              - link "Victor Hugo" [ref=e685] [cursor=pointer]:
+                - /url: /personnes/victor-hugo
+                - generic [ref=e686]: Victor Hugo
+            - listitem [ref=e687]:
+              - link "Martin Luther King" [ref=e688] [cursor=pointer]:
+                - /url: /personnes/martin-luther-king
+                - generic [ref=e689]: Martin Luther King
+            - listitem [ref=e690]:
+              - link "Robert Badinter" [ref=e691] [cursor=pointer]:
+                - /url: /personnes/robert-badinter
+                - generic [ref=e692]: Robert Badinter
+            - listitem [ref=e693]:
+              - link "Albert Camus" [ref=e694] [cursor=pointer]:
+                - /url: /personnes/albert-camus
+                - generic [ref=e695]: Albert Camus
+        - generic [ref=e696]:
+          - heading "Suivre France Culture" [level=2] [ref=e697]
+          - generic [ref=e698]:
+            - link "Suivre France Culture sur facebook Ouverture dans un nouvel onglet" [ref=e699] [cursor=pointer]:
+              - /url: https://www.facebook.com/franceculture
+              - generic [ref=e701]: Suivre France Culture sur facebook
+              - generic [ref=e703]: Ouverture dans un nouvel onglet
+            - link "Suivre France Culture sur x Ouverture dans un nouvel onglet" [ref=e704] [cursor=pointer]:
+              - /url: https://twitter.com/franceculture
+              - generic [ref=e706]: Suivre France Culture sur x
+              - generic [ref=e708]: Ouverture dans un nouvel onglet
+            - link "Suivre France Culture sur instagram Ouverture dans un nouvel onglet" [ref=e709] [cursor=pointer]:
+              - /url: https://www.instagram.com/franceculture
+              - generic [ref=e711]: Suivre France Culture sur instagram
+              - generic [ref=e713]: Ouverture dans un nouvel onglet
+            - link "Suivre France Culture sur youtube Ouverture dans un nouvel onglet" [ref=e714] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCd5DKToXYTKAQ6khzewww2g
+              - generic [ref=e716]: Suivre France Culture sur youtube
+              - generic [ref=e718]: Ouverture dans un nouvel onglet
+            - link "Suivre France Culture sur tiktok Ouverture dans un nouvel onglet" [ref=e719] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@franceculture
+              - generic [ref=e721]: Suivre France Culture sur tiktok
+              - generic [ref=e723]: Ouverture dans un nouvel onglet
+            - link "Suivre France Culture sur bluesky Ouverture dans un nouvel onglet" [ref=e724] [cursor=pointer]:
+              - /url: https://bsky.app/profile/franceculture.fr
+              - generic [ref=e726]: Suivre France Culture sur bluesky
+              - generic [ref=e728]: Ouverture dans un nouvel onglet
+            - link "Suivre France Culture sur linkedin Ouverture dans un nouvel onglet" [ref=e729] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/franceculture
+              - generic [ref=e731]: Suivre France Culture sur linkedin
+              - generic [ref=e733]: Ouverture dans un nouvel onglet
+            - link "Suivre France Culture sur rss Ouverture dans un nouvel onglet" [ref=e734] [cursor=pointer]:
+              - /url: /franceculture/rss
+              - generic [ref=e736]: Suivre France Culture sur rss
+              - generic [ref=e738]: Ouverture dans un nouvel onglet
+      - generic [ref=e739]:
+        - link "Accueil Radio France" [ref=e740] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e741]: Radio France
+        - generic [ref=e743]:
+          - heading "Toutes les radios" [level=2] [ref=e744]:
+            - generic [ref=e745]: Toutes les radios
+          - list [ref=e746]:
+            - listitem [ref=e747]:
+              - link "France Inter" [ref=e748] [cursor=pointer]:
+                - /url: /franceinter
+                - generic [ref=e749]: France Inter
+            - listitem [ref=e750]:
+              - link "franceinfo" [ref=e751] [cursor=pointer]:
+                - /url: /franceinfo
+                - generic [ref=e752]: franceinfo
+            - listitem [ref=e753]:
+              - link "France Musique" [ref=e754] [cursor=pointer]:
+                - /url: /francemusique
+                - generic [ref=e755]: France Musique
+            - listitem [ref=e756]:
+              - link "France Culture" [ref=e757] [cursor=pointer]:
+                - /url: /franceculture
+                - generic [ref=e758]: France Culture
+            - listitem [ref=e759]:
+              - link "Mouv'" [ref=e760] [cursor=pointer]:
+                - /url: /mouv
+                - generic [ref=e761]: Mouv'
+            - listitem [ref=e762]:
+              - link "FIP" [ref=e763] [cursor=pointer]:
+                - /url: /fip
+                - generic [ref=e764]: FIP
+            - listitem [ref=e765]:
+              - link "ICI" [ref=e766] [cursor=pointer]:
+                - /url: /francebleu
+                - generic [ref=e767]: ICI
+            - listitem [ref=e768]:
+              - link "Mon petit France Inter" [ref=e769] [cursor=pointer]:
+                - /url: /podcasts/enfants
+                - generic [ref=e770]: Mon petit France Inter
+            - listitem [ref=e771]:
+              - link "Grille des programmes" [ref=e772] [cursor=pointer]:
+                - /url: /franceinter/grille-programmes
+                - generic [ref=e773]: Grille des programmes
+        - generic [ref=e775]:
+          - heading "Radio France" [level=2] [ref=e776]:
+            - generic [ref=e777]: Radio France
+          - list [ref=e778]:
+            - listitem [ref=e779]:
+              - link "Podcasts" [ref=e780] [cursor=pointer]:
+                - /url: /podcasts
+                - generic [ref=e781]: Podcasts
+            - listitem [ref=e782]:
+              - link "Concerts" [ref=e783] [cursor=pointer]:
+                - /url: /concerts
+                - generic [ref=e784]: Concerts
+            - listitem [ref=e785]:
+              - link "Musique" [ref=e786] [cursor=pointer]:
+                - /url: /ecouter-musique
+                - generic [ref=e787]: Musique
+            - listitem [ref=e788]:
+              - link "Maison de la radio et de la musique Ouverture dans un nouvel onglet" [ref=e789] [cursor=pointer]:
+                - /url: https://www.maisondelaradioetdelamusique.fr
+                - generic [ref=e790]: Maison de la radio et de la musique
+                - generic [ref=e792]: Ouverture dans un nouvel onglet
+            - listitem [ref=e793]:
+              - link "L'entreprise Radio France Ouverture dans un nouvel onglet" [ref=e794] [cursor=pointer]:
+                - /url: https://www.radiofrance.com/
+                - generic [ref=e795]: L'entreprise Radio France
+                - generic [ref=e797]: Ouverture dans un nouvel onglet
+            - listitem [ref=e798]:
+              - link "Les Éditions Radio France Ouverture dans un nouvel onglet" [ref=e799] [cursor=pointer]:
+                - /url: https://www.radiofrance.com/les-editions
+                - generic [ref=e800]: Les Éditions Radio France
+                - generic [ref=e802]: Ouverture dans un nouvel onglet
+            - listitem [ref=e803]:
+              - link "Personnalités" [ref=e804] [cursor=pointer]:
+                - /url: /personnes
+                - generic [ref=e805]: Personnalités
+            - listitem [ref=e806]:
+              - link "Sujets" [ref=e807] [cursor=pointer]:
+                - /url: /sujets
+                - generic [ref=e808]: Sujets
+            - listitem [ref=e809]:
+              - link "Archives" [ref=e810] [cursor=pointer]:
+                - /url: /archives
+                - generic [ref=e811]: Archives
+            - listitem [ref=e812]:
+              - link "Fréquences Ouverture dans un nouvel onglet" [ref=e813] [cursor=pointer]:
+                - /url: https://www.radiofrance.com/frequences
+                - generic [ref=e814]: Fréquences
+                - generic [ref=e816]: Ouverture dans un nouvel onglet
+            - listitem [ref=e817]:
+              - link "Index" [ref=e818] [cursor=pointer]:
+                - /url: /index
+                - generic [ref=e819]: Index
+            - listitem [ref=e820]:
+              - link "Flux RSS" [ref=e821] [cursor=pointer]:
+                - /url: /rss
+                - generic [ref=e822]: Flux RSS
+        - generic [ref=e824]:
+          - heading "Aides et contacts" [level=2] [ref=e825]:
+            - generic [ref=e826]: Aides et contacts
+          - list [ref=e827]:
+            - listitem [ref=e828]:
+              - link "Nous contacter" [ref=e829] [cursor=pointer]:
+                - /url: /contact
+                - generic [ref=e830]: Nous contacter
+            - listitem [ref=e831]:
+              - link "Comment écouter Radio France" [ref=e832] [cursor=pointer]:
+                - /url: /comment-ecouter-radio-france
+                - generic [ref=e833]: Comment écouter Radio France
+            - listitem [ref=e834]:
+              - link "Questions fréquentes" [ref=e835] [cursor=pointer]:
+                - /url: /questions-frequentes
+                - generic [ref=e836]: Questions fréquentes
+            - listitem [ref=e837]:
+              - link "La Médiatrice Ouverture dans un nouvel onglet" [ref=e838] [cursor=pointer]:
+                - /url: https://mediateur.radiofrance.com
+                - generic [ref=e839]: La Médiatrice
+                - generic [ref=e841]: Ouverture dans un nouvel onglet
+            - listitem [ref=e842]:
+              - link "Comité éthique de Radio France Ouverture dans un nouvel onglet" [ref=e843] [cursor=pointer]:
+                - /url: https://www.radiofrance.com/comite-dethique-de-radio-france
+                - generic [ref=e844]: Comité éthique de Radio France
+                - generic [ref=e846]: Ouverture dans un nouvel onglet
+            - listitem [ref=e847]:
+              - link "Votre avis sur le site" [ref=e848] [cursor=pointer]:
+                - /url: https://radio-france.typeform.com/to/esIuCXdd?station=franceculture
+                - generic [ref=e849]: Votre avis sur le site
+        - generic [ref=e851]:
+          - heading "Informations légales et autres" [level=2] [ref=e852]:
+            - generic [ref=e853]: Informations légales et autres
+          - list [ref=e854]:
+            - listitem [ref=e855]:
+              - 'link "Accessibilité : partiellement conforme" [ref=e856] [cursor=pointer]':
+                - /url: /aide-et-accessibilite
+                - generic [ref=e857]: "Accessibilité : partiellement conforme"
+            - listitem [ref=e858]:
+              - button "Gestion des Cookies" [ref=e859]:
+                - generic [ref=e860]: Gestion des Cookies
+            - listitem [ref=e861]:
+              - link "Mentions légales Ouverture dans un nouvel onglet" [ref=e862] [cursor=pointer]:
+                - /url: https://www.radiofrance.com/mentions-legales
+                - generic [ref=e863]: Mentions légales
+                - generic [ref=e865]: Ouverture dans un nouvel onglet
+        - generic [ref=e867]:
+          - heading "Régler l'affichage" [level=2] [ref=e868]
+          - list [ref=e870]:
+            - listitem [ref=e871]:
+              - button "Régler l'affichage en mode Auto" [disabled] [pressed] [ref=e872]:
+                - generic [ref=e873]:
+                  - generic [ref=e874]: Régler l'affichage en mode
+                  - text: Auto
+            - listitem [ref=e875]:
+              - button "Régler l'affichage en mode Clair" [ref=e876]:
+                - generic [ref=e877]:
+                  - generic [ref=e878]: Régler l'affichage en mode
+                  - text: Clair
+            - listitem [ref=e879]:
+              - button "Régler l'affichage en mode Sombre" [ref=e880]:
+                - generic [ref=e881]:
+                  - generic [ref=e882]: Régler l'affichage en mode
+                  - text: Sombre
+        - generic [ref=e884]:
+          - heading "Télécharger l'application mobile" [level=2] [ref=e885]
+          - generic [ref=e886]:
+            - link "Radio France - Disponible sur Google Play" [ref=e887] [cursor=pointer]:
+              - /url: https://play.google.com/store/search?q=radiofrance&c=apps&utm_source=emea_Med
+              - generic [ref=e888]: Radio France - Disponible sur Google Play
+            - link "Radio France - Télécharger dans l'App Store" [ref=e890] [cursor=pointer]:
+              - /url: https://apps.apple.com/us/app/radio-france-podcast-direct/id310211433
+              - generic [ref=e891]: Radio France - Télécharger dans l'App Store

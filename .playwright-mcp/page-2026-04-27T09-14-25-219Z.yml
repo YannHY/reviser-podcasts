@@ -1,0 +1,2519 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - paragraph [ref=e4]: Bac français
+      - heading "Réviser avec les podcasts" [level=1] [ref=e5]
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - generic [ref=e8]:
+          - button "Rechercher" [ref=e9] [cursor=pointer]:
+            - generic [ref=e10]: 
+          - button "Activer le mode sombre" [ref=e11] [cursor=pointer]:
+            - generic [ref=e12]: 
+        - generic [ref=e13]: 0/99 podcasts écoutés
+      - text:  
+  - main [ref=e15]:
+    - region "Filtres" [ref=e16]:
+      - generic [ref=e17]:
+        - generic [ref=e18]: Trier
+        - combobox "Trier" [ref=e19]:
+          - option "Par défaut" [selected]
+          - option "Les plus longs"
+          - option "Les plus courts"
+          - option "Les plus récents"
+          - option "Les plus anciens"
+      - generic [ref=e20]:
+        - generic [ref=e21]: Durée max
+        - combobox "Durée max" [ref=e22]:
+          - option "Toutes" [selected]
+          - option "≤ 10 min"
+          - option "≤ 30 min"
+          - option "≤ 60 min"
+      - generic [ref=e23]:
+        - generic [ref=e24]: État
+        - combobox "État" [ref=e25]:
+          - option "Tous" [selected]
+          - option "À écouter"
+          - option "Écoutés"
+    - generic [ref=e26]:
+      - generic [ref=e27]:
+        - strong [ref=e28]: "99"
+        - generic [ref=e29]: podcasts affichés
+      - generic [ref=e30]:
+        - strong [ref=e31]: 29 h 45 min
+        - generic [ref=e32]: temps total
+      - generic [ref=e33]:
+        - strong [ref=e34]: "0"
+        - generic [ref=e35]: écoutés
+    - generic [ref=e36]:
+      - navigation "Objets d'étude" [ref=e37]:
+        - button "Tous" [ref=e38] [cursor=pointer]
+        - button "Discours de la servitude volontaire" [ref=e39] [cursor=pointer]
+        - button "On ne badine pas avec l'amour" [ref=e40] [cursor=pointer]
+        - button "La rage de l'expression" [ref=e41] [cursor=pointer]
+        - button "Sido" [ref=e42] [cursor=pointer]
+      - button "Favoris" [ref=e43] [cursor=pointer]:
+        - generic [ref=e44]: 
+        - generic [ref=e45]: Favoris
+    - generic [ref=e46]:
+      - generic [ref=e47]:
+        - generic [ref=e48]:
+          - heading "Discours de la servitude volontaire" [level=2] [ref=e49]
+          - generic [ref=e50]: 15 podcasts
+        - generic [ref=e51]:
+          - article [ref=e52]:
+            - generic [ref=e53]:
+              - generic [ref=e54]:
+                - generic [ref=e55]:
+                  - checkbox "Écouté" [ref=e56] [cursor=pointer]
+                  - generic [ref=e57]: Écouté
+                - heading "Épisode 1 L’énigme de l’obéissance" [level=2] [ref=e58]
+              - paragraph [ref=e59]:
+                - generic [ref=e60]: 20 min
+                - generic [ref=e61]: ·
+                - generic [ref=e62]: 2 mars 2026
+                - generic [ref=e63]: ·
+                - generic [ref=e64]: France Culture
+              - generic [ref=e65]:
+                - button "Ajouter aux favoris" [ref=e66] [cursor=pointer]:
+                  - generic [ref=e67]: 
+                - link "Voir sur Radio France" [ref=e68] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceculture/podcasts/serie-discours-de-la-servitude-volontaire-de-etienne-de-la-boetie
+                  - generic [ref=e69]: 
+                - button "Écouter ici" [ref=e70] [cursor=pointer]:
+                  - generic [ref=e71]: 
+                - button "Résumé" [ref=e72] [cursor=pointer]:
+                  - generic [ref=e73]: 
+                - 'link "Quiz : Discours de la servitude volontaire d''Étienne de La Boétie - Épisode 1 L’énigme de l’obéissance" [ref=e74] [cursor=pointer]':
+                  - /url: quiz/01-episode-1-l-enigme-de-l-obeissance.html
+                  - generic [ref=e75]: 
+          - article [ref=e76]:
+            - generic [ref=e77]:
+              - generic [ref=e78]:
+                - generic [ref=e79]:
+                  - checkbox "Écouté" [ref=e80] [cursor=pointer]
+                  - generic [ref=e81]: Écouté
+                - heading "Épisode 2 L'habitude de servir" [level=2] [ref=e82]
+              - paragraph [ref=e83]:
+                - generic [ref=e84]: 19 min
+                - generic [ref=e85]: ·
+                - generic [ref=e86]: 3 mars 2026
+                - generic [ref=e87]: ·
+                - generic [ref=e88]: France Culture
+              - generic [ref=e89]:
+                - button "Ajouter aux favoris" [ref=e90] [cursor=pointer]:
+                  - generic [ref=e91]: 
+                - link "Voir sur Radio France" [ref=e92] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceculture/podcasts/serie-discours-de-la-servitude-volontaire-de-etienne-de-la-boetie
+                  - generic [ref=e93]: 
+                - button "Écouter ici" [ref=e94] [cursor=pointer]:
+                  - generic [ref=e95]: 
+                - button "Résumé" [ref=e96] [cursor=pointer]:
+                  - generic [ref=e97]: 
+                - 'link "Quiz : Discours de la servitude volontaire d''Étienne de La Boétie - Épisode 2 L''habitude de servir" [ref=e98] [cursor=pointer]':
+                  - /url: quiz/02-episode-2-l-habitude-de-servir.html
+                  - generic [ref=e99]: 
+          - article [ref=e100]:
+            - generic [ref=e101]:
+              - generic [ref=e102]:
+                - generic [ref=e103]:
+                  - checkbox "Écouté" [ref=e104] [cursor=pointer]
+                  - generic [ref=e105]: Écouté
+                - heading "Épisode 3 La mémoire des hommes libres" [level=2] [ref=e106]
+              - paragraph [ref=e107]:
+                - generic [ref=e108]: 20 min
+                - generic [ref=e109]: ·
+                - generic [ref=e110]: 4 mars 2026
+                - generic [ref=e111]: ·
+                - generic [ref=e112]: France Culture
+              - generic [ref=e113]:
+                - button "Ajouter aux favoris" [ref=e114] [cursor=pointer]:
+                  - generic [ref=e115]: 
+                - link "Voir sur Radio France" [ref=e116] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceculture/podcasts/serie-discours-de-la-servitude-volontaire-de-etienne-de-la-boetie
+                  - generic [ref=e117]: 
+                - button "Écouter ici" [ref=e118] [cursor=pointer]:
+                  - generic [ref=e119]: 
+                - button "Résumé" [ref=e120] [cursor=pointer]:
+                  - generic [ref=e121]: 
+                - 'link "Quiz : Discours de la servitude volontaire d''Étienne de La Boétie - Épisode 3 La mémoire des hommes libres" [ref=e122] [cursor=pointer]':
+                  - /url: quiz/03-episode-3-la-memoire-des-hommes-libres.html
+                  - generic [ref=e123]: 
+          - article [ref=e124]:
+            - generic [ref=e125]:
+              - generic [ref=e126]:
+                - generic [ref=e127]:
+                  - checkbox "Écouté" [ref=e128] [cursor=pointer]
+                  - generic [ref=e129]: Écouté
+                - heading "Épisode 4 Peuple diverti, peuple soumis" [level=2] [ref=e130]
+              - paragraph [ref=e131]:
+                - generic [ref=e132]: 19 min
+                - generic [ref=e133]: ·
+                - generic [ref=e134]: 5 mars 2026
+                - generic [ref=e135]: ·
+                - generic [ref=e136]: France Culture
+              - generic [ref=e137]:
+                - button "Ajouter aux favoris" [ref=e138] [cursor=pointer]:
+                  - generic [ref=e139]: 
+                - link "Voir sur Radio France" [ref=e140] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceculture/podcasts/serie-discours-de-la-servitude-volontaire-de-etienne-de-la-boetie
+                  - generic [ref=e141]: 
+                - button "Écouter ici" [ref=e142] [cursor=pointer]:
+                  - generic [ref=e143]: 
+                - button "Résumé" [ref=e144] [cursor=pointer]:
+                  - generic [ref=e145]: 
+                - 'link "Quiz : Discours de la servitude volontaire d''Étienne de La Boétie - Épisode 4 Peuple diverti, peuple soumis" [ref=e146] [cursor=pointer]':
+                  - /url: quiz/04-episode-4-peuple-diverti-peuple-soumis.html
+                  - generic [ref=e147]: 
+          - article [ref=e148]:
+            - generic [ref=e149]:
+              - generic [ref=e150]:
+                - generic [ref=e151]:
+                  - checkbox "Écouté" [ref=e152] [cursor=pointer]
+                  - generic [ref=e153]: Écouté
+                - heading "Épisode 5 Pas d'amitié sans égalité" [level=2] [ref=e154]
+              - paragraph [ref=e155]:
+                - generic [ref=e156]: 19 min
+                - generic [ref=e157]: ·
+                - generic [ref=e158]: 6 mars 2026
+                - generic [ref=e159]: ·
+                - generic [ref=e160]: France Culture
+              - generic [ref=e161]:
+                - button "Ajouter aux favoris" [ref=e162] [cursor=pointer]:
+                  - generic [ref=e163]: 
+                - link "Voir sur Radio France" [ref=e164] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceculture/podcasts/serie-discours-de-la-servitude-volontaire-de-etienne-de-la-boetie
+                  - generic [ref=e165]: 
+                - button "Écouter ici" [ref=e166] [cursor=pointer]:
+                  - generic [ref=e167]: 
+                - button "Résumé" [ref=e168] [cursor=pointer]:
+                  - generic [ref=e169]: 
+                - 'link "Quiz : Discours de la servitude volontaire d''Étienne de La Boétie - Épisode 5 Pas d''amitié sans égalité" [ref=e170] [cursor=pointer]':
+                  - /url: quiz/05-episode-5-pas-d-amitie-sans-egalite.html
+                  - generic [ref=e171]: 
+          - article [ref=e172]:
+            - generic [ref=e173]:
+              - generic [ref=e174]:
+                - generic [ref=e175]:
+                  - checkbox "Écouté" [ref=e176] [cursor=pointer]
+                  - generic [ref=e177]: Écouté
+                - 'heading "La servitude volontaire : le texte visionnaire d’un adolescent" [level=2] [ref=e178]'
+              - paragraph [ref=e179]:
+                - generic [ref=e180]: 56 min
+                - generic [ref=e181]: ·
+                - generic [ref=e182]: 23 mars 2010
+                - generic [ref=e183]: ·
+                - generic [ref=e184]: France Culture
+              - generic [ref=e185]:
+                - button "Ajouter aux favoris" [ref=e186] [cursor=pointer]:
+                  - generic [ref=e187]: 
+                - link "Voir sur Radio France" [ref=e188] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceculture/la-servitude-volontaire-le-texte-visionnaire-d-un-adolescent-5825000
+                  - generic [ref=e189]: 
+                - button "Écouter ici" [ref=e190] [cursor=pointer]:
+                  - generic [ref=e191]: 
+                - button "Résumé" [ref=e192] [cursor=pointer]:
+                  - generic [ref=e193]: 
+                - 'link "Quiz : La servitude volontaire : le texte visionnaire d’un adolescent" [ref=e194] [cursor=pointer]':
+                  - /url: quiz/06-la-servitude-volontaire-le-texte-visionnaire-d-un-adolescent.html
+                  - generic [ref=e195]: 
+          - article [ref=e196]:
+            - generic [ref=e197]:
+              - generic [ref=e198]:
+                - generic [ref=e199]:
+                  - checkbox "Écouté" [ref=e200] [cursor=pointer]
+                  - generic [ref=e201]: Écouté
+                - heading "La servitude volontaire, une hypothèse hautement transgressive en philosophie politique" [level=2] [ref=e202]
+              - paragraph [ref=e203]:
+                - generic [ref=e204]: 58 min
+                - generic [ref=e205]: ·
+                - generic [ref=e206]: 11 janv. 2024
+                - generic [ref=e207]: ·
+                - generic [ref=e208]: France Culture
+              - generic [ref=e209]:
+                - button "Ajouter aux favoris" [ref=e210] [cursor=pointer]:
+                  - generic [ref=e211]: 
+                - link "Voir sur Radio France" [ref=e212] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceculture/podcasts/avec-philosophie/la-servitude-volontaire-une-hypothese-hautement-transgressive-en-philosophie-politique-9421477
+                  - generic [ref=e213]: 
+                - button "Écouter ici" [ref=e214] [cursor=pointer]:
+                  - generic [ref=e215]: 
+                - button "Résumé" [ref=e216] [cursor=pointer]:
+                  - generic [ref=e217]: 
+                - 'link "Quiz : La servitude volontaire, une hypothèse hautement transgressive en philosophie politique" [ref=e218] [cursor=pointer]':
+                  - /url: quiz/07-la-servitude-volontaire-une-hypothese-hautement-transgressive.html
+                  - generic [ref=e219]: 
+          - article [ref=e220]:
+            - generic [ref=e221]:
+              - generic [ref=e222]:
+                - generic [ref=e223]:
+                  - checkbox "Écouté" [ref=e224] [cursor=pointer]
+                  - generic [ref=e225]: Écouté
+                - heading "Comment la servitude peut-elle être volontaire ?" [level=2] [ref=e226]
+              - paragraph [ref=e227]:
+                - generic [ref=e228]: 59 min
+                - generic [ref=e229]: ·
+                - generic [ref=e230]: 27 avr. 2014
+                - generic [ref=e231]: ·
+                - generic [ref=e232]: France Culture
+              - generic [ref=e233]:
+                - button "Ajouter aux favoris" [ref=e234] [cursor=pointer]:
+                  - generic [ref=e235]: 
+                - link "Voir sur Radio France" [ref=e236] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceculture/podcasts/le-gai-savoir/comment-la-servitude-peut-elle-etre-volontaire-6093202
+                  - generic [ref=e237]: 
+                - button "Écouter ici" [ref=e238] [cursor=pointer]:
+                  - generic [ref=e239]: 
+                - button "Résumé" [ref=e240] [cursor=pointer]:
+                  - generic [ref=e241]: 
+                - 'link "Quiz : Comment la servitude peut-elle être volontaire ?" [ref=e242] [cursor=pointer]':
+                  - /url: quiz/08-comment-la-servitude-peut-elle-etre-volontaire.html
+                  - generic [ref=e243]: 
+          - article [ref=e244]:
+            - generic [ref=e245]:
+              - generic [ref=e246]:
+                - generic [ref=e247]:
+                  - checkbox "Écouté" [ref=e248] [cursor=pointer]
+                  - generic [ref=e249]: Écouté
+                - heading "Comment la servitude peut-elle être volontaire ?" [level=2] [ref=e250]
+              - paragraph [ref=e251]:
+                - generic [ref=e252]: 3 min
+                - generic [ref=e253]: ·
+                - generic [ref=e254]: 13 oct. 2022
+                - generic [ref=e255]: ·
+                - generic [ref=e256]: France Culture
+              - generic [ref=e257]:
+                - button "Ajouter aux favoris" [ref=e258] [cursor=pointer]:
+                  - generic [ref=e259]: 
+                - link "Voir sur Radio France" [ref=e260] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceculture/podcasts/le-pourquoi-du-comment-philo/comment-la-servitude-peut-elle-etre-volontaire-1333117
+                  - generic [ref=e261]: 
+                - button "Écouter ici" [ref=e262] [cursor=pointer]:
+                  - generic [ref=e263]: 
+                - button "Résumé" [ref=e264] [cursor=pointer]:
+                  - generic [ref=e265]: 
+                - 'link "Quiz : Comment la servitude peut-elle être volontaire ?" [ref=e266] [cursor=pointer]':
+                  - /url: quiz/09-comment-la-servitude-peut-elle-etre-volontaire.html
+                  - generic [ref=e267]: 
+          - article [ref=e268]:
+            - generic [ref=e269]:
+              - generic [ref=e270]:
+                - generic [ref=e271]:
+                  - checkbox "Écouté" [ref=e272] [cursor=pointer]
+                  - generic [ref=e273]: Écouté
+                - heading "Tyrans et tyranophores. Etienne de La Boétie ou les tyranophores, c’est nous" [level=2] [ref=e274]
+              - paragraph [ref=e275]:
+                - generic [ref=e276]: 3 min
+                - generic [ref=e277]: ·
+                - generic [ref=e278]: 10 nov. 2022
+                - generic [ref=e279]: ·
+                - generic [ref=e280]: France Culture
+              - generic [ref=e281]:
+                - button "Ajouter aux favoris" [ref=e282] [cursor=pointer]:
+                  - generic [ref=e283]: 
+                - link "Voir sur Radio France" [ref=e284] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceculture/podcasts/les-quadrithemes-de-charles-dantzig/tyrans-et-tyranophores-etienne-de-la-boetie-ou-les-tyranophores-c-est-nous-7019483
+                  - generic [ref=e285]: 
+                - button "Écouter ici" [ref=e286] [cursor=pointer]:
+                  - generic [ref=e287]: 
+                - button "Résumé" [ref=e288] [cursor=pointer]:
+                  - generic [ref=e289]: 
+                - 'link "Quiz : Tyrans et tyranophores. Etienne de La Boétie ou les tyranophores, c’est nous" [ref=e290] [cursor=pointer]':
+                  - /url: quiz/10-tyrans-et-tyranophores-la-boetie-ou-les-tyranophores-c-est-nous.html
+                  - generic [ref=e291]: 
+          - article [ref=e292]:
+            - generic [ref=e293]:
+              - generic [ref=e294]:
+                - generic [ref=e295]:
+                  - checkbox "Écouté" [ref=e296] [cursor=pointer]
+                  - generic [ref=e297]: Écouté
+                - heading "Discours de la servitude volontaire - La Boétie" [level=2] [ref=e298]
+              - paragraph [ref=e299]:
+                - generic [ref=e300]: 59 min
+                - generic [ref=e301]: ·
+                - generic [ref=e302]: 22 août 2015
+                - generic [ref=e303]: ·
+                - generic [ref=e304]: France Culture
+              - generic [ref=e305]:
+                - button "Ajouter aux favoris" [ref=e306] [cursor=pointer]:
+                  - generic [ref=e307]: 
+                - link "Voir sur Radio France" [ref=e308] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceculture/podcasts/le-gai-savoir/discours-de-la-servitude-volontaire-la-boetie-2507988
+                  - generic [ref=e309]: 
+                - button "Écouter ici" [ref=e310] [cursor=pointer]:
+                  - generic [ref=e311]: 
+                - button "Résumé" [ref=e312] [cursor=pointer]:
+                  - generic [ref=e313]: 
+                - 'link "Quiz : Discours de la servitude volontaire - La Boétie" [ref=e314] [cursor=pointer]':
+                  - /url: quiz/11-discours-de-la-servitude-volontaire-la-boetie.html
+                  - generic [ref=e315]: 
+          - article [ref=e316]:
+            - generic [ref=e317]:
+              - generic [ref=e318]:
+                - generic [ref=e319]:
+                  - checkbox "Écouté" [ref=e320] [cursor=pointer]
+                  - generic [ref=e321]: Écouté
+                - heading "Etienne de La Boétie (1530-1563)" [level=2] [ref=e322]
+              - paragraph [ref=e323]:
+                - generic [ref=e324]: 58 min
+                - generic [ref=e325]: ·
+                - generic [ref=e326]: 23 mars 2010
+                - generic [ref=e327]: ·
+                - generic [ref=e328]: France Culture
+              - generic [ref=e329]:
+                - button "Ajouter aux favoris" [ref=e330] [cursor=pointer]:
+                  - generic [ref=e331]: 
+                - link "Voir sur Radio France" [ref=e332] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceculture/podcasts/le-mardi-des-auteurs-09-10/etienne-de-la-boetie-1530-1563-6592529
+                  - generic [ref=e333]: 
+                - button "Écouter ici" [ref=e334] [cursor=pointer]:
+                  - generic [ref=e335]: 
+                - button "Résumé" [ref=e336] [cursor=pointer]:
+                  - generic [ref=e337]: 
+                - 'link "Quiz : Etienne de La Boétie (1530-1563)" [ref=e338] [cursor=pointer]':
+                  - /url: quiz/12-etienne-de-la-boetie-1530-1563.html
+                  - generic [ref=e339]: 
+          - article [ref=e340]:
+            - generic [ref=e341]:
+              - generic [ref=e342]:
+                - generic [ref=e343]:
+                  - checkbox "Écouté" [ref=e344] [cursor=pointer]
+                  - generic [ref=e345]: Écouté
+                - heading "Montaigne et La Boétie, parce que c’était lui, parce que c’était moi" [level=2] [ref=e346]
+              - paragraph [ref=e347]:
+                - generic [ref=e348]: 58 min
+                - generic [ref=e349]: ·
+                - generic [ref=e350]: 18 mars 2019
+                - generic [ref=e351]: ·
+                - generic [ref=e352]: France Culture
+              - generic [ref=e353]:
+                - button "Ajouter aux favoris" [ref=e354] [cursor=pointer]:
+                  - generic [ref=e355]: 
+                - link "Voir sur Radio France" [ref=e356] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceculture/podcasts/les-chemins-de-la-philosophie/montaigne-et-la-boetie-parce-que-c-etait-lui-parce-que-c-etait-moi-2010104
+                  - generic [ref=e357]: 
+                - button "Écouter ici" [ref=e358] [cursor=pointer]:
+                  - generic [ref=e359]: 
+                - button "Résumé" [ref=e360] [cursor=pointer]:
+                  - generic [ref=e361]: 
+                - 'link "Quiz : Montaigne et La Boétie, parce que c’était lui, parce que c’était moi" [ref=e362] [cursor=pointer]':
+                  - /url: quiz/13-montaigne-et-la-boetie-parce-que-c-etait-lui-parce-que-c-etait-moi.html
+                  - generic [ref=e363]: 
+          - article [ref=e364]:
+            - generic [ref=e365]:
+              - generic [ref=e366]:
+                - generic [ref=e367]:
+                  - checkbox "Écouté" [ref=e368] [cursor=pointer]
+                  - generic [ref=e369]: Écouté
+                - heading "Montaigne et La Boétie, une amitié sans égale" [level=2] [ref=e370]
+              - paragraph [ref=e371]:
+                - generic [ref=e372]: 49 min
+                - generic [ref=e373]: ·
+                - generic [ref=e374]: 9 avr. 2022
+                - generic [ref=e375]: ·
+                - generic [ref=e376]: France Inter
+              - generic [ref=e377]:
+                - button "Ajouter aux favoris" [ref=e378] [cursor=pointer]:
+                  - generic [ref=e379]: 
+                - link "Voir sur Radio France" [ref=e380] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceinter/podcasts/intelligence-service/intelligence-service-du-samedi-09-avril-2022-9410201
+                  - generic [ref=e381]: 
+                - button "Écouter ici" [ref=e382] [cursor=pointer]:
+                  - generic [ref=e383]: 
+                - button "Résumé" [ref=e384] [cursor=pointer]:
+                  - generic [ref=e385]: 
+                - 'link "Quiz : Montaigne et La Boétie, une amitié sans égale" [ref=e386] [cursor=pointer]':
+                  - /url: quiz/14-montaigne-et-la-boetie-une-amitie-sans-egale.html
+                  - generic [ref=e387]: 
+          - article [ref=e388]:
+            - generic [ref=e389]:
+              - generic [ref=e390]:
+                - generic [ref=e391]:
+                  - checkbox "Écouté" [ref=e392] [cursor=pointer]
+                  - generic [ref=e393]: Écouté
+                - 'heading "La servitude volontaire : comprendre le pouvoir et la volonté, avec Étienne de La Boétie" [level=2] [ref=e394]'
+              - paragraph [ref=e395]:
+                - generic [ref=e396]: 3 min
+                - generic [ref=e397]: ·
+                - generic [ref=e398]: 26 nov. 2026
+                - generic [ref=e399]: ·
+                - generic [ref=e400]: France Culture
+              - generic [ref=e401]:
+                - button "Ajouter aux favoris" [ref=e402] [cursor=pointer]:
+                  - generic [ref=e403]: 
+                - link "Voir sur Radio France" [ref=e404] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceculture/podcasts/le-fil-philo/la-servitude-volontaire-comprendre-le-pouvoir-et-la-volonte-avec-etienne-de-la-boetie-3751863
+                  - generic [ref=e405]: 
+                - button "Écouter ici" [ref=e406] [cursor=pointer]:
+                  - generic [ref=e407]: 
+                - button "Résumé" [ref=e408] [cursor=pointer]:
+                  - generic [ref=e409]: 
+                - 'link "Quiz : La servitude volontaire : comprendre le pouvoir et la volonté, avec Étienne de La Boétie" [ref=e410] [cursor=pointer]':
+                  - /url: quiz/15-la-servitude-volontaire-comprendre-le-pouvoir-et-la-volonte.html
+                  - generic [ref=e411]: 
+      - generic [ref=e412]:
+        - generic [ref=e413]:
+          - heading "On ne badine pas avec l'amour" [level=2] [ref=e414]
+          - generic [ref=e415]: 11 podcasts
+        - generic [ref=e416]:
+          - article [ref=e417]:
+            - generic [ref=e418]:
+              - generic [ref=e419]:
+                - generic [ref=e420]:
+                  - checkbox "Écouté" [ref=e421] [cursor=pointer]
+                  - generic [ref=e422]: Écouté
+                - heading "Épisode 1 Acte 1 - Des retrouvailles contrariées" [level=2] [ref=e423]
+              - paragraph [ref=e424]:
+                - generic [ref=e425]: 28 min
+                - generic [ref=e426]: ·
+                - generic [ref=e427]: 23 mars 2026
+                - generic [ref=e428]: ·
+                - generic [ref=e429]: France Culture
+              - generic [ref=e430]:
+                - button "Ajouter aux favoris" [ref=e431] [cursor=pointer]:
+                  - generic [ref=e432]: 
+                - link "Voir sur Radio France" [ref=e433] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceculture/podcasts/serie-on-ne-badine-pas-avec-l-amour-d-alfred-de-musset
+                  - generic [ref=e434]: 
+                - button "Écouter ici" [ref=e435] [cursor=pointer]:
+                  - generic [ref=e436]: 
+                - button "Résumé" [ref=e437] [cursor=pointer]:
+                  - generic [ref=e438]: 
+                - 'link "Quiz : On ne badine pas avec l''amour d''Alfred de Musset - Épisode 1 Acte 1 - Des retrouvailles contrariées" [ref=e439] [cursor=pointer]':
+                  - /url: quiz/16-episode-1-acte-1-des-retrouvailles-contrariees.html
+                  - generic [ref=e440]: 
+          - article [ref=e441]:
+            - generic [ref=e442]:
+              - generic [ref=e443]:
+                - generic [ref=e444]:
+                  - checkbox "Écouté" [ref=e445] [cursor=pointer]
+                  - generic [ref=e446]: Écouté
+                - heading "Épisode 2 Acte 2 - Le rendez-vous" [level=2] [ref=e447]
+              - paragraph [ref=e448]:
+                - generic [ref=e449]: 31 min
+                - generic [ref=e450]: ·
+                - generic [ref=e451]: 23 mars 2026
+                - generic [ref=e452]: ·
+                - generic [ref=e453]: France Culture
+              - generic [ref=e454]:
+                - button "Ajouter aux favoris" [ref=e455] [cursor=pointer]:
+                  - generic [ref=e456]: 
+                - link "Voir sur Radio France" [ref=e457] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceculture/podcasts/serie-on-ne-badine-pas-avec-l-amour-d-alfred-de-musset
+                  - generic [ref=e458]: 
+                - button "Écouter ici" [ref=e459] [cursor=pointer]:
+                  - generic [ref=e460]: 
+                - button "Résumé" [ref=e461] [cursor=pointer]:
+                  - generic [ref=e462]: 
+                - 'link "Quiz : On ne badine pas avec l''amour d''Alfred de Musset - Épisode 2 Acte 2 - Le rendez-vous" [ref=e463] [cursor=pointer]':
+                  - /url: quiz/17-episode-2-acte-2-le-rendez-vous.html
+                  - generic [ref=e464]: 
+          - article [ref=e465]:
+            - generic [ref=e466]:
+              - generic [ref=e467]:
+                - generic [ref=e468]:
+                  - checkbox "Écouté" [ref=e469] [cursor=pointer]
+                  - generic [ref=e470]: Écouté
+                - heading "Épisode 3 Acte 3 - Un jeu dangereux" [level=2] [ref=e471]
+              - paragraph [ref=e472]:
+                - generic [ref=e473]: 37 min
+                - generic [ref=e474]: ·
+                - generic [ref=e475]: 23 mars 2026
+                - generic [ref=e476]: ·
+                - generic [ref=e477]: France Culture
+              - generic [ref=e478]:
+                - button "Ajouter aux favoris" [ref=e479] [cursor=pointer]:
+                  - generic [ref=e480]: 
+                - link "Voir sur Radio France" [ref=e481] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceculture/podcasts/serie-on-ne-badine-pas-avec-l-amour-d-alfred-de-musset
+                  - generic [ref=e482]: 
+                - button "Écouter ici" [ref=e483] [cursor=pointer]:
+                  - generic [ref=e484]: 
+                - button "Résumé" [ref=e485] [cursor=pointer]:
+                  - generic [ref=e486]: 
+                - 'link "Quiz : On ne badine pas avec l''amour d''Alfred de Musset - Épisode 3 Acte 3 - Un jeu dangereux" [ref=e487] [cursor=pointer]':
+                  - /url: quiz/18-episode-3-acte-3-un-jeu-dangereux.html
+                  - generic [ref=e488]: 
+          - article [ref=e489]:
+            - generic [ref=e490]:
+              - generic [ref=e491]:
+                - generic [ref=e492]:
+                  - checkbox "Écouté" [ref=e493] [cursor=pointer]
+                  - generic [ref=e494]: Écouté
+                - heading "Épisode 4 Comprendre On ne badine pas avec l'amour" [level=2] [ref=e495]
+              - paragraph [ref=e496]:
+                - generic [ref=e497]: 26 min
+                - generic [ref=e498]: ·
+                - generic [ref=e499]: 10 avr. 2026
+                - generic [ref=e500]: ·
+                - generic [ref=e501]: France Culture
+              - generic [ref=e502]:
+                - button "Ajouter aux favoris" [ref=e503] [cursor=pointer]:
+                  - generic [ref=e504]: 
+                - link "Voir sur Radio France" [ref=e505] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceculture/podcasts/fictions-theatre-et-cie/comprendre-on-ne-badine-pas-avec-l-amour-4354520
+                  - generic [ref=e506]: 
+                - button "Écouter ici" [ref=e507] [cursor=pointer]:
+                  - generic [ref=e508]: 
+                - button "Résumé" [ref=e509] [cursor=pointer]:
+                  - generic [ref=e510]: 
+                - 'link "Quiz : On ne badine pas avec l''amour d''Alfred de Musset - Épisode 4 Comprendre On ne badine pas avec l''amour" [ref=e511] [cursor=pointer]':
+                  - /url: quiz/19-episode-4-comprendre-on-ne-badine-pas-avec-l-amour.html
+                  - generic [ref=e512]: 
+          - article [ref=e513]:
+            - generic [ref=e514]:
+              - generic [ref=e515]:
+                - generic [ref=e516]:
+                  - checkbox "Écouté" [ref=e517] [cursor=pointer]
+                  - generic [ref=e518]: Écouté
+                - heading "Épisode 5 On ne badine pas avec l'amour d'Alfred de Musset (l'intégrale)" [level=2] [ref=e519]
+              - paragraph [ref=e520]:
+                - generic [ref=e521]: 1 h 38 min
+                - generic [ref=e522]: ·
+                - generic [ref=e523]: 12 avr. 2026
+                - generic [ref=e524]: ·
+                - generic [ref=e525]: France Culture
+              - generic [ref=e526]:
+                - button "Ajouter aux favoris" [ref=e527] [cursor=pointer]:
+                  - generic [ref=e528]: 
+                - link "Voir sur Radio France" [ref=e529] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceculture/podcasts/serie-on-ne-badine-pas-avec-l-amour-d-alfred-de-musset
+                  - generic [ref=e530]: 
+                - button "Écouter ici" [ref=e531] [cursor=pointer]:
+                  - generic [ref=e532]: 
+                - button "Résumé" [ref=e533] [cursor=pointer]:
+                  - generic [ref=e534]: 
+                - 'link "Quiz : On ne badine pas avec l''amour d''Alfred de Musset - Épisode 5 On ne badine pas avec l''amour d''Alfred de Musset (l''intégrale)" [ref=e535] [cursor=pointer]':
+                  - /url: quiz/20-episode-5-on-ne-badine-pas-avec-l-amour-d-alfred-de-musset-l-integrale.html
+                  - generic [ref=e536]: 
+          - article [ref=e537]:
+            - generic [ref=e538]:
+              - generic [ref=e539]:
+                - generic [ref=e540]:
+                  - checkbox "Écouté" [ref=e541] [cursor=pointer]
+                  - generic [ref=e542]: Écouté
+                - heading "On ne badine pas avec l'amour (1/2)" [level=2] [ref=e543]
+              - paragraph [ref=e544]:
+                - generic [ref=e545]: 4 min
+                - generic [ref=e546]: ·
+                - generic [ref=e547]: 19 janv. 2022
+                - generic [ref=e548]: ·
+                - generic [ref=e549]: France Inter
+              - generic [ref=e550]:
+                - button "Ajouter aux favoris" [ref=e551] [cursor=pointer]:
+                  - generic [ref=e552]: 
+                - link "Voir sur Radio France" [ref=e553] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceinter/podcasts/la-chronique-de-juliette-arnaud/la-chronique-de-juliette-arnaud-du-mercredi-19-janvier-2022-5263326
+                  - generic [ref=e554]: 
+                - button "Écouter ici" [ref=e555] [cursor=pointer]:
+                  - generic [ref=e556]: 
+                - button "Résumé" [ref=e557] [cursor=pointer]:
+                  - generic [ref=e558]: 
+                - 'link "Quiz : On ne badine pas avec l''amour (1/2)" [ref=e559] [cursor=pointer]':
+                  - /url: quiz/21-on-ne-badine-pas-avec-l-amour-1-2.html
+                  - generic [ref=e560]: 
+          - article [ref=e561]:
+            - generic [ref=e562]:
+              - generic [ref=e563]:
+                - generic [ref=e564]:
+                  - checkbox "Écouté" [ref=e565] [cursor=pointer]
+                  - generic [ref=e566]: Écouté
+                - heading "On ne badine pas avec l'amour (2/2)" [level=2] [ref=e567]
+              - paragraph [ref=e568]:
+                - generic [ref=e569]: 4 min
+                - generic [ref=e570]: ·
+                - generic [ref=e571]: 26 janv. 2022
+                - generic [ref=e572]: ·
+                - generic [ref=e573]: France Inter
+              - generic [ref=e574]:
+                - button "Ajouter aux favoris" [ref=e575] [cursor=pointer]:
+                  - generic [ref=e576]: 
+                - link "Voir sur Radio France" [ref=e577] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceinter/podcasts/la-chronique-de-juliette-arnaud/la-chronique-de-juliette-arnaud-du-mercredi-26-janvier-2022-1172119
+                  - generic [ref=e578]: 
+                - button "Écouter ici" [ref=e579] [cursor=pointer]:
+                  - generic [ref=e580]: 
+                - button "Résumé" [ref=e581] [cursor=pointer]:
+                  - generic [ref=e582]: 
+                - 'link "Quiz : On ne badine pas avec l''amour (2/2)" [ref=e583] [cursor=pointer]':
+                  - /url: quiz/22-on-ne-badine-pas-avec-l-amour-2-2.html
+                  - generic [ref=e584]: 
+          - article [ref=e585]:
+            - generic [ref=e586]:
+              - generic [ref=e587]:
+                - generic [ref=e588]:
+                  - checkbox "Écouté" [ref=e589] [cursor=pointer]
+                  - generic [ref=e590]: Écouté
+                - heading "On ne badine pas avec l’amour d’Alfred de Musset, aimer sans clichés" [level=2] [ref=e591]
+              - paragraph [ref=e592]:
+                - generic [ref=e593]: 6 min
+                - generic [ref=e594]: ·
+                - generic [ref=e595]: 23 févr. 2026
+                - generic [ref=e596]: ·
+                - generic [ref=e597]: France Culture
+              - generic [ref=e598]:
+                - button "Ajouter aux favoris" [ref=e599] [cursor=pointer]:
+                  - generic [ref=e600]: 
+                - link "Voir sur Radio France" [ref=e601] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceculture/podcasts/l-instant-poesie/on-ne-badine-pas-avec-l-amour-d-alfred-de-musset-aimer-sans-cliches-3119504
+                  - generic [ref=e602]: 
+                - button "Écouter ici" [ref=e603] [cursor=pointer]:
+                  - generic [ref=e604]: 
+                - button "Résumé" [ref=e605] [cursor=pointer]:
+                  - generic [ref=e606]: 
+                - 'link "Quiz : On ne badine pas avec l’amour d’Alfred de Musset, aimer sans clichés" [ref=e607] [cursor=pointer]':
+                  - /url: quiz/23-on-ne-badine-pas-avec-l-amour-d-alfred-de-musset-aimer-sans-cliches.html
+                  - generic [ref=e608]: 
+          - article [ref=e609]:
+            - generic [ref=e610]:
+              - generic [ref=e611]:
+                - generic [ref=e612]:
+                  - checkbox "Écouté" [ref=e613] [cursor=pointer]
+                  - generic [ref=e614]: Écouté
+                - heading "Épisode 1/4. Alfred de Musset, on ne badine pas avec le coeur" [level=2] [ref=e615]
+              - paragraph [ref=e616]:
+                - generic [ref=e617]: 51 min
+                - generic [ref=e618]: ·
+                - generic [ref=e619]: 12 juin 2017
+                - generic [ref=e620]: ·
+                - generic [ref=e621]: France Culture
+              - generic [ref=e622]:
+                - button "Ajouter aux favoris" [ref=e623] [cursor=pointer]:
+                  - generic [ref=e624]: 
+                - link "Voir sur Radio France" [ref=e625] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceculture/podcasts/les-chemins-de-la-philosophie/musset-on-ne-badine-pas-avec-le-coeur-4931900
+                  - generic [ref=e626]: 
+                - button "Écouter ici" [ref=e627] [cursor=pointer]:
+                  - generic [ref=e628]: 
+                - button "Résumé" [ref=e629] [cursor=pointer]:
+                  - generic [ref=e630]: 
+                - 'link "Quiz : Épisode 1/4. Alfred de Musset, on ne badine pas avec le coeur" [ref=e631] [cursor=pointer]':
+                  - /url: quiz/24-alfred-de-musset-on-ne-badine-pas-avec-le-coeur.html
+                  - generic [ref=e632]: 
+          - article [ref=e633]:
+            - generic [ref=e634]:
+              - generic [ref=e635]:
+                - generic [ref=e636]:
+                  - checkbox "Écouté" [ref=e637] [cursor=pointer]
+                  - generic [ref=e638]: Écouté
+                - heading "Alfred de Musset" [level=2] [ref=e639]
+              - paragraph [ref=e640]:
+                - generic [ref=e641]: 27 min
+                - generic [ref=e642]: ·
+                - generic [ref=e643]: 27 avr. 2010
+                - generic [ref=e644]: ·
+                - generic [ref=e645]: France Culture
+              - generic [ref=e646]:
+                - button "Ajouter aux favoris" [ref=e647] [cursor=pointer]:
+                  - generic [ref=e648]: 
+                - link "Voir sur Radio France" [ref=e649] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceinter/podcasts/2000-ans-d-histoire/alfred-de-musset-4961350
+                  - generic [ref=e650]: 
+                - button "Écouter ici" [ref=e651] [cursor=pointer]:
+                  - generic [ref=e652]: 
+                - button "Résumé" [ref=e653] [cursor=pointer]:
+                  - generic [ref=e654]: 
+                - 'link "Quiz : Alfred de Musset" [ref=e655] [cursor=pointer]':
+                  - /url: quiz/25-alfred-de-musset.html
+                  - generic [ref=e656]: 
+          - article [ref=e657]:
+            - generic [ref=e658]:
+              - generic [ref=e659]:
+                - generic [ref=e660]:
+                  - checkbox "Écouté" [ref=e661] [cursor=pointer]
+                  - generic [ref=e662]: Écouté
+                - heading "George Sand et Alfred de Musset, une passion à Venise" [level=2] [ref=e663]
+              - paragraph [ref=e664]:
+                - generic [ref=e665]: 56 min
+                - generic [ref=e666]: ·
+                - generic [ref=e667]: 27 avr. 2025
+                - generic [ref=e668]: ·
+                - generic [ref=e669]: France Inter
+              - generic [ref=e670]:
+                - button "Ajouter aux favoris" [ref=e671] [cursor=pointer]:
+                  - generic [ref=e672]: 
+                - link "Voir sur Radio France" [ref=e673] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceinter/podcasts/autant-en-emporte-l-histoire/autant-en-emporte-l-histoire-du-dimanche-27-avril-2025-9574500
+                  - generic [ref=e674]: 
+                - button "Écouter ici" [ref=e675] [cursor=pointer]:
+                  - generic [ref=e676]: 
+                - button "Résumé" [ref=e677] [cursor=pointer]:
+                  - generic [ref=e678]: 
+                - 'link "Quiz : George Sand et Alfred de Musset, une passion à Venise" [ref=e679] [cursor=pointer]':
+                  - /url: quiz/26-george-sand-et-alfred-de-musset-une-passion-a-venise.html
+                  - generic [ref=e680]: 
+      - generic [ref=e681]:
+        - generic [ref=e682]:
+          - heading "La rage de l'expression" [level=2] [ref=e683]
+          - generic [ref=e684]: 15 podcasts
+        - generic [ref=e685]:
+          - article [ref=e686]:
+            - generic [ref=e687]:
+              - generic [ref=e688]:
+                - generic [ref=e689]:
+                  - checkbox "Écouté" [ref=e690] [cursor=pointer]
+                  - generic [ref=e691]: Écouté
+                - 'heading "Francis Ponge : lire La rage de l’expression" [level=2] [ref=e692]'
+              - paragraph [ref=e693]:
+                - generic [ref=e694]: 28 min
+                - generic [ref=e695]: ·
+                - generic [ref=e696]: 30 mars 2024
+                - generic [ref=e697]: ·
+                - generic [ref=e698]: France Culture
+              - generic [ref=e699]:
+                - button "Ajouter aux favoris" [ref=e700] [cursor=pointer]:
+                  - generic [ref=e701]: 
+                - link "Voir sur Radio France" [ref=e702] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceculture/podcasts/poesie-et-ainsi-de-suite/lire-la-rage-de-l-expression-avec-francis-ponge-7949420
+                  - generic [ref=e703]: 
+                - button "Écouter ici" [ref=e704] [cursor=pointer]:
+                  - generic [ref=e705]: 
+                - button "Résumé" [ref=e706] [cursor=pointer]:
+                  - generic [ref=e707]: 
+                - text: 
+          - article [ref=e708]:
+            - generic [ref=e709]:
+              - generic [ref=e710]:
+                - generic [ref=e711]:
+                  - checkbox "Écouté" [ref=e712] [cursor=pointer]
+                  - generic [ref=e713]: Écouté
+                - heading "Conditions de travail de quelqu'un qu'on appelle encore un poète" [level=2] [ref=e714]
+              - paragraph [ref=e715]:
+                - generic [ref=e716]: 21 min
+                - generic [ref=e717]: ·
+                - generic [ref=e718]: 17 avr. 1967
+                - generic [ref=e719]: ·
+                - generic [ref=e720]: France Culture
+              - generic [ref=e721]:
+                - button "Ajouter aux favoris" [ref=e722] [cursor=pointer]:
+                  - generic [ref=e723]: 
+                - link "Voir sur Radio France" [ref=e724] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceculture/podcasts/entretiens-avec/conditions-de-travail-de-quelqu-un-qu-on-appelle-encore-un-poete-1ere-partie-4540900
+                  - generic [ref=e725]: 
+                - button "Écouter ici" [ref=e726] [cursor=pointer]:
+                  - generic [ref=e727]: 
+                - button "Résumé" [ref=e728] [cursor=pointer]:
+                  - generic [ref=e729]: 
+                - text: 
+          - article [ref=e730]:
+            - generic [ref=e731]:
+              - generic [ref=e732]:
+                - generic [ref=e733]:
+                  - checkbox "Écouté" [ref=e734] [cursor=pointer]
+                  - generic [ref=e735]: Écouté
+                - heading "Conditions de travail de quelqu'un qu'on appelle encore un poète" [level=2] [ref=e736]
+              - paragraph [ref=e737]:
+                - generic [ref=e738]: 21 min
+                - generic [ref=e739]: ·
+                - generic [ref=e740]: 19 avr. 1967
+                - generic [ref=e741]: ·
+                - generic [ref=e742]: France Culture
+              - generic [ref=e743]:
+                - button "Ajouter aux favoris" [ref=e744] [cursor=pointer]:
+                  - generic [ref=e745]: 
+                - link "Voir sur Radio France" [ref=e746] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceculture/podcasts/entretiens-avec/conditions-de-travail-de-quelqu-un-qu-on-appelle-encore-un-poete-2e-partie-8230300
+                  - generic [ref=e747]: 
+                - button "Écouter ici" [ref=e748] [cursor=pointer]:
+                  - generic [ref=e749]: 
+                - button "Résumé" [ref=e750] [cursor=pointer]:
+                  - generic [ref=e751]: 
+                - text: 
+          - article [ref=e752]:
+            - generic [ref=e753]:
+              - generic [ref=e754]:
+                - generic [ref=e755]:
+                  - checkbox "Écouté" [ref=e756] [cursor=pointer]
+                  - generic [ref=e757]: Écouté
+                - heading "Le début du vingtième siècle, vécu" [level=2] [ref=e758]
+              - paragraph [ref=e759]:
+                - generic [ref=e760]: 22 min
+                - generic [ref=e761]: ·
+                - generic [ref=e762]: 21 avr. 1967
+                - generic [ref=e763]: ·
+                - generic [ref=e764]: France Culture
+              - generic [ref=e765]:
+                - button "Ajouter aux favoris" [ref=e766] [cursor=pointer]:
+                  - generic [ref=e767]: 
+                - link "Voir sur Radio France" [ref=e768] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceculture/podcasts/entretiens-avec/le-debut-du-vingtieme-siecle-vecu-6253412
+                  - generic [ref=e769]: 
+                - button "Écouter ici" [ref=e770] [cursor=pointer]:
+                  - generic [ref=e771]: 
+                - button "Résumé" [ref=e772] [cursor=pointer]:
+                  - generic [ref=e773]: 
+                - text: 
+          - article [ref=e774]:
+            - generic [ref=e775]:
+              - generic [ref=e776]:
+                - generic [ref=e777]:
+                  - checkbox "Écouté" [ref=e778] [cursor=pointer]
+                  - generic [ref=e779]: Écouté
+                - 'heading "Vie et travail à l''époque surréaliste : 1917-1930" [level=2] [ref=e780]'
+              - paragraph [ref=e781]:
+                - generic [ref=e782]: 21 min
+                - generic [ref=e783]: ·
+                - generic [ref=e784]: 24 avr. 1967
+                - generic [ref=e785]: ·
+                - generic [ref=e786]: France Culture
+              - generic [ref=e787]:
+                - button "Ajouter aux favoris" [ref=e788] [cursor=pointer]:
+                  - generic [ref=e789]: 
+                - link "Voir sur Radio France" [ref=e790] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceculture/podcasts/entretiens-avec/vie-et-travail-a-l-epoque-surrealiste-1917-1930-5439492
+                  - generic [ref=e791]: 
+                - button "Écouter ici" [ref=e792] [cursor=pointer]:
+                  - generic [ref=e793]: 
+                - button "Résumé" [ref=e794] [cursor=pointer]:
+                  - generic [ref=e795]: 
+                - text: 
+          - article [ref=e796]:
+            - generic [ref=e797]:
+              - generic [ref=e798]:
+                - generic [ref=e799]:
+                  - checkbox "Écouté" [ref=e800] [cursor=pointer]
+                  - generic [ref=e801]: Écouté
+                - 'heading "Vie et travail à l''époque surréaliste : 1930-1940" [level=2] [ref=e802]'
+              - paragraph [ref=e803]:
+                - generic [ref=e804]: 20 min
+                - generic [ref=e805]: ·
+                - generic [ref=e806]: 26 avr. 1967
+                - generic [ref=e807]: ·
+                - generic [ref=e808]: France Culture
+              - generic [ref=e809]:
+                - button "Ajouter aux favoris" [ref=e810] [cursor=pointer]:
+                  - generic [ref=e811]: 
+                - link "Voir sur Radio France" [ref=e812] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceculture/podcasts/entretiens-avec/vie-et-travail-a-l-epoque-surrealiste-1930-1940-8675983
+                  - generic [ref=e813]: 
+                - button "Écouter ici" [ref=e814] [cursor=pointer]:
+                  - generic [ref=e815]: 
+                - button "Résumé" [ref=e816] [cursor=pointer]:
+                  - generic [ref=e817]: 
+                - text: 
+          - article [ref=e818]:
+            - generic [ref=e819]:
+              - generic [ref=e820]:
+                - generic [ref=e821]:
+                  - checkbox "Écouté" [ref=e822] [cursor=pointer]
+                  - generic [ref=e823]: Écouté
+                - heading "La peinture et les lettres" [level=2] [ref=e824]
+              - paragraph [ref=e825]:
+                - generic [ref=e826]: 20 min
+                - generic [ref=e827]: ·
+                - generic [ref=e828]: 28 avr. 1967
+                - generic [ref=e829]: ·
+                - generic [ref=e830]: France Culture
+              - generic [ref=e831]:
+                - button "Ajouter aux favoris" [ref=e832] [cursor=pointer]:
+                  - generic [ref=e833]: 
+                - link "Voir sur Radio France" [ref=e834] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceculture/podcasts/entretiens-avec/la-peinture-et-les-lettres-3315022
+                  - generic [ref=e835]: 
+                - button "Écouter ici" [ref=e836] [cursor=pointer]:
+                  - generic [ref=e837]: 
+                - button "Résumé" [ref=e838] [cursor=pointer]:
+                  - generic [ref=e839]: 
+                - text: 
+          - article [ref=e840]:
+            - generic [ref=e841]:
+              - generic [ref=e842]:
+                - generic [ref=e843]:
+                  - checkbox "Écouté" [ref=e844] [cursor=pointer]
+                  - generic [ref=e845]: Écouté
+                - 'heading "Pratique et Théorie : Le Parti pris des choses" [level=2] [ref=e846]'
+              - paragraph [ref=e847]:
+                - generic [ref=e848]: 22 min
+                - generic [ref=e849]: ·
+                - generic [ref=e850]: 1 mai 1967
+                - generic [ref=e851]: ·
+                - generic [ref=e852]: France Culture
+              - generic [ref=e853]:
+                - button "Ajouter aux favoris" [ref=e854] [cursor=pointer]:
+                  - generic [ref=e855]: 
+                - link "Voir sur Radio France" [ref=e856] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceculture/podcasts/entretiens-avec/francis-ponge-lit-et-analyse-son-poeme-l-huitre-8547854
+                  - generic [ref=e857]: 
+                - button "Écouter ici" [ref=e858] [cursor=pointer]:
+                  - generic [ref=e859]: 
+                - button "Résumé" [ref=e860] [cursor=pointer]:
+                  - generic [ref=e861]: 
+                - text: 
+          - article [ref=e862]:
+            - generic [ref=e863]:
+              - generic [ref=e864]:
+                - generic [ref=e865]:
+                  - checkbox "Écouté" [ref=e866] [cursor=pointer]
+                  - generic [ref=e867]: Écouté
+                - 'heading "Pratique et Théorie : La Rage de l''expression" [level=2] [ref=e868]'
+              - paragraph [ref=e869]:
+                - generic [ref=e870]: 21 min
+                - generic [ref=e871]: ·
+                - generic [ref=e872]: 3 mai 1967
+                - generic [ref=e873]: ·
+                - generic [ref=e874]: France Culture
+              - generic [ref=e875]:
+                - button "Ajouter aux favoris" [ref=e876] [cursor=pointer]:
+                  - generic [ref=e877]: 
+                - link "Voir sur Radio France" [ref=e878] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceculture/podcasts/entretiens-avec/pratique-et-theorie-la-rage-de-l-expression-2468158
+                  - generic [ref=e879]: 
+                - button "Écouter ici" [ref=e880] [cursor=pointer]:
+                  - generic [ref=e881]: 
+                - button "Résumé" [ref=e882] [cursor=pointer]:
+                  - generic [ref=e883]: 
+                - text: 
+          - article [ref=e884]:
+            - generic [ref=e885]:
+              - generic [ref=e886]:
+                - generic [ref=e887]:
+                  - checkbox "Écouté" [ref=e888] [cursor=pointer]
+                  - generic [ref=e889]: Écouté
+                - 'heading "Pratique et Théorie : L''objeu" [level=2] [ref=e890]'
+              - paragraph [ref=e891]:
+                - generic [ref=e892]: 21 min
+                - generic [ref=e893]: ·
+                - generic [ref=e894]: 5 mai 1967
+                - generic [ref=e895]: ·
+                - generic [ref=e896]: France Culture
+              - generic [ref=e897]:
+                - button "Ajouter aux favoris" [ref=e898] [cursor=pointer]:
+                  - generic [ref=e899]: 
+                - link "Voir sur Radio France" [ref=e900] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceculture/podcasts/entretiens-avec/pratique-et-theorie-l-objeu-7769279
+                  - generic [ref=e901]: 
+                - button "Écouter ici" [ref=e902] [cursor=pointer]:
+                  - generic [ref=e903]: 
+                - button "Résumé" [ref=e904] [cursor=pointer]:
+                  - generic [ref=e905]: 
+                - text: 
+          - article [ref=e906]:
+            - generic [ref=e907]:
+              - generic [ref=e908]:
+                - generic [ref=e909]:
+                  - checkbox "Écouté" [ref=e910] [cursor=pointer]
+                  - generic [ref=e911]: Écouté
+                - heading "Pour un Malherbe, pour une nouvelle culture" [level=2] [ref=e912]
+              - paragraph [ref=e913]:
+                - generic [ref=e914]: 21 min
+                - generic [ref=e915]: ·
+                - generic [ref=e916]: 8 mai 1967
+                - generic [ref=e917]: ·
+                - generic [ref=e918]: France Culture
+              - generic [ref=e919]:
+                - button "Ajouter aux favoris" [ref=e920] [cursor=pointer]:
+                  - generic [ref=e921]: 
+                - link "Voir sur Radio France" [ref=e922] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceculture/podcasts/entretiens-avec/pour-un-malherbe-pour-une-nouvelle-culture-4576126
+                  - generic [ref=e923]: 
+                - button "Écouter ici" [ref=e924] [cursor=pointer]:
+                  - generic [ref=e925]: 
+                - button "Résumé" [ref=e926] [cursor=pointer]:
+                  - generic [ref=e927]: 
+                - text: 
+          - article [ref=e928]:
+            - generic [ref=e929]:
+              - generic [ref=e930]:
+                - generic [ref=e931]:
+                  - checkbox "Écouté" [ref=e932] [cursor=pointer]
+                  - generic [ref=e933]: Écouté
+                - 'heading "Rupture et révolution culturelle, un matérialisme sémantique : Le Pré" [level=2] [ref=e934]'
+              - paragraph [ref=e935]:
+                - generic [ref=e936]: 21 min
+                - generic [ref=e937]: ·
+                - generic [ref=e938]: 10 mai 1967
+                - generic [ref=e939]: ·
+                - generic [ref=e940]: France Culture
+              - generic [ref=e941]:
+                - button "Ajouter aux favoris" [ref=e942] [cursor=pointer]:
+                  - generic [ref=e943]: 
+                - link "Voir sur Radio France" [ref=e944] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceculture/podcasts/entretiens-avec/rupture-et-revolution-culturelle-un-materialisme-semantique-le-pre-6720966
+                  - generic [ref=e945]: 
+                - button "Écouter ici" [ref=e946] [cursor=pointer]:
+                  - generic [ref=e947]: 
+                - button "Résumé" [ref=e948] [cursor=pointer]:
+                  - generic [ref=e949]: 
+                - text: 
+          - article [ref=e950]:
+            - generic [ref=e951]:
+              - generic [ref=e952]:
+                - generic [ref=e953]:
+                  - checkbox "Écouté" [ref=e954] [cursor=pointer]
+                  - generic [ref=e955]: Écouté
+                - heading "L'écriture, fonctionnement, objoie, le savon" [level=2] [ref=e956]
+              - paragraph [ref=e957]:
+                - generic [ref=e958]: 19 min
+                - generic [ref=e959]: ·
+                - generic [ref=e960]: 12 mai 1967
+                - generic [ref=e961]: ·
+                - generic [ref=e962]: France Culture
+              - generic [ref=e963]:
+                - button "Ajouter aux favoris" [ref=e964] [cursor=pointer]:
+                  - generic [ref=e965]: 
+                - link "Voir sur Radio France" [ref=e966] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceculture/podcasts/entretiens-avec/l-ecriture-fonctionnement-objoie-le-savon-8822723
+                  - generic [ref=e967]: 
+                - button "Écouter ici" [ref=e968] [cursor=pointer]:
+                  - generic [ref=e969]: 
+                - button "Résumé" [ref=e970] [cursor=pointer]:
+                  - generic [ref=e971]: 
+                - text: 
+          - article [ref=e972]:
+            - generic [ref=e973]:
+              - generic [ref=e974]:
+                - generic [ref=e975]:
+                  - checkbox "Écouté" [ref=e976] [cursor=pointer]
+                  - generic [ref=e977]: Écouté
+                - heading "Francis Ponge ou la rage de l’expression" [level=2] [ref=e978]
+              - paragraph [ref=e979]:
+                - generic [ref=e980]: 11 min
+                - generic [ref=e981]: ·
+                - generic [ref=e982]: 4 févr. 2024
+                - generic [ref=e983]: ·
+                - generic [ref=e984]: France Musique
+              - generic [ref=e985]:
+                - button "Ajouter aux favoris" [ref=e986] [cursor=pointer]:
+                  - generic [ref=e987]: 
+                - link "Voir sur Radio France" [ref=e988] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/francemusique/podcasts/histoires-de-musique/francis-ponge-ou-la-rage-de-l-expression-9045238
+                  - generic [ref=e989]: 
+                - button "Écouter ici" [ref=e990] [cursor=pointer]:
+                  - generic [ref=e991]: 
+                - button "Résumé" [ref=e992] [cursor=pointer]:
+                  - generic [ref=e993]: 
+                - text: 
+          - article [ref=e994]:
+            - generic [ref=e995]:
+              - generic [ref=e996]:
+                - generic [ref=e997]:
+                  - checkbox "Écouté" [ref=e998] [cursor=pointer]
+                  - generic [ref=e999]: Écouté
+                - heading "Francis Ponge lit Le pain et La pomme de terre" [level=2] [ref=e1000]
+              - paragraph [ref=e1001]:
+                - generic [ref=e1002]: 1 min
+                - generic [ref=e1003]: ·
+                - generic [ref=e1004]: 9 mars 2018
+                - generic [ref=e1005]: ·
+                - generic [ref=e1006]: France Culture
+              - generic [ref=e1007]:
+                - button "Ajouter aux favoris" [ref=e1008] [cursor=pointer]:
+                  - generic [ref=e1009]: 
+                - link "Voir sur Radio France" [ref=e1010] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceculture/francis-ponge-lit-le-pain-et-la-pomme-de-terre-6977360
+                  - generic [ref=e1011]: 
+                - button "Écouter ici" [ref=e1012] [cursor=pointer]:
+                  - generic [ref=e1013]: 
+                - button "Résumé" [ref=e1014] [cursor=pointer]:
+                  - generic [ref=e1015]: 
+                - text: 
+      - generic [ref=e1016]:
+        - generic [ref=e1017]:
+          - heading "Sido" [level=2] [ref=e1018]
+          - generic [ref=e1019]: 58 podcasts
+        - generic [ref=e1020]:
+          - article [ref=e1021]:
+            - generic [ref=e1022]:
+              - generic [ref=e1023]:
+                - generic [ref=e1024]:
+                  - checkbox "Écouté" [ref=e1025] [cursor=pointer]
+                  - generic [ref=e1026]: Écouté
+                - heading "Épisode 1 La couleur des étés" [level=2] [ref=e1027]
+              - paragraph [ref=e1028]:
+                - generic [ref=e1029]: 20 min
+                - generic [ref=e1030]: ·
+                - generic [ref=e1031]: 20 oct. 2025
+                - generic [ref=e1032]: ·
+                - generic [ref=e1033]: France Culture
+              - generic [ref=e1034]:
+                - button "Ajouter aux favoris" [ref=e1035] [cursor=pointer]:
+                  - generic [ref=e1036]: 
+                - link "Voir sur Radio France" [ref=e1037] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceculture/podcasts/serie-sido-de-colette
+                  - generic [ref=e1038]: 
+                - button "Écouter ici" [ref=e1039] [cursor=pointer]:
+                  - generic [ref=e1040]: 
+                - button "Résumé" [ref=e1041] [cursor=pointer]:
+                  - generic [ref=e1042]: 
+                - text: 
+          - article [ref=e1043]:
+            - generic [ref=e1044]:
+              - generic [ref=e1045]:
+                - generic [ref=e1046]:
+                  - checkbox "Écouté" [ref=e1047] [cursor=pointer]
+                  - generic [ref=e1048]: Écouté
+                - heading "Épisode 2 Une enfance heureuse" [level=2] [ref=e1049]
+              - paragraph [ref=e1050]:
+                - generic [ref=e1051]: 19 min
+                - generic [ref=e1052]: ·
+                - generic [ref=e1053]: 21 oct. 2025
+                - generic [ref=e1054]: ·
+                - generic [ref=e1055]: France Culture
+              - generic [ref=e1056]:
+                - button "Ajouter aux favoris" [ref=e1057] [cursor=pointer]:
+                  - generic [ref=e1058]: 
+                - link "Voir sur Radio France" [ref=e1059] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceculture/podcasts/serie-sido-de-colette
+                  - generic [ref=e1060]: 
+                - button "Écouter ici" [ref=e1061] [cursor=pointer]:
+                  - generic [ref=e1062]: 
+                - button "Résumé" [ref=e1063] [cursor=pointer]:
+                  - generic [ref=e1064]: 
+                - text: 
+          - article [ref=e1065]:
+            - generic [ref=e1066]:
+              - generic [ref=e1067]:
+                - generic [ref=e1068]:
+                  - checkbox "Écouté" [ref=e1069] [cursor=pointer]
+                  - generic [ref=e1070]: Écouté
+                - heading "Épisode 3 Le capitaine" [level=2] [ref=e1071]
+              - paragraph [ref=e1072]:
+                - generic [ref=e1073]: 20 min
+                - generic [ref=e1074]: ·
+                - generic [ref=e1075]: 22 oct. 2025
+                - generic [ref=e1076]: ·
+                - generic [ref=e1077]: France Culture
+              - generic [ref=e1078]:
+                - button "Ajouter aux favoris" [ref=e1079] [cursor=pointer]:
+                  - generic [ref=e1080]: 
+                - link "Voir sur Radio France" [ref=e1081] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceculture/podcasts/serie-sido-de-colette
+                  - generic [ref=e1082]: 
+                - button "Écouter ici" [ref=e1083] [cursor=pointer]:
+                  - generic [ref=e1084]: 
+                - button "Résumé" [ref=e1085] [cursor=pointer]:
+                  - generic [ref=e1086]: 
+                - text: 
+          - article [ref=e1087]:
+            - generic [ref=e1088]:
+              - generic [ref=e1089]:
+                - generic [ref=e1090]:
+                  - checkbox "Écouté" [ref=e1091] [cursor=pointer]
+                  - generic [ref=e1092]: Écouté
+                - heading "Épisode 4 Sido et le capitaine" [level=2] [ref=e1093]
+              - paragraph [ref=e1094]:
+                - generic [ref=e1095]: 19 min
+                - generic [ref=e1096]: ·
+                - generic [ref=e1097]: 23 oct. 2025
+                - generic [ref=e1098]: ·
+                - generic [ref=e1099]: France Culture
+              - generic [ref=e1100]:
+                - button "Ajouter aux favoris" [ref=e1101] [cursor=pointer]:
+                  - generic [ref=e1102]: 
+                - link "Voir sur Radio France" [ref=e1103] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceculture/podcasts/serie-sido-de-colette
+                  - generic [ref=e1104]: 
+                - button "Écouter ici" [ref=e1105] [cursor=pointer]:
+                  - generic [ref=e1106]: 
+                - button "Résumé" [ref=e1107] [cursor=pointer]:
+                  - generic [ref=e1108]: 
+                - text: 
+          - article [ref=e1109]:
+            - generic [ref=e1110]:
+              - generic [ref=e1111]:
+                - generic [ref=e1112]:
+                  - checkbox "Écouté" [ref=e1113] [cursor=pointer]
+                  - generic [ref=e1114]: Écouté
+                - heading "Épisode 5 Les sauvages" [level=2] [ref=e1115]
+              - paragraph [ref=e1116]:
+                - generic [ref=e1117]: 19 min
+                - generic [ref=e1118]: ·
+                - generic [ref=e1119]: 24 oct. 2025
+                - generic [ref=e1120]: ·
+                - generic [ref=e1121]: France Culture
+              - generic [ref=e1122]:
+                - button "Ajouter aux favoris" [ref=e1123] [cursor=pointer]:
+                  - generic [ref=e1124]: 
+                - link "Voir sur Radio France" [ref=e1125] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceculture/podcasts/serie-sido-de-colette
+                  - generic [ref=e1126]: 
+                - button "Écouter ici" [ref=e1127] [cursor=pointer]:
+                  - generic [ref=e1128]: 
+                - button "Résumé" [ref=e1129] [cursor=pointer]:
+                  - generic [ref=e1130]: 
+                - text: 
+          - article [ref=e1131]:
+            - generic [ref=e1132]:
+              - generic [ref=e1133]:
+                - generic [ref=e1134]:
+                  - checkbox "Écouté" [ref=e1135] [cursor=pointer]
+                  - generic [ref=e1136]: Écouté
+                - heading "Épisode 1 Les Vrilles de la vigne, Nuit blanche et Le dernier feu" [level=2] [ref=e1137]
+              - paragraph [ref=e1138]:
+                - generic [ref=e1139]: 20 min
+                - generic [ref=e1140]: ·
+                - generic [ref=e1141]: 27 oct. 2025
+                - generic [ref=e1142]: ·
+                - generic [ref=e1143]: France Culture
+              - generic [ref=e1144]:
+                - button "Ajouter aux favoris" [ref=e1145] [cursor=pointer]:
+                  - generic [ref=e1146]: 
+                - link "Voir sur Radio France" [ref=e1147] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceculture/podcasts/serie-les-vrilles-de-la-vigne-de-colette
+                  - generic [ref=e1148]: 
+                - button "Écouter ici" [ref=e1149] [cursor=pointer]:
+                  - generic [ref=e1150]: 
+                - button "Résumé" [ref=e1151] [cursor=pointer]:
+                  - generic [ref=e1152]: 
+                - text: 
+          - article [ref=e1153]:
+            - generic [ref=e1154]:
+              - generic [ref=e1155]:
+                - generic [ref=e1156]:
+                  - checkbox "Écouté" [ref=e1157] [cursor=pointer]
+                  - generic [ref=e1158]: Écouté
+                - heading "Épisode 2 Amours, Un rêve et Nonoche" [level=2] [ref=e1159]
+              - paragraph [ref=e1160]:
+                - generic [ref=e1161]: 20 min
+                - generic [ref=e1162]: ·
+                - generic [ref=e1163]: 28 oct. 2025
+                - generic [ref=e1164]: ·
+                - generic [ref=e1165]: France Culture
+              - generic [ref=e1166]:
+                - button "Ajouter aux favoris" [ref=e1167] [cursor=pointer]:
+                  - generic [ref=e1168]: 
+                - link "Voir sur Radio France" [ref=e1169] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceculture/podcasts/serie-les-vrilles-de-la-vigne-de-colette
+                  - generic [ref=e1170]: 
+                - button "Écouter ici" [ref=e1171] [cursor=pointer]:
+                  - generic [ref=e1172]: 
+                - button "Résumé" [ref=e1173] [cursor=pointer]:
+                  - generic [ref=e1174]: 
+                - text: 
+          - article [ref=e1175]:
+            - generic [ref=e1176]:
+              - generic [ref=e1177]:
+                - generic [ref=e1178]:
+                  - checkbox "Écouté" [ref=e1179] [cursor=pointer]
+                  - generic [ref=e1180]: Écouté
+                - heading "Épisode 3 Toby-chien parle et Dialogues de bêtes" [level=2] [ref=e1181]
+              - paragraph [ref=e1182]:
+                - generic [ref=e1183]: 19 min
+                - generic [ref=e1184]: ·
+                - generic [ref=e1185]: 29 oct. 2025
+                - generic [ref=e1186]: ·
+                - generic [ref=e1187]: France Culture
+              - generic [ref=e1188]:
+                - button "Ajouter aux favoris" [ref=e1189] [cursor=pointer]:
+                  - generic [ref=e1190]: 
+                - link "Voir sur Radio France" [ref=e1191] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceculture/podcasts/serie-les-vrilles-de-la-vigne-de-colette
+                  - generic [ref=e1192]: 
+                - button "Écouter ici" [ref=e1193] [cursor=pointer]:
+                  - generic [ref=e1194]: 
+                - button "Résumé" [ref=e1195] [cursor=pointer]:
+                  - generic [ref=e1196]: 
+                - text: 
+          - article [ref=e1197]:
+            - generic [ref=e1198]:
+              - generic [ref=e1199]:
+                - generic [ref=e1200]:
+                  - checkbox "Écouté" [ref=e1201] [cursor=pointer]
+                  - generic [ref=e1202]: Écouté
+                - heading "Épisode 4 Maquillages et Belles-de-jour" [level=2] [ref=e1203]
+              - paragraph [ref=e1204]:
+                - generic [ref=e1205]: 19 min
+                - generic [ref=e1206]: ·
+                - generic [ref=e1207]: 30 oct. 2025
+                - generic [ref=e1208]: ·
+                - generic [ref=e1209]: France Culture
+              - generic [ref=e1210]:
+                - button "Ajouter aux favoris" [ref=e1211] [cursor=pointer]:
+                  - generic [ref=e1212]: 
+                - link "Voir sur Radio France" [ref=e1213] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceculture/podcasts/serie-les-vrilles-de-la-vigne-de-colette
+                  - generic [ref=e1214]: 
+                - button "Écouter ici" [ref=e1215] [cursor=pointer]:
+                  - generic [ref=e1216]: 
+                - button "Résumé" [ref=e1217] [cursor=pointer]:
+                  - generic [ref=e1218]: 
+                - text: 
+          - article [ref=e1219]:
+            - generic [ref=e1220]:
+              - generic [ref=e1221]:
+                - generic [ref=e1222]:
+                  - checkbox "Écouté" [ref=e1223] [cursor=pointer]
+                  - generic [ref=e1224]: Écouté
+                - heading "Épisode 5 Music halls et Le miroir" [level=2] [ref=e1225]
+              - paragraph [ref=e1226]:
+                - generic [ref=e1227]: 20 min
+                - generic [ref=e1228]: ·
+                - generic [ref=e1229]: 31 oct. 2025
+                - generic [ref=e1230]: ·
+                - generic [ref=e1231]: France Culture
+              - generic [ref=e1232]:
+                - button "Ajouter aux favoris" [ref=e1233] [cursor=pointer]:
+                  - generic [ref=e1234]: 
+                - link "Voir sur Radio France" [ref=e1235] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceculture/podcasts/serie-les-vrilles-de-la-vigne-de-colette
+                  - generic [ref=e1236]: 
+                - button "Écouter ici" [ref=e1237] [cursor=pointer]:
+                  - generic [ref=e1238]: 
+                - button "Résumé" [ref=e1239] [cursor=pointer]:
+                  - generic [ref=e1240]: 
+                - text: 
+          - article [ref=e1241]:
+            - generic [ref=e1242]:
+              - generic [ref=e1243]:
+                - generic [ref=e1244]:
+                  - checkbox "Écouté" [ref=e1245] [cursor=pointer]
+                  - generic [ref=e1246]: Écouté
+                - heading "Sido et Les Vrilles de la vigne de Colette" [level=2] [ref=e1247]
+              - paragraph [ref=e1248]:
+                - generic [ref=e1249]: 58 min
+                - generic [ref=e1250]: ·
+                - generic [ref=e1251]: 14 mai 2025
+                - generic [ref=e1252]: ·
+                - generic [ref=e1253]: France Culture
+              - generic [ref=e1254]:
+                - button "Ajouter aux favoris" [ref=e1255] [cursor=pointer]:
+                  - generic [ref=e1256]: 
+                - link "Voir sur Radio France" [ref=e1257] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceculture/podcasts/le-book-club/sido-et-les-vrilles-de-la-vigne-de-colette-4786349
+                  - generic [ref=e1258]: 
+                - button "Écouter ici" [ref=e1259] [cursor=pointer]:
+                  - generic [ref=e1260]: 
+                - button "Résumé" [ref=e1261] [cursor=pointer]:
+                  - generic [ref=e1262]: 
+                - text: 
+          - article [ref=e1263]:
+            - generic [ref=e1264]:
+              - generic [ref=e1265]:
+                - generic [ref=e1266]:
+                  - checkbox "Écouté" [ref=e1267] [cursor=pointer]
+                  - generic [ref=e1268]: Écouté
+                - heading "Épisode 1 Ne pas se laisser faire" [level=2] [ref=e1269]
+              - paragraph [ref=e1270]:
+                - generic [ref=e1271]: 29 min
+                - generic [ref=e1272]: ·
+                - generic [ref=e1273]: 10 août 2025
+                - generic [ref=e1274]: ·
+                - generic [ref=e1275]: France Culture
+              - generic [ref=e1276]:
+                - button "Ajouter aux favoris" [ref=e1277] [cursor=pointer]:
+                  - generic [ref=e1278]: 
+                - link "Voir sur Radio France" [ref=e1279] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceculture/podcasts/salle-des-archives/ne-pas-se-laisser-faire-4757031
+                  - generic [ref=e1280]: 
+                - button "Écouter ici" [ref=e1281] [cursor=pointer]:
+                  - generic [ref=e1282]: 
+                - button "Résumé" [ref=e1283] [cursor=pointer]:
+                  - generic [ref=e1284]: 
+                - text: 
+          - article [ref=e1285]:
+            - generic [ref=e1286]:
+              - generic [ref=e1287]:
+                - generic [ref=e1288]:
+                  - checkbox "Écouté" [ref=e1289] [cursor=pointer]
+                  - generic [ref=e1290]: Écouté
+                - heading "Épisode 2 Explorer les interdits" [level=2] [ref=e1291]
+              - paragraph [ref=e1292]:
+                - generic [ref=e1293]: 29 min
+                - generic [ref=e1294]: ·
+                - generic [ref=e1295]: 10 août 2025
+                - generic [ref=e1296]: ·
+                - generic [ref=e1297]: France Culture
+              - generic [ref=e1298]:
+                - button "Ajouter aux favoris" [ref=e1299] [cursor=pointer]:
+                  - generic [ref=e1300]: 
+                - link "Voir sur Radio France" [ref=e1301] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceculture/podcasts/salle-des-archives/explorer-les-interdits-5280570
+                  - generic [ref=e1302]: 
+                - button "Écouter ici" [ref=e1303] [cursor=pointer]:
+                  - generic [ref=e1304]: 
+                - button "Résumé" [ref=e1305] [cursor=pointer]:
+                  - generic [ref=e1306]: 
+                - text: 
+          - article [ref=e1307]:
+            - generic [ref=e1308]:
+              - generic [ref=e1309]:
+                - generic [ref=e1310]:
+                  - checkbox "Écouté" [ref=e1311] [cursor=pointer]
+                  - generic [ref=e1312]: Écouté
+                - 'heading "Épisode 3 Les Jouvenel père et fils : passions limites" [level=2] [ref=e1313]'
+              - paragraph [ref=e1314]:
+                - generic [ref=e1315]: 29 min
+                - generic [ref=e1316]: ·
+                - generic [ref=e1317]: 17 août 2025
+                - generic [ref=e1318]: ·
+                - generic [ref=e1319]: France Culture
+              - generic [ref=e1320]:
+                - button "Ajouter aux favoris" [ref=e1321] [cursor=pointer]:
+                  - generic [ref=e1322]: 
+                - link "Voir sur Radio France" [ref=e1323] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceculture/podcasts/salle-des-archives/les-jouvenel-pere-et-fils-passions-limites-5399695
+                  - generic [ref=e1324]: 
+                - button "Écouter ici" [ref=e1325] [cursor=pointer]:
+                  - generic [ref=e1326]: 
+                - button "Résumé" [ref=e1327] [cursor=pointer]:
+                  - generic [ref=e1328]: 
+                - text: 
+          - article [ref=e1329]:
+            - generic [ref=e1330]:
+              - generic [ref=e1331]:
+                - generic [ref=e1332]:
+                  - checkbox "Écouté" [ref=e1333] [cursor=pointer]
+                  - generic [ref=e1334]: Écouté
+                - heading "Épisode 4 Aimer comme une mère" [level=2] [ref=e1335]
+              - paragraph [ref=e1336]:
+                - generic [ref=e1337]: 29 min
+                - generic [ref=e1338]: ·
+                - generic [ref=e1339]: 17 août 2025
+                - generic [ref=e1340]: ·
+                - generic [ref=e1341]: France Culture
+              - generic [ref=e1342]:
+                - button "Ajouter aux favoris" [ref=e1343] [cursor=pointer]:
+                  - generic [ref=e1344]: 
+                - link "Voir sur Radio France" [ref=e1345] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceculture/podcasts/salle-des-archives/aimer-comme-une-mere-8317948
+                  - generic [ref=e1346]: 
+                - button "Écouter ici" [ref=e1347] [cursor=pointer]:
+                  - generic [ref=e1348]: 
+                - button "Résumé" [ref=e1349] [cursor=pointer]:
+                  - generic [ref=e1350]: 
+                - text: 
+          - article [ref=e1351]:
+            - generic [ref=e1352]:
+              - generic [ref=e1353]:
+                - generic [ref=e1354]:
+                  - checkbox "Écouté" [ref=e1355] [cursor=pointer]
+                  - generic [ref=e1356]: Écouté
+                - heading "Épisode 5 Vieillir ensemble" [level=2] [ref=e1357]
+              - paragraph [ref=e1358]:
+                - generic [ref=e1359]: 29 min
+                - generic [ref=e1360]: ·
+                - generic [ref=e1361]: 24 août 2025
+                - generic [ref=e1362]: ·
+                - generic [ref=e1363]: France Culture
+              - generic [ref=e1364]:
+                - button "Ajouter aux favoris" [ref=e1365] [cursor=pointer]:
+                  - generic [ref=e1366]: 
+                - link "Voir sur Radio France" [ref=e1367] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceculture/podcasts/salle-des-archives/vieillir-ensemble-4821840
+                  - generic [ref=e1368]: 
+                - button "Écouter ici" [ref=e1369] [cursor=pointer]:
+                  - generic [ref=e1370]: 
+                - button "Résumé" [ref=e1371] [cursor=pointer]:
+                  - generic [ref=e1372]: 
+                - text: 
+          - article [ref=e1373]:
+            - generic [ref=e1374]:
+              - generic [ref=e1375]:
+                - generic [ref=e1376]:
+                  - checkbox "Écouté" [ref=e1377] [cursor=pointer]
+                  - generic [ref=e1378]: Écouté
+                - heading "Épisode 6 La vie sauvage" [level=2] [ref=e1379]
+              - paragraph [ref=e1380]:
+                - generic [ref=e1381]: 29 min
+                - generic [ref=e1382]: ·
+                - generic [ref=e1383]: 24 août 2025
+                - generic [ref=e1384]: ·
+                - generic [ref=e1385]: France Culture
+              - generic [ref=e1386]:
+                - button "Ajouter aux favoris" [ref=e1387] [cursor=pointer]:
+                  - generic [ref=e1388]: 
+                - link "Voir sur Radio France" [ref=e1389] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceculture/podcasts/salle-des-archives/la-vie-sauvage-9986845
+                  - generic [ref=e1390]: 
+                - button "Écouter ici" [ref=e1391] [cursor=pointer]:
+                  - generic [ref=e1392]: 
+                - button "Résumé" [ref=e1393] [cursor=pointer]:
+                  - generic [ref=e1394]: 
+                - text: 
+          - article [ref=e1395]:
+            - generic [ref=e1396]:
+              - generic [ref=e1397]:
+                - generic [ref=e1398]:
+                  - checkbox "Écouté" [ref=e1399] [cursor=pointer]
+                  - generic [ref=e1400]: Écouté
+                - heading "Colette et la nature" [level=2] [ref=e1401]
+              - paragraph [ref=e1402]:
+                - generic [ref=e1403]: 36 min
+                - generic [ref=e1404]: ·
+                - generic [ref=e1405]: 16 mai 2021
+                - generic [ref=e1406]: ·
+                - generic [ref=e1407]: France Inter
+              - generic [ref=e1408]:
+                - button "Ajouter aux favoris" [ref=e1409] [cursor=pointer]:
+                  - generic [ref=e1410]: 
+                - link "Voir sur Radio France" [ref=e1411] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceinter/podcasts/co2-mon-amour/colette-et-la-nature-2148865
+                  - generic [ref=e1412]: 
+                - button "Écouter ici" [ref=e1413] [cursor=pointer]:
+                  - generic [ref=e1414]: 
+                - button "Résumé" [ref=e1415] [cursor=pointer]:
+                  - generic [ref=e1416]: 
+                - text: 
+          - article [ref=e1417]:
+            - generic [ref=e1418]:
+              - generic [ref=e1419]:
+                - generic [ref=e1420]:
+                  - checkbox "Écouté" [ref=e1421] [cursor=pointer]
+                  - generic [ref=e1422]: Écouté
+                - heading "Épisode 1 Pourquoi Colette ?" [level=2] [ref=e1423]
+              - paragraph [ref=e1424]:
+                - generic [ref=e1425]: 4 min
+                - generic [ref=e1426]: ·
+                - generic [ref=e1427]: 5 juil. 2021
+                - generic [ref=e1428]: ·
+                - generic [ref=e1429]: France Inter
+              - generic [ref=e1430]:
+                - button "Ajouter aux favoris" [ref=e1431] [cursor=pointer]:
+                  - generic [ref=e1432]: 
+                - link "Voir sur Radio France" [ref=e1433] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceinter/podcasts/un-ete-avec-colette/pourquoi-colette-3578342
+                  - generic [ref=e1434]: 
+                - button "Écouter ici" [ref=e1435] [cursor=pointer]:
+                  - generic [ref=e1436]: 
+                - button "Résumé" [ref=e1437] [cursor=pointer]:
+                  - generic [ref=e1438]: 
+                - text: 
+          - article [ref=e1439]:
+            - generic [ref=e1440]:
+              - generic [ref=e1441]:
+                - generic [ref=e1442]:
+                  - checkbox "Écouté" [ref=e1443] [cursor=pointer]
+                  - generic [ref=e1444]: Écouté
+                - heading "Épisode 2 Comment Colette se mit à écrire ?" [level=2] [ref=e1445]
+              - paragraph [ref=e1446]:
+                - generic [ref=e1447]: 4 min
+                - generic [ref=e1448]: ·
+                - generic [ref=e1449]: 6 juil. 2021
+                - generic [ref=e1450]: ·
+                - generic [ref=e1451]: France Inter
+              - generic [ref=e1452]:
+                - button "Ajouter aux favoris" [ref=e1453] [cursor=pointer]:
+                  - generic [ref=e1454]: 
+                - link "Voir sur Radio France" [ref=e1455] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceinter/podcasts/un-ete-avec-colette/comment-colette-se-mis-a-ecrire-9796344
+                  - generic [ref=e1456]: 
+                - button "Écouter ici" [ref=e1457] [cursor=pointer]:
+                  - generic [ref=e1458]: 
+                - button "Résumé" [ref=e1459] [cursor=pointer]:
+                  - generic [ref=e1460]: 
+                - text: 
+          - article [ref=e1461]:
+            - generic [ref=e1462]:
+              - generic [ref=e1463]:
+                - generic [ref=e1464]:
+                  - checkbox "Écouté" [ref=e1465] [cursor=pointer]
+                  - generic [ref=e1466]: Écouté
+                - heading "Épisode 3 Ce chameau de Willy, le mari de Colette" [level=2] [ref=e1467]
+              - paragraph [ref=e1468]:
+                - generic [ref=e1469]: 4 min
+                - generic [ref=e1470]: ·
+                - generic [ref=e1471]: 7 juil. 2021
+                - generic [ref=e1472]: ·
+                - generic [ref=e1473]: France Inter
+              - generic [ref=e1474]:
+                - button "Ajouter aux favoris" [ref=e1475] [cursor=pointer]:
+                  - generic [ref=e1476]: 
+                - link "Voir sur Radio France" [ref=e1477] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceinter/podcasts/un-ete-avec-colette/ce-chameau-de-willy-1938653
+                  - generic [ref=e1478]: 
+                - button "Écouter ici" [ref=e1479] [cursor=pointer]:
+                  - generic [ref=e1480]: 
+                - button "Résumé" [ref=e1481] [cursor=pointer]:
+                  - generic [ref=e1482]: 
+                - text: 
+          - article [ref=e1483]:
+            - generic [ref=e1484]:
+              - generic [ref=e1485]:
+                - generic [ref=e1486]:
+                  - checkbox "Écouté" [ref=e1487] [cursor=pointer]
+                  - generic [ref=e1488]: Écouté
+                - heading "Épisode 4 Les beaux cheveux d'or de Colette" [level=2] [ref=e1489]
+              - paragraph [ref=e1490]:
+                - generic [ref=e1491]: 4 min
+                - generic [ref=e1492]: ·
+                - generic [ref=e1493]: 8 juil. 2021
+                - generic [ref=e1494]: ·
+                - generic [ref=e1495]: France Inter
+              - generic [ref=e1496]:
+                - button "Ajouter aux favoris" [ref=e1497] [cursor=pointer]:
+                  - generic [ref=e1498]: 
+                - link "Voir sur Radio France" [ref=e1499] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceinter/podcasts/un-ete-avec-colette/les-beaux-cheveux-d-or-de-colette-7265101
+                  - generic [ref=e1500]: 
+                - button "Écouter ici" [ref=e1501] [cursor=pointer]:
+                  - generic [ref=e1502]: 
+                - button "Résumé" [ref=e1503] [cursor=pointer]:
+                  - generic [ref=e1504]: 
+                - text: 
+          - article [ref=e1505]:
+            - generic [ref=e1506]:
+              - generic [ref=e1507]:
+                - generic [ref=e1508]:
+                  - checkbox "Écouté" [ref=e1509] [cursor=pointer]
+                  - generic [ref=e1510]: Écouté
+                - heading "Épisode 5 Lesbos ou les amours saphiques de Colette" [level=2] [ref=e1511]
+              - paragraph [ref=e1512]:
+                - generic [ref=e1513]: 4 min
+                - generic [ref=e1514]: ·
+                - generic [ref=e1515]: 9 juil. 2021
+                - generic [ref=e1516]: ·
+                - generic [ref=e1517]: France Inter
+              - generic [ref=e1518]:
+                - button "Ajouter aux favoris" [ref=e1519] [cursor=pointer]:
+                  - generic [ref=e1520]: 
+                - link "Voir sur Radio France" [ref=e1521] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceinter/podcasts/un-ete-avec-colette/un-ete-avec-colette-du-vendredi-09-juillet-2021-6917230
+                  - generic [ref=e1522]: 
+                - button "Écouter ici" [ref=e1523] [cursor=pointer]:
+                  - generic [ref=e1524]: 
+                - button "Résumé" [ref=e1525] [cursor=pointer]:
+                  - generic [ref=e1526]: 
+                - text: 
+          - article [ref=e1527]:
+            - generic [ref=e1528]:
+              - generic [ref=e1529]:
+                - generic [ref=e1530]:
+                  - checkbox "Écouté" [ref=e1531] [cursor=pointer]
+                  - generic [ref=e1532]: Écouté
+                - heading "Épisode 6 Colette et sa mère, Sidonie Landoy dite « Sido »" [level=2] [ref=e1533]
+              - paragraph [ref=e1534]:
+                - generic [ref=e1535]: 4 min
+                - generic [ref=e1536]: ·
+                - generic [ref=e1537]: 12 juil. 2021
+                - generic [ref=e1538]: ·
+                - generic [ref=e1539]: France Inter
+              - generic [ref=e1540]:
+                - button "Ajouter aux favoris" [ref=e1541] [cursor=pointer]:
+                  - generic [ref=e1542]: 
+                - link "Voir sur Radio France" [ref=e1543] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceinter/podcasts/un-ete-avec-colette/un-ete-avec-colette-du-lundi-12-juillet-2021-1163438
+                  - generic [ref=e1544]: 
+                - button "Écouter ici" [ref=e1545] [cursor=pointer]:
+                  - generic [ref=e1546]: 
+                - button "Résumé" [ref=e1547] [cursor=pointer]:
+                  - generic [ref=e1548]: 
+                - text: 
+          - article [ref=e1549]:
+            - generic [ref=e1550]:
+              - generic [ref=e1551]:
+                - generic [ref=e1552]:
+                  - checkbox "Écouté" [ref=e1553] [cursor=pointer]
+                  - generic [ref=e1554]: Écouté
+                - 'heading "Épisode 7 Les bêtes : la relation de Colette avec les animaux" [level=2] [ref=e1555]'
+              - paragraph [ref=e1556]:
+                - generic [ref=e1557]: 4 min
+                - generic [ref=e1558]: ·
+                - generic [ref=e1559]: 13 juil. 2021
+                - generic [ref=e1560]: ·
+                - generic [ref=e1561]: France Inter
+              - generic [ref=e1562]:
+                - button "Ajouter aux favoris" [ref=e1563] [cursor=pointer]:
+                  - generic [ref=e1564]: 
+                - link "Voir sur Radio France" [ref=e1565] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceinter/podcasts/un-ete-avec-colette/un-ete-avec-colette-du-mardi-13-juillet-2021-6979103
+                  - generic [ref=e1566]: 
+                - button "Écouter ici" [ref=e1567] [cursor=pointer]:
+                  - generic [ref=e1568]: 
+                - button "Résumé" [ref=e1569] [cursor=pointer]:
+                  - generic [ref=e1570]: 
+                - text: 
+          - article [ref=e1571]:
+            - generic [ref=e1572]:
+              - generic [ref=e1573]:
+                - generic [ref=e1574]:
+                  - checkbox "Écouté" [ref=e1575] [cursor=pointer]
+                  - generic [ref=e1576]: Écouté
+                - 'heading "Épisode 8 Le faune : ou quand Colette réclamait la liberté de son corps et de sa plume" [level=2] [ref=e1577]'
+              - paragraph [ref=e1578]:
+                - generic [ref=e1579]: 4 min
+                - generic [ref=e1580]: ·
+                - generic [ref=e1581]: 14 juil. 2021
+                - generic [ref=e1582]: ·
+                - generic [ref=e1583]: France Inter
+              - generic [ref=e1584]:
+                - button "Ajouter aux favoris" [ref=e1585] [cursor=pointer]:
+                  - generic [ref=e1586]: 
+                - link "Voir sur Radio France" [ref=e1587] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceinter/podcasts/un-ete-avec-colette/le-faune-4134202
+                  - generic [ref=e1588]: 
+                - button "Écouter ici" [ref=e1589] [cursor=pointer]:
+                  - generic [ref=e1590]: 
+                - button "Résumé" [ref=e1591] [cursor=pointer]:
+                  - generic [ref=e1592]: 
+                - text: 
+          - article [ref=e1593]:
+            - generic [ref=e1594]:
+              - generic [ref=e1595]:
+                - generic [ref=e1596]:
+                  - checkbox "Écouté" [ref=e1597] [cursor=pointer]
+                  - generic [ref=e1598]: Écouté
+                - 'heading "Épisode 9 Colette : J’appartiens à Missy" [level=2] [ref=e1599]'
+              - paragraph [ref=e1600]:
+                - generic [ref=e1601]: 4 min
+                - generic [ref=e1602]: ·
+                - generic [ref=e1603]: 15 juil. 2021
+                - generic [ref=e1604]: ·
+                - generic [ref=e1605]: France Inter
+              - generic [ref=e1606]:
+                - button "Ajouter aux favoris" [ref=e1607] [cursor=pointer]:
+                  - generic [ref=e1608]: 
+                - link "Voir sur Radio France" [ref=e1609] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceinter/podcasts/un-ete-avec-colette/j-appartiens-a-missy-8304198
+                  - generic [ref=e1610]: 
+                - button "Écouter ici" [ref=e1611] [cursor=pointer]:
+                  - generic [ref=e1612]: 
+                - button "Résumé" [ref=e1613] [cursor=pointer]:
+                  - generic [ref=e1614]: 
+                - text: 
+          - article [ref=e1615]:
+            - generic [ref=e1616]:
+              - generic [ref=e1617]:
+                - generic [ref=e1618]:
+                  - checkbox "Écouté" [ref=e1619] [cursor=pointer]
+                  - generic [ref=e1620]: Écouté
+                - 'heading "Épisode 10 Music-hall : Colette et la musique" [level=2] [ref=e1621]'
+              - paragraph [ref=e1622]:
+                - generic [ref=e1623]: 4 min
+                - generic [ref=e1624]: ·
+                - generic [ref=e1625]: 16 juil. 2021
+                - generic [ref=e1626]: ·
+                - generic [ref=e1627]: France Inter
+              - generic [ref=e1628]:
+                - button "Ajouter aux favoris" [ref=e1629] [cursor=pointer]:
+                  - generic [ref=e1630]: 
+                - link "Voir sur Radio France" [ref=e1631] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceinter/podcasts/un-ete-avec-colette/music-hall-colette-et-la-musique-2410036
+                  - generic [ref=e1632]: 
+                - button "Écouter ici" [ref=e1633] [cursor=pointer]:
+                  - generic [ref=e1634]: 
+                - button "Résumé" [ref=e1635] [cursor=pointer]:
+                  - generic [ref=e1636]: 
+                - text: 
+          - article [ref=e1637]:
+            - generic [ref=e1638]:
+              - generic [ref=e1639]:
+                - generic [ref=e1640]:
+                  - checkbox "Écouté" [ref=e1641] [cursor=pointer]
+                  - generic [ref=e1642]: Écouté
+                - 'heading "Épisode 11 Colette et son père Jules : La vertu d’être triste à bon escient, et de ne jamais se trahir" [level=2] [ref=e1643]'
+              - paragraph [ref=e1644]:
+                - generic [ref=e1645]: 4 min
+                - generic [ref=e1646]: ·
+                - generic [ref=e1647]: 19 juil. 2021
+                - generic [ref=e1648]: ·
+                - generic [ref=e1649]: France Inter
+              - generic [ref=e1650]:
+                - button "Ajouter aux favoris" [ref=e1651] [cursor=pointer]:
+                  - generic [ref=e1652]: 
+                - link "Voir sur Radio France" [ref=e1653] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceinter/podcasts/un-ete-avec-colette/un-ete-avec-colette-du-lundi-19-juillet-2021-7512268
+                  - generic [ref=e1654]: 
+                - button "Écouter ici" [ref=e1655] [cursor=pointer]:
+                  - generic [ref=e1656]: 
+                - button "Résumé" [ref=e1657] [cursor=pointer]:
+                  - generic [ref=e1658]: 
+                - text: 
+          - article [ref=e1659]:
+            - generic [ref=e1660]:
+              - generic [ref=e1661]:
+                - generic [ref=e1662]:
+                  - checkbox "Écouté" [ref=e1663] [cursor=pointer]
+                  - generic [ref=e1664]: Écouté
+                - heading "Épisode 12 Colette et l'amour" [level=2] [ref=e1665]
+              - paragraph [ref=e1666]:
+                - generic [ref=e1667]: 4 min
+                - generic [ref=e1668]: ·
+                - generic [ref=e1669]: 20 juil. 2021
+                - generic [ref=e1670]: ·
+                - generic [ref=e1671]: France Inter
+              - generic [ref=e1672]:
+                - button "Ajouter aux favoris" [ref=e1673] [cursor=pointer]:
+                  - generic [ref=e1674]: 
+                - link "Voir sur Radio France" [ref=e1675] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceinter/podcasts/un-ete-avec-colette/un-ete-avec-colette-du-mardi-20-juillet-2021-2287727
+                  - generic [ref=e1676]: 
+                - button "Écouter ici" [ref=e1677] [cursor=pointer]:
+                  - generic [ref=e1678]: 
+                - button "Résumé" [ref=e1679] [cursor=pointer]:
+                  - generic [ref=e1680]: 
+                - text: 
+          - article [ref=e1681]:
+            - generic [ref=e1682]:
+              - generic [ref=e1683]:
+                - generic [ref=e1684]:
+                  - checkbox "Écouté" [ref=e1685] [cursor=pointer]
+                  - generic [ref=e1686]: Écouté
+                - 'heading "Épisode 13 Colette la sauvageonne : Je suis restée paysanne" [level=2] [ref=e1687]'
+              - paragraph [ref=e1688]:
+                - generic [ref=e1689]: 4 min
+                - generic [ref=e1690]: ·
+                - generic [ref=e1691]: 21 juil. 2021
+                - generic [ref=e1692]: ·
+                - generic [ref=e1693]: France Inter
+              - generic [ref=e1694]:
+                - button "Ajouter aux favoris" [ref=e1695] [cursor=pointer]:
+                  - generic [ref=e1696]: 
+                - link "Voir sur Radio France" [ref=e1697] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceinter/podcasts/un-ete-avec-colette/un-ete-avec-colette-du-mercredi-21-juillet-2021-3769107
+                  - generic [ref=e1698]: 
+                - button "Écouter ici" [ref=e1699] [cursor=pointer]:
+                  - generic [ref=e1700]: 
+                - button "Résumé" [ref=e1701] [cursor=pointer]:
+                  - generic [ref=e1702]: 
+                - text: 
+          - article [ref=e1703]:
+            - generic [ref=e1704]:
+              - generic [ref=e1705]:
+                - generic [ref=e1706]:
+                  - checkbox "Écouté" [ref=e1707] [cursor=pointer]
+                  - generic [ref=e1708]: Écouté
+                - 'heading "Épisode 14 Colette et Paris : J’ai trouvé dans Paris encore une province" [level=2] [ref=e1709]'
+              - paragraph [ref=e1710]:
+                - generic [ref=e1711]: 4 min
+                - generic [ref=e1712]: ·
+                - generic [ref=e1713]: 22 juil. 2021
+                - generic [ref=e1714]: ·
+                - generic [ref=e1715]: France Inter
+              - generic [ref=e1716]:
+                - button "Ajouter aux favoris" [ref=e1717] [cursor=pointer]:
+                  - generic [ref=e1718]: 
+                - link "Voir sur Radio France" [ref=e1719] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceinter/podcasts/un-ete-avec-colette/colette-et-paris-j-ai-trouve-dans-paris-encore-une-province-3972897
+                  - generic [ref=e1720]: 
+                - button "Écouter ici" [ref=e1721] [cursor=pointer]:
+                  - generic [ref=e1722]: 
+                - button "Résumé" [ref=e1723] [cursor=pointer]:
+                  - generic [ref=e1724]: 
+                - text: 
+          - article [ref=e1725]:
+            - generic [ref=e1726]:
+              - generic [ref=e1727]:
+                - generic [ref=e1728]:
+                  - checkbox "Écouté" [ref=e1729] [cursor=pointer]
+                  - generic [ref=e1730]: Écouté
+                - heading "Épisode 15 Colette et son amour pour Henry de Jouvenel alias Le Pacha" [level=2] [ref=e1731]
+              - paragraph [ref=e1732]:
+                - generic [ref=e1733]: 4 min
+                - generic [ref=e1734]: ·
+                - generic [ref=e1735]: 23 juil. 2021
+                - generic [ref=e1736]: ·
+                - generic [ref=e1737]: France Inter
+              - generic [ref=e1738]:
+                - button "Ajouter aux favoris" [ref=e1739] [cursor=pointer]:
+                  - generic [ref=e1740]: 
+                - link "Voir sur Radio France" [ref=e1741] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceinter/podcasts/un-ete-avec-colette/un-ete-avec-colette-du-vendredi-23-juillet-2021-3489672
+                  - generic [ref=e1742]: 
+                - button "Écouter ici" [ref=e1743] [cursor=pointer]:
+                  - generic [ref=e1744]: 
+                - button "Résumé" [ref=e1745] [cursor=pointer]:
+                  - generic [ref=e1746]: 
+                - text: 
+          - article [ref=e1747]:
+            - generic [ref=e1748]:
+              - generic [ref=e1749]:
+                - generic [ref=e1750]:
+                  - checkbox "Écouté" [ref=e1751] [cursor=pointer]
+                  - generic [ref=e1752]: Écouté
+                - heading "Épisode 16 Plus qu'écrivaine, Colette se voyait journaliste" [level=2] [ref=e1753]
+              - paragraph [ref=e1754]:
+                - generic [ref=e1755]: 4 min
+                - generic [ref=e1756]: ·
+                - generic [ref=e1757]: 26 juil. 2021
+                - generic [ref=e1758]: ·
+                - generic [ref=e1759]: France Inter
+              - generic [ref=e1760]:
+                - button "Ajouter aux favoris" [ref=e1761] [cursor=pointer]:
+                  - generic [ref=e1762]: 
+                - link "Voir sur Radio France" [ref=e1763] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceinter/podcasts/un-ete-avec-colette/un-ete-avec-colette-du-lundi-26-juillet-2021-8661490
+                  - generic [ref=e1764]: 
+                - button "Écouter ici" [ref=e1765] [cursor=pointer]:
+                  - generic [ref=e1766]: 
+                - button "Résumé" [ref=e1767] [cursor=pointer]:
+                  - generic [ref=e1768]: 
+                - text: 
+          - article [ref=e1769]:
+            - generic [ref=e1770]:
+              - generic [ref=e1771]:
+                - generic [ref=e1772]:
+                  - checkbox "Écouté" [ref=e1773] [cursor=pointer]
+                  - generic [ref=e1774]: Écouté
+                - 'heading "Épisode 17 Colette : J''aime être gourmande" [level=2] [ref=e1775]'
+              - paragraph [ref=e1776]:
+                - generic [ref=e1777]: 4 min
+                - generic [ref=e1778]: ·
+                - generic [ref=e1779]: 27 juil. 2021
+                - generic [ref=e1780]: ·
+                - generic [ref=e1781]: France Inter
+              - generic [ref=e1782]:
+                - button "Ajouter aux favoris" [ref=e1783] [cursor=pointer]:
+                  - generic [ref=e1784]: 
+                - link "Voir sur Radio France" [ref=e1785] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceinter/podcasts/un-ete-avec-colette/un-ete-avec-colette-du-mardi-27-juillet-2021-8541155
+                  - generic [ref=e1786]: 
+                - button "Écouter ici" [ref=e1787] [cursor=pointer]:
+                  - generic [ref=e1788]: 
+                - button "Résumé" [ref=e1789] [cursor=pointer]:
+                  - generic [ref=e1790]: 
+                - text: 
+          - article [ref=e1791]:
+            - generic [ref=e1792]:
+              - generic [ref=e1793]:
+                - generic [ref=e1794]:
+                  - checkbox "Écouté" [ref=e1795] [cursor=pointer]
+                  - generic [ref=e1796]: Écouté
+                - heading "Épisode 18 Flore et Pomone, la botanique poétique de Colette" [level=2] [ref=e1797]
+              - paragraph [ref=e1798]:
+                - generic [ref=e1799]: 4 min
+                - generic [ref=e1800]: ·
+                - generic [ref=e1801]: 28 juil. 2021
+                - generic [ref=e1802]: ·
+                - generic [ref=e1803]: France Inter
+              - generic [ref=e1804]:
+                - button "Ajouter aux favoris" [ref=e1805] [cursor=pointer]:
+                  - generic [ref=e1806]: 
+                - link "Voir sur Radio France" [ref=e1807] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceinter/podcasts/un-ete-avec-colette/un-ete-avec-colette-du-mercredi-28-juillet-2021-9583117
+                  - generic [ref=e1808]: 
+                - button "Écouter ici" [ref=e1809] [cursor=pointer]:
+                  - generic [ref=e1810]: 
+                - button "Résumé" [ref=e1811] [cursor=pointer]:
+                  - generic [ref=e1812]: 
+                - text: 
+          - article [ref=e1813]:
+            - generic [ref=e1814]:
+              - generic [ref=e1815]:
+                - generic [ref=e1816]:
+                  - checkbox "Écouté" [ref=e1817] [cursor=pointer]
+                  - generic [ref=e1818]: Écouté
+                - heading "Épisode 19 Colette perçut très tôt l'intérêt du septième art" [level=2] [ref=e1819]
+              - paragraph [ref=e1820]:
+                - generic [ref=e1821]: 4 min
+                - generic [ref=e1822]: ·
+                - generic [ref=e1823]: 29 juil. 2021
+                - generic [ref=e1824]: ·
+                - generic [ref=e1825]: France Inter
+              - generic [ref=e1826]:
+                - button "Ajouter aux favoris" [ref=e1827] [cursor=pointer]:
+                  - generic [ref=e1828]: 
+                - link "Voir sur Radio France" [ref=e1829] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceinter/podcasts/un-ete-avec-colette/un-ete-avec-colette-du-jeudi-29-juillet-2021-9134278
+                  - generic [ref=e1830]: 
+                - button "Écouter ici" [ref=e1831] [cursor=pointer]:
+                  - generic [ref=e1832]: 
+                - button "Résumé" [ref=e1833] [cursor=pointer]:
+                  - generic [ref=e1834]: 
+                - text: 
+          - article [ref=e1835]:
+            - generic [ref=e1836]:
+              - generic [ref=e1837]:
+                - generic [ref=e1838]:
+                  - checkbox "Écouté" [ref=e1839] [cursor=pointer]
+                  - generic [ref=e1840]: Écouté
+                - heading "Épisode 20 Colette féministe avant-gardiste et paradoxale" [level=2] [ref=e1841]
+              - paragraph [ref=e1842]:
+                - generic [ref=e1843]: 4 min
+                - generic [ref=e1844]: ·
+                - generic [ref=e1845]: 30 juil. 2021
+                - generic [ref=e1846]: ·
+                - generic [ref=e1847]: France Inter
+              - generic [ref=e1848]:
+                - button "Ajouter aux favoris" [ref=e1849] [cursor=pointer]:
+                  - generic [ref=e1850]: 
+                - link "Voir sur Radio France" [ref=e1851] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceinter/podcasts/un-ete-avec-colette/un-ete-avec-colette-du-vendredi-30-juillet-2021-4834604
+                  - generic [ref=e1852]: 
+                - button "Écouter ici" [ref=e1853] [cursor=pointer]:
+                  - generic [ref=e1854]: 
+                - button "Résumé" [ref=e1855] [cursor=pointer]:
+                  - generic [ref=e1856]: 
+                - text: 
+          - article [ref=e1857]:
+            - generic [ref=e1858]:
+              - generic [ref=e1859]:
+                - generic [ref=e1860]:
+                  - checkbox "Écouté" [ref=e1861] [cursor=pointer]
+                  - generic [ref=e1862]: Écouté
+                - heading "Épisode 21 Colette réfléchissait déjà sur le genre" [level=2] [ref=e1863]
+              - paragraph [ref=e1864]:
+                - generic [ref=e1865]: 4 min
+                - generic [ref=e1866]: ·
+                - generic [ref=e1867]: 2 août 2021
+                - generic [ref=e1868]: ·
+                - generic [ref=e1869]: France Inter
+              - generic [ref=e1870]:
+                - button "Ajouter aux favoris" [ref=e1871] [cursor=pointer]:
+                  - generic [ref=e1872]: 
+                - link "Voir sur Radio France" [ref=e1873] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceinter/podcasts/un-ete-avec-colette/un-ete-avec-colette-du-lundi-02-aout-2021-5603590
+                  - generic [ref=e1874]: 
+                - button "Écouter ici" [ref=e1875] [cursor=pointer]:
+                  - generic [ref=e1876]: 
+                - button "Résumé" [ref=e1877] [cursor=pointer]:
+                  - generic [ref=e1878]: 
+                - text: 
+          - article [ref=e1879]:
+            - generic [ref=e1880]:
+              - generic [ref=e1881]:
+                - generic [ref=e1882]:
+                  - checkbox "Écouté" [ref=e1883] [cursor=pointer]
+                  - generic [ref=e1884]: Écouté
+                - heading "Épisode 22 Colette choisit la littérature contre la maternité" [level=2] [ref=e1885]
+              - paragraph [ref=e1886]:
+                - generic [ref=e1887]: 4 min
+                - generic [ref=e1888]: ·
+                - generic [ref=e1889]: 3 août 2021
+                - generic [ref=e1890]: ·
+                - generic [ref=e1891]: France Inter
+              - generic [ref=e1892]:
+                - button "Ajouter aux favoris" [ref=e1893] [cursor=pointer]:
+                  - generic [ref=e1894]: 
+                - link "Voir sur Radio France" [ref=e1895] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceinter/podcasts/un-ete-avec-colette/un-ete-avec-colette-du-mardi-03-aout-2021-3173849
+                  - generic [ref=e1896]: 
+                - button "Écouter ici" [ref=e1897] [cursor=pointer]:
+                  - generic [ref=e1898]: 
+                - button "Résumé" [ref=e1899] [cursor=pointer]:
+                  - generic [ref=e1900]: 
+                - text: 
+          - article [ref=e1901]:
+            - generic [ref=e1902]:
+              - generic [ref=e1903]:
+                - generic [ref=e1904]:
+                  - checkbox "Écouté" [ref=e1905] [cursor=pointer]
+                  - generic [ref=e1906]: Écouté
+                - heading "Épisode 23 La fratrie de Colette" [level=2] [ref=e1907]
+              - paragraph [ref=e1908]:
+                - generic [ref=e1909]: 4 min
+                - generic [ref=e1910]: ·
+                - generic [ref=e1911]: 4 août 2021
+                - generic [ref=e1912]: ·
+                - generic [ref=e1913]: France Inter
+              - generic [ref=e1914]:
+                - button "Ajouter aux favoris" [ref=e1915] [cursor=pointer]:
+                  - generic [ref=e1916]: 
+                - link "Voir sur Radio France" [ref=e1917] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceinter/podcasts/un-ete-avec-colette/la-fraterie-de-colette-6605200
+                  - generic [ref=e1918]: 
+                - button "Écouter ici" [ref=e1919] [cursor=pointer]:
+                  - generic [ref=e1920]: 
+                - button "Résumé" [ref=e1921] [cursor=pointer]:
+                  - generic [ref=e1922]: 
+                - text: 
+          - article [ref=e1923]:
+            - generic [ref=e1924]:
+              - generic [ref=e1925]:
+                - generic [ref=e1926]:
+                  - checkbox "Écouté" [ref=e1927] [cursor=pointer]
+                  - generic [ref=e1928]: Écouté
+                - heading "Épisode 24 Le phalanstère, refuge pour Colette et ses amies" [level=2] [ref=e1929]
+              - paragraph [ref=e1930]:
+                - generic [ref=e1931]: 4 min
+                - generic [ref=e1932]: ·
+                - generic [ref=e1933]: 5 août 2021
+                - generic [ref=e1934]: ·
+                - generic [ref=e1935]: France Inter
+              - generic [ref=e1936]:
+                - button "Ajouter aux favoris" [ref=e1937] [cursor=pointer]:
+                  - generic [ref=e1938]: 
+                - link "Voir sur Radio France" [ref=e1939] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceinter/podcasts/un-ete-avec-colette/le-phalanstere-refuge-pour-colette-et-ses-amies-6146592
+                  - generic [ref=e1940]: 
+                - button "Écouter ici" [ref=e1941] [cursor=pointer]:
+                  - generic [ref=e1942]: 
+                - button "Résumé" [ref=e1943] [cursor=pointer]:
+                  - generic [ref=e1944]: 
+                - text: 
+          - article [ref=e1945]:
+            - generic [ref=e1946]:
+              - generic [ref=e1947]:
+                - generic [ref=e1948]:
+                  - checkbox "Écouté" [ref=e1949] [cursor=pointer]
+                  - generic [ref=e1950]: Écouté
+                - heading "Épisode 25 Colette dans la Grande Guerre" [level=2] [ref=e1951]
+              - paragraph [ref=e1952]:
+                - generic [ref=e1953]: 4 min
+                - generic [ref=e1954]: ·
+                - generic [ref=e1955]: 6 août 2021
+                - generic [ref=e1956]: ·
+                - generic [ref=e1957]: France Inter
+              - generic [ref=e1958]:
+                - button "Ajouter aux favoris" [ref=e1959] [cursor=pointer]:
+                  - generic [ref=e1960]: 
+                - link "Voir sur Radio France" [ref=e1961] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceinter/podcasts/un-ete-avec-colette/colette-dans-la-grande-guerre-4005098
+                  - generic [ref=e1962]: 
+                - button "Écouter ici" [ref=e1963] [cursor=pointer]:
+                  - generic [ref=e1964]: 
+                - button "Résumé" [ref=e1965] [cursor=pointer]:
+                  - generic [ref=e1966]: 
+                - text: 
+          - article [ref=e1967]:
+            - generic [ref=e1968]:
+              - generic [ref=e1969]:
+                - generic [ref=e1970]:
+                  - checkbox "Écouté" [ref=e1971] [cursor=pointer]
+                  - generic [ref=e1972]: Écouté
+                - heading "Épisode 26 Quand Colette écrit L’Enfant et les Sortilèges livret de féerie-ballet pour Opéra mis en musique par Ravel" [level=2] [ref=e1973]
+              - paragraph [ref=e1974]:
+                - generic [ref=e1975]: 4 min
+                - generic [ref=e1976]: ·
+                - generic [ref=e1977]: 9 août 2021
+                - generic [ref=e1978]: ·
+                - generic [ref=e1979]: France Inter
+              - generic [ref=e1980]:
+                - button "Ajouter aux favoris" [ref=e1981] [cursor=pointer]:
+                  - generic [ref=e1982]: 
+                - link "Voir sur Radio France" [ref=e1983] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceinter/podcasts/un-ete-avec-colette/quand-colette-ecrit-l-enfant-et-les-sortileges-livret-de-feerie-ballet-pour-opera-mis-en-musique-par-ravel-6462159
+                  - generic [ref=e1984]: 
+                - button "Écouter ici" [ref=e1985] [cursor=pointer]:
+                  - generic [ref=e1986]: 
+                - button "Résumé" [ref=e1987] [cursor=pointer]:
+                  - generic [ref=e1988]: 
+                - text: 
+          - article [ref=e1989]:
+            - generic [ref=e1990]:
+              - generic [ref=e1991]:
+                - generic [ref=e1992]:
+                  - checkbox "Écouté" [ref=e1993] [cursor=pointer]
+                  - generic [ref=e1994]: Écouté
+                - heading "Épisode 27 Les Liaisons de Colette" [level=2] [ref=e1995]
+              - paragraph [ref=e1996]:
+                - generic [ref=e1997]: 4 min
+                - generic [ref=e1998]: ·
+                - generic [ref=e1999]: 10 août 2021
+                - generic [ref=e2000]: ·
+                - generic [ref=e2001]: France Inter
+              - generic [ref=e2002]:
+                - button "Ajouter aux favoris" [ref=e2003] [cursor=pointer]:
+                  - generic [ref=e2004]: 
+                - link "Voir sur Radio France" [ref=e2005] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceinter/podcasts/un-ete-avec-colette/les-liaisons-de-colette-1193149
+                  - generic [ref=e2006]: 
+                - button "Écouter ici" [ref=e2007] [cursor=pointer]:
+                  - generic [ref=e2008]: 
+                - button "Résumé" [ref=e2009] [cursor=pointer]:
+                  - generic [ref=e2010]: 
+                - text: 
+          - article [ref=e2011]:
+            - generic [ref=e2012]:
+              - generic [ref=e2013]:
+                - generic [ref=e2014]:
+                  - checkbox "Écouté" [ref=e2015] [cursor=pointer]
+                  - generic [ref=e2016]: Écouté
+                - heading "Épisode 28 De la Bretagne au Midi, Colette sur les routes" [level=2] [ref=e2017]
+              - paragraph [ref=e2018]:
+                - generic [ref=e2019]: 4 min
+                - generic [ref=e2020]: ·
+                - generic [ref=e2021]: 11 août 2021
+                - generic [ref=e2022]: ·
+                - generic [ref=e2023]: France Inter
+              - generic [ref=e2024]:
+                - button "Ajouter aux favoris" [ref=e2025] [cursor=pointer]:
+                  - generic [ref=e2026]: 
+                - link "Voir sur Radio France" [ref=e2027] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceinter/podcasts/un-ete-avec-colette/de-la-bretagne-au-midi-colette-sur-les-routes-9489021
+                  - generic [ref=e2028]: 
+                - button "Écouter ici" [ref=e2029] [cursor=pointer]:
+                  - generic [ref=e2030]: 
+                - button "Résumé" [ref=e2031] [cursor=pointer]:
+                  - generic [ref=e2032]: 
+                - text: 
+          - article [ref=e2033]:
+            - generic [ref=e2034]:
+              - generic [ref=e2035]:
+                - generic [ref=e2036]:
+                  - checkbox "Écouté" [ref=e2037] [cursor=pointer]
+                  - generic [ref=e2038]: Écouté
+                - heading "Épisode 29 Colette entre rancœur et vengeances conjugales posthumes" [level=2] [ref=e2039]
+              - paragraph [ref=e2040]:
+                - generic [ref=e2041]: 4 min
+                - generic [ref=e2042]: ·
+                - generic [ref=e2043]: 12 août 2021
+                - generic [ref=e2044]: ·
+                - generic [ref=e2045]: France Inter
+              - generic [ref=e2046]:
+                - button "Ajouter aux favoris" [ref=e2047] [cursor=pointer]:
+                  - generic [ref=e2048]: 
+                - link "Voir sur Radio France" [ref=e2049] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceinter/podcasts/un-ete-avec-colette/colette-entre-rancoeur-et-vengeances-conjugales-posthumes-7919862
+                  - generic [ref=e2050]: 
+                - button "Écouter ici" [ref=e2051] [cursor=pointer]:
+                  - generic [ref=e2052]: 
+                - button "Résumé" [ref=e2053] [cursor=pointer]:
+                  - generic [ref=e2054]: 
+                - text: 
+          - article [ref=e2055]:
+            - generic [ref=e2056]:
+              - generic [ref=e2057]:
+                - generic [ref=e2058]:
+                  - checkbox "Écouté" [ref=e2059] [cursor=pointer]
+                  - generic [ref=e2060]: Écouté
+                - heading "Épisode 30 Colette conte les petites existences" [level=2] [ref=e2061]
+              - paragraph [ref=e2062]:
+                - generic [ref=e2063]: 5 min
+                - generic [ref=e2064]: ·
+                - generic [ref=e2065]: 13 août 2021
+                - generic [ref=e2066]: ·
+                - generic [ref=e2067]: France Inter
+              - generic [ref=e2068]:
+                - button "Ajouter aux favoris" [ref=e2069] [cursor=pointer]:
+                  - generic [ref=e2070]: 
+                - link "Voir sur Radio France" [ref=e2071] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceinter/podcasts/un-ete-avec-colette/colette-conte-les-petites-existences-8084292
+                  - generic [ref=e2072]: 
+                - button "Écouter ici" [ref=e2073] [cursor=pointer]:
+                  - generic [ref=e2074]: 
+                - button "Résumé" [ref=e2075] [cursor=pointer]:
+                  - generic [ref=e2076]: 
+                - text: 
+          - article [ref=e2077]:
+            - generic [ref=e2078]:
+              - generic [ref=e2079]:
+                - generic [ref=e2080]:
+                  - checkbox "Écouté" [ref=e2081] [cursor=pointer]
+                  - generic [ref=e2082]: Écouté
+                - heading "Épisode 31 Proust et Colette se sont connus et reconnus" [level=2] [ref=e2083]
+              - paragraph [ref=e2084]:
+                - generic [ref=e2085]: 4 min
+                - generic [ref=e2086]: ·
+                - generic [ref=e2087]: 16 août 2021
+                - generic [ref=e2088]: ·
+                - generic [ref=e2089]: France Inter
+              - generic [ref=e2090]:
+                - button "Ajouter aux favoris" [ref=e2091] [cursor=pointer]:
+                  - generic [ref=e2092]: 
+                - link "Voir sur Radio France" [ref=e2093] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceinter/podcasts/un-ete-avec-colette/un-ete-avec-colette-du-lundi-16-aout-2021-2597209
+                  - generic [ref=e2094]: 
+                - button "Écouter ici" [ref=e2095] [cursor=pointer]:
+                  - generic [ref=e2096]: 
+                - button "Résumé" [ref=e2097] [cursor=pointer]:
+                  - generic [ref=e2098]: 
+                - text: 
+          - article [ref=e2099]:
+            - generic [ref=e2100]:
+              - generic [ref=e2101]:
+                - generic [ref=e2102]:
+                  - checkbox "Écouté" [ref=e2103] [cursor=pointer]
+                  - generic [ref=e2104]: Écouté
+                - heading "Épisode 32 Chéri, reflet de la plume de Colette" [level=2] [ref=e2105]
+              - paragraph [ref=e2106]:
+                - generic [ref=e2107]: 4 min
+                - generic [ref=e2108]: ·
+                - generic [ref=e2109]: 17 août 2021
+                - generic [ref=e2110]: ·
+                - generic [ref=e2111]: France Inter
+              - generic [ref=e2112]:
+                - button "Ajouter aux favoris" [ref=e2113] [cursor=pointer]:
+                  - generic [ref=e2114]: 
+                - link "Voir sur Radio France" [ref=e2115] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceinter/podcasts/un-ete-avec-colette/un-ete-avec-colette-du-mardi-17-aout-2021-5265831
+                  - generic [ref=e2116]: 
+                - button "Écouter ici" [ref=e2117] [cursor=pointer]:
+                  - generic [ref=e2118]: 
+                - button "Résumé" [ref=e2119] [cursor=pointer]:
+                  - generic [ref=e2120]: 
+                - text: 
+          - article [ref=e2121]:
+            - generic [ref=e2122]:
+              - generic [ref=e2123]:
+                - generic [ref=e2124]:
+                  - checkbox "Écouté" [ref=e2125] [cursor=pointer]
+                  - generic [ref=e2126]: Écouté
+                - heading "Épisode 33 Colette et l'Occupation" [level=2] [ref=e2127]
+              - paragraph [ref=e2128]:
+                - generic [ref=e2129]: 4 min
+                - generic [ref=e2130]: ·
+                - generic [ref=e2131]: 18 août 2021
+                - generic [ref=e2132]: ·
+                - generic [ref=e2133]: France Inter
+              - generic [ref=e2134]:
+                - button "Ajouter aux favoris" [ref=e2135] [cursor=pointer]:
+                  - generic [ref=e2136]: 
+                - link "Voir sur Radio France" [ref=e2137] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceinter/podcasts/un-ete-avec-colette/un-ete-avec-colette-du-mercredi-18-aout-2021-5966387
+                  - generic [ref=e2138]: 
+                - button "Écouter ici" [ref=e2139] [cursor=pointer]:
+                  - generic [ref=e2140]: 
+                - button "Résumé" [ref=e2141] [cursor=pointer]:
+                  - generic [ref=e2142]: 
+                - text: 
+          - article [ref=e2143]:
+            - generic [ref=e2144]:
+              - generic [ref=e2145]:
+                - generic [ref=e2146]:
+                  - checkbox "Écouté" [ref=e2147] [cursor=pointer]
+                  - generic [ref=e2148]: Écouté
+                - heading "Épisode 34 Colette, la bonne dame du Palais-Royal" [level=2] [ref=e2149]
+              - paragraph [ref=e2150]:
+                - generic [ref=e2151]: 4 min
+                - generic [ref=e2152]: ·
+                - generic [ref=e2153]: 19 août 2021
+                - generic [ref=e2154]: ·
+                - generic [ref=e2155]: France Inter
+              - generic [ref=e2156]:
+                - button "Ajouter aux favoris" [ref=e2157] [cursor=pointer]:
+                  - generic [ref=e2158]: 
+                - link "Voir sur Radio France" [ref=e2159] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceinter/podcasts/un-ete-avec-colette/un-ete-avec-colette-du-jeudi-19-aout-2021-5611253
+                  - generic [ref=e2160]: 
+                - button "Écouter ici" [ref=e2161] [cursor=pointer]:
+                  - generic [ref=e2162]: 
+                - button "Résumé" [ref=e2163] [cursor=pointer]:
+                  - generic [ref=e2164]: 
+                - text: 
+          - article [ref=e2165]:
+            - generic [ref=e2166]:
+              - generic [ref=e2167]:
+                - generic [ref=e2168]:
+                  - checkbox "Écouté" [ref=e2169] [cursor=pointer]
+                  - generic [ref=e2170]: Écouté
+                - heading "Épisode 35 La marque Colette" [level=2] [ref=e2171]
+              - paragraph [ref=e2172]:
+                - generic [ref=e2173]: 4 min
+                - generic [ref=e2174]: ·
+                - generic [ref=e2175]: 20 août 2021
+                - generic [ref=e2176]: ·
+                - generic [ref=e2177]: France Inter
+              - generic [ref=e2178]:
+                - button "Ajouter aux favoris" [ref=e2179] [cursor=pointer]:
+                  - generic [ref=e2180]: 
+                - link "Voir sur Radio France" [ref=e2181] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceinter/podcasts/un-ete-avec-colette/un-ete-avec-colette-du-vendredi-20-aout-2021-4107862
+                  - generic [ref=e2182]: 
+                - button "Écouter ici" [ref=e2183] [cursor=pointer]:
+                  - generic [ref=e2184]: 
+                - button "Résumé" [ref=e2185] [cursor=pointer]:
+                  - generic [ref=e2186]: 
+                - text: 
+          - article [ref=e2187]:
+            - generic [ref=e2188]:
+              - generic [ref=e2189]:
+                - generic [ref=e2190]:
+                  - checkbox "Écouté" [ref=e2191] [cursor=pointer]
+                  - generic [ref=e2192]: Écouté
+                - heading "Épisode 36 Colette prend de l'âge" [level=2] [ref=e2193]
+              - paragraph [ref=e2194]:
+                - generic [ref=e2195]: 4 min
+                - generic [ref=e2196]: ·
+                - generic [ref=e2197]: 23 août 2021
+                - generic [ref=e2198]: ·
+                - generic [ref=e2199]: France Inter
+              - generic [ref=e2200]:
+                - button "Ajouter aux favoris" [ref=e2201] [cursor=pointer]:
+                  - generic [ref=e2202]: 
+                - link "Voir sur Radio France" [ref=e2203] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceinter/podcasts/un-ete-avec-colette/un-ete-avec-colette-du-lundi-23-aout-2021-2246447
+                  - generic [ref=e2204]: 
+                - button "Écouter ici" [ref=e2205] [cursor=pointer]:
+                  - generic [ref=e2206]: 
+                - button "Résumé" [ref=e2207] [cursor=pointer]:
+                  - generic [ref=e2208]: 
+                - text: 
+          - article [ref=e2209]:
+            - generic [ref=e2210]:
+              - generic [ref=e2211]:
+                - generic [ref=e2212]:
+                  - checkbox "Écouté" [ref=e2213] [cursor=pointer]
+                  - generic [ref=e2214]: Écouté
+                - heading "Épisode 37 Colette et la littérature, une fausse histoire d'amour ?" [level=2] [ref=e2215]
+              - paragraph [ref=e2216]:
+                - generic [ref=e2217]: 4 min
+                - generic [ref=e2218]: ·
+                - generic [ref=e2219]: 24 août 2021
+                - generic [ref=e2220]: ·
+                - generic [ref=e2221]: France Inter
+              - generic [ref=e2222]:
+                - button "Ajouter aux favoris" [ref=e2223] [cursor=pointer]:
+                  - generic [ref=e2224]: 
+                - link "Voir sur Radio France" [ref=e2225] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceinter/podcasts/un-ete-avec-colette/un-ete-avec-colette-du-mardi-24-aout-2021-9384945
+                  - generic [ref=e2226]: 
+                - button "Écouter ici" [ref=e2227] [cursor=pointer]:
+                  - generic [ref=e2228]: 
+                - button "Résumé" [ref=e2229] [cursor=pointer]:
+                  - generic [ref=e2230]: 
+                - text: 
+          - article [ref=e2231]:
+            - generic [ref=e2232]:
+              - generic [ref=e2233]:
+                - generic [ref=e2234]:
+                  - checkbox "Écouté" [ref=e2235] [cursor=pointer]
+                  - generic [ref=e2236]: Écouté
+                - heading "Épisode 38 Gigi, le rare roman de Colette qui finit bien" [level=2] [ref=e2237]
+              - paragraph [ref=e2238]:
+                - generic [ref=e2239]: 4 min
+                - generic [ref=e2240]: ·
+                - generic [ref=e2241]: 25 août 2021
+                - generic [ref=e2242]: ·
+                - generic [ref=e2243]: France Inter
+              - generic [ref=e2244]:
+                - button "Ajouter aux favoris" [ref=e2245] [cursor=pointer]:
+                  - generic [ref=e2246]: 
+                - link "Voir sur Radio France" [ref=e2247] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceinter/podcasts/un-ete-avec-colette/un-ete-avec-colette-du-mercredi-25-aout-2021-7046848
+                  - generic [ref=e2248]: 
+                - button "Écouter ici" [ref=e2249] [cursor=pointer]:
+                  - generic [ref=e2250]: 
+                - button "Résumé" [ref=e2251] [cursor=pointer]:
+                  - generic [ref=e2252]: 
+                - text: 
+          - article [ref=e2253]:
+            - generic [ref=e2254]:
+              - generic [ref=e2255]:
+                - generic [ref=e2256]:
+                  - checkbox "Écouté" [ref=e2257] [cursor=pointer]
+                  - generic [ref=e2258]: Écouté
+                - heading "Épisode 39 Colette attachée aux traditions" [level=2] [ref=e2259]
+              - paragraph [ref=e2260]:
+                - generic [ref=e2261]: 4 min
+                - generic [ref=e2262]: ·
+                - generic [ref=e2263]: 26 août 2021
+                - generic [ref=e2264]: ·
+                - generic [ref=e2265]: France Inter
+              - generic [ref=e2266]:
+                - button "Ajouter aux favoris" [ref=e2267] [cursor=pointer]:
+                  - generic [ref=e2268]: 
+                - link "Voir sur Radio France" [ref=e2269] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceinter/podcasts/un-ete-avec-colette/un-ete-avec-colette-du-jeudi-26-aout-2021-6606095
+                  - generic [ref=e2270]: 
+                - button "Écouter ici" [ref=e2271] [cursor=pointer]:
+                  - generic [ref=e2272]: 
+                - button "Résumé" [ref=e2273] [cursor=pointer]:
+                  - generic [ref=e2274]: 
+                - text: 
+          - article [ref=e2275]:
+            - generic [ref=e2276]:
+              - generic [ref=e2277]:
+                - generic [ref=e2278]:
+                  - checkbox "Écouté" [ref=e2279] [cursor=pointer]
+                  - generic [ref=e2280]: Écouté
+                - heading "Épisode 40 Le bleu, la couleur de Colette" [level=2] [ref=e2281]
+              - paragraph [ref=e2282]:
+                - generic [ref=e2283]: 4 min
+                - generic [ref=e2284]: ·
+                - generic [ref=e2285]: 27 août 2021
+                - generic [ref=e2286]: ·
+                - generic [ref=e2287]: France Inter
+              - generic [ref=e2288]:
+                - button "Ajouter aux favoris" [ref=e2289] [cursor=pointer]:
+                  - generic [ref=e2290]: 
+                - link "Voir sur Radio France" [ref=e2291] [cursor=pointer]:
+                  - /url: https://www.radiofrance.fr/franceinter/podcasts/un-ete-avec-colette/un-ete-avec-colette-du-vendredi-27-aout-2021-1315639
+                  - generic [ref=e2292]: 
+                - button "Écouter ici" [ref=e2293] [cursor=pointer]:
+                  - generic [ref=e2294]: 
+                - button "Résumé" [ref=e2295] [cursor=pointer]:
+                  - generic [ref=e2296]: 
+                - text: 
+  - contentinfo [ref=e2297]:
+    - generic [ref=e2298]:
+      - paragraph [ref=e2299]:
+        - text: Créé avec
+        - generic [ref=e2300]: 
+        - text: par
+        - link "Yann Houry" [ref=e2301] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/yann-houry-a2350651/
+      - paragraph [ref=e2303]:
+        - img "CC" [ref=e2304]
+        - img "BY" [ref=e2305]
+        - img "SA" [ref=e2306]
+      - paragraph [ref=e2307]: "2026"
