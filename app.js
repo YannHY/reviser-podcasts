@@ -151,6 +151,7 @@ function init() {
   buildFilters();
   initTheme();
   bindEvents();
+  applyInitialSearch();
   render();
 }
 
@@ -380,6 +381,14 @@ function bindEvents() {
     }
     render();
   });
+}
+
+function applyInitialSearch() {
+  const params = new URLSearchParams(window.location.search);
+  const query = params.get("search");
+  if (!query) return;
+  els.search.value = query;
+  setSearchOpen(true);
 }
 
 function setSearchOpen(open) {

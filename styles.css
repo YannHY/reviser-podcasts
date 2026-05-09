@@ -102,6 +102,37 @@ h1 {
   margin-top: 8px;
 }
 
+.quick-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 12px;
+}
+
+.quick-menu a {
+  display: inline-block;
+  width: auto;
+  min-height: 0;
+  padding: 0 0 3px;
+  border: 0;
+  border-bottom: 1px solid transparent;
+  border-radius: 0;
+  background: transparent;
+  color: var(--muted);
+  font-size: .78rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all .15s ease;
+}
+
+.quick-menu a:hover,
+.quick-menu a[aria-current="page"] {
+  border-bottom-color: var(--warm);
+  color: var(--warm-dark);
+}
+
 /* ── Progress ── */
 .progress-panel {
   min-width: min(280px, 38vw);

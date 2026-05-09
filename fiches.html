@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fiches de révision - Bac français</title>
+  <link rel="icon" href="data:,">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <script>
+    (() => {
+      try {
+        if (localStorage.getItem("bac-podcasts-theme") === "dark") {
+          document.documentElement.setAttribute("data-theme", "dark");
+        }
+      } catch (error) {}
+    })();
+  </script>
+  <link rel="stylesheet" href="styles.css?v=20260509-2">
+  <link rel="stylesheet" href="quiz/quiz.css">
+</head>
+<body class="quiz-page">
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">Bac français</p>
+      <h1>Réviser avec les podcasts</h1>
+      <nav class="quick-menu" aria-label="Accès rapides">
+        <a href="index.html">Podcasts</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="fiches.html" aria-current="page">Fiches</a>
+      </nav>
+    </div>
+    <div class="topbar-tools">
+      <div class="topbar-main">
+        <div class="header-actions">
+          <button id="searchToggle" class="icon-button search-toggle" type="button" aria-label="Rechercher" aria-expanded="false" aria-controls="headerSearch">
+            <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+          </button>
+          <button id="themeToggle" class="icon-button theme-toggle" type="button" aria-label="Activer le mode sombre" title="Activer le mode sombre">
+            <i class="fa-solid fa-moon" aria-hidden="true"></i>
+          </button>
+        </div>
+        <div class="progress-panel" aria-live="polite" data-progress-total="99">
+          <span id="progressText">Chargement...</span>
+          <div class="progress-track" aria-hidden="true">
+            <span id="progressBar"></span>
+          </div>
+        </div>
+      </div>
+      <form id="headerSearch" class="header-search" action="index.html" hidden>
+        <label for="searchInput" class="sr-only">Rechercher</label>
+        <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+        <input id="searchInput" name="search" type="search" placeholder="Auteur, titre, émission...">
+        <button id="searchClose" class="icon-button search-close" type="button" aria-label="Fermer la recherche">
+          <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+        </button>
+      </form>
+    </div>
+  </header>
+
+  <main>
+    <section class="quiz-index-list" aria-label="Fiches disponibles">
+      <a href="fiches/fiche-la-servitude-volontaire-hypothese-transgressive.html">
+        <strong>La servitude volontaire, une hypothèse hautement transgressive</strong>
+        <span>repères, auteurs, citations</span>
+      </a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <p class="made-with">
+        Créé avec <i class="fas fa-heart" aria-hidden="true"></i> par
+        <a href="https://www.linkedin.com/in/yann-houry-a2350651/" target="_blank" rel="noopener noreferrer">Yann Houry</a>
+      </p>
+      <div class="license">
+        <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
+          <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="CC">
+          <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt="BY">
+          <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt="SA">
+        </p>
+      </div>
+      <p class="year"><span id="current-year"></span></p>
+    </div>
+  </footer>
+  <script src="header.js?v=20260509-2" defer></script>
+  <script>const yearEl = document.getElementById('current-year'); if (yearEl) yearEl.textContent = new Date().getFullYear();</script>
+</body>
+</html>

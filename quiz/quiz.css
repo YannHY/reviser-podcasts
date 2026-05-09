@@ -215,6 +215,77 @@ body.quiz-page {
   font-size: .82rem;
 }
 
+.quiz-dropdowns {
+  display: grid;
+  gap: 12px;
+}
+
+.quiz-dropdown {
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--panel);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.quiz-dropdown summary {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 14px;
+  align-items: center;
+  min-height: 58px;
+  padding: 14px 16px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.quiz-dropdown summary::-webkit-details-marker {
+  display: none;
+}
+
+.quiz-dropdown summary::after {
+  color: var(--muted);
+  font-size: .85rem;
+  content: "Afficher";
+}
+
+.quiz-dropdown[open] summary {
+  border-bottom: 1px solid var(--line);
+  background: rgba(245, 158, 11, .08);
+}
+
+.quiz-dropdown[open] summary::after {
+  color: var(--warm-dark);
+  content: "Masquer";
+}
+
+.quiz-dropdown summary strong,
+.quiz-dropdown summary span span {
+  display: block;
+}
+
+.quiz-dropdown summary strong {
+  color: var(--accent);
+  font-size: 1rem;
+}
+
+.quiz-dropdown[open] summary strong {
+  color: var(--warm-dark);
+}
+
+.quiz-dropdown summary span span {
+  margin-top: 3px;
+  color: var(--muted);
+  font-size: .82rem;
+}
+
+.quiz-dropdown-list {
+  margin: 0;
+  padding: 12px;
+  border-left: 3px solid var(--warm);
+  background: linear-gradient(90deg, rgba(245, 158, 11, .06), transparent 150px);
+}
+
 @media (max-width: 680px) {
   .quiz-actions {
     position: static;
@@ -232,6 +303,10 @@ body.quiz-page {
   }
 
   .quiz-index-list a {
+    grid-template-columns: 1fr;
+  }
+
+  .quiz-dropdown summary {
     grid-template-columns: 1fr;
   }
 }
