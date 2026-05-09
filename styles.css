@@ -796,7 +796,13 @@ button,
 
   .topbar-tools {
     width: 100%;
+    align-items: flex-start;
+    margin-left: 0;
     margin-top: 14px;
+  }
+
+  .topbar-main {
+    justify-content: flex-start !important;
   }
 
   main {

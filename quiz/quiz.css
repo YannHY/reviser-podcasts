@@ -52,12 +52,6 @@ body.quiz-page {
   font-size: .86rem;
 }
 
-.quiz-actions .quiz-home {
-  width: 36px;
-  min-width: 36px;
-  padding: 0;
-}
-
 .quiz-primary {
   border-color: var(--accent);
   background: var(--accent);
@@ -295,10 +289,6 @@ body.quiz-page {
 
   .quiz-actions button,
   .quiz-actions a {
-    width: 100%;
-  }
-
-  .quiz-actions .quiz-home {
     width: 100%;
   }
 
