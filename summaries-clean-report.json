@@ -1,0 +1,296 @@
+{
+  "input": "summaries.json",
+  "output": "summaries-clean.json",
+  "total": 99,
+  "withTranscript": 94,
+  "emptyTranscript": 5,
+  "changed": 29,
+  "corrections": {
+    "title Etienne De La Boetie -> Etienne de La Boetie": 11,
+    "Homer -> Homere": 3,
+    "Etienne de la Boetie -> Etienne de La Boetie": 18,
+    "para la communaute -> par la communaute": 5,
+    "remove Amara subtitle credit": 5,
+    "remove ST501 subtitle credit": 12,
+    "Boeotie -> Boetie": 29,
+    "Boeysi variants -> La Boetie": 5,
+    "Laboessi -> La Boetie": 32,
+    "laboessienne -> la boetienne": 2,
+    "laboeciste -> boetien": 2,
+    "Laboesi -> La Boetie": 2,
+    "title La Boetie -> La Boetie": 5,
+    "Aboeisie -> La Boetie": 1,
+    "Delaboessy -> de La Boetie": 1,
+    "remove repeated part endings": 1
+  },
+  "entries": {
+    "discours-de-la-servitude-volontaire-discours-de-la-servitude-volontaire-d-etienne-de-la-boetie-episode-1-l-enigme-de-l-obeissance-0": {
+      "title": "Discours De La Servitude Volontaire Discours De La Servitude Volontaire D Étienne de La Boétie Episode 1 L Enigme De L Obeissance",
+      "beforeLength": 14531,
+      "afterLength": 14459,
+      "corrections": {
+        "title Etienne De La Boetie -> Etienne de La Boetie": 1,
+        "Homer -> Homere": 1,
+        "Etienne de la Boetie -> Etienne de La Boetie": 1,
+        "para la communaute -> par la communaute": 1,
+        "remove Amara subtitle credit": 1
+      }
+    },
+    "discours-de-la-servitude-volontaire-discours-de-la-servitude-volontaire-d-etienne-de-la-boetie-episode-2-l-habitude-de-servir-1": {
+      "title": "Discours De La Servitude Volontaire Discours De La Servitude Volontaire D Étienne de La Boétie Episode 2 L Habitude De Servir",
+      "beforeLength": 14486,
+      "afterLength": 14422,
+      "corrections": {
+        "title Etienne De La Boetie -> Etienne de La Boetie": 1,
+        "Etienne de la Boetie -> Etienne de La Boetie": 1,
+        "para la communaute -> par la communaute": 1,
+        "remove Amara subtitle credit": 1
+      }
+    },
+    "discours-de-la-servitude-volontaire-discours-de-la-servitude-volontaire-d-etienne-de-la-boetie-episode-3-la-memoire-des-hommes-libres-2": {
+      "title": "Discours De La Servitude Volontaire Discours De La Servitude Volontaire D Étienne de La Boétie Episode 3 La Memoire Des Hommes Libres",
+      "beforeLength": 14482,
+      "afterLength": 14453,
+      "corrections": {
+        "title Etienne De La Boetie -> Etienne de La Boetie": 1,
+        "Homer -> Homere": 1,
+        "Etienne de la Boetie -> Etienne de La Boetie": 1,
+        "remove ST501 subtitle credit": 1
+      }
+    },
+    "discours-de-la-servitude-volontaire-discours-de-la-servitude-volontaire-d-etienne-de-la-boetie-episode-4-peuple-diverti-peuple-soumis-3": {
+      "title": "Discours De La Servitude Volontaire Discours De La Servitude Volontaire D Étienne de La Boétie Episode 4 Peuple Diverti Peuple Soumis",
+      "beforeLength": 15287,
+      "afterLength": 15228,
+      "corrections": {
+        "title Etienne De La Boetie -> Etienne de La Boetie": 1,
+        "Homer -> Homere": 1,
+        "Etienne de la Boetie -> Etienne de La Boetie": 2,
+        "para la communaute -> par la communaute": 1,
+        "remove Amara subtitle credit": 1
+      }
+    },
+    "discours-de-la-servitude-volontaire-discours-de-la-servitude-volontaire-d-etienne-de-la-boetie-episode-5-pas-d-amitie-sans-egalite-4": {
+      "title": "Discours De La Servitude Volontaire Discours De La Servitude Volontaire D Étienne de La Boétie Episode 5 Pas D Amitie Sans Egalite",
+      "beforeLength": 14585,
+      "afterLength": 14569,
+      "corrections": {
+        "title Etienne De La Boetie -> Etienne de La Boetie": 1
+      }
+    },
+    "discours-de-la-servitude-volontaire-la-servitude-volontaire-le-texte-visionnaire-d-un-adolescent-https-www-radiofrance-fr-franceculture-la-servitude-volontaire-le-texte-visionnaire-d-un-adolescent-5825000": {
+      "title": "Discours De La Servitude Volontaire La Servitude Volontaire Le Texte Visionnaire D Un Adolescent Https Www Radiofrance Fr Franceculture La Servitude Volontaire Le Texte Visionnaire D Un Adolescent",
+      "beforeLength": 52553,
+      "afterLength": 52518,
+      "corrections": {
+        "Boeotie -> Boetie": 2,
+        "Boeysi variants -> La Boetie": 1
+      }
+    },
+    "discours-de-la-servitude-volontaire-la-servitude-volontaire-une-hypothese-hautement-transgressive-en-philosophie-politique-https-www-radiofrance-fr-franceculture-podcasts-avec-philosophie-la-servitude-volontaire-une-hypothese-hautement-transgressive-en-philosophie-politique-9421477": {
+      "title": "Discours De La Servitude Volontaire La Servitude Volontaire Une Hypothese Hautement Transgressive En Philosophie Politique Https Www Radiofrance Fr Franceculture Podcasts Avec Philosophie La Servitude Volontaire Une Hypothese Hautement Transgressive En Philosophie Politique",
+      "beforeLength": 50224,
+      "afterLength": 50163,
+      "corrections": {
+        "Boeotie -> Boetie": 12,
+        "Laboessi -> La Boetie": 3,
+        "laboessienne -> la boetienne": 1,
+        "laboeciste -> boetien": 1
+      }
+    },
+    "discours-de-la-servitude-volontaire-comment-la-servitude-peut-elle-etre-volontaire-https-www-radiofrance-fr-franceculture-podcasts-le-gai-savoir-comment-la-servitude-peut-elle-etre-volontaire-6093202": {
+      "title": "Discours De La Servitude Volontaire Comment La Servitude Peut Elle Etre Volontaire Https Www Radiofrance Fr Franceculture Podcasts Le Gai Savoir Comment La Servitude Peut Elle Etre Volontaire",
+      "beforeLength": 57590,
+      "afterLength": 57523,
+      "corrections": {
+        "Etienne de la Boetie -> Etienne de La Boetie": 4,
+        "Boeysi variants -> La Boetie": 2,
+        "Laboesi -> La Boetie": 2
+      }
+    },
+    "discours-de-la-servitude-volontaire-comment-la-servitude-peut-elle-etre-volontaire-https-www-radiofrance-fr-franceculture-podcasts-le-pourquoi-du-comment-philo-comment-la-servitude-peut-elle-etre-volontaire-1333117": {
+      "title": "Discours De La Servitude Volontaire Comment La Servitude Peut Elle Etre Volontaire Https Www Radiofrance Fr Franceculture Podcasts Le Pourquoi Du Comment Philo Comment La Servitude Peut Elle Etre Volontaire",
+      "beforeLength": 3274,
+      "afterLength": 3271,
+      "corrections": {
+        "Etienne de la Boetie -> Etienne de La Boetie": 2
+      }
+    },
+    "discours-de-la-servitude-volontaire-tyrans-et-tyranophores-etienne-de-la-boetie-ou-les-tyranophores-c-est-nous-https-www-radiofrance-fr-franceculture-podcasts-les-quadrithemes-de-charles-dantzig-tyrans-et-tyranophores-etienne-de-la-boetie-ou-les-tyranophores-c-est-nous-7019483": {
+      "title": "Discours De La Servitude Volontaire Tyrans Et Tyranophores Étienne de La Boétie Ou Les Tyranophores C Est Nous Https Www Radiofrance Fr Franceculture Podcasts Les Quadrithemes De Charles Dantzig Tyrans Et Tyranophores Étienne de La Boétie Ou Les Tyranophores C Est Nous",
+      "beforeLength": 3521,
+      "afterLength": 3521,
+      "corrections": {
+        "title Etienne De La Boetie -> Etienne de La Boetie": 2,
+        "Etienne de la Boetie -> Etienne de La Boetie": 1
+      }
+    },
+    "discours-de-la-servitude-volontaire-discours-de-la-servitude-volontaire-la-boetie-https-www-radiofrance-fr-franceculture-podcasts-le-gai-savoir-discours-de-la-servitude-volontaire-la-boetie-2507988": {
+      "title": "Discours De La Servitude Volontaire Discours De La Servitude Volontaire La Boétie Https Www Radiofrance Fr Franceculture Podcasts Le Gai Savoir Discours De La Servitude Volontaire La Boétie",
+      "beforeLength": 59224,
+      "afterLength": 59149,
+      "corrections": {
+        "title La Boetie -> La Boetie": 2,
+        "Etienne de la Boetie -> Etienne de La Boetie": 4,
+        "Boeotie -> Boetie": 2,
+        "Aboeisie -> La Boetie": 1
+      }
+    },
+    "discours-de-la-servitude-volontaire-etienne-de-la-boetie-1530-1563-https-www-radiofrance-fr-franceculture-podcasts-le-mardi-des-auteurs-09-10-etienne-de-la-boetie-1530-1563-6592529": {
+      "title": "Discours De La Servitude Volontaire Étienne de La Boétie 1530 1563 Https Www Radiofrance Fr Franceculture Podcasts Le Mardi Des Auteurs 09 10 Étienne de La Boétie 1530 1563",
+      "beforeLength": 55115,
+      "afterLength": 55088,
+      "corrections": {
+        "title Etienne De La Boetie -> Etienne de La Boetie": 2,
+        "Etienne de la Boetie -> Etienne de La Boetie": 2,
+        "Boeotie -> Boetie": 1,
+        "Boeysi variants -> La Boetie": 1,
+        "Delaboessy -> de La Boetie": 1
+      }
+    },
+    "discours-de-la-servitude-volontaire-montaigne-et-la-boetie-parce-que-c-etait-lui-parce-que-c-etait-moi-https-www-radiofrance-fr-franceculture-podcasts-les-chemins-de-la-philosophie-montaigne-et-la-boetie-parce-que-c-etait-lui-parce-que-c-etait-moi-2010104": {
+      "title": "Discours De La Servitude Volontaire Montaigne Et La Boétie Parce Que C Etait Lui Parce Que C Etait Moi Https Www Radiofrance Fr Franceculture Podcasts Les Chemins De La Philosophie Montaigne Et La Boétie Parce Que C Etait Lui Parce Que C Etait Moi",
+      "beforeLength": 48670,
+      "afterLength": 48600,
+      "corrections": {
+        "title La Boetie -> La Boetie": 2,
+        "Boeysi variants -> La Boetie": 1
+      }
+    },
+    "discours-de-la-servitude-volontaire-montaigne-et-la-boetie-une-amitie-sans-egale-https-www-radiofrance-fr-franceinter-podcasts-intelligence-service-intelligence-service-du-samedi-09-avril-2022-9410201": {
+      "title": "Discours De La Servitude Volontaire Montaigne Et La Boétie Une Amitie Sans Egale Https Www Radiofrance Fr Franceinter Podcasts Intelligence Service Intelligence Service Du Samedi 09 Avril 2022",
+      "beforeLength": 36927,
+      "afterLength": 36901,
+      "corrections": {
+        "title La Boetie -> La Boetie": 1,
+        "Laboessi -> La Boetie": 26
+      }
+    },
+    "discours-de-la-servitude-volontaire-la-servitude-volontaire-comprendre-le-pouvoir-et-la-volonte-avec-etienne-de-la-boetie-https-www-radiofrance-fr-franceculture-podcasts-le-fil-philo-la-servitude-volontaire-comprendre-le-pouvoir-et-la-volonte-avec-etienne-de-la-boetie-3751863": {
+      "title": "Discours De La Servitude Volontaire La Servitude Volontaire Comprendre Le Pouvoir Et La Volonte Avec Étienne de La Boétie Https Www Radiofrance Fr Franceculture Podcasts Le Fil Philo La Servitude Volontaire Comprendre Le Pouvoir Et La Volonte Avec Étienne de La Boétie",
+      "beforeLength": 50178,
+      "afterLength": 50116,
+      "corrections": {
+        "title Etienne De La Boetie -> Etienne de La Boetie": 2,
+        "Boeotie -> Boetie": 12,
+        "Laboessi -> La Boetie": 3,
+        "laboessienne -> la boetienne": 1,
+        "laboeciste -> boetien": 1
+      }
+    },
+    "la-rage-de-l-expression-entretiens-de-francis-ponge-avec-philippe-sollers-la-peinture-et-les-lettres-https-www-radiofrance-fr-franceculture-podcasts-entretiens-avec-la-peinture-et-les-lettres-3315022": {
+      "title": "La Rage De L Expression Entretiens De Francis Ponge Avec Philippe Sollers La Peinture Et Les Lettres Https Www Radiofrance Fr Franceculture Podcasts Entretiens Avec La Peinture Et Les Lettres",
+      "beforeLength": 17091,
+      "afterLength": 17059,
+      "corrections": {
+        "remove ST501 subtitle credit": 1
+      }
+    },
+    "la-rage-de-l-expression-entretiens-de-francis-ponge-avec-philippe-sollers-pour-un-malherbe-pour-une-nouvelle-culture-https-www-radiofrance-fr-franceculture-podcasts-entretiens-avec-pour-un-malherbe-pour-une-nouvelle-culture-4576126": {
+      "title": "La Rage De L Expression Entretiens De Francis Ponge Avec Philippe Sollers Pour Un Malherbe Pour Une Nouvelle Culture Https Www Radiofrance Fr Franceculture Podcasts Entretiens Avec Pour Un Malherbe Pour Une Nouvelle Culture",
+      "beforeLength": 17125,
+      "afterLength": 17067,
+      "corrections": {
+        "para la communaute -> par la communaute": 1,
+        "remove Amara subtitle credit": 1
+      }
+    },
+    "sido-sido-de-colette-episode-4-sido-et-le-capitaine-44": {
+      "title": "Sido Sido De Colette Episode 4 Sido Et Le Capitaine",
+      "beforeLength": 14874,
+      "afterLength": 14825,
+      "corrections": {
+        "remove ST501 subtitle credit": 1
+      }
+    },
+    "sido-l-amour-selon-colette-episode-1-ne-pas-se-laisser-faire-https-www-radiofrance-fr-franceculture-podcasts-salle-des-archives-ne-pas-se-laisser-faire-4757031": {
+      "title": "Sido L Amour Selon Colette Episode 1 Ne Pas Se Laisser Faire Https Www Radiofrance Fr Franceculture Podcasts Salle Des Archives Ne Pas Se Laisser Faire",
+      "beforeLength": 26996,
+      "afterLength": 26952,
+      "corrections": {
+        "remove ST501 subtitle credit": 1
+      }
+    },
+    "sido-l-amour-selon-colette-episode-3-les-jouvenel-pere-et-fils-passions-limites-https-www-radiofrance-fr-franceculture-podcasts-salle-des-archives-les-jouvenel-pere-et-fils-passions-limites-5399695": {
+      "title": "Sido L Amour Selon Colette Episode 3 Les Jouvenel Pere Et Fils Passions Limites Https Www Radiofrance Fr Franceculture Podcasts Salle Des Archives Les Jouvenel Pere Et Fils Passions Limites",
+      "beforeLength": 24704,
+      "afterLength": 24646,
+      "corrections": {
+        "remove ST501 subtitle credit": 1
+      }
+    },
+    "sido-l-amour-selon-colette-episode-6-la-vie-sauvage-https-www-radiofrance-fr-franceculture-podcasts-salle-des-archives-la-vie-sauvage-9986845": {
+      "title": "Sido L Amour Selon Colette Episode 6 La Vie Sauvage Https Www Radiofrance Fr Franceculture Podcasts Salle Des Archives La Vie Sauvage",
+      "beforeLength": 25382,
+      "afterLength": 25301,
+      "corrections": {
+        "para la communaute -> par la communaute": 1,
+        "remove Amara subtitle credit": 1
+      }
+    },
+    "sido-un-ete-avec-colette-episode-14-colette-et-paris-j-ai-trouve-dans-paris-encore-une-province-https-www-radiofrance-fr-franceinter-podcasts-un-ete-avec-colette-colette-et-paris-j-ai-trouve-dans-paris-encore-une-province-3972897": {
+      "title": "Sido Un Ete Avec Colette Episode 14 Colette Et Paris J Ai Trouve Dans Paris Encore Une Province Https Www Radiofrance Fr Franceinter Podcasts Un Ete Avec Colette Colette Et Paris J Ai Trouve Dans Paris Encore Une Province",
+      "beforeLength": 4402,
+      "afterLength": 4377,
+      "corrections": {
+        "remove ST501 subtitle credit": 1
+      }
+    },
+    "sido-un-ete-avec-colette-episode-15-colette-et-son-amour-pour-henry-de-jouvenel-alias-le-pacha-https-www-radiofrance-fr-franceinter-podcasts-un-ete-avec-colette-un-ete-avec-colette-du-vendredi-23-juillet-2021-3489672": {
+      "title": "Sido Un Ete Avec Colette Episode 15 Colette Et Son Amour Pour Henry De Jouvenel Alias Le Pacha Https Www Radiofrance Fr Franceinter Podcasts Un Ete Avec Colette Un Ete Avec Colette Du Vendredi 23 Juillet 2021",
+      "beforeLength": 4324,
+      "afterLength": 4298,
+      "corrections": {
+        "remove ST501 subtitle credit": 1
+      }
+    },
+    "sido-un-ete-avec-colette-episode-18-flore-et-pomone-la-botanique-poetique-de-colette-https-www-radiofrance-fr-franceinter-podcasts-un-ete-avec-colette-un-ete-avec-colette-du-mercredi-28-juillet-2021-9583117": {
+      "title": "Sido Un Ete Avec Colette Episode 18 Flore Et Pomone La Botanique Poetique De Colette Https Www Radiofrance Fr Franceinter Podcasts Un Ete Avec Colette Un Ete Avec Colette Du Mercredi 28 Juillet 2021",
+      "beforeLength": 4279,
+      "afterLength": 4256,
+      "corrections": {
+        "remove ST501 subtitle credit": 1
+      }
+    },
+    "sido-un-ete-avec-colette-episode-26-quand-colette-ecrit-l-enfant-et-les-sortileges-livret-de-feerie-ballet-pour-opera-mis-en-musique-par-ravel-https-www-radiofrance-fr-franceinter-podcasts-un-ete-avec-colette-quand-colette-ecrit-l-enfant-et-les-sortileges-livret-de-feerie-ballet-pour-opera-mis-en-musique-par-ravel-6462159": {
+      "title": "Sido Un Ete Avec Colette Episode 26 Quand Colette Ecrit L Enfant Et Les Sortileges Livret De Feerie Ballet Pour Opera Mis En Musique Par Ravel Https Www Radiofrance Fr Franceinter Podcasts Un Ete Avec Colette Quand Colette Ecrit L Enfant Et Les Sortileges Livret De Feerie Ballet Pour Opera Mis En Musique Par Ravel",
+      "beforeLength": 4088,
+      "afterLength": 4062,
+      "corrections": {
+        "remove ST501 subtitle credit": 1
+      }
+    },
+    "sido-un-ete-avec-colette-episode-31-proust-et-colette-se-sont-connus-et-reconnus-https-www-radiofrance-fr-franceinter-podcasts-un-ete-avec-colette-un-ete-avec-colette-du-lundi-16-aout-2021-2597209": {
+      "title": "Sido Un Ete Avec Colette Episode 31 Proust Et Colette Se Sont Connus Et Reconnus Https Www Radiofrance Fr Franceinter Podcasts Un Ete Avec Colette Un Ete Avec Colette Du Lundi 16 Aout 2021",
+      "beforeLength": 4410,
+      "afterLength": 4388,
+      "corrections": {
+        "remove ST501 subtitle credit": 1
+      }
+    },
+    "sido-un-ete-avec-colette-episode-36-colette-prend-de-l-age-https-www-radiofrance-fr-franceinter-podcasts-un-ete-avec-colette-un-ete-avec-colette-du-lundi-23-aout-2021-2246447": {
+      "title": "Sido Un Ete Avec Colette Episode 36 Colette Prend De L Age Https Www Radiofrance Fr Franceinter Podcasts Un Ete Avec Colette Un Ete Avec Colette Du Lundi 23 Aout 2021",
+      "beforeLength": 4104,
+      "afterLength": 4076,
+      "corrections": {
+        "remove ST501 subtitle credit": 1
+      }
+    },
+    "sido-un-ete-avec-colette-episode-39-colette-attachee-aux-traditions-https-www-radiofrance-fr-franceinter-podcasts-un-ete-avec-colette-un-ete-avec-colette-du-jeudi-26-aout-2021-6606095": {
+      "title": "Sido Un Ete Avec Colette Episode 39 Colette Attachee Aux Traditions Https Www Radiofrance Fr Franceinter Podcasts Un Ete Avec Colette Un Ete Avec Colette Du Jeudi 26 Aout 2021",
+      "beforeLength": 4015,
+      "afterLength": 3988,
+      "corrections": {
+        "remove ST501 subtitle credit": 1
+      }
+    },
+    "on-ne-badine-pas-avec-l-amour-george-sand-et-alfred-de-musset-une-passion-a-venise-https-www-radiofrance-fr-franceinter-podcasts-autant-en-emporte-l-histoire-autant-en-emporte-l-histoire-du-dimanche-27-avril-2025-9574500": {
+      "title": "On Ne Badine Pas Avec L Amour George Sand Et Alfred De Musset Une Passion A Venise Https Www Radiofrance Fr Franceinter Podcasts Autant En Emporte L Histoire Autant En Emporte L Histoire Du Dimanche 27 Avril 2025",
+      "beforeLength": 46192,
+      "afterLength": 45752,
+      "corrections": {
+        "remove repeated part endings": 1
+      }
+    }
+  }
+}

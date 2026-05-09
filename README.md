@@ -142,6 +142,14 @@ node build-summaries.js
 
 Ce script lit `summaries.json`, nettoie les résumés disponibles et les intègre dans `index.html`.
 
+### Nettoyer les transcriptions
+
+```bash
+node clean-transcripts.js
+```
+
+Ce script lit `summaries.json` et produit `summaries-clean.json`, sans modifier le fichier original. Il normalise les espaces, corrige quelques noms propres récurrents et retire certaines mentions parasites de sous-titrage ou fins répétées. Un rapport détaillé est écrit dans `summaries-clean-report.json`.
+
 ### Générer transcriptions et résumés
 
 ```bash
@@ -149,6 +157,14 @@ MINIMAX_TOKEN=ton_token python3 transcribe.py
 ```
 
 Ce script télécharge les audios disponibles, transcrit les podcasts avec Whisper local, puis génère des résumés pédagogiques avec l'API Minimax. Les résultats sont sauvegardés dans `summaries.json` et la reprise est automatique en cas d'interruption.
+
+### Générer des transcriptions haute qualité
+
+```bash
+python3 transcribe-high-quality.py
+```
+
+Ce script retranscrit les audios avec Whisper `large-v3` et écrit les résultats dans `summaries-whisper-large-v3.json`, sans modifier `summaries.json`. Il utilise des paramètres anti-répétition et rejette les sorties manifestement tronquées ou répétitives. Il reprend automatiquement là où il s'est arrêté si le traitement est interrompu.
 
 ## Données et contenu
 
