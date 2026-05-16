@@ -592,5 +592,29 @@
     "duration": "4 min",
     "questions": 3,
     "href": "quiz/99-episode-40-le-bleu-la-couleur-de-colette.html"
+  },
+  {
+    "title": "Etienne de La Boétie - Le parcours associé",
+    "duration": "8 min",
+    "questions": 5,
+    "href": "quiz/100-etienne-de-la-boetie-le-parcours-associe.html"
+  },
+  {
+    "title": "Etienne de La Boétie - Le titre",
+    "duration": "13 min",
+    "questions": 5,
+    "href": "quiz/101-etienne-de-la-boetie-le-titre.html"
+  },
+  {
+    "title": "Etienne de la Boétie - L’image du tyran",
+    "duration": "7 min",
+    "questions": 5,
+    "href": "quiz/102-etienne-de-la-boetie-l-image-du-tyran.html"
+  },
+  {
+    "title": "Etienne de La Boétie - La stratégie argumentative du discours",
+    "duration": "10 min",
+    "questions": 5,
+    "href": "quiz/103-etienne-de-la-boetie-la-strategie-argumentative-du-discours.html"
   }
 ]

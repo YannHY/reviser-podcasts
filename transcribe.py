@@ -1,30 +1,37 @@
 #!/usr/bin/env python3
 """
-Transcription (Whisper local) + résumé (Minimax API) des podcasts BAC.
+Transcription Whisper locale des podcasts BAC.
 
 Usage :
     source ~/envs/whisper/bin/activate
-    MINIMAX_TOKEN=ton_token python3 transcribe.py
+    python3 transcribe.py
 
 Résultats sauvegardés dans summaries.json (reprise automatique si interrompu).
 """
 
 import json
-import os
 import re
-import sys
 import tempfile
 import urllib.request
+from html import unescape
 from pathlib import Path
+from urllib.parse import parse_qs, urlparse
 
-MINIMAX_TOKEN = os.environ.get("MINIMAX_TOKEN", "")
-MINIMAX_URL = "https://api.minimax.io/v1/chat/completions"
-MINIMAX_MODEL = "MiniMax-M2.7"
 WHISPER_MODEL = "medium"
 
 BASE_DIR = Path(__file__).parent
 INDEX_HTML = BASE_DIR / "index.html"
 OUTPUT_FILE = BASE_DIR / "summaries.json"
+MEDIA_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+    "Accept": "audio/webm,audio/ogg,audio/wav,audio/*;q=0.9,application/ogg;q=0.7,video/*;q=0.6,*/*;q=0.5",
+    "Range": "bytes=0-",
+}
+
+
+class NoRedirect(urllib.request.HTTPRedirectHandler):
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        return None
 
 
 def load_audio_sources():
@@ -44,9 +51,49 @@ def id_to_title(podcast_id):
 
 
 def download_mp3(url, dest):
-    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+    url = resolve_audio_url(url)
+    req = urllib.request.Request(url, headers=MEDIA_HEADERS)
     with urllib.request.urlopen(req, timeout=120) as resp:
         dest.write_bytes(resp.read())
+
+
+def resolve_audio_url(url):
+    if not url.startswith("https://player.podcastics.com/"):
+        return url
+
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+    with urllib.request.urlopen(req, timeout=120) as resp:
+        html = resp.read().decode("utf-8", errors="replace")
+
+    audio_match = re.search(r'<meta property="og:audio" content="([^"]+)"', html)
+    if audio_match:
+        return resolve_podcastics_track_url(unescape(audio_match.group(1)))
+
+    file_match = re.search(r"file:\s*'([^']+)'", html)
+    if file_match:
+        return resolve_podcastics_track_url(unescape(file_match.group(1)))
+
+    raise ValueError(f"URL audio introuvable dans le player Podcastics : {url}")
+
+
+def resolve_podcastics_track_url(url):
+    if not url.startswith("https://track.podcastics.com/"):
+        return url
+
+    opener = urllib.request.build_opener(NoRedirect)
+    req = urllib.request.Request(url, headers=MEDIA_HEADERS)
+    try:
+        opener.open(req, timeout=120)
+    except urllib.error.HTTPError as error:
+        if error.code not in {301, 302, 303, 307, 308}:
+            raise
+        location = error.headers.get("Location", "")
+        podcast_url = parse_qs(urlparse(location).query).get("podcastUrl", [""])[0]
+        if podcast_url:
+            return podcast_url
+        return location
+
+    return url
 
 
 def transcribe(mp3_path, model):
@@ -54,56 +101,7 @@ def transcribe(mp3_path, model):
     return result["text"].strip()
 
 
-def summarize(title, transcript):
-    prompt = f"""Tu es un assistant pédagogique spécialisé en littérature française pour le baccalauréat.
-
-Voici la transcription d'un podcast intitulé : "{title}"
-
-Rédige un résumé structuré en français avec :
-## Résumé
-3-4 phrases présentant l'essentiel de l'émission.
-
-## Points essentiels
-- 5 à 7 bullet points avec les idées clés, arguments principaux ou informations importantes.
-
-Transcription :
-{transcript}"""
-
-    body = json.dumps(
-        {
-            "model": MINIMAX_MODEL,
-            "messages": [
-                {
-                    "role": "system",
-                    "content": "Tu es un assistant pédagogique expert en littérature française.",
-                },
-                {"role": "user", "content": prompt},
-            ],
-            "max_completion_tokens": 600,
-            "temperature": 0.3,
-        }
-    ).encode("utf-8")
-
-    req = urllib.request.Request(
-        MINIMAX_URL,
-        data=body,
-        headers={
-            "Authorization": f"Bearer {MINIMAX_TOKEN}",
-            "Content-Type": "application/json",
-        },
-    )
-    with urllib.request.urlopen(req, timeout=60) as resp:
-        result = json.loads(resp.read())
-
-    return result["choices"][0]["message"]["content"]
-
-
 def main():
-    if not MINIMAX_TOKEN or MINIMAX_TOKEN == "ton_token":
-        print("Erreur : définir MINIMAX_TOKEN avec ton vrai token avant de lancer le script")
-        print("Exemple : MINIMAX_TOKEN=eyJ... python3 transcribe.py")
-        sys.exit(1)
-
     audio_sources = load_audio_sources()
     to_process = {k: v for k, v in audio_sources.items() if v}
     print(f"{len(to_process)} podcasts avec MP3 sur {len(audio_sources)} total\n")
@@ -111,7 +109,7 @@ def main():
     summaries = {}
     if OUTPUT_FILE.exists():
         summaries = json.loads(OUTPUT_FILE.read_text(encoding="utf-8"))
-        done = sum(1 for v in summaries.values() if "summary" in v)
+        done = sum(1 for v in summaries.values() if "transcript" in v)
         print(f"{done} déjà traités — reprise\n")
 
     print(f"Chargement du modèle Whisper ({WHISPER_MODEL})...")
@@ -122,7 +120,7 @@ def main():
     total = len(to_process)
     for i, (podcast_id, mp3_url) in enumerate(to_process.items(), 1):
         already = summaries.get(podcast_id, {})
-        if "summary" in already:
+        if "transcript" in already:
             print(f"[{i}/{total}] Déjà traité — {podcast_id[:70]}")
             continue
 
@@ -138,25 +136,20 @@ def main():
             size_mb = tmp_path.stat().st_size / 1_000_000
             print(f"    {size_mb:.1f} Mo")
 
-            if "transcript" not in already:
-                print("  ✎ Transcription Whisper...")
-                transcript = transcribe(tmp_path, whisper_model)
-                print(f"    {len(transcript)} caractères")
-                summaries[podcast_id] = {"title": title, "url": mp3_url, "transcript": transcript}
-                OUTPUT_FILE.write_text(
-                    json.dumps(summaries, ensure_ascii=False, indent=2), encoding="utf-8"
-                )
-            else:
-                transcript = already["transcript"]
-                print("  ✎ Transcription déjà faite, résumé seulement")
-
-            print("  ★ Résumé Minimax...")
-            summary = summarize(title, transcript)
-            summaries[podcast_id]["summary"] = summary
+            print("  ✎ Transcription Whisper...")
+            transcript = transcribe(tmp_path, whisper_model)
+            print(f"    {len(transcript)} caractères")
+            summaries[podcast_id] = {
+                **already,
+                "title": already.get("title", title),
+                "url": already.get("url", mp3_url),
+                "transcript": transcript,
+            }
+            summaries[podcast_id].pop("error", None)
             OUTPUT_FILE.write_text(
                 json.dumps(summaries, ensure_ascii=False, indent=2), encoding="utf-8"
             )
-            print("  ✓ Sauvegardé")
+            print("  ✓ Transcription sauvegardée")
 
         except Exception as e:
             print(f"  ✗ Erreur : {e}")
@@ -167,9 +160,9 @@ def main():
         finally:
             tmp_path.unlink(missing_ok=True)
 
-    done = sum(1 for v in summaries.values() if "summary" in v)
+    done = sum(1 for v in summaries.values() if "transcript" in v)
     errors = sum(1 for v in summaries.values() if "error" in v)
-    print(f"\nTerminé : {done}/{total} résumés générés, {errors} erreurs")
+    print(f"\nTerminé : {done}/{total} transcriptions générées, {errors} erreurs")
     print(f"Résultats : {OUTPUT_FILE}")
 
 

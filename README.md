@@ -100,7 +100,7 @@ La mise en page est prévue pour fonctionner sur ordinateur, tablette et mobile.
 ├── summaries.json          # Transcriptions et résumés générés
 ├── build-audio-map.js      # Script d'intégration des lecteurs Radio France
 ├── build-summaries.js      # Script d'intégration des résumés dans la page
-├── transcribe.py           # Script de transcription et résumé des podcasts
+├── transcribe.py           # Script de transcription des podcasts
 └── quiz/
     ├── quiz-data.js        # Données des quiz
     ├── quiz.js             # Moteur des quiz
@@ -150,13 +150,13 @@ node clean-transcripts.js
 
 Ce script lit `summaries.json` et produit `summaries-clean.json`, sans modifier le fichier original. Il normalise les espaces, corrige quelques noms propres récurrents et retire certaines mentions parasites de sous-titrage ou fins répétées. Un rapport détaillé est écrit dans `summaries-clean-report.json`.
 
-### Générer transcriptions et résumés
+### Générer les transcriptions
 
 ```bash
-MINIMAX_TOKEN=ton_token python3 transcribe.py
+python3 transcribe.py
 ```
 
-Ce script télécharge les audios disponibles, transcrit les podcasts avec Whisper local, puis génère des résumés pédagogiques avec l'API Minimax. Les résultats sont sauvegardés dans `summaries.json` et la reprise est automatique en cas d'interruption.
+Ce script télécharge les audios disponibles et transcrit les podcasts avec Whisper local. Les résultats sont sauvegardés dans `summaries.json` et la reprise est automatique en cas d'interruption.
 
 ### Générer des transcriptions haute qualité
 
@@ -179,7 +179,7 @@ Les quiz et les résumés servent d'aide à la révision. Ils ne remplacent pas 
 - JavaScript sans framework
 - Stockage local du navigateur pour la progression, les favoris et le thème
 - Node.js pour les scripts d'intégration
-- Python, Whisper et Minimax pour la génération des transcriptions et résumés
+- Python et Whisper pour la génération des transcriptions
 
 ## Licence
 

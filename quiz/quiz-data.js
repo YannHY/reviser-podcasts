@@ -6158,5 +6158,261 @@ window.quizData = [
     ],
     "id": "99-episode-40-le-bleu-la-couleur-de-colette",
     "work": "Sido"
+  },
+  {
+    "title": "Etienne de La Boétie - Le parcours associé",
+    "duration": "8 min",
+    "source": "CLAPOTEE, 23/02/2026",
+    "questions": [
+      {
+        "prompt": "Quel usage l’épisode propose-t-il de la formule « Défendre et entretenir la liberté » ?",
+        "choices": [
+          "Un simple titre décoratif sans intérêt pour la dissertation",
+          "Trois mots-clés capables de structurer des arguments de dissertation",
+          "Une formule réservée à l’étude grammaticale du texte",
+          "Un résumé biographique de la vie de La Boétie"
+        ],
+        "answer": 1,
+        "feedback": "L’épisode montre que défendre, entretenir et liberté peuvent devenir des axes d’argumentation."
+      },
+      {
+        "prompt": "Que signifie « défendre » la liberté dans cette lecture ?",
+        "choices": [
+          "Rester vigilant, questionner l’autorité et agir collectivement contre la tyrannie",
+          "Attendre qu’un nouveau chef restaure spontanément les droits perdus",
+          "Se retirer de toute vie publique pour préserver son indépendance",
+          "Obéir au pouvoir tant qu’il promet la stabilité"
+        ],
+        "answer": 0,
+        "feedback": "Défendre la liberté suppose résistance active, critique du pouvoir et solidarité du peuple."
+      },
+      {
+        "prompt": "Quel danger rend la servitude presque invisible selon l’épisode ?",
+        "choices": [
+          "L’excès de mémoire historique",
+          "La coutumance, qui fait trouver normal un pouvoir injuste",
+          "La multiplication des débats contradictoires",
+          "Le refus absolu de toute éducation"
+        ],
+        "answer": 1,
+        "feedback": "L’habitude finit par rendre supportable une situation qui devrait révolter."
+      },
+      {
+        "prompt": "Pourquoi l’éducation est-elle essentielle pour La Boétie dans cet épisode ?",
+        "choices": [
+          "Elle donne au tyran des sujets mieux disciplinés",
+          "Elle remplace toute action politique par la lecture seule",
+          "Elle éveille les consciences et aide à résister à l’ignorance",
+          "Elle sert uniquement à apprendre les exemples antiques par cœur"
+        ],
+        "answer": 2,
+        "feedback": "Dans une perspective humaniste, lecture, réflexion et connaissance entretiennent la liberté."
+      },
+      {
+        "prompt": "Quelle idée finale l’épisode associe à la liberté ?",
+        "choices": [
+          "Elle est un droit naturel mais aussi une responsabilité à exercer",
+          "Elle est un privilège accordé par les tyrans généreux",
+          "Elle disparaît nécessairement dès qu’un peuple vieillit",
+          "Elle n’a de sens que dans les récits héroïques antiques"
+        ],
+        "answer": 0,
+        "feedback": "La liberté fonde la dignité et la justice, mais elle doit être protégée activement."
+      }
+    ],
+    "id": "100-etienne-de-la-boetie-le-parcours-associe",
+    "work": "Discours de la servitude volontaire"
+  },
+  {
+    "title": "Etienne de La Boétie - Le titre",
+    "duration": "13 min",
+    "source": "CLAPOTEE, 25/02/2026",
+    "questions": [
+      {
+        "prompt": "Pourquoi l’épisode étudie-t-il séparément les mots du titre ?",
+        "choices": [
+          "Parce qu’ils donnent trois entrées possibles dans l’œuvre et dans une dissertation",
+          "Parce qu’ils permettent de dater exactement la publication du texte",
+          "Parce qu’ils prouvent que le texte est une pièce de théâtre",
+          "Parce qu’ils remplacent la lecture du Discours"
+        ],
+        "answer": 0,
+        "feedback": "Discours, servitude et volontaire servent de fil rouge pour comprendre l’œuvre."
+      },
+      {
+        "prompt": "Que désigne le mot « discours » dans l’analyse proposée ?",
+        "choices": [
+          "Une parole brève, argumentative et oratoire qui veut réveiller les consciences",
+          "Une narration fictive centrée sur un personnage héroïque",
+          "Un document administratif sans portée polémique",
+          "Un traité scientifique détaché de toute émotion"
+        ],
+        "answer": 0,
+        "feedback": "La Boétie cherche à convaincre, émouvoir et pousser son lecteur à réfléchir."
+      },
+      {
+        "prompt": "Comment l’épisode définit-il la servitude ?",
+        "choices": [
+          "Comme une négation de la liberté naturelle et de la dignité humaine",
+          "Comme une obéissance toujours librement choisie et heureuse",
+          "Comme une étape nécessaire dans toute éducation humaniste",
+          "Comme une protection offerte par le tyran au peuple"
+        ],
+        "answer": 0,
+        "feedback": "La servitude est contraire à la nature humaine, faite pour la liberté."
+      },
+      {
+        "prompt": "Quels mécanismes entretiennent la servitude selon l’épisode ?",
+        "choices": [
+          "La peur, la corruption, la propagande et l’habitude",
+          "La poésie, la musique, l’amitié et la solitude",
+          "La justice, l’égalité, la fraternité et l’école",
+          "La paix, le loisir, la lecture et la mémoire"
+        ],
+        "answer": 0,
+        "feedback": "L’épisode détaille plusieurs rouages qui rendent la domination durable."
+      },
+      {
+        "prompt": "Quel paradoxe porte le mot « volontaire » ?",
+        "choices": [
+          "Le peuple peut contribuer lui-même, activement ou passivement, à son aliénation",
+          "Le tyran refuse toujours le pouvoir qu’on lui propose",
+          "La liberté ne peut exister que dans l’obéissance absolue",
+          "Les peuples libres cherchent naturellement à devenir esclaves"
+        ],
+        "answer": 0,
+        "feedback": "La force du titre vient de cette responsabilité dérangeante des dominés."
+      }
+    ],
+    "id": "101-etienne-de-la-boetie-le-titre",
+    "work": "Discours de la servitude volontaire"
+  },
+  {
+    "title": "Etienne de la Boétie - L’image du tyran",
+    "duration": "7 min",
+    "source": "CLAPOTEE, 28/02/2026",
+    "questions": [
+      {
+        "prompt": "Quel portrait du tyran l’épisode met-il en avant ?",
+        "choices": [
+          "Un pouvoir illégitime, destructeur et contraire à la liberté naturelle",
+          "Un arbitre neutre chargé de protéger les libertés publiques",
+          "Un simple personnage comique sans portée politique",
+          "Un savant humaniste guidé par la raison"
+        ],
+        "answer": 0,
+        "feedback": "Le tyran est présenté comme un pouvoir qui opprime, vole et détruit la liberté."
+      },
+      {
+        "prompt": "Quel paradoxe caractérise la puissance du tyran ?",
+        "choices": [
+          "Il semble fort, mais il dépend du consentement et du soutien du peuple",
+          "Il paraît faible, mais il possède une puissance naturelle supérieure",
+          "Il refuse toute aide, mais gagne toujours par sa solitude",
+          "Il ne règne que grâce à sa sagesse morale"
+        ],
+        "answer": 0,
+        "feedback": "Seul, le tyran est vulnérable ; il tient parce que les dominés l’alimentent."
+      },
+      {
+        "prompt": "Qui sont les « tyranneaux » évoqués dans l’épisode ?",
+        "choices": [
+          "Des relais du pouvoir qui profitent de la tyrannie et la font fonctionner",
+          "Des enfants chargés de juger les rois injustes",
+          "Des adversaires philosophiques de La Boétie",
+          "Des héros antiques libérant leur cité"
+        ],
+        "answer": 0,
+        "feedback": "Ils forment une pyramide de complicité autour du tyran."
+      },
+      {
+        "prompt": "Quel rôle jouent les distractions et les faux bienfaits du tyran ?",
+        "choices": [
+          "Ils détournent le peuple de sa liberté et entretiennent l’obéissance",
+          "Ils éduquent le peuple à la critique politique",
+          "Ils prouvent la bonté naturelle du pouvoir absolu",
+          "Ils font disparaître toute hiérarchie sociale"
+        ],
+        "answer": 0,
+        "feedback": "La Boétie analyse les plaisirs et illusions qui endorment la vigilance."
+      },
+      {
+        "prompt": "Pourquoi l’épisode mentionne-t-il des tyrans antiques comme Néron ?",
+        "choices": [
+          "Pour donner des arguments historiques et montrer l’universalité du mal tyrannique",
+          "Pour raconter une biographie complète des empereurs romains",
+          "Pour remplacer l’analyse du Discours par une leçon d’histoire",
+          "Pour montrer que la tyrannie a disparu avec l’Antiquité"
+        ],
+        "answer": 0,
+        "feedback": "Les exemples antiques renforcent la démonstration humaniste de La Boétie."
+      }
+    ],
+    "id": "102-etienne-de-la-boetie-l-image-du-tyran",
+    "work": "Discours de la servitude volontaire"
+  },
+  {
+    "title": "Etienne de La Boétie - La stratégie argumentative du discours",
+    "duration": "10 min",
+    "source": "CLAPOTEE, 01/03/2026",
+    "questions": [
+      {
+        "prompt": "Pourquoi le Discours relève-t-il de l’argumentation directe ?",
+        "choices": [
+          "La Boétie expose explicitement ses idées sans passer par une fiction",
+          "La Boétie raconte une intrigue romanesque pour dissimuler sa thèse",
+          "La Boétie ne propose aucune réflexion politique identifiable",
+          "La Boétie remplace l’argumentation par une autobiographie"
+        ],
+        "answer": 0,
+        "feedback": "L’auteur prend directement la parole pour interroger la liberté politique."
+      },
+      {
+        "prompt": "Quelle question fonde la progression du texte ?",
+        "choices": [
+          "Comment tant d’hommes peuvent-ils obéir à un seul ?",
+          "Comment fonder une monarchie héréditaire stable ?",
+          "Comment écrire une tragédie antique ?",
+          "Comment organiser une conquête militaire ?"
+        ],
+        "answer": 0,
+        "feedback": "Cette question paradoxale ouvre et structure la réflexion de La Boétie."
+      },
+      {
+        "prompt": "Quelles étapes rythment la démonstration selon l’épisode ?",
+        "choices": [
+          "Nature, habitude, artifices du pouvoir, consentement, éveil",
+          "Naissance, enfance, carrière, retraite, mort",
+          "Exposition, nœud, péripétie, dénouement, morale",
+          "Mythe, prière, miracle, conversion, salut"
+        ],
+        "answer": 0,
+        "feedback": "L’épisode insiste sur une progression argumentative claire et organisée."
+      },
+      {
+        "prompt": "Comment La Boétie cherche-t-il à convaincre ?",
+        "choices": [
+          "Par des arguments logiques, des observations, des autorités antiques et des exemples historiques",
+          "Par l’effacement complet de tout raisonnement",
+          "Par des chansons populaires sans rapport avec la thèse",
+          "Par une succession de scènes comiques"
+        ],
+        "answer": 0,
+        "feedback": "La conviction passe par la raison et par une démonstration nourrie d’exemples."
+      },
+      {
+        "prompt": "Comment La Boétie cherche-t-il aussi à persuader ?",
+        "choices": [
+          "Par les questions rhétoriques, les exclamations, l’ironie et les images frappantes",
+          "En supprimant toute émotion de son texte",
+          "En refusant tout travail stylistique",
+          "En ne s’adressant jamais au lecteur"
+        ],
+        "answer": 0,
+        "feedback": "Le style engagé transforme l’argumentation en parole capable de réveiller le lecteur."
+      }
+    ],
+    "id": "103-etienne-de-la-boetie-la-strategie-argumentative-du-discours",
+    "work": "Discours de la servitude volontaire"
   }
 ];

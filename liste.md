@@ -82,6 +82,30 @@ France Culture
 26/11/2026
 https://www.radiofrance.fr/franceculture/podcasts/le-fil-philo/la-servitude-volontaire-comprendre-le-pouvoir-et-la-volonte-avec-etienne-de-la-boetie-3751863
 
+Etienne de La Boétie - Le parcours associé
+CLAPOTEE
+8 min
+23/02/2026
+https://www.podcastics.com/podcast/episode/etienne-de-la-boetie-le-parcours-associe-404985/?s=5045
+
+Etienne de La Boétie - Le titre
+CLAPOTEE
+13 min
+25/02/2026
+https://www.podcastics.com/podcast/episode/etienne-de-la-boetie-le-titre-405244/?s=5045
+
+Etienne de la Boétie - L’image du tyran
+CLAPOTEE
+7 min
+28/02/2026
+https://www.podcastics.com/podcast/episode/etienne-de-la-boetie-limage-du-tyran-405750/?s=5045
+
+Etienne de La Boétie - La stratégie argumentative du discours
+CLAPOTEE
+10 min
+1/03/2026
+https://www.podcastics.com/podcast/episode/etienne-de-la-boetie-la-strategie-argumentative-du-discours-405846/?s=5045
+
 # On ne badine pas avec l'amour
 
 "On ne badine pas avec l'amour" d'Alfred de Musset

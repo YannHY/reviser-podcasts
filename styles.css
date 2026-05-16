@@ -744,6 +744,22 @@ button,
   color-scheme: dark;
 }
 
+.player.is-podcastics {
+  height: 58px;
+  background: transparent;
+}
+
+.player.is-podcastics::after {
+  border-width: 0;
+}
+
+.player.is-podcastics iframe {
+  width: 100%;
+  height: 58px;
+  margin: 0;
+  background: transparent;
+}
+
 
 /* ── Empty / error ── */
 .empty,

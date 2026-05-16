@@ -50,6 +50,10 @@ const quizLinks = {
   "discours-de-la-servitude-volontaire-montaigne-et-la-boetie-parce-que-c-etait-lui-parce-que-c-etait-moi-https-www-radiofrance-fr-franceculture-podcasts-les-chemins-de-la-philosophie-montaigne-et-la-boetie-parce-que-c-etait-lui-parce-que-c-etait-moi-2010104": "quiz/13-montaigne-et-la-boetie-parce-que-c-etait-lui-parce-que-c-etait-moi.html",
   "discours-de-la-servitude-volontaire-montaigne-et-la-boetie-une-amitie-sans-egale-https-www-radiofrance-fr-franceinter-podcasts-intelligence-service-intelligence-service-du-samedi-09-avril-2022-9410201": "quiz/14-montaigne-et-la-boetie-une-amitie-sans-egale.html",
   "discours-de-la-servitude-volontaire-la-servitude-volontaire-comprendre-le-pouvoir-et-la-volonte-avec-etienne-de-la-boetie-https-www-radiofrance-fr-franceculture-podcasts-le-fil-philo-la-servitude-volontaire-comprendre-le-pouvoir-et-la-volonte-avec-etienne-de-la-boetie-3751863": "quiz/15-la-servitude-volontaire-comprendre-le-pouvoir-et-la-volonte.html",
+  "discours-de-la-servitude-volontaire-etienne-de-la-boetie-le-parcours-associe-https-www-podcastics-com-podcast-episode-etienne-de-la-boetie-le-parcours-associe-404985-s-5045": "quiz/100-etienne-de-la-boetie-le-parcours-associe.html",
+  "discours-de-la-servitude-volontaire-etienne-de-la-boetie-le-titre-https-www-podcastics-com-podcast-episode-etienne-de-la-boetie-le-titre-405244-s-5045": "quiz/101-etienne-de-la-boetie-le-titre.html",
+  "discours-de-la-servitude-volontaire-etienne-de-la-boetie-l-image-du-tyran-https-www-podcastics-com-podcast-episode-etienne-de-la-boetie-limage-du-tyran-405750-s-5045": "quiz/102-etienne-de-la-boetie-l-image-du-tyran.html",
+  "discours-de-la-servitude-volontaire-etienne-de-la-boetie-la-strategie-argumentative-du-discours-https-www-podcastics-com-podcast-episode-etienne-de-la-boetie-la-strategie-argumentative-du-discours-405846-s-5045": "quiz/103-etienne-de-la-boetie-la-strategie-argumentative-du-discours.html",
   "on-ne-badine-pas-avec-l-amour-on-ne-badine-pas-avec-l-amour-d-alfred-de-musset-episode-1-acte-1-des-retrouvailles-contrariees-15": "quiz/16-episode-1-acte-1-des-retrouvailles-contrariees.html",
   "on-ne-badine-pas-avec-l-amour-on-ne-badine-pas-avec-l-amour-d-alfred-de-musset-episode-2-acte-2-le-rendez-vous-16": "quiz/17-episode-2-acte-2-le-rendez-vous.html",
   "on-ne-badine-pas-avec-l-amour-on-ne-badine-pas-avec-l-amour-d-alfred-de-musset-episode-3-acte-3-un-jeu-dangereux-17": "quiz/18-episode-3-acte-3-un-jeu-dangereux.html",
@@ -225,7 +229,13 @@ function parseStandaloneBlock(lines, section, order) {
   const url = lines.find((line) => /^https?:\/\//.test(line)) || "";
   const durationLine = lines.find((line) => parseDuration(line) !== null);
   const dateLine = lines.find((line) => parseDate(line) !== null);
-  const station = lines.find((line) => /^France\s+/i.test(line)) || "";
+  const station = lines.find((line, index) =>
+    index > 0 &&
+    !line.startsWith("- ") &&
+    !/^https?:\/\//.test(line) &&
+    parseDuration(line) === null &&
+    parseDate(line) === null
+  ) || "";
   const nestedTitle = lines.find((line) => line.startsWith("- ") && !parseDuration(line) && !parseDate(line));
   const title = cleanTitle((nestedTitle || lines[0] || "").replace(/^- /, ""));
 
@@ -250,8 +260,14 @@ function parseEpisodeLine(text, section, order, contextLines) {
   const url = urlMatch ? urlMatch[0] : "";
   const metadataMatch = text.match(/\(([^()]*(?:\d{2}\/\d{2}\/\d{4})[^()]*)\)/);
   const metadata = metadataMatch ? metadataMatch[1] : text;
-  const station = contextLines.find((line) => /^France\s+/i.test(line)) || "";
   const series = contextLines[0] ? cleanTitle(contextLines[0]) : "";
+  const station = contextLines.find((line) =>
+    !/^https?:\/\//.test(line) &&
+    !/^\d+\s*épisodes?$/i.test(line) &&
+    parseDuration(line) === null &&
+    parseDate(line) === null &&
+    cleanTitle(line) !== series
+  ) || "";
   const titleText = text
     .replace(/https?:\/\/\S+/, "")
     .replace(/\([^()]*\d{2}\/\d{2}\/\d{4}[^()]*\)/, "")
@@ -302,10 +318,10 @@ function parseDuration(text) {
 }
 
 function parseDate(text) {
-  const match = text.match(/(\d{2})\/(\d{2})\/(\d{4})/);
+  const match = text.match(/(\d{1,2})\/(\d{1,2})\/(\d{4})/);
   if (!match) return null;
   const [, day, month, year] = match;
-  return `${year}-${month}-${day}`;
+  return `${year}-${month.padStart(2, "0")}-${day.padStart(2, "0")}`;
 }
 
 function cleanTitle(title) {
@@ -544,8 +560,8 @@ function renderCard(podcast) {
   updateFavoriteButton(favorite, isFavorite(podcast.id));
   source.href = podcast.url || "#";
   source.hidden = !podcast.url;
-  source.title = "Voir sur Radio France";
-  source.setAttribute("aria-label", "Voir sur Radio France");
+  source.title = "Voir la source";
+  source.setAttribute("aria-label", "Voir la source");
   source.innerHTML = `<i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>`;
   quizLink.href = quizLinks[podcast.id] || "#";
   quizLink.hidden = !quizLinks[podcast.id];
@@ -579,6 +595,7 @@ function renderCard(podcast) {
       ? `<i class="fa-solid fa-play" aria-hidden="true"></i>`
       : `<i class="fa-solid fa-chevron-up" aria-hidden="true"></i>`;
     if (!isOpen && player.childElementCount === 0) {
+      player.classList.toggle("is-podcastics", podcast.audioUrl.includes("player.podcastics.com"));
       player.innerHTML = `<iframe src="${podcast.audioUrl}" width="100%" height="144" frameborder="0" allowtransparency="true" allowfullscreen title="${escapeHtml(frenchTypography(podcast.title))}"></iframe>`;
     }
   });

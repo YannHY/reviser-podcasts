@@ -90,7 +90,7 @@
 
   function renderProgress() {
     if (!els.progressText || !els.progressBar) return;
-    const total = Number(els.progressPanel?.dataset.progressTotal || 99);
+    const total = Number(els.progressPanel?.dataset.progressTotal || 103);
     let listened = 0;
     for (let index = 0; index < localStorage.length; index += 1) {
       const key = localStorage.key(index);
