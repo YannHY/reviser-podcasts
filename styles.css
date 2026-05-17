@@ -840,6 +840,10 @@ button,
     display: block;
   }
 
+  .quick-menu {
+    margin-bottom: 12px;
+  }
+
   .menu-microphone i {
     font-size: clamp(3.15rem, 14vw, 3.7rem);
   }
