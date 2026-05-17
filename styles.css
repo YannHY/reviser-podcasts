@@ -41,11 +41,15 @@ body {
 
 /* ── Topbar ── */
 .topbar {
+  --topbar-x: clamp(16px, 4vw, 56px);
+  --micro-edge: clamp(18px, 1.8vw, 24px);
+  --micro-size: clamp(58px, 6vw, 76px);
+  --micro-gap: clamp(10px, 1.2vw, 16px);
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
   gap: 24px;
-  padding: 28px clamp(16px, 4vw, 56px) 20px;
+  padding: 28px var(--topbar-x) 20px;
   border-bottom: 1px solid var(--line);
   background: rgba(255, 255, 255, .94);
   -webkit-backdrop-filter: blur(10px);
@@ -71,6 +75,29 @@ body {
   display: flex;
   align-items: flex-end;
   gap: 24px;
+}
+
+.topbar-brand {
+  position: relative;
+  padding-left: calc(var(--micro-edge) + var(--micro-size) + var(--micro-gap) - var(--topbar-x));
+}
+
+.menu-microphone {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: calc(var(--micro-edge) - var(--topbar-x));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--micro-size);
+  color: var(--warm-dark);
+  opacity: .95;
+}
+
+.menu-microphone i {
+  font-size: clamp(4.15rem, 7.2vw, 5.75rem);
+  line-height: 1;
 }
 
 .header-actions {
@@ -807,7 +834,14 @@ button,
 
 @media (max-width: 680px) {
   .topbar {
+    --micro-edge: clamp(12px, 4vw, 18px);
+    --micro-size: clamp(40px, 12vw, 48px);
+    --micro-gap: 9px;
     display: block;
+  }
+
+  .menu-microphone i {
+    font-size: clamp(3.15rem, 14vw, 3.7rem);
   }
 
   .topbar-tools {
@@ -847,9 +881,18 @@ button,
   }
 }
 
-@media (max-width: 400px) {
-  .controls {
+@media (max-width: 520px) {
+  .controls,
+  .summary {
     grid-template-columns: 1fr;
+  }
+
+  .summary div {
+    padding: 10px 14px;
+  }
+
+  .summary strong {
+    font-size: 1.2rem;
   }
 }
 

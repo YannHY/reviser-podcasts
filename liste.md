@@ -82,30 +82,6 @@ France Culture
 26/11/2026
 https://www.radiofrance.fr/franceculture/podcasts/le-fil-philo/la-servitude-volontaire-comprendre-le-pouvoir-et-la-volonte-avec-etienne-de-la-boetie-3751863
 
-Etienne de La Boétie - Le parcours associé
-CLAPOTEE
-8 min
-23/02/2026
-https://www.podcastics.com/podcast/episode/etienne-de-la-boetie-le-parcours-associe-404985/?s=5045
-
-Etienne de La Boétie - Le titre
-CLAPOTEE
-13 min
-25/02/2026
-https://www.podcastics.com/podcast/episode/etienne-de-la-boetie-le-titre-405244/?s=5045
-
-Etienne de la Boétie - L’image du tyran
-CLAPOTEE
-7 min
-28/02/2026
-https://www.podcastics.com/podcast/episode/etienne-de-la-boetie-limage-du-tyran-405750/?s=5045
-
-Etienne de La Boétie - La stratégie argumentative du discours
-CLAPOTEE
-10 min
-1/03/2026
-https://www.podcastics.com/podcast/episode/etienne-de-la-boetie-la-strategie-argumentative-du-discours-405846/?s=5045
-
 # On ne badine pas avec l'amour
 
 "On ne badine pas avec l'amour" d'Alfred de Musset
@@ -279,3 +255,97 @@ https://www.radiofrance.fr/franceinter/podcasts/serie-un-ete-avec-colette
 - Épisode 38 Gigi, le rare roman de Colette qui finit bien (25/08/2021, 4 min) https://www.radiofrance.fr/franceinter/podcasts/un-ete-avec-colette/un-ete-avec-colette-du-mercredi-25-aout-2021-7046848
 - Épisode 39 Colette attachée aux traditions (26/08/2021, 4 min) https://www.radiofrance.fr/franceinter/podcasts/un-ete-avec-colette/un-ete-avec-colette-du-jeudi-26-aout-2021-6606095
 - Épisode 40 Le bleu, la couleur de Colette (27/08/2021, 4 min) https://www.radiofrance.fr/franceinter/podcasts/un-ete-avec-colette/un-ete-avec-colette-du-vendredi-27-aout-2021-1315639
+
+# Discours de la servitude volontaire
+
+Etienne de La Boétie - Le parcours associé
+CLAPOTEE
+8 min
+23/02/2026
+https://www.podcastics.com/podcast/episode/etienne-de-la-boetie-le-parcours-associe-404985/?s=5045
+
+Etienne de La Boétie - Le titre
+CLAPOTEE
+13 min
+25/02/2026
+https://www.podcastics.com/podcast/episode/etienne-de-la-boetie-le-titre-405244/?s=5045
+
+Etienne de la Boétie - L’image du tyran
+CLAPOTEE
+7 min
+28/02/2026
+https://www.podcastics.com/podcast/episode/etienne-de-la-boetie-limage-du-tyran-405750/?s=5045
+
+Etienne de La Boétie - La stratégie argumentative du discours
+CLAPOTEE
+10 min
+1/03/2026
+https://www.podcastics.com/podcast/episode/etienne-de-la-boetie-la-strategie-argumentative-du-discours-405846/?s=5045
+
+# Manon Lescaut
+
+Épisode 1/10. La naissance des sentiments
+France Culture
+20 min
+09/03/2026
+https://embed.radiofrance.fr/franceculture/diffusion/4af65682-3417-47ac-9fae-1c89c99b615c
+
+Épisode 2/10. Les perfides larmes
+France Culture
+20 min
+10/03/2026
+https://embed.radiofrance.fr/franceculture/diffusion/809ff89f-db2c-48fc-a6ab-f8387081f247
+
+Épisode 3/10. La chute morale
+France Culture
+20 min
+11/03/2026
+https://embed.radiofrance.fr/franceculture/diffusion/26d6023f-7f43-44b5-9736-c8af36a9b266
+
+Épisode 4/10. Le jeu de la tromperie
+France Culture
+20 min
+12/03/2026
+https://embed.radiofrance.fr/franceculture/diffusion/207956ad-7993-4366-b7cf-ebf7257262c7
+
+Épisode 5/10. L’évasion sanglante
+France Culture
+20 min
+13/03/2026
+https://embed.radiofrance.fr/franceculture/diffusion/ac29d50d-d902-4ef4-9756-051e257ae00b
+
+Épisode 6/10. Illusoire allégeance
+France Culture
+20 min
+16/03/2026
+https://embed.radiofrance.fr/franceculture/diffusion/d6132332-cfb4-4e6b-9ee0-c4d11342648b
+
+Épisode 7/10. L’amour à la manœuvre
+France Culture
+20 min
+17/03/2026
+https://embed.radiofrance.fr/franceculture/diffusion/683b5379-c1a9-4d55-b358-449631a39b48
+
+Épisode 8/10. La grâce pour l’un, l’exil pour l’autre
+France Culture
+20 min
+18/03/2026
+https://embed.radiofrance.fr/franceculture/diffusion/22d6f80d-d014-4cdd-bc0a-7a18f656b8b7
+
+Épisode 9/10. Le dernier espoir
+France Culture
+20 min
+19/03/2026
+https://embed.radiofrance.fr/franceculture/diffusion/1ad380a8-0575-4c80-9412-c20031225bdb
+
+Épisode 10/10. Les mains froides
+France Culture
+20 min
+20/03/2026
+https://embed.radiofrance.fr/franceculture/diffusion/8461bb74-75ed-4b98-aff7-2906da9762d5
+
+"Manon Lescaut" de l’Abbé Prévost
+France Culture
+59 min
+29/04/2025
+https://www.radiofrance.fr/franceculture/podcasts/le-book-club/manon-lescaut-de-l-abbe-prevost-5524353

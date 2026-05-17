@@ -10,9 +10,22 @@
     progressPanel: document.querySelector(".progress-panel"),
   };
 
+  initHeaderMark();
   initTheme();
   initSearch();
   renderProgress();
+
+  function initHeaderMark() {
+    const brand = document.querySelector(".topbar > div:first-child");
+    if (!brand || brand.querySelector(".menu-microphone")) return;
+
+    brand.classList.add("topbar-brand");
+    const microphone = document.createElement("span");
+    microphone.className = "menu-microphone";
+    microphone.setAttribute("aria-hidden", "true");
+    microphone.innerHTML = '<i class="fa-solid fa-microphone-lines"></i>';
+    brand.prepend(microphone);
+  }
 
   function initSearch() {
     if (!els.search || !els.searchPanel || !els.searchToggle) return;

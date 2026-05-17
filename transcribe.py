@@ -58,6 +58,9 @@ def download_mp3(url, dest):
 
 
 def resolve_audio_url(url):
+    if url.startswith("https://embed.radiofrance.fr/"):
+        return resolve_radiofrance_embed_url(url)
+
     if not url.startswith("https://player.podcastics.com/"):
         return url
 
@@ -74,6 +77,22 @@ def resolve_audio_url(url):
         return resolve_podcastics_track_url(unescape(file_match.group(1)))
 
     raise ValueError(f"URL audio introuvable dans le player Podcastics : {url}")
+
+
+def resolve_radiofrance_embed_url(url):
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+    with urllib.request.urlopen(req, timeout=120) as resp:
+        html = resp.read().decode("utf-8", errors="replace")
+
+    audio_match = re.search(r'__typename:"ManifestationAudio",url:"([^"]+)"', html)
+    if audio_match:
+        return unescape(audio_match.group(1))
+
+    audio_match = re.search(r'"__typename":"ManifestationAudio","url":"([^"]+)"', html)
+    if audio_match:
+        return unescape(audio_match.group(1))
+
+    raise ValueError(f"URL audio introuvable dans l'embed Radio France : {url}")
 
 
 def resolve_podcastics_track_url(url):

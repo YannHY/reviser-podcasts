@@ -32,6 +32,7 @@ const authorsByWork = {
   "On ne badine pas avec l'amour": "Alfred de Musset",
   "La rage de l'expression": "Francis Ponge",
   "Sido": "Colette",
+  "Manon Lescaut": "Abbé Prévost",
 };
 
 const quizLinks = {
@@ -138,6 +139,17 @@ const quizLinks = {
   "sido-un-ete-avec-colette-episode-38-gigi-le-rare-roman-de-colette-qui-finit-bien-https-www-radiofrance-fr-franceinter-podcasts-un-ete-avec-colette-un-ete-avec-colette-du-mercredi-25-aout-2021-7046848": "quiz/97-episode-38-gigi-le-rare-roman-de-colette-qui-finit-bien.html",
   "sido-un-ete-avec-colette-episode-39-colette-attachee-aux-traditions-https-www-radiofrance-fr-franceinter-podcasts-un-ete-avec-colette-un-ete-avec-colette-du-jeudi-26-aout-2021-6606095": "quiz/98-episode-39-colette-attachee-aux-traditions.html",
   "sido-un-ete-avec-colette-episode-40-le-bleu-la-couleur-de-colette-https-www-radiofrance-fr-franceinter-podcasts-un-ete-avec-colette-un-ete-avec-colette-du-vendredi-27-aout-2021-1315639": "quiz/99-episode-40-le-bleu-la-couleur-de-colette.html",
+  "manon-lescaut-episode-1-10-la-naissance-des-sentiments-https-embed-radiofrance-fr-franceculture-diffusion-4af65682-3417-47ac-9fae-1c89c99b615c": "quiz/104-episode-1-la-naissance-des-sentiments.html",
+  "manon-lescaut-episode-2-10-les-perfides-larmes-https-embed-radiofrance-fr-franceculture-diffusion-809ff89f-db2c-48fc-a6ab-f8387081f247": "quiz/105-episode-2-les-perfides-larmes.html",
+  "manon-lescaut-episode-3-10-la-chute-morale-https-embed-radiofrance-fr-franceculture-diffusion-26d6023f-7f43-44b5-9736-c8af36a9b266": "quiz/106-episode-3-la-chute-morale.html",
+  "manon-lescaut-episode-4-10-le-jeu-de-la-tromperie-https-embed-radiofrance-fr-franceculture-diffusion-207956ad-7993-4366-b7cf-ebf7257262c7": "quiz/107-episode-4-le-jeu-de-la-tromperie.html",
+  "manon-lescaut-episode-5-10-l-evasion-sanglante-https-embed-radiofrance-fr-franceculture-diffusion-ac29d50d-d902-4ef4-9756-051e257ae00b": "quiz/108-episode-5-l-evasion-sanglante.html",
+  "manon-lescaut-episode-6-10-illusoire-allegeance-https-embed-radiofrance-fr-franceculture-diffusion-d6132332-cfb4-4e6b-9ee0-c4d11342648b": "quiz/109-episode-6-illusoire-allegeance.html",
+  "manon-lescaut-episode-7-10-l-amour-a-la-man-uvre-https-embed-radiofrance-fr-franceculture-diffusion-683b5379-c1a9-4d55-b358-449631a39b48": "quiz/110-episode-7-l-amour-a-la-manoeuvre.html",
+  "manon-lescaut-episode-8-10-la-grace-pour-l-un-l-exil-pour-l-autre-https-embed-radiofrance-fr-franceculture-diffusion-22d6f80d-d014-4cdd-bc0a-7a18f656b8b7": "quiz/111-episode-8-la-grace-pour-l-un-l-exil-pour-l-autre.html",
+  "manon-lescaut-episode-9-10-le-dernier-espoir-https-embed-radiofrance-fr-franceculture-diffusion-1ad380a8-0575-4c80-9412-c20031225bdb": "quiz/112-episode-9-le-dernier-espoir.html",
+  "manon-lescaut-episode-10-10-les-mains-froides-https-embed-radiofrance-fr-franceculture-diffusion-8461bb74-75ed-4b98-aff7-2906da9762d5": "quiz/113-episode-10-les-mains-froides.html",
+  "manon-lescaut-manon-lescaut-de-l-abbe-prevost-https-www-radiofrance-fr-franceculture-podcasts-le-book-club-manon-lescaut-de-l-abbe-prevost-5524353": "quiz/114-manon-lescaut-de-l-abbe-prevost.html",
 };
 
 init();
@@ -152,11 +164,24 @@ function init() {
   state.summaryData = summarySource ? JSON.parse(summarySource.textContent) : {};
   state.podcasts = parseMarkdown(markdown);
   state.sections = [...new Set(state.podcasts.map((podcast) => podcast.section))];
+  initHeaderMark();
   buildFilters();
   initTheme();
   bindEvents();
   applyInitialSearch();
   render();
+}
+
+function initHeaderMark() {
+  const brand = document.querySelector(".topbar > div:first-child");
+  if (!brand || brand.querySelector(".menu-microphone")) return;
+
+  brand.classList.add("topbar-brand");
+  const microphone = document.createElement("span");
+  microphone.className = "menu-microphone";
+  microphone.setAttribute("aria-hidden", "true");
+  microphone.innerHTML = '<i class="fa-solid fa-microphone-lines"></i>';
+  brand.prepend(microphone);
 }
 
 function parseMarkdown(markdown) {

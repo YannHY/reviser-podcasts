@@ -1,17 +1,17 @@
 {
   "input": "summaries.json",
   "output": "summaries-clean.json",
-  "total": 99,
-  "withTranscript": 94,
+  "total": 114,
+  "withTranscript": 109,
   "emptyTranscript": 5,
-  "changed": 29,
+  "changed": 36,
   "corrections": {
-    "title Etienne De La Boetie -> Etienne de La Boetie": 11,
+    "title Etienne De La Boetie -> Etienne de La Boetie": 19,
     "Homer -> Homere": 3,
-    "Etienne de la Boetie -> Etienne de La Boetie": 18,
-    "para la communaute -> par la communaute": 5,
-    "remove Amara subtitle credit": 5,
-    "remove ST501 subtitle credit": 12,
+    "Etienne de la Boetie -> Etienne de La Boetie": 19,
+    "para la communaute -> par la communaute": 7,
+    "remove Amara subtitle credit": 7,
+    "remove ST501 subtitle credit": 15,
     "Boeotie -> Boetie": 29,
     "Boeysi variants -> La Boetie": 5,
     "Laboessi -> La Boetie": 32,
@@ -290,6 +290,67 @@
       "afterLength": 45752,
       "corrections": {
         "remove repeated part endings": 1
+      }
+    },
+    "discours-de-la-servitude-volontaire-etienne-de-la-boetie-le-parcours-associe-https-www-podcastics-com-podcast-episode-etienne-de-la-boetie-le-parcours-associe-404985-s-5045": {
+      "title": "Discours De La Servitude Volontaire Étienne de La Boétie Le Parcours Associe Https Www Podcastics Com Podcast Episode Étienne de La Boétie Le Parcours Associe 404985 S",
+      "beforeLength": 7312,
+      "afterLength": 7256,
+      "corrections": {
+        "title Etienne De La Boetie -> Etienne de La Boetie": 2,
+        "Etienne de la Boetie -> Etienne de La Boetie": 1,
+        "para la communaute -> par la communaute": 1,
+        "remove Amara subtitle credit": 1
+      }
+    },
+    "discours-de-la-servitude-volontaire-etienne-de-la-boetie-le-titre-https-www-podcastics-com-podcast-episode-etienne-de-la-boetie-le-titre-405244-s-5045": {
+      "title": "Discours De La Servitude Volontaire Étienne de La Boétie Le Titre Https Www Podcastics Com Podcast Episode Étienne de La Boétie Le Titre 405244 S",
+      "beforeLength": 11643,
+      "afterLength": 11627,
+      "corrections": {
+        "title Etienne De La Boetie -> Etienne de La Boetie": 2
+      }
+    },
+    "discours-de-la-servitude-volontaire-etienne-de-la-boetie-l-image-du-tyran-https-www-podcastics-com-podcast-episode-etienne-de-la-boetie-limage-du-tyran-405750-s-5045": {
+      "title": "Discours De La Servitude Volontaire Étienne de La Boétie L Image Du Tyran Https Www Podcastics Com Podcast Episode Étienne de La Boétie Limage Du Tyran 405750 S",
+      "beforeLength": 6324,
+      "afterLength": 6324,
+      "corrections": {
+        "title Etienne De La Boetie -> Etienne de La Boetie": 2
+      }
+    },
+    "discours-de-la-servitude-volontaire-etienne-de-la-boetie-la-strategie-argumentative-du-discours-https-www-podcastics-com-podcast-episode-etienne-de-la-boetie-la-strategie-argumentative-du-discours-405846-s-5045": {
+      "title": "Discours De La Servitude Volontaire Étienne de La Boétie La Strategie Argumentative Du Discours Https Www Podcastics Com Podcast Episode Étienne de La Boétie La Strategie Argumentative Du Discours 405846 S",
+      "beforeLength": 8354,
+      "afterLength": 8295,
+      "corrections": {
+        "title Etienne De La Boetie -> Etienne de La Boetie": 2,
+        "para la communaute -> par la communaute": 1,
+        "remove Amara subtitle credit": 1
+      }
+    },
+    "manon-lescaut-episode-6-10-illusoire-allegeance-https-embed-radiofrance-fr-franceculture-diffusion-d6132332-cfb4-4e6b-9ee0-c4d11342648b": {
+      "title": "Épisode 6/10. Illusoire allégeance",
+      "beforeLength": 16934,
+      "afterLength": 16925,
+      "corrections": {
+        "remove ST501 subtitle credit": 1
+      }
+    },
+    "manon-lescaut-episode-8-10-la-grace-pour-l-un-l-exil-pour-l-autre-https-embed-radiofrance-fr-franceculture-diffusion-22d6f80d-d014-4cdd-bc0a-7a18f656b8b7": {
+      "title": "Épisode 8/10. La grâce pour l’un, l’exil pour l’autre",
+      "beforeLength": 16057,
+      "afterLength": 16038,
+      "corrections": {
+        "remove ST501 subtitle credit": 1
+      }
+    },
+    "manon-lescaut-episode-9-10-le-dernier-espoir-https-embed-radiofrance-fr-franceculture-diffusion-1ad380a8-0575-4c80-9412-c20031225bdb": {
+      "title": "Épisode 9/10. Le dernier espoir",
+      "beforeLength": 16636,
+      "afterLength": 16607,
+      "corrections": {
+        "remove ST501 subtitle credit": 1
       }
     }
   }

@@ -616,5 +616,71 @@
     "duration": "10 min",
     "questions": 5,
     "href": "quiz/103-etienne-de-la-boetie-la-strategie-argumentative-du-discours.html"
+  },
+  {
+    "title": "Épisode 1 - La naissance des sentiments",
+    "duration": "20 min",
+    "questions": 5,
+    "href": "quiz/104-episode-1-la-naissance-des-sentiments.html"
+  },
+  {
+    "title": "Épisode 2 - Les perfides larmes",
+    "duration": "20 min",
+    "questions": 5,
+    "href": "quiz/105-episode-2-les-perfides-larmes.html"
+  },
+  {
+    "title": "Épisode 3 - La chute morale",
+    "duration": "20 min",
+    "questions": 5,
+    "href": "quiz/106-episode-3-la-chute-morale.html"
+  },
+  {
+    "title": "Épisode 4 - Le jeu de la tromperie",
+    "duration": "20 min",
+    "questions": 5,
+    "href": "quiz/107-episode-4-le-jeu-de-la-tromperie.html"
+  },
+  {
+    "title": "Épisode 5 - L’évasion sanglante",
+    "duration": "20 min",
+    "questions": 5,
+    "href": "quiz/108-episode-5-l-evasion-sanglante.html"
+  },
+  {
+    "title": "Épisode 6 - Illusoire allégeance",
+    "duration": "20 min",
+    "questions": 5,
+    "href": "quiz/109-episode-6-illusoire-allegeance.html"
+  },
+  {
+    "title": "Épisode 7 - L’amour à la manœuvre",
+    "duration": "20 min",
+    "questions": 5,
+    "href": "quiz/110-episode-7-l-amour-a-la-manoeuvre.html"
+  },
+  {
+    "title": "Épisode 8 - La grâce pour l’un, l’exil pour l’autre",
+    "duration": "20 min",
+    "questions": 5,
+    "href": "quiz/111-episode-8-la-grace-pour-l-un-l-exil-pour-l-autre.html"
+  },
+  {
+    "title": "Épisode 9 - Le dernier espoir",
+    "duration": "20 min",
+    "questions": 5,
+    "href": "quiz/112-episode-9-le-dernier-espoir.html"
+  },
+  {
+    "title": "Épisode 10 - Les mains froides",
+    "duration": "20 min",
+    "questions": 5,
+    "href": "quiz/113-episode-10-les-mains-froides.html"
+  },
+  {
+    "title": "Manon Lescaut de l’Abbé Prévost",
+    "duration": "59 min",
+    "questions": 8,
+    "href": "quiz/114-manon-lescaut-de-l-abbe-prevost.html"
   }
 ]

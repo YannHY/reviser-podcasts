@@ -6414,5 +6414,742 @@ window.quizData = [
     ],
     "id": "103-etienne-de-la-boetie-la-strategie-argumentative-du-discours",
     "work": "Discours de la servitude volontaire"
+  },
+  {
+    "title": "Épisode 1 - La naissance des sentiments",
+    "duration": "20 min",
+    "source": "France Culture, 09/03/2026",
+    "questions": [
+      {
+        "prompt": "Quel enjeu domine épisode 1 - la naissance des sentiments ?",
+        "choices": [
+          "La rencontre amoureuse qui bouleverse l’avenir de des Grieux",
+          "La mort de Manon dans le désert américain",
+          "Le procès public de des Grieux",
+          "La publication du roman par Manon elle-même"
+        ],
+        "answer": 0,
+        "feedback": "Le premier épisode pose l’origine de la passion et le basculement de des Grieux."
+      },
+      {
+        "prompt": "Quelle image de des Grieux se construit dans cet épisode ?",
+        "choices": [
+          "Un narrateur passionné, souvent lucide mais incapable de se détacher de Manon",
+          "Un personnage entièrement indifférent au destin de Manon",
+          "Un juge extérieur qui raconte sans émotion ni implication",
+          "Un héros comique cherchant seulement à ridiculiser la société"
+        ],
+        "answer": 0,
+        "feedback": "Des Grieux raconte depuis la passion : il analyse parfois sa chute, mais reste dominé par son attachement."
+      },
+      {
+        "prompt": "Pourquoi Manon reste-t-elle difficile à juger simplement ?",
+        "choices": [
+          "Parce qu’elle mêle charme, fragilité, désir de plaisir et possible duplicité",
+          "Parce qu’elle disparaît totalement du récit",
+          "Parce qu’elle incarne uniquement une vertu sans faille",
+          "Parce qu’elle n’a aucun effet sur les choix de des Grieux"
+        ],
+        "answer": 0,
+        "feedback": "Le roman rend Manon fascinante parce qu’elle résiste aux catégories morales trop nettes."
+      },
+      {
+        "prompt": "Quel conflit traverse l’ensemble du roman dans cet épisode ?",
+        "choices": [
+          "La passion amoureuse contre la morale, la famille et l’ordre social",
+          "La poésie lyrique contre le théâtre classique",
+          "La vie paysanne contre la modernité industrielle",
+          "La liberté politique contre la monarchie absolue"
+        ],
+        "answer": 0,
+        "feedback": "Manon Lescaut met en scène une passion qui heurte les normes sociales et morales."
+      },
+      {
+        "prompt": "Quel effet produit le récit à la première personne ?",
+        "choices": [
+          "Il rend la passion plus proche, mais aussi plus subjective et discutable",
+          "Il garantit une vérité objective et incontestable",
+          "Il efface toute émotion du roman",
+          "Il transforme le récit en traité scientifique"
+        ],
+        "answer": 0,
+        "feedback": "La voix de des Grieux donne accès à l’intensité de l’amour, tout en laissant percevoir ses aveuglements."
+      }
+    ],
+    "id": "104-episode-1-la-naissance-des-sentiments",
+    "work": "Manon Lescaut"
+  },
+  {
+    "title": "Épisode 2 - Les perfides larmes",
+    "duration": "20 min",
+    "source": "France Culture, 10/03/2026",
+    "questions": [
+      {
+        "prompt": "Quel enjeu domine épisode 2 - les perfides larmes ?",
+        "choices": [
+          "L’ambiguïté des signes amoureux et les premiers doutes de des Grieux",
+          "La réussite sociale définitive du couple",
+          "La conversion religieuse de Manon",
+          "Le départ volontaire de des Grieux pour l’armée"
+        ],
+        "answer": 0,
+        "feedback": "Les larmes et les silences de Manon installent une incertitude qui nourrit la passion autant que le soupçon."
+      },
+      {
+        "prompt": "Quelle image de des Grieux se construit dans cet épisode ?",
+        "choices": [
+          "Un narrateur passionné, souvent lucide mais incapable de se détacher de Manon",
+          "Un personnage entièrement indifférent au destin de Manon",
+          "Un juge extérieur qui raconte sans émotion ni implication",
+          "Un héros comique cherchant seulement à ridiculiser la société"
+        ],
+        "answer": 0,
+        "feedback": "Des Grieux raconte depuis la passion : il analyse parfois sa chute, mais reste dominé par son attachement."
+      },
+      {
+        "prompt": "Pourquoi Manon reste-t-elle difficile à juger simplement ?",
+        "choices": [
+          "Parce qu’elle mêle charme, fragilité, désir de plaisir et possible duplicité",
+          "Parce qu’elle disparaît totalement du récit",
+          "Parce qu’elle incarne uniquement une vertu sans faille",
+          "Parce qu’elle n’a aucun effet sur les choix de des Grieux"
+        ],
+        "answer": 0,
+        "feedback": "Le roman rend Manon fascinante parce qu’elle résiste aux catégories morales trop nettes."
+      },
+      {
+        "prompt": "Quel conflit traverse l’ensemble du roman dans cet épisode ?",
+        "choices": [
+          "La passion amoureuse contre la morale, la famille et l’ordre social",
+          "La poésie lyrique contre le théâtre classique",
+          "La vie paysanne contre la modernité industrielle",
+          "La liberté politique contre la monarchie absolue"
+        ],
+        "answer": 0,
+        "feedback": "Manon Lescaut met en scène une passion qui heurte les normes sociales et morales."
+      },
+      {
+        "prompt": "Quel effet produit le récit à la première personne ?",
+        "choices": [
+          "Il rend la passion plus proche, mais aussi plus subjective et discutable",
+          "Il garantit une vérité objective et incontestable",
+          "Il efface toute émotion du roman",
+          "Il transforme le récit en traité scientifique"
+        ],
+        "answer": 0,
+        "feedback": "La voix de des Grieux donne accès à l’intensité de l’amour, tout en laissant percevoir ses aveuglements."
+      }
+    ],
+    "id": "105-episode-2-les-perfides-larmes",
+    "work": "Manon Lescaut"
+  },
+  {
+    "title": "Épisode 3 - La chute morale",
+    "duration": "20 min",
+    "source": "France Culture, 11/03/2026",
+    "questions": [
+      {
+        "prompt": "Quel enjeu domine épisode 3 - la chute morale ?",
+        "choices": [
+          "La chute morale acceptée au nom de la passion",
+          "La réconciliation durable avec les autorités",
+          "La satire des salons littéraires",
+          "La naissance d’une amitié politique"
+        ],
+        "answer": 0,
+        "feedback": "Des Grieux accepte de perdre ses repères moraux parce qu’il fait de Manon son absolu."
+      },
+      {
+        "prompt": "Quelle image de des Grieux se construit dans cet épisode ?",
+        "choices": [
+          "Un narrateur passionné, souvent lucide mais incapable de se détacher de Manon",
+          "Un personnage entièrement indifférent au destin de Manon",
+          "Un juge extérieur qui raconte sans émotion ni implication",
+          "Un héros comique cherchant seulement à ridiculiser la société"
+        ],
+        "answer": 0,
+        "feedback": "Des Grieux raconte depuis la passion : il analyse parfois sa chute, mais reste dominé par son attachement."
+      },
+      {
+        "prompt": "Pourquoi Manon reste-t-elle difficile à juger simplement ?",
+        "choices": [
+          "Parce qu’elle mêle charme, fragilité, désir de plaisir et possible duplicité",
+          "Parce qu’elle disparaît totalement du récit",
+          "Parce qu’elle incarne uniquement une vertu sans faille",
+          "Parce qu’elle n’a aucun effet sur les choix de des Grieux"
+        ],
+        "answer": 0,
+        "feedback": "Le roman rend Manon fascinante parce qu’elle résiste aux catégories morales trop nettes."
+      },
+      {
+        "prompt": "Quel conflit traverse l’ensemble du roman dans cet épisode ?",
+        "choices": [
+          "La passion amoureuse contre la morale, la famille et l’ordre social",
+          "La poésie lyrique contre le théâtre classique",
+          "La vie paysanne contre la modernité industrielle",
+          "La liberté politique contre la monarchie absolue"
+        ],
+        "answer": 0,
+        "feedback": "Manon Lescaut met en scène une passion qui heurte les normes sociales et morales."
+      },
+      {
+        "prompt": "Quel effet produit le récit à la première personne ?",
+        "choices": [
+          "Il rend la passion plus proche, mais aussi plus subjective et discutable",
+          "Il garantit une vérité objective et incontestable",
+          "Il efface toute émotion du roman",
+          "Il transforme le récit en traité scientifique"
+        ],
+        "answer": 0,
+        "feedback": "La voix de des Grieux donne accès à l’intensité de l’amour, tout en laissant percevoir ses aveuglements."
+      }
+    ],
+    "id": "106-episode-3-la-chute-morale",
+    "work": "Manon Lescaut"
+  },
+  {
+    "title": "Épisode 4 - Le jeu de la tromperie",
+    "duration": "20 min",
+    "source": "France Culture, 12/03/2026",
+    "questions": [
+      {
+        "prompt": "Quel enjeu domine épisode 4 - le jeu de la tromperie ?",
+        "choices": [
+          "L’engrenage de la tromperie et de la faute",
+          "La résolution paisible de tous les conflits",
+          "La célébration d’un mariage officiel",
+          "La description d’un voyage touristique"
+        ],
+        "answer": 0,
+        "feedback": "La passion devient une logique de ruse et d’autojustification."
+      },
+      {
+        "prompt": "Quelle image de des Grieux se construit dans cet épisode ?",
+        "choices": [
+          "Un narrateur passionné, souvent lucide mais incapable de se détacher de Manon",
+          "Un personnage entièrement indifférent au destin de Manon",
+          "Un juge extérieur qui raconte sans émotion ni implication",
+          "Un héros comique cherchant seulement à ridiculiser la société"
+        ],
+        "answer": 0,
+        "feedback": "Des Grieux raconte depuis la passion : il analyse parfois sa chute, mais reste dominé par son attachement."
+      },
+      {
+        "prompt": "Pourquoi Manon reste-t-elle difficile à juger simplement ?",
+        "choices": [
+          "Parce qu’elle mêle charme, fragilité, désir de plaisir et possible duplicité",
+          "Parce qu’elle disparaît totalement du récit",
+          "Parce qu’elle incarne uniquement une vertu sans faille",
+          "Parce qu’elle n’a aucun effet sur les choix de des Grieux"
+        ],
+        "answer": 0,
+        "feedback": "Le roman rend Manon fascinante parce qu’elle résiste aux catégories morales trop nettes."
+      },
+      {
+        "prompt": "Quel conflit traverse l’ensemble du roman dans cet épisode ?",
+        "choices": [
+          "La passion amoureuse contre la morale, la famille et l’ordre social",
+          "La poésie lyrique contre le théâtre classique",
+          "La vie paysanne contre la modernité industrielle",
+          "La liberté politique contre la monarchie absolue"
+        ],
+        "answer": 0,
+        "feedback": "Manon Lescaut met en scène une passion qui heurte les normes sociales et morales."
+      },
+      {
+        "prompt": "Quel effet produit le récit à la première personne ?",
+        "choices": [
+          "Il rend la passion plus proche, mais aussi plus subjective et discutable",
+          "Il garantit une vérité objective et incontestable",
+          "Il efface toute émotion du roman",
+          "Il transforme le récit en traité scientifique"
+        ],
+        "answer": 0,
+        "feedback": "La voix de des Grieux donne accès à l’intensité de l’amour, tout en laissant percevoir ses aveuglements."
+      }
+    ],
+    "id": "107-episode-4-le-jeu-de-la-tromperie",
+    "work": "Manon Lescaut"
+  },
+  {
+    "title": "Épisode 5 - L’évasion sanglante",
+    "duration": "20 min",
+    "source": "France Culture, 13/03/2026",
+    "questions": [
+      {
+        "prompt": "Quel enjeu domine épisode 5 - l’évasion sanglante ?",
+        "choices": [
+          "Le passage à une violence ouverte lors de l’évasion",
+          "Le retour définitif de Manon au couvent",
+          "La découverte d’un héritage familial",
+          "La fin comique des malentendus"
+        ],
+        "answer": 0,
+        "feedback": "L’évasion montre que l’amour a désormais des conséquences violentes et irréversibles."
+      },
+      {
+        "prompt": "Quelle image de des Grieux se construit dans cet épisode ?",
+        "choices": [
+          "Un narrateur passionné, souvent lucide mais incapable de se détacher de Manon",
+          "Un personnage entièrement indifférent au destin de Manon",
+          "Un juge extérieur qui raconte sans émotion ni implication",
+          "Un héros comique cherchant seulement à ridiculiser la société"
+        ],
+        "answer": 0,
+        "feedback": "Des Grieux raconte depuis la passion : il analyse parfois sa chute, mais reste dominé par son attachement."
+      },
+      {
+        "prompt": "Pourquoi Manon reste-t-elle difficile à juger simplement ?",
+        "choices": [
+          "Parce qu’elle mêle charme, fragilité, désir de plaisir et possible duplicité",
+          "Parce qu’elle disparaît totalement du récit",
+          "Parce qu’elle incarne uniquement une vertu sans faille",
+          "Parce qu’elle n’a aucun effet sur les choix de des Grieux"
+        ],
+        "answer": 0,
+        "feedback": "Le roman rend Manon fascinante parce qu’elle résiste aux catégories morales trop nettes."
+      },
+      {
+        "prompt": "Quel conflit traverse l’ensemble du roman dans cet épisode ?",
+        "choices": [
+          "La passion amoureuse contre la morale, la famille et l’ordre social",
+          "La poésie lyrique contre le théâtre classique",
+          "La vie paysanne contre la modernité industrielle",
+          "La liberté politique contre la monarchie absolue"
+        ],
+        "answer": 0,
+        "feedback": "Manon Lescaut met en scène une passion qui heurte les normes sociales et morales."
+      },
+      {
+        "prompt": "Quel effet produit le récit à la première personne ?",
+        "choices": [
+          "Il rend la passion plus proche, mais aussi plus subjective et discutable",
+          "Il garantit une vérité objective et incontestable",
+          "Il efface toute émotion du roman",
+          "Il transforme le récit en traité scientifique"
+        ],
+        "answer": 0,
+        "feedback": "La voix de des Grieux donne accès à l’intensité de l’amour, tout en laissant percevoir ses aveuglements."
+      }
+    ],
+    "id": "108-episode-5-l-evasion-sanglante",
+    "work": "Manon Lescaut"
+  },
+  {
+    "title": "Épisode 6 - Illusoire allégeance",
+    "duration": "20 min",
+    "source": "France Culture, 16/03/2026",
+    "questions": [
+      {
+        "prompt": "Quel enjeu domine épisode 6 - illusoire allégeance ?",
+        "choices": [
+          "La jalousie et l’illusion volontaire de des Grieux",
+          "La victoire de la raison sur la passion",
+          "La disparition complète du désir amoureux",
+          "La réussite d’une carrière militaire"
+        ],
+        "answer": 0,
+        "feedback": "Des Grieux préfère maintenir sa croyance en Manon plutôt que céder entièrement à la jalousie."
+      },
+      {
+        "prompt": "Quelle image de des Grieux se construit dans cet épisode ?",
+        "choices": [
+          "Un narrateur passionné, souvent lucide mais incapable de se détacher de Manon",
+          "Un personnage entièrement indifférent au destin de Manon",
+          "Un juge extérieur qui raconte sans émotion ni implication",
+          "Un héros comique cherchant seulement à ridiculiser la société"
+        ],
+        "answer": 0,
+        "feedback": "Des Grieux raconte depuis la passion : il analyse parfois sa chute, mais reste dominé par son attachement."
+      },
+      {
+        "prompt": "Pourquoi Manon reste-t-elle difficile à juger simplement ?",
+        "choices": [
+          "Parce qu’elle mêle charme, fragilité, désir de plaisir et possible duplicité",
+          "Parce qu’elle disparaît totalement du récit",
+          "Parce qu’elle incarne uniquement une vertu sans faille",
+          "Parce qu’elle n’a aucun effet sur les choix de des Grieux"
+        ],
+        "answer": 0,
+        "feedback": "Le roman rend Manon fascinante parce qu’elle résiste aux catégories morales trop nettes."
+      },
+      {
+        "prompt": "Quel conflit traverse l’ensemble du roman dans cet épisode ?",
+        "choices": [
+          "La passion amoureuse contre la morale, la famille et l’ordre social",
+          "La poésie lyrique contre le théâtre classique",
+          "La vie paysanne contre la modernité industrielle",
+          "La liberté politique contre la monarchie absolue"
+        ],
+        "answer": 0,
+        "feedback": "Manon Lescaut met en scène une passion qui heurte les normes sociales et morales."
+      },
+      {
+        "prompt": "Quel effet produit le récit à la première personne ?",
+        "choices": [
+          "Il rend la passion plus proche, mais aussi plus subjective et discutable",
+          "Il garantit une vérité objective et incontestable",
+          "Il efface toute émotion du roman",
+          "Il transforme le récit en traité scientifique"
+        ],
+        "answer": 0,
+        "feedback": "La voix de des Grieux donne accès à l’intensité de l’amour, tout en laissant percevoir ses aveuglements."
+      }
+    ],
+    "id": "109-episode-6-illusoire-allegeance",
+    "work": "Manon Lescaut"
+  },
+  {
+    "title": "Épisode 7 - L’amour à la manœuvre",
+    "duration": "20 min",
+    "source": "France Culture, 17/03/2026",
+    "questions": [
+      {
+        "prompt": "Quel enjeu domine épisode 7 - l’amour à la manœuvre ?",
+        "choices": [
+          "Les ruses amoureuses mêlant désir, argent et imposture",
+          "La méditation abstraite sur la poésie",
+          "La rupture sans douleur entre les amants",
+          "La formation scolaire de Manon"
+        ],
+        "answer": 0,
+        "feedback": "Le couple évolue dans un monde où amour, argent et stratégie se confondent."
+      },
+      {
+        "prompt": "Quelle image de des Grieux se construit dans cet épisode ?",
+        "choices": [
+          "Un narrateur passionné, souvent lucide mais incapable de se détacher de Manon",
+          "Un personnage entièrement indifférent au destin de Manon",
+          "Un juge extérieur qui raconte sans émotion ni implication",
+          "Un héros comique cherchant seulement à ridiculiser la société"
+        ],
+        "answer": 0,
+        "feedback": "Des Grieux raconte depuis la passion : il analyse parfois sa chute, mais reste dominé par son attachement."
+      },
+      {
+        "prompt": "Pourquoi Manon reste-t-elle difficile à juger simplement ?",
+        "choices": [
+          "Parce qu’elle mêle charme, fragilité, désir de plaisir et possible duplicité",
+          "Parce qu’elle disparaît totalement du récit",
+          "Parce qu’elle incarne uniquement une vertu sans faille",
+          "Parce qu’elle n’a aucun effet sur les choix de des Grieux"
+        ],
+        "answer": 0,
+        "feedback": "Le roman rend Manon fascinante parce qu’elle résiste aux catégories morales trop nettes."
+      },
+      {
+        "prompt": "Quel conflit traverse l’ensemble du roman dans cet épisode ?",
+        "choices": [
+          "La passion amoureuse contre la morale, la famille et l’ordre social",
+          "La poésie lyrique contre le théâtre classique",
+          "La vie paysanne contre la modernité industrielle",
+          "La liberté politique contre la monarchie absolue"
+        ],
+        "answer": 0,
+        "feedback": "Manon Lescaut met en scène une passion qui heurte les normes sociales et morales."
+      },
+      {
+        "prompt": "Quel effet produit le récit à la première personne ?",
+        "choices": [
+          "Il rend la passion plus proche, mais aussi plus subjective et discutable",
+          "Il garantit une vérité objective et incontestable",
+          "Il efface toute émotion du roman",
+          "Il transforme le récit en traité scientifique"
+        ],
+        "answer": 0,
+        "feedback": "La voix de des Grieux donne accès à l’intensité de l’amour, tout en laissant percevoir ses aveuglements."
+      }
+    ],
+    "id": "110-episode-7-l-amour-a-la-manoeuvre",
+    "work": "Manon Lescaut"
+  },
+  {
+    "title": "Épisode 8 - La grâce pour l’un, l’exil pour l’autre",
+    "duration": "20 min",
+    "source": "France Culture, 18/03/2026",
+    "questions": [
+      {
+        "prompt": "Quel enjeu domine épisode 8 - la grâce pour l’un, l’exil pour l’autre ?",
+        "choices": [
+          "La séparation judiciaire entre des Grieux gracié et Manon exilée",
+          "La fondation d’une colonie heureuse",
+          "Le triomphe public du couple à Paris",
+          "La découverte d’une lettre de l’abbé Prévost"
+        ],
+        "answer": 0,
+        "feedback": "La justice et la famille réinstallent l’ordre, mais au prix d’une séparation tragique."
+      },
+      {
+        "prompt": "Quelle image de des Grieux se construit dans cet épisode ?",
+        "choices": [
+          "Un narrateur passionné, souvent lucide mais incapable de se détacher de Manon",
+          "Un personnage entièrement indifférent au destin de Manon",
+          "Un juge extérieur qui raconte sans émotion ni implication",
+          "Un héros comique cherchant seulement à ridiculiser la société"
+        ],
+        "answer": 0,
+        "feedback": "Des Grieux raconte depuis la passion : il analyse parfois sa chute, mais reste dominé par son attachement."
+      },
+      {
+        "prompt": "Pourquoi Manon reste-t-elle difficile à juger simplement ?",
+        "choices": [
+          "Parce qu’elle mêle charme, fragilité, désir de plaisir et possible duplicité",
+          "Parce qu’elle disparaît totalement du récit",
+          "Parce qu’elle incarne uniquement une vertu sans faille",
+          "Parce qu’elle n’a aucun effet sur les choix de des Grieux"
+        ],
+        "answer": 0,
+        "feedback": "Le roman rend Manon fascinante parce qu’elle résiste aux catégories morales trop nettes."
+      },
+      {
+        "prompt": "Quel conflit traverse l’ensemble du roman dans cet épisode ?",
+        "choices": [
+          "La passion amoureuse contre la morale, la famille et l’ordre social",
+          "La poésie lyrique contre le théâtre classique",
+          "La vie paysanne contre la modernité industrielle",
+          "La liberté politique contre la monarchie absolue"
+        ],
+        "answer": 0,
+        "feedback": "Manon Lescaut met en scène une passion qui heurte les normes sociales et morales."
+      },
+      {
+        "prompt": "Quel effet produit le récit à la première personne ?",
+        "choices": [
+          "Il rend la passion plus proche, mais aussi plus subjective et discutable",
+          "Il garantit une vérité objective et incontestable",
+          "Il efface toute émotion du roman",
+          "Il transforme le récit en traité scientifique"
+        ],
+        "answer": 0,
+        "feedback": "La voix de des Grieux donne accès à l’intensité de l’amour, tout en laissant percevoir ses aveuglements."
+      }
+    ],
+    "id": "111-episode-8-la-grace-pour-l-un-l-exil-pour-l-autre",
+    "work": "Manon Lescaut"
+  },
+  {
+    "title": "Épisode 9 - Le dernier espoir",
+    "duration": "20 min",
+    "source": "France Culture, 19/03/2026",
+    "questions": [
+      {
+        "prompt": "Quel enjeu domine épisode 9 - le dernier espoir ?",
+        "choices": [
+          "Le dernier espoir d’un bonheur possible dans l’exil",
+          "La naissance de Manon",
+          "Le récit de l’enfance de Tiberge",
+          "La condamnation de des Grieux à mort"
+        ],
+        "answer": 0,
+        "feedback": "L’exil est présenté comme un possible recommencement, mais cet espoir reste très fragile."
+      },
+      {
+        "prompt": "Quelle image de des Grieux se construit dans cet épisode ?",
+        "choices": [
+          "Un narrateur passionné, souvent lucide mais incapable de se détacher de Manon",
+          "Un personnage entièrement indifférent au destin de Manon",
+          "Un juge extérieur qui raconte sans émotion ni implication",
+          "Un héros comique cherchant seulement à ridiculiser la société"
+        ],
+        "answer": 0,
+        "feedback": "Des Grieux raconte depuis la passion : il analyse parfois sa chute, mais reste dominé par son attachement."
+      },
+      {
+        "prompt": "Pourquoi Manon reste-t-elle difficile à juger simplement ?",
+        "choices": [
+          "Parce qu’elle mêle charme, fragilité, désir de plaisir et possible duplicité",
+          "Parce qu’elle disparaît totalement du récit",
+          "Parce qu’elle incarne uniquement une vertu sans faille",
+          "Parce qu’elle n’a aucun effet sur les choix de des Grieux"
+        ],
+        "answer": 0,
+        "feedback": "Le roman rend Manon fascinante parce qu’elle résiste aux catégories morales trop nettes."
+      },
+      {
+        "prompt": "Quel conflit traverse l’ensemble du roman dans cet épisode ?",
+        "choices": [
+          "La passion amoureuse contre la morale, la famille et l’ordre social",
+          "La poésie lyrique contre le théâtre classique",
+          "La vie paysanne contre la modernité industrielle",
+          "La liberté politique contre la monarchie absolue"
+        ],
+        "answer": 0,
+        "feedback": "Manon Lescaut met en scène une passion qui heurte les normes sociales et morales."
+      },
+      {
+        "prompt": "Quel effet produit le récit à la première personne ?",
+        "choices": [
+          "Il rend la passion plus proche, mais aussi plus subjective et discutable",
+          "Il garantit une vérité objective et incontestable",
+          "Il efface toute émotion du roman",
+          "Il transforme le récit en traité scientifique"
+        ],
+        "answer": 0,
+        "feedback": "La voix de des Grieux donne accès à l’intensité de l’amour, tout en laissant percevoir ses aveuglements."
+      }
+    ],
+    "id": "112-episode-9-le-dernier-espoir",
+    "work": "Manon Lescaut"
+  },
+  {
+    "title": "Épisode 10 - Les mains froides",
+    "duration": "20 min",
+    "source": "France Culture, 20/03/2026",
+    "questions": [
+      {
+        "prompt": "Quel enjeu domine épisode 10 - les mains froides ?",
+        "choices": [
+          "La mort de Manon et l’impuissance de des Grieux",
+          "La première rencontre des amants",
+          "L’achat d’une maison à Paris",
+          "La réconciliation de toutes les familles"
+        ],
+        "answer": 0,
+        "feedback": "La mort de Manon donne au récit sa force pathétique et transforme la passion en deuil."
+      },
+      {
+        "prompt": "Quelle image de des Grieux se construit dans cet épisode ?",
+        "choices": [
+          "Un narrateur passionné, souvent lucide mais incapable de se détacher de Manon",
+          "Un personnage entièrement indifférent au destin de Manon",
+          "Un juge extérieur qui raconte sans émotion ni implication",
+          "Un héros comique cherchant seulement à ridiculiser la société"
+        ],
+        "answer": 0,
+        "feedback": "Des Grieux raconte depuis la passion : il analyse parfois sa chute, mais reste dominé par son attachement."
+      },
+      {
+        "prompt": "Pourquoi Manon reste-t-elle difficile à juger simplement ?",
+        "choices": [
+          "Parce qu’elle mêle charme, fragilité, désir de plaisir et possible duplicité",
+          "Parce qu’elle disparaît totalement du récit",
+          "Parce qu’elle incarne uniquement une vertu sans faille",
+          "Parce qu’elle n’a aucun effet sur les choix de des Grieux"
+        ],
+        "answer": 0,
+        "feedback": "Le roman rend Manon fascinante parce qu’elle résiste aux catégories morales trop nettes."
+      },
+      {
+        "prompt": "Quel conflit traverse l’ensemble du roman dans cet épisode ?",
+        "choices": [
+          "La passion amoureuse contre la morale, la famille et l’ordre social",
+          "La poésie lyrique contre le théâtre classique",
+          "La vie paysanne contre la modernité industrielle",
+          "La liberté politique contre la monarchie absolue"
+        ],
+        "answer": 0,
+        "feedback": "Manon Lescaut met en scène une passion qui heurte les normes sociales et morales."
+      },
+      {
+        "prompt": "Quel effet produit le récit à la première personne ?",
+        "choices": [
+          "Il rend la passion plus proche, mais aussi plus subjective et discutable",
+          "Il garantit une vérité objective et incontestable",
+          "Il efface toute émotion du roman",
+          "Il transforme le récit en traité scientifique"
+        ],
+        "answer": 0,
+        "feedback": "La voix de des Grieux donne accès à l’intensité de l’amour, tout en laissant percevoir ses aveuglements."
+      }
+    ],
+    "id": "113-episode-10-les-mains-froides",
+    "work": "Manon Lescaut"
+  },
+  {
+    "title": "Manon Lescaut de l’Abbé Prévost",
+    "duration": "59 min",
+    "source": "France Culture, 29/04/2025",
+    "questions": [
+      {
+        "prompt": "Pourquoi Manon Lescaut a-t-il pu être perçu comme un roman scandaleux ?",
+        "choices": [
+          "Parce qu’il met au centre une passion liée au mensonge, à l’argent et à la transgression morale",
+          "Parce qu’il refuse toute intrigue amoureuse",
+          "Parce qu’il raconte uniquement une guerre antique",
+          "Parce qu’il condamne explicitement la lecture des romans"
+        ],
+        "answer": 0,
+        "feedback": "Le scandale vient de la puissance accordée au désir et de l’ambiguïté morale des personnages."
+      },
+      {
+        "prompt": "Quelle est l’une des grandes difficultés d’interprétation du personnage de Manon ?",
+        "choices": [
+          "Elle ne se laisse réduire ni à une victime innocente ni à une coupable manipulatrice",
+          "Elle n’apparaît jamais dans le roman",
+          "Elle est présentée comme une allégorie politique transparente",
+          "Elle parle toujours avec une parfaite objectivité"
+        ],
+        "answer": 0,
+        "feedback": "Manon fascine parce qu’elle garde une part d’opacité morale et affective."
+      },
+      {
+        "prompt": "Quel rôle joue la voix de des Grieux ?",
+        "choices": [
+          "Elle donne une version passionnée, douloureuse et partiellement justificatrice de l’histoire",
+          "Elle remplace le récit par une chronique administrative",
+          "Elle prouve que Manon n’a jamais existé",
+          "Elle supprime toute émotion du roman"
+        ],
+        "answer": 0,
+        "feedback": "Le récit dépend du regard de des Grieux, ce qui rend la narration intense mais subjective."
+      },
+      {
+        "prompt": "Pourquoi l’œuvre reste-t-elle utile pour l’étude du roman au bac ?",
+        "choices": [
+          "Elle permet d’interroger le plaisir du récit, la morale, la passion et la construction d’un personnage ambigu",
+          "Elle ne contient aucune tension narrative",
+          "Elle évite toute question morale ou sociale",
+          "Elle appartient exclusivement au théâtre classique"
+        ],
+        "answer": 0,
+        "feedback": "Manon Lescaut combine force romanesque et réflexion sur le jugement moral."
+      },
+      {
+        "prompt": "Comment peut-on comprendre le rapport entre amour et argent dans le roman ?",
+        "choices": [
+          "Le désir amoureux est sans cesse confronté aux besoins matériels et au goût du plaisir",
+          "L’argent disparaît complètement après la première page",
+          "La richesse rend automatiquement les personnages vertueux",
+          "L’amour et l’argent ne se croisent jamais"
+        ],
+        "answer": 0,
+        "feedback": "Le roman montre que la passion est aussi prise dans des contraintes matérielles."
+      },
+      {
+        "prompt": "Que produit l’ambiguïté morale du récit ?",
+        "choices": [
+          "Elle oblige le lecteur à juger tout en éprouvant de la compassion",
+          "Elle rend tous les personnages parfaitement exemplaires",
+          "Elle transforme le roman en manuel de règles fixes",
+          "Elle interdit toute émotion de lecture"
+        ],
+        "answer": 0,
+        "feedback": "La modernité du roman tient à cette tension entre condamnation et attachement."
+      },
+      {
+        "prompt": "Quelle place occupe la mort de Manon dans l’interprétation de l’œuvre ?",
+        "choices": [
+          "Elle donne une dimension pathétique et tragique à l’histoire de passion",
+          "Elle annule tout ce qui précède dans le roman",
+          "Elle intervient avant la rencontre des personnages",
+          "Elle transforme le récit en comédie légère"
+        ],
+        "answer": 0,
+        "feedback": "La fin tragique invite à relire l’ensemble du parcours comme une histoire de perte."
+      },
+      {
+        "prompt": "Quelle formule résume le mieux la modernité de Manon Lescaut ?",
+        "choices": [
+          "Un roman qui rend le jugement moral nécessaire mais inconfortable",
+          "Un roman qui supprime toute complexité psychologique",
+          "Un récit sans désir, sans faute et sans conflit",
+          "Une œuvre qui refuse tout plaisir narratif"
+        ],
+        "answer": 0,
+        "feedback": "Le roman demeure vivant parce qu’il fait sentir la complexité du désir et du jugement."
+      }
+    ],
+    "id": "114-manon-lescaut-de-l-abbe-prevost",
+    "work": "Manon Lescaut"
   }
 ];

@@ -70,12 +70,31 @@ function getEmbedFromSeries(podcast) {
 
 function getEmbedFromPage(url) {
   if (!url) return "";
+  if (/^https:\/\/embed\.radiofrance\.fr\/[^/]+\/diffusion\/[0-9a-f-]{36}$/i.test(url)) {
+    return url;
+  }
+  if (/^https:\/\/www\.podcastics\.com\/podcast\/episode\//i.test(url)) {
+    return getPodcasticsEmbed(url);
+  }
   const station = extractStation(url);
   if (!station) return "";
   const page = curl(url);
   const uuid = extractDiffusionId(page);
   if (!uuid) return "";
   return `https://embed.radiofrance.fr/${station}/diffusion/${uuid}`;
+}
+
+function getPodcasticsEmbed(url) {
+  const page = curl(url);
+  const playerMatch = page.match(/https:\/\/player\.podcastics\.com\/(?:light|wide|extended)\/(\d+)\/?(\d+)?[^"]*/);
+  const episodeMatch = url.match(/-(\d+)\/?(?:\?|$)/);
+  if (!playerMatch || !episodeMatch) return "";
+
+  const podcastId = playerMatch[1];
+  const episodeId = playerMatch[2] || episodeMatch[1];
+  const search = new URL(url).searchParams;
+  const suffix = search.has("s") ? `?s=${search.get("s")}` : "";
+  return `https://player.podcastics.com/light/${podcastId}/${episodeId}${suffix}`;
 }
 
 function extractStation(url) {
