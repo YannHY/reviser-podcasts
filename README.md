@@ -2,8 +2,6 @@
 
 Site statique pour réviser la littérature française à partir de podcasts, de quiz et de fiches. Le projet propose désormais plusieurs parcours depuis une page d'accueil commune : bac français, maturité cantonale suisse et une section IB en préparation.
 
-Le projet est disponible sur GitHub : [YannHY/reviser-podcasts](https://github.com/YannHY/reviser-podcasts).
-
 ## Objectif
 
 Le site aide les élèves à organiser leurs révisions autrement qu'avec une liste de cours. Chaque parcours rassemble des émissions classées par oeuvre, permet d'écouter les épisodes disponibles, de suivre sa progression, puis de vérifier ce qui a été retenu avec des quiz et des fiches.
