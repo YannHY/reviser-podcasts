@@ -38,16 +38,84 @@
     }
 
     .home-page main {
-      align-self: center;
+      align-self: start;
       width: min(1120px, 100%);
-      padding-top: 0;
-      padding-bottom: 0;
+      padding-top: clamp(38px, 6vh, 74px);
+      padding-bottom: clamp(56px, 8vh, 88px);
+    }
+
+    .home-hero {
+      position: relative;
+      width: min(960px, 100%);
+      margin: 0 auto clamp(34px, 5vw, 58px);
+      padding: clamp(18px, 3vw, 26px) clamp(18px, 4vw, 42px) clamp(24px, 4vw, 40px);
+      overflow: hidden;
+      color: var(--ink);
+      text-align: center;
+    }
+
+    .home-hero::before {
+      content: "\f10d";
+      position: absolute;
+      top: -10px;
+      left: 50%;
+      z-index: 0;
+      color: rgba(2, 132, 199, .09);
+      font-family: "Font Awesome 6 Free";
+      font-size: clamp(5.5rem, 12vw, 9rem);
+      font-weight: 900;
+      line-height: 1;
+      transform: translateX(-50%);
+      pointer-events: none;
+    }
+
+    [data-theme="dark"] .home-hero::before {
+      color: rgba(56, 189, 248, .10);
+    }
+
+    .home-hero blockquote {
+      position: relative;
+      z-index: 1;
+      margin: 0;
+    }
+
+    .home-hero p {
+      margin: 0;
+      font-family: 'Lora', Georgia, serif;
+      font-size: clamp(1.42rem, 3.8vw, 3.05rem);
+      font-weight: 600;
+      font-style: italic;
+      line-height: 1.18;
+      text-wrap: balance;
+    }
+
+    .home-hero cite {
+      display: block;
+      margin-top: clamp(18px, 3vw, 28px);
+      color: var(--muted);
+      font-size: .78rem;
+      font-style: normal;
+      font-weight: 700;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    .home-hero cite a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    .home-hero cite a:hover,
+    .home-hero cite a:focus-visible {
+      color: var(--warm-dark);
+      text-decoration: underline;
+      text-underline-offset: 3px;
     }
 
     .home-intro {
       position: relative;
       max-width: 700px;
-      margin: 0 auto clamp(76px, 9vh, 112px);
+      margin: 0 auto clamp(48px, 7vh, 78px);
       color: var(--ink);
       font-family: 'Lora', Georgia, serif;
       font-size: clamp(1.02rem, 1.45vw, 1.22rem);
@@ -438,6 +506,7 @@
 
       .home-page main {
         align-self: start;
+        padding-top: 0;
       }
 
       .path-card {
@@ -478,6 +547,16 @@
 
   <div class="home-shell">
     <main>
+      <section class="home-hero" aria-label="Citation">
+        <blockquote>
+          <p>une belle illustration de ce que peut donner l’IA lorsqu’elle est mise au service d’une intention pédagogique claire, par quelqu’un qui connaît à la fois la matière, les programmes et les élèves.</p>
+          <cite>
+            Source :
+            <a href="https://outilstice.com/2026/05/reviser-bac-francais-podcasts-ia/" target="_blank" rel="noopener noreferrer">Outils TICE</a>
+          </cite>
+        </blockquote>
+      </section>
+
       <section class="home-intro" aria-label="Présentation">
         <p>Trois parcours, une même idée : écouter des podcasts pour réviser.</p>
       </section>
