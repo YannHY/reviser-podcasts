@@ -1,118 +1,184 @@
-# Réviser le bac français avec les podcasts
+# Réviser avec les podcasts
 
-Site statique pour réviser le bac français à partir d'une sélection de podcasts consacrés aux oeuvres du programme. Chaque émission est classée par oeuvre, accompagnée de ses informations principales, et peut être écoutée, résumée, marquée comme faite ou prolongée par un quiz.
+Site statique pour réviser la littérature française à partir de podcasts, de quiz et de fiches. Le projet propose désormais plusieurs parcours depuis une page d'accueil commune : bac français, maturité cantonale suisse et une section IB en préparation.
 
 Le projet est disponible sur GitHub : [YannHY/reviser-podcasts](https://github.com/YannHY/reviser-podcasts).
 
-## Objectif du site
+## Objectif
 
-Ce site aide les élèves à organiser leurs révisions du bac français autrement qu'avec de simples fiches. Il rassemble des podcasts de Radio France autour de quatre oeuvres ou parcours :
+Le site aide les élèves à organiser leurs révisions autrement qu'avec une liste de cours. Chaque parcours rassemble des émissions classées par oeuvre, permet d'écouter les épisodes disponibles, de suivre sa progression, puis de vérifier ce qui a été retenu avec des quiz et des fiches.
 
-- **Discours de la servitude volontaire**, d'Étienne de La Boétie
-- **On ne badine pas avec l'amour**, d'Alfred de Musset
-- **La rage de l'expression**, de Francis Ponge
-- **Sido**, de Colette
+Le principe reste simple : choisir un parcours, écouter, comprendre, mémoriser, puis s'entraîner.
 
-L'idée est simple : écouter, comprendre, mémoriser, puis vérifier ce que l'on a retenu.
+## Parcours disponibles
 
-## Fonctionnalités principales
+### Accueil
+
+La page `accueil.html` sert de porte d'entrée vers les trois espaces du site :
+
+- **Bac français** : parcours principal historique.
+- **Maturité** : nouveau parcours pour la maturité cantonale.
+- **IB** : page d'attente pour une future section International Baccalaureate.
+
+### Bac français
+
+Le parcours bac français comprend les pages principales suivantes :
+
+- `index.html` : catalogue de podcasts.
+- `quiz.html` : sommaire des questionnaires.
+- `fiches.html` : sommaire des fiches de révision.
+
+Les oeuvres et parcours couverts sont :
+
+- **Discours de la servitude volontaire**, d'Étienne de La Boétie.
+- **On ne badine pas avec l'amour**, d'Alfred de Musset.
+- **La rage de l'expression**, de Francis Ponge.
+- **Sido**, de Colette.
+- **Manon Lescaut**, de l'Abbé Prévost.
+
+Le sommaire des quiz du bac compte **114 questionnaires**, répartis ainsi :
+
+- Discours de la servitude volontaire : 19 questionnaires.
+- On ne badine pas avec l'amour : 11 questionnaires.
+- La rage de l'expression : 15 questionnaires.
+- Sido : 58 questionnaires.
+- Manon Lescaut : 11 questionnaires.
+
+Le parcours bac contient aussi des fiches HTML dédiées à La Boétie et Montaigne, notamment sur l'hypothèse de la servitude volontaire, le parcours associé, la stratégie argumentative du Discours et l'amitié entre Montaigne et La Boétie.
+
+### Maturité cantonale
+
+Le nouveau dossier `matu/` contient un espace complet pour la maturité cantonale :
+
+- `matu/index.html` : catalogue de podcasts.
+- `matu/quiz.html` : sommaire des questionnaires.
+- `matu/fiches.html` : sommaire des fiches.
+- `matu/matu.js` et `matu/matu.css` : logique et styles propres à ce parcours.
+
+Le catalogue Maturité contient **154 podcasts**, répartis entre :
+
+- Candide : 14 épisodes ou émissions.
+- Les Fleurs du mal : 42 épisodes ou émissions.
+- Madame Bovary : 26 épisodes ou émissions.
+- Le mariage de Figaro : 18 épisodes ou émissions.
+- Hernani : 9 épisodes ou émissions.
+- Incendies : 9 épisodes ou émissions.
+- Jacques le fataliste : 22 épisodes ou émissions.
+- La Prose du Transsibérien : 10 épisodes ou émissions.
+- Les faux-monnayeurs : 4 épisodes ou émissions.
+
+Le sommaire des quiz Maturité couvre actuellement :
+
+- Candide : 14 questionnaires.
+- Les Fleurs du mal : 42 questionnaires.
+- Madame Bovary : 25 questionnaires.
+- Le mariage de Figaro : 18 questionnaires.
+- Hernani : 9 questionnaires.
+- Incendies : 3 questionnaires.
+
+Une fiche de révision est disponible pour **Candide de Voltaire**.
+
+### IB
+
+Le dossier `IB/` contient une page `IB/index.html` indiquant que la section IB est en préparation. Elle est déjà reliée à la page d'accueil et prête à accueillir de futurs contenus.
+
+## Fonctionnalités
 
 ### Catalogue de podcasts
 
-La page d'accueil affiche les podcasts sous forme de cartes. Chaque carte indique le titre de l'émission, l'oeuvre associée, l'auteur, la durée, la date et la source quand ces informations sont disponibles.
+Les catalogues affichent les podcasts sous forme de cartes. Chaque carte peut présenter le titre, l'oeuvre, l'auteur, la série, la durée, la date, la source et le lien d'origine.
 
 ### Classement par oeuvre
 
-Les podcasts sont regroupés par objet d'étude ou par oeuvre. Des onglets permettent de passer rapidement d'un ensemble à l'autre, ou d'afficher tous les podcasts en même temps.
+Les podcasts sont regroupés par oeuvre ou objet d'étude. Des onglets permettent de passer rapidement d'un ensemble à l'autre ou d'afficher tous les contenus.
 
 ### Recherche
 
-Une barre de recherche permet de retrouver rapidement un podcast à partir d'un titre, d'un auteur, d'une oeuvre, d'une émission ou d'une source. La recherche filtre directement les cartes affichées.
+Une recherche permet de retrouver un contenu à partir d'un titre, d'un auteur, d'une oeuvre, d'une émission ou d'une source. Depuis les pages de quiz et de fiches, la recherche renvoie vers le catalogue.
 
-### Tri des épisodes
+### Tris et filtres
 
-Le site propose plusieurs tris :
+Les catalogues proposent :
 
-- par ordre d'origine ;
-- du plus long au plus court ;
-- du plus court au plus long ;
-- du plus récent au plus ancien ;
-- du plus ancien au plus récent.
+- un tri par ordre d'origine ;
+- un tri du plus long au plus court ;
+- un tri du plus court au plus long ;
+- un tri du plus récent au plus ancien ;
+- un tri du plus ancien au plus récent ;
+- un filtre par durée maximale : 10, 30 ou 60 minutes ;
+- un filtre par état : tous, à écouter, écoutés.
 
-Ce tri permet d'adapter les révisions au temps disponible.
+### Progression locale
 
-### Filtre par durée
-
-Un filtre permet de n'afficher que les podcasts de moins de 10, 30 ou 60 minutes. C'est pratique pour choisir une écoute rapide avant un cours, un devoir ou une épreuve.
-
-### Suivi des podcasts écoutés
-
-Chaque podcast peut être coché comme écouté. Le site garde cette information dans le navigateur grâce au stockage local, ce qui permet de retrouver sa progression lors d'une prochaine visite.
-
-### Barre de progression
-
-Un indicateur en haut de page affiche la progression globale : nombre de podcasts écoutés, nombre total de podcasts et pourcentage d'avancement.
-
-### Filtre "À écouter" ou "Écoutés"
-
-Un filtre d'état permet d'afficher seulement les podcasts restant à écouter ou seulement ceux qui ont déjà été terminés.
+Chaque podcast peut être marqué comme écouté. La progression est conservée dans le navigateur grâce au stockage local. Une barre de progression affiche le nombre d'épisodes terminés, le total et le pourcentage d'avancement.
 
 ### Favoris
 
-Chaque podcast peut être ajouté aux favoris. Un bouton permet ensuite de n'afficher que les podcasts favoris, par exemple pour préparer une liste de réécoute ou garder les épisodes les plus utiles.
+Les podcasts peuvent être ajoutés aux favoris. Un filtre permet ensuite de n'afficher que cette sélection.
 
 ### Lecteur intégré
 
-Quand un flux audio est disponible, le podcast peut être lancé directement depuis la carte, sans quitter le site. Le lecteur intégré utilise les lecteurs embarqués de Radio France.
-
-### Lien vers la source
-
-Chaque carte peut renvoyer vers la page d'origine du podcast sur Radio France. Cela permet de consulter la description officielle, les informations complémentaires ou l'épisode sur le site source.
+Quand un lecteur est disponible, l'écoute peut se faire directement depuis la carte grâce aux intégrations Radio France.
 
 ### Résumés pédagogiques
 
-Certains podcasts disposent d'un résumé structuré. Ces résumés présentent l'essentiel de l'émission et les points importants à retenir pour les révisions.
+Certains contenus disposent de résumés structurés ou de transcriptions nettoyées. Ces données alimentent les pages de révision et les scripts de génération.
 
-### Quiz de révision
+### Quiz
 
-Le site contient près de 100 quiz associés aux podcasts. Chaque quiz propose des questions à choix multiples, une correction immédiate, un score et un retour explicatif pour consolider la compréhension.
+Les quiz proposent des questions à choix multiples, une correction immédiate, un score et des explications. Les questionnaires sont accessibles depuis les sommaires par oeuvre.
 
-### Pages de regroupement des quiz
+### Fiches
 
-Des pages de sommaire permettent d'accéder aux quiz par oeuvre. Elles facilitent une révision ciblée, par exemple uniquement sur La Boétie, Musset, Ponge ou Colette.
+Les pages de fiches complètent les podcasts et les quiz avec des repères synthétiques : notions, auteurs, citations, enjeux d'argumentation ou éléments d'analyse.
 
 ### Mode sombre
 
-Un bouton permet de passer en mode sombre. Le choix est conservé dans le navigateur pour les visites suivantes.
+Le site dispose d'un mode sombre. Le choix est conservé dans le navigateur.
 
 ### Interface responsive
 
-La mise en page est prévue pour fonctionner sur ordinateur, tablette et mobile. Les contrôles, cartes, onglets et quiz s'adaptent à la largeur de l'écran.
+Les pages sont pensées pour fonctionner sur ordinateur, tablette et mobile.
 
 ## Structure du projet
 
 ```text
 .
-├── index.html              # Page principale du site et données des podcasts
-├── app.js                  # Logique de recherche, filtres, favoris, progression et lecteur
-├── styles.css              # Styles de l'application
-├── liste.md                # Liste source des podcasts
-├── summaries.json          # Transcriptions et résumés générés
-├── build-audio-map.js      # Script d'intégration des lecteurs Radio France
-├── build-summaries.js      # Script d'intégration des résumés dans la page
-├── transcribe.py           # Script de transcription des podcasts
-└── quiz/
-    ├── quiz-data.js        # Données des quiz
-    ├── quiz.js             # Moteur des quiz
-    ├── quiz.css            # Styles des pages de quiz
-    └── *.html              # Pages individuelles et sommaires des quiz
+├── accueil.html              # Page d'entrée vers Bac, Maturité et IB
+├── index.html                # Catalogue Bac français
+├── quiz.html                 # Sommaire des quiz Bac français
+├── fiches.html               # Sommaire des fiches Bac français
+├── app.js                    # Logique du catalogue Bac
+├── header.js                 # Recherche, thème et progression partagés
+├── styles.css                # Styles communs
+├── liste.md                  # Liste source des podcasts Bac
+├── summaries.json            # Transcriptions et résumés Bac
+├── summaries-clean.json      # Transcriptions nettoyées
+├── summaries-clean-report.json
+├── build-audio-map.js        # Script d'intégration des lecteurs Radio France
+├── build-summaries.js        # Script d'intégration des résumés
+├── clean-transcripts.js      # Script de nettoyage des transcriptions
+├── transcribe.py             # Script de transcription
+├── assets/                   # Logos et éléments graphiques
+├── fiches/                   # Fiches Bac français
+├── quiz/                     # Quiz Bac français
+├── matu/                     # Parcours Maturité cantonale
+│   ├── index.html
+│   ├── quiz.html
+│   ├── fiches.html
+│   ├── matu.css
+│   ├── matu.js
+│   ├── summaries.json
+│   ├── podcasts.md
+│   ├── fiches/
+│   └── quiz/
+└── IB/
+    └── index.html            # Section IB en préparation
 ```
 
 ## Utilisation locale
 
-Le site est statique : il peut être ouvert directement dans un navigateur avec `index.html`.
-
-Pour le servir localement avec Python :
+Le site est statique. Il peut être ouvert directement dans un navigateur depuis `accueil.html`, ou servi localement avec Python :
 
 ```bash
 python3 -m http.server 8000
@@ -121,7 +187,7 @@ python3 -m http.server 8000
 Puis ouvrir :
 
 ```text
-http://localhost:8000
+http://localhost:8000/accueil.html
 ```
 
 ## Scripts utiles
@@ -148,7 +214,7 @@ Ce script lit `summaries.json`, nettoie les résumés disponibles et les intègr
 node clean-transcripts.js
 ```
 
-Ce script lit `summaries.json` et produit `summaries-clean.json`, sans modifier le fichier original. Il normalise les espaces, corrige quelques noms propres récurrents et retire certaines mentions parasites de sous-titrage ou fins répétées. Un rapport détaillé est écrit dans `summaries-clean-report.json`.
+Ce script lit `summaries.json` et produit `summaries-clean.json`, sans modifier le fichier original. Il normalise les espaces, corrige quelques noms propres récurrents et retire certaines mentions parasites. Un rapport détaillé est écrit dans `summaries-clean-report.json`.
 
 ### Générer les transcriptions
 
@@ -158,28 +224,30 @@ python3 transcribe.py
 
 Ce script télécharge les audios disponibles et transcrit les podcasts avec Whisper local. Les résultats sont sauvegardés dans `summaries.json` et la reprise est automatique en cas d'interruption.
 
-### Générer des transcriptions haute qualité
+### Générer les données Maturité
 
 ```bash
-python3 transcribe-high-quality.py
+node matu/generate-transcript-study-data.js
+node matu/generate-madame-bovary-study-data.js
 ```
 
-Ce script retranscrit les audios avec Whisper `large-v3` et écrit les résultats dans `summaries-whisper-large-v3.json`, sans modifier `summaries.json`. Il utilise des paramètres anti-répétition et rejette les sorties manifestement tronquées ou répétitives. Il reprend automatiquement là où il s'est arrêté si le traitement est interrompu.
+Ces scripts servent à produire ou enrichir des données de révision pour le parcours Maturité.
 
-## Données et contenu
+## Données et contenus
 
-Les contenus audio restent hébergés par Radio France. Le site référence les épisodes, les affiche avec leurs métadonnées et, lorsque c'est possible, les intègre via un lecteur embarqué.
+Les contenus audio restent hébergés par leurs plateformes d'origine, notamment Radio France. Le site référence les épisodes, affiche leurs métadonnées et, lorsque c'est possible, les intègre via un lecteur embarqué.
 
-Les quiz et les résumés servent d'aide à la révision. Ils ne remplacent pas l'écoute des épisodes ni la lecture des oeuvres, mais offrent un support de mémorisation rapide.
+Les quiz, fiches, résumés et transcriptions servent d'aide à la révision. Ils ne remplacent pas l'écoute des épisodes ni la lecture des oeuvres.
 
-## Technologies utilisées
+## Technologies
 
 - HTML
 - CSS
 - JavaScript sans framework
-- Stockage local du navigateur pour la progression, les favoris et le thème
-- Node.js pour les scripts d'intégration
-- Python et Whisper pour la génération des transcriptions
+- Stockage local du navigateur
+- Font Awesome pour les icônes
+- Node.js pour les scripts de génération et d'intégration
+- Python et Whisper pour la transcription
 
 ## Licence
 
