@@ -38,75 +38,75 @@
     }
 
     .home-page main {
-      align-self: start;
+      align-self: center;
       width: min(1120px, 100%);
-      padding-top: clamp(38px, 6vh, 74px);
-      padding-bottom: clamp(56px, 8vh, 88px);
+      padding-top: 0;
+      padding-bottom: 0;
     }
 
-    .home-hero {
+    .home-quote {
       position: relative;
-      width: min(960px, 100%);
-      margin: 0 auto clamp(34px, 5vw, 58px);
-      padding: clamp(18px, 3vw, 26px) clamp(18px, 4vw, 42px) clamp(24px, 4vw, 40px);
+      width: min(760px, 100%);
+      margin: clamp(70px, 8vw, 104px) auto 0;
+      padding: 0 clamp(16px, 3vw, 30px);
       overflow: hidden;
-      color: var(--ink);
+      color: var(--warm-dark);
       text-align: center;
     }
 
-    .home-hero::before {
+    .home-quote::before {
       content: "\f10d";
       position: absolute;
-      top: -10px;
+      top: -6px;
       left: 50%;
       z-index: 0;
-      color: rgba(2, 132, 199, .09);
+      color: rgba(2, 132, 199, .18);
       font-family: "Font Awesome 6 Free";
-      font-size: clamp(5.5rem, 12vw, 9rem);
+      font-size: clamp(3rem, 7vw, 5.2rem);
       font-weight: 900;
       line-height: 1;
       transform: translateX(-50%);
       pointer-events: none;
     }
 
-    [data-theme="dark"] .home-hero::before {
-      color: rgba(56, 189, 248, .10);
+    [data-theme="dark"] .home-quote::before {
+      color: rgba(56, 189, 248, .18);
     }
 
-    .home-hero blockquote {
+    .home-quote blockquote {
       position: relative;
       z-index: 1;
       margin: 0;
     }
 
-    .home-hero p {
+    .home-quote p {
       margin: 0;
       font-family: 'Lora', Georgia, serif;
-      font-size: clamp(1.42rem, 3.8vw, 3.05rem);
+      font-size: clamp(1rem, 1.8vw, 1.38rem);
       font-weight: 600;
       font-style: italic;
-      line-height: 1.18;
+      line-height: 1.46;
       text-wrap: balance;
     }
 
-    .home-hero cite {
+    .home-quote cite {
       display: block;
-      margin-top: clamp(18px, 3vw, 28px);
+      margin-top: 14px;
       color: var(--muted);
-      font-size: .78rem;
+      font-size: .7rem;
       font-style: normal;
       font-weight: 700;
       letter-spacing: .08em;
       text-transform: uppercase;
     }
 
-    .home-hero cite a {
+    .home-quote cite a {
       color: var(--accent);
       text-decoration: none;
     }
 
-    .home-hero cite a:hover,
-    .home-hero cite a:focus-visible {
+    .home-quote cite a:hover,
+    .home-quote cite a:focus-visible {
       color: var(--warm-dark);
       text-decoration: underline;
       text-underline-offset: 3px;
@@ -504,11 +504,6 @@
         padding-bottom: 30px;
       }
 
-      .home-page main {
-        align-self: start;
-        padding-top: 0;
-      }
-
       .path-card {
         width: min(100%, 268px);
         padding: 32px 28px;
@@ -547,16 +542,6 @@
 
   <div class="home-shell">
     <main>
-      <section class="home-hero" aria-label="Citation">
-        <blockquote>
-          <p>une belle illustration de ce que peut donner l’IA lorsqu’elle est mise au service d’une intention pédagogique claire, par quelqu’un qui connaît à la fois la matière, les programmes et les élèves.</p>
-          <cite>
-            Source :
-            <a href="https://outilstice.com/2026/05/reviser-bac-francais-podcasts-ia/" target="_blank" rel="noopener noreferrer">Outils TICE</a>
-          </cite>
-        </blockquote>
-      </section>
-
       <section class="home-intro" aria-label="Présentation">
         <p>Trois parcours, une même idée : écouter des podcasts pour réviser.</p>
       </section>
@@ -626,6 +611,16 @@
             <span>Des fiches et des quiz pour vérifier la compréhension et mémoriser l'essentiel.</span>
           </span>
         </p>
+      </section>
+
+      <section class="home-quote" aria-label="Citation">
+        <blockquote>
+          <p>une belle illustration de ce que peut donner l’IA lorsqu’elle est mise au service d’une intention pédagogique claire, par quelqu’un qui connaît à la fois la matière, les programmes et les élèves.</p>
+          <cite>
+            Source :
+            <a href="https://outilstice.com/2026/05/reviser-bac-francais-podcasts-ia/" target="_blank" rel="noopener noreferrer">Outils TICE</a>
+          </cite>
+        </blockquote>
       </section>
     </main>
 
