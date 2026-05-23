@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Réviser avec les podcasts</title>
+  <link rel="icon" href="data:,">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <script>
+    (() => {
+      try {
+        if (localStorage.getItem("bac-podcasts-theme") === "dark") {
+          document.documentElement.setAttribute("data-theme", "dark");
+        }
+      } catch (error) {}
+    })();
+  </script>
+  <link rel="stylesheet" href="../styles.css?v=20260516-7">
+  <link rel="stylesheet" href="../quiz/quiz.css">
+  <link rel="stylesheet" href="matu.css">
+</head>
+<body class="quiz-page matu-page">
+  <header class="topbar">
+    <div class="topbar-brand">
+      <span class="menu-microphone" aria-hidden="true">
+        <i class="fa-solid fa-microphone-lines"></i>
+      </span>
+      <p class="eyebrow">Maturité cantonale</p>
+      <h1>Réviser avec les podcasts</h1>
+      <nav class="quick-menu" aria-label="Accès rapides">
+        <a href="index.html">Podcasts</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="fiches.html" aria-current="page">Fiches</a>
+      </nav>
+    </div>
+    <div class="topbar-tools">
+      <div class="topbar-main">
+        <div class="header-actions">
+          <button id="themeToggle" class="icon-button theme-toggle" type="button" aria-label="Activer le mode sombre" title="Activer le mode sombre">
+            <i class="fa-solid fa-moon" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="quiz-index-list" aria-label="Fiches disponibles">
+      <a href="fiches/fiche-candide-de-voltaire.html">
+        <strong>Candide de Voltaire</strong>
+        <span>optimisme, ironie, conte philosophique</span>
+      </a>
+    </section>
+  </main>
+
+  <script src="../header.js?v=20260523-1" defer></script>
+</body>
+</html>

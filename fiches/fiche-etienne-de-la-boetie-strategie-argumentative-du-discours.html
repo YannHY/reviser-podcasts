@@ -1,0 +1,723 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fiche - Étienne de La Boétie, la stratégie argumentative du discours</title>
+  <link rel="icon" href="data:,">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="../styles.css?v=20260516-7">
+  <link rel="stylesheet" href="../quiz/quiz.css">
+  <style>
+    .study-page {
+      background: var(--paper);
+    }
+
+    .study-page .topbar {
+      position: static;
+    }
+
+    .study-page main {
+      max-width: 1180px;
+    }
+
+    .study-layout {
+      display: grid;
+      grid-template-columns: minmax(190px, 260px) minmax(0, 1fr);
+      gap: 18px;
+      align-items: start;
+    }
+
+    .study-nav,
+    .study-section,
+    .study-callout,
+    .reference-table,
+    .quote-bank {
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: var(--panel);
+      box-shadow: var(--shadow);
+    }
+
+    .study-nav {
+      position: sticky;
+      top: 16px;
+      padding: 12px;
+    }
+
+    .study-nav a {
+      display: block;
+      padding: 9px 10px;
+      border-radius: 6px;
+      color: var(--muted);
+      text-decoration: none;
+      font-size: .86rem;
+      line-height: 1.25;
+    }
+
+    .study-nav a:hover {
+      background: var(--paper);
+      color: var(--accent);
+    }
+
+    .study-content {
+      display: grid;
+      gap: 16px;
+    }
+
+    .study-section {
+      padding: clamp(18px, 4vw, 30px);
+    }
+
+    .study-section h2,
+    .study-section h3 {
+      margin: 0;
+      font-family: 'Lora', Georgia, serif;
+      color: var(--warm-dark);
+    }
+
+    .study-section h2 {
+      font-size: clamp(1.25rem, 2.2vw, 1.75rem);
+      line-height: 1.2;
+    }
+
+    .study-section h3 {
+      margin-top: 18px;
+      font-size: 1.05rem;
+    }
+
+    .study-section p,
+    .study-section li {
+      color: var(--ink);
+      font-size: .97rem;
+      line-height: 1.72;
+    }
+
+    .study-section p {
+      margin: 12px 0 0;
+    }
+
+    .study-section ul,
+    .study-section ol {
+      margin: 12px 0 0;
+      padding-left: 20px;
+    }
+
+    .study-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 16px;
+    }
+
+    .study-card,
+    .notion-card {
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 14px;
+      background: var(--paper);
+    }
+
+    .study-card strong,
+    .notion-card strong {
+      display: block;
+      margin-bottom: 6px;
+      color: var(--accent);
+    }
+
+    .study-card p,
+    .notion-card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: .9rem;
+      line-height: 1.55;
+    }
+
+    .study-callout {
+      padding: 16px 18px;
+      border-left: 4px solid var(--accent);
+    }
+
+    .study-callout strong {
+      color: var(--accent);
+    }
+
+    .podcast-admonition {
+      display: grid;
+      gap: 12px;
+      padding: 16px 18px;
+      border: 1px solid var(--line);
+      border-left: 4px solid var(--warm);
+      border-radius: 6px;
+      background: var(--panel);
+      box-shadow: var(--shadow);
+    }
+
+    .podcast-admonition summary {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-family: 'Lora', Georgia, serif;
+      color: var(--warm-dark);
+      font-size: 1.15rem;
+      font-weight: 700;
+      line-height: 1.25;
+      cursor: pointer;
+      list-style: none;
+    }
+
+    .podcast-admonition summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .podcast-admonition summary::after {
+      margin-left: auto;
+      color: var(--muted);
+      font-family: "Font Awesome 6 Free";
+      font-size: .86rem;
+      font-weight: 900;
+      content: "\f078";
+      transition: transform .15s ease;
+    }
+
+    .podcast-admonition[open] summary::after {
+      transform: rotate(180deg);
+    }
+
+    .podcast-admonition p {
+      margin: 0;
+      color: var(--muted);
+      font-size: .92rem;
+      line-height: 1.55;
+    }
+
+    .podcast-admonition a {
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    .podcast-admonition-body {
+      display: grid;
+      gap: 12px;
+      margin-top: 12px;
+    }
+
+    .podcast-frame {
+      display: block;
+      width: 100%;
+      height: 144px;
+      border: 0;
+      border-radius: 6px;
+      background: var(--paper);
+    }
+
+    .podcast-frame.is-podcastics {
+      height: 58px;
+      border-radius: 0;
+      background: transparent;
+    }
+
+    .quote-bank {
+      display: grid;
+      gap: 10px;
+      margin-top: 14px;
+      padding: 14px;
+      background: var(--paper);
+    }
+
+    .quote-bank h3 {
+      margin: 8px 0 2px;
+      font-family: 'Lora', Georgia, serif;
+      color: var(--accent);
+      font-size: 1rem;
+    }
+
+    .quote-bank h3:first-child {
+      margin-top: 0;
+    }
+
+    .quote-note {
+      margin: 0;
+      color: var(--muted);
+      font-size: .88rem;
+      line-height: 1.55;
+    }
+
+    blockquote {
+      margin: 0;
+      padding: 0 0 0 14px;
+      border-left: 3px solid var(--warm);
+      color: var(--ink);
+      font-family: 'Lora', Georgia, serif;
+      font-size: .98rem;
+      line-height: 1.65;
+    }
+
+    blockquote cite {
+      display: block;
+      margin-top: 6px;
+      color: var(--muted);
+      font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+      font-size: .82rem;
+      font-style: normal;
+    }
+
+    .reference-table {
+      width: 100%;
+      margin-top: 16px;
+      border-collapse: separate;
+      border-spacing: 0;
+      overflow: hidden;
+      font-size: .92rem;
+    }
+
+    .reference-table th,
+    .reference-table td {
+      padding: 12px;
+      border-bottom: 1px solid var(--line);
+      vertical-align: top;
+      line-height: 1.55;
+      text-align: left;
+    }
+
+    .reference-table th {
+      color: var(--accent);
+      background: var(--paper);
+      font-size: .78rem;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    .reference-table tr:last-child td {
+      border-bottom: 0;
+    }
+
+    .tag-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 14px;
+    }
+
+    .tag-list span {
+      display: inline-flex;
+      align-items: center;
+      min-height: 28px;
+      padding: 0 10px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: var(--paper);
+      color: var(--muted);
+      font-size: .82rem;
+      font-weight: 700;
+    }
+
+    .timeline {
+      display: grid;
+      gap: 10px;
+      margin-top: 14px;
+    }
+
+    .timeline div {
+      display: grid;
+      grid-template-columns: 44px minmax(0, 1fr);
+      gap: 12px;
+      align-items: start;
+      padding: 12px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: var(--paper);
+    }
+
+    .timeline strong {
+      color: var(--accent);
+    }
+
+    .timeline span {
+      color: var(--ink);
+      line-height: 1.55;
+    }
+
+    .method-list li + li {
+      margin-top: 8px;
+    }
+
+    @media (max-width: 860px) {
+      .study-layout {
+        grid-template-columns: 1fr;
+      }
+
+      .study-nav {
+        position: static;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .study-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 620px) {
+      .study-nav {
+        grid-template-columns: 1fr;
+      }
+
+      .reference-table,
+      .reference-table tbody,
+      .reference-table tr,
+      .reference-table th,
+      .reference-table td {
+        display: block;
+        width: 100%;
+      }
+
+      .reference-table thead {
+        display: none;
+      }
+
+      .reference-table td {
+        border-bottom: 0;
+        padding: 8px 12px;
+      }
+
+      .reference-table tr {
+        padding: 8px 0;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .reference-table tr:last-child {
+        border-bottom: 0;
+      }
+
+      .reference-table td::before {
+        display: block;
+        margin-bottom: 2px;
+        color: var(--accent);
+        font-size: .72rem;
+        font-weight: 700;
+        letter-spacing: .08em;
+        text-transform: uppercase;
+        content: attr(data-label);
+      }
+
+      .timeline div {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body class="study-page quiz-page">
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">Bac français</p>
+      <h1>Réviser avec les podcasts</h1>
+      <nav class="quick-menu" aria-label="Accès rapides">
+        <a href="../index.html">Podcasts</a>
+        <a href="../quiz.html">Quiz</a>
+        <a href="../fiches.html" aria-current="page">Fiches</a>
+      </nav>
+    </div>
+    <div class="topbar-tools">
+      <div class="topbar-main">
+        <div class="header-actions">
+          <button id="searchToggle" class="icon-button search-toggle" type="button" aria-label="Rechercher" aria-expanded="false" aria-controls="headerSearch">
+            <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+          </button>
+          <button id="themeToggle" class="icon-button theme-toggle" type="button" aria-label="Activer le mode sombre" title="Activer le mode sombre">
+            <i class="fa-solid fa-moon" aria-hidden="true"></i>
+          </button>
+        </div>
+        <div class="progress-panel" aria-live="polite" data-progress-total="114">
+          <span id="progressText">Chargement...</span>
+          <div class="progress-track" aria-hidden="true">
+            <span id="progressBar"></span>
+          </div>
+        </div>
+      </div>
+      <form id="headerSearch" class="header-search" action="../index.html" hidden>
+        <label for="searchInput" class="sr-only">Rechercher</label>
+        <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+        <input id="searchInput" name="search" type="search" placeholder="Auteur, titre, émission...">
+        <button id="searchClose" class="icon-button search-close" type="button" aria-label="Fermer la recherche">
+          <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+        </button>
+      </form>
+    </div>
+  </header>
+
+  <main>
+    <div class="study-layout">
+      <nav class="study-nav" aria-label="Sommaire de la fiche">
+        <a href="#essentiel">L'essentiel</a>
+        <a href="#probleme">Le problème littéraire</a>
+        <a href="#progression">Progression du discours</a>
+        <a href="#convaincre">Convaincre et persuader</a>
+        <a href="#procedes">Procédés à retenir</a>
+        <a href="#citations">Citations utiles</a>
+        <a href="#plan">Plan de l'émission</a>
+        <a href="#methode">Méthode pour le bac</a>
+        <a href="#questions">Questions possibles</a>
+      </nav>
+
+      <div class="study-content">
+        <details class="podcast-admonition" open>
+          <summary><i class="fa-solid fa-headphones" aria-hidden="true"></i> Podcast</summary>
+          <div class="podcast-admonition-body">
+            <p>
+              <a href="https://podcasts.toutsavoir.fr/cecile-cathelin-clapotee/202603011456-etienne-de-la-boetie-la-strategie-argumentative-du-discours" target="_blank" rel="noopener noreferrer">Etienne de La Boétie - La stratégie argumentative du discours</a>
+              <span> - CLAPOTEE, 1 mars 2026, 10 min.</span>
+            </p>
+            <iframe
+              class="podcast-frame is-podcastics"
+              title="Player Podcastics - Etienne de La Boétie - La stratégie argumentative du discours"
+              src="https://player.podcastics.com/light/148/405846?s=5045"
+              loading="lazy"
+              allow="autoplay">
+            </iframe>
+          </div>
+        </details>
+
+        <section id="essentiel" class="study-section">
+          <h2>L'essentiel</h2>
+          <div class="study-callout">
+            <p><strong>Idée centrale&nbsp;:&nbsp;</strong> Le <em>Discours de la servitude volontaire</em> est une véritable machine argumentative&nbsp;:&nbsp;La Boétie ne raconte pas une fiction, il interroge directement le lecteur pour le conduire du paradoxe de l'obéissance à l'éveil politique.</p>
+          </div>
+          <div class="study-grid">
+            <article class="study-card">
+              <strong>Une argumentation directe</strong>
+              <p>La Boétie défend explicitement une thèse dans un discours d'idées. Il ne passe pas par une fable, un apologue ou un récit fictif pour faire comprendre son message.</p>
+            </article>
+            <article class="study-card">
+              <strong>Une question fondatrice</strong>
+              <p>Tout part d'un paradoxe&nbsp;:&nbsp;des peuples nombreux obéissent à un seul homme, pourtant faible sans eux. La question est donc de comprendre pourquoi les dominés donnent au tyran la force qui les écrase.</p>
+            </article>
+            <article class="study-card">
+              <strong>Une démonstration progressive</strong>
+              <p>Le texte avance par étapes&nbsp;:&nbsp;nature, habitude, artifices du tyran, consentement des peuples, puis appel à l'éveil collectif.</p>
+            </article>
+            <article class="study-card">
+              <strong>Une éloquence engagée</strong>
+              <p>La Boétie convainc par la logique et persuade par le style&nbsp;:&nbsp;questions rhétoriques, exclamations, ironie et images frappantes.</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="probleme" class="study-section">
+          <h2>Le problème littéraire</h2>
+          <p>L'épisode pose une question utile pour la dissertation&nbsp;:&nbsp;comment un texte d'idées peut-il devenir un texte puissant, vivant, presque offensif&nbsp;? Chez La Boétie, l'argumentation n'est pas seulement un enchaînement abstrait de concepts. Elle est une parole adressée, conçue pour faire réfléchir, déranger et réveiller.</p>
+          <p>Le <em>Discours</em> relève donc de l'argumentation directe. Dans une argumentation directe, l'auteur expose lui-même sa thèse, ses arguments et ses exemples&nbsp;:&nbsp;le lecteur sait immédiatement quelle idée est défendue. À l'inverse, l'argumentation indirecte passe par un détour narratif ou fictif, comme la fable, le conte philosophique, l'apologue ou l'utopie&nbsp;:&nbsp;l'idée est alors portée par une histoire, des personnages ou une situation symbolique.</p>
+          <p>La Boétie ne choisit pas ce détour. Il prend directement la parole pour analyser la liberté politique et comprendre pourquoi les peuples acceptent de servir. Cette prise de parole frontale permet de faire de la question politique un problème moral&nbsp;:&nbsp;si le tyran domine, c'est aussi parce que les sujets lui fournissent les moyens de sa puissance.</p>
+          <p>Pour une copie, l'enjeu est de montrer que la stratégie argumentative de La Boétie unit deux forces&nbsp;:&nbsp;la rigueur du raisonnement et l'intensité de l'éloquence. Le texte veut faire comprendre, mais aussi provoquer une prise de conscience.</p>
+        </section>
+
+        <section id="progression" class="study-section">
+          <h2>Progression du discours</h2>
+          <p>L'épisode insiste sur la construction du raisonnement. La Boétie ne juxtapose pas des remarques&nbsp;:&nbsp;il conduit le lecteur d'un paradoxe initial vers une conclusion politique.</p>
+          <div class="timeline">
+            <div>
+              <strong>1. Paradoxe</strong>
+              <span>Un seul homme domine des peuples entiers&nbsp;:&nbsp;l'étonnement lance la réflexion.</span>
+            </div>
+            <div>
+              <strong>2. Nature</strong>
+              <span>Les hommes naissent libres et égaux ; la servitude n'est donc pas un état naturel.</span>
+            </div>
+            <div>
+              <strong>3. Habitude</strong>
+              <span>La coutume rend peu à peu la servitude supportable, puis presque normale aux yeux des dominés.</span>
+            </div>
+            <div>
+              <strong>4. Artifices</strong>
+              <span>Le tyran détourne l'attention par les divertissements, les spectacles et les distractions politiques.</span>
+            </div>
+            <div>
+              <strong>5. Consentement</strong>
+              <span>Le pouvoir ne repose pas seulement sur la force&nbsp;:&nbsp;il dépend d'une coopération active ou passive des sujets.</span>
+            </div>
+            <div>
+              <strong>6. Éveil</strong>
+              <span>Le discours aboutit à un appel à la lucidité&nbsp;:&nbsp;comprendre le mécanisme de la servitude, c'est déjà commencer à s'en libérer.</span>
+            </div>
+          </div>
+        </section>
+
+        <section id="convaincre" class="study-section">
+          <h2>Convaincre et persuader</h2>
+          <p>La Boétie cherche d'abord à <strong>convaincre</strong>, c'est-à-dire à obtenir l'adhésion rationnelle du lecteur. Sa stratégie passe par des arguments logiques, une réflexion conceptuelle, des observations, des arguments d'autorité et des exemples historiques. La réflexion est structurée, nourrie, démonstrative.</p>
+          <p>Mais il cherche aussi à <strong>persuader</strong>. Sa parole engage le lecteur affectivement&nbsp;:&nbsp;elle interroge, accuse, étonne, ironise. L'épisode insiste sur l'énonciation personnelle, les adresses au lecteur et au peuple, les questions rhétoriques, les exclamations, les incises, les images frappantes et la modalisation. Le discours alterne ainsi des tonalités didactique, polémique et satirique.</p>
+          <div class="study-grid">
+            <article class="notion-card">
+              <strong>Conviction</strong>
+              <p>Raison, logique, progression, observation des bêtes, exemples historiques, arguments d'autorité, références à Térence, Virgile et Ésope.</p>
+            </article>
+            <article class="notion-card">
+              <strong>Persuasion</strong>
+              <p>Émotion, « je » de l'orateur, adresse au lecteur, lexique mélioratif ou péjoratif, ironie, images frappantes, rythme oratoire.</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="procedes" class="study-section">
+          <h2>Procédés à retenir</h2>
+          <table class="reference-table">
+            <thead>
+              <tr>
+                <th>Procédé</th>
+                <th>Effet produit</th>
+                <th>Comment l'utiliser</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-label="Procédé"><strong>Question rhétorique</strong></td>
+                <td data-label="Effet">Elle met le lecteur face à l'absurdité de la servitude et transforme l'étonnement en problème politique.</td>
+                <td data-label="Utilisation">Pour montrer que le texte cherche à éveiller la conscience critique.</td>
+              </tr>
+              <tr>
+                <td data-label="Procédé"><strong>Argument logique</strong></td>
+                <td data-label="Effet">Si les hommes sont naturellement libres, alors la servitude doit être expliquée comme une anomalie.</td>
+                <td data-label="Utilisation">Pour prouver que La Boétie fonde sa critique sur une démonstration rationnelle.</td>
+              </tr>
+              <tr>
+                <td data-label="Procédé"><strong>Exemples antiques</strong></td>
+                <td data-label="Effet">Les références à Térence, Virgile ou Ésope donnent de l'autorité au discours et inscrivent la réflexion dans la culture humaniste.</td>
+                <td data-label="Utilisation">Pour montrer que La Boétie renforce sa thèse par des références reconnues et incontournables.</td>
+              </tr>
+              <tr>
+                <td data-label="Procédé"><strong>Argument d'autorité</strong></td>
+                <td data-label="Effet">La Boétie s'appuie sur des auteurs reconnus pour donner plus de poids et de sérieux à sa démonstration.</td>
+                <td data-label="Utilisation">Pour montrer que l'argumentation ne repose pas seulement sur l'opinion personnelle, mais sur une culture partagée.</td>
+              </tr>
+              <tr>
+                <td data-label="Procédé"><strong>Observation des animaux</strong></td>
+                <td data-label="Effet">Même les bêtes refusent la contrainte ; la soumission humaine paraît donc encore plus choquante.</td>
+                <td data-label="Utilisation">Pour montrer l'alliance entre exemple concret et argument moral.</td>
+              </tr>
+              <tr>
+                <td data-label="Procédé"><strong>Modalisation</strong></td>
+                <td data-label="Effet">Lexique mélioratif ou péjoratif, exclamations, questions rhétoriques, incises et ironie manifestent le jugement de l'auteur.</td>
+                <td data-label="Utilisation">Pour analyser la dimension polémique du texte.</td>
+              </tr>
+              <tr>
+                <td data-label="Procédé"><strong>Énonciation personnelle</strong></td>
+                <td data-label="Effet">Le « je » et les adresses au lecteur ou au peuple impliquent directement le public dans la réflexion.</td>
+                <td data-label="Utilisation">Pour montrer que La Boétie ne veut pas seulement expliquer, mais réveiller son lecteur.</td>
+              </tr>
+              <tr>
+                <td data-label="Procédé"><strong>Variété des tonalités</strong></td>
+                <td data-label="Effet">Le discours peut être didactique pour expliquer, polémique pour dénoncer, satirique pour ridiculiser la servitude.</td>
+                <td data-label="Utilisation">Pour prouver que l'éloquence rend l'argumentation plus vive et plus persuasive.</td>
+              </tr>
+              <tr>
+                <td data-label="Procédé"><strong>Images frappantes</strong></td>
+                <td data-label="Effet">Elles rendent visible le paradoxe&nbsp;:&nbsp;le tyran paraît fort alors qu'il tient sa force de ceux qui servent.</td>
+                <td data-label="Utilisation">Pour montrer que le style met la littérature au service d'une idée politique.</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section id="citations" class="study-section">
+          <h2>Citations utiles</h2>
+          <p>Ces formules peuvent nourrir une dissertation sur la stratégie argumentative, à condition de les commenter précisément.</p>
+          <div class="quote-bank">
+            <h3>Le paradoxe de l'obéissance</h3>
+            <blockquote>
+              « Voir un million d'hommes servir misérablement, ayant le col sous le joug. »
+              <cite>La Boétie, <em>Discours de la servitude volontaire</em></cite>
+            </blockquote>
+            <p class="quote-note">La formule dramatise la disproportion entre le nombre des dominés et la faiblesse réelle du tyran.</p>
+
+            <h3>Le consentement</h3>
+            <blockquote>
+              « Soyez résolus de ne servir plus, et vous voilà libres. »
+              <cite>La Boétie, <em>Discours de la servitude volontaire</em></cite>
+            </blockquote>
+            <p class="quote-note">La phrase condense la thèse&nbsp;:&nbsp;le pouvoir tyrannique dépend du service que les sujets acceptent de lui rendre.</p>
+
+            <h3>La liberté naturelle</h3>
+            <blockquote>
+              « La nature nous a tous faits de même forme. »
+              <cite>La Boétie, <em>Discours de la servitude volontaire</em></cite>
+            </blockquote>
+            <p class="quote-note">L'argument de nature soutient l'idée d'une égalité première, incompatible avec la servitude.</p>
+
+            <h3>Le contraste avec Montaigne</h3>
+            <blockquote>
+              « À sauts et à gambades. »
+              <cite>Montaigne, <em>Essais</em>, III, 9, formule rappelée dans l'émission</cite>
+            </blockquote>
+            <p class="quote-note">L'émission évoque cette formule pour mieux souligner que La Boétie ne construit pas un texte décousu&nbsp;:&nbsp;malgré quelques digressions, son <em>Discours</em> suit une progression argumentative rigoureuse.</p>
+          </div>
+        </section>
+
+        <section id="plan" class="study-section">
+          <h2>Plan de l'émission</h2>
+          <ol>
+            <li><strong>Définir l'argumentation directe&nbsp;:&nbsp;</strong> La Boétie parle explicitement, sans fiction, pour interroger la liberté politique.</li>
+            <li><strong>Montrer la question directrice&nbsp;:&nbsp;</strong> comment un seul peut-il obtenir l'obéissance de tous&nbsp;?</li>
+            <li><strong>Suivre la progression argumentative&nbsp;:&nbsp;</strong> paradoxe, nature, habitude, artifices, consentement, éveil.</li>
+            <li><strong>Analyser l'art de convaincre&nbsp;:&nbsp;</strong> raisonnement logique, références antiques, exemples historiques, observation.</li>
+            <li><strong>Analyser l'art de persuader&nbsp;:&nbsp;</strong> énonciation personnelle, modalisation, questions rhétoriques, exclamations, ironie.</li>
+            <li><strong>Conclure sur la force du texte&nbsp;:&nbsp;</strong> une parole littéraire qui transforme le regard du lecteur sur la liberté.</li>
+          </ol>
+        </section>
+
+        <section id="methode" class="study-section">
+          <h2>Méthode pour le bac</h2>
+          <p>Dans une dissertation, cette fiche peut servir pour une partie sur la forme argumentative du <em>Discours</em>. Il ne suffit pas de dire que La Boétie critique la tyrannie&nbsp;:&nbsp;il faut montrer comment il construit l'efficacité de cette critique.</p>
+          <ul class="method-list">
+            <li><strong>Pour une partie sur l'argumentation&nbsp;:&nbsp;</strong> montrez que le texte part d'une question paradoxale et progresse vers une prise de conscience.</li>
+            <li><strong>Pour une partie sur l'humanisme&nbsp;:&nbsp;</strong> utilisez les références antiques et l'idée de liberté naturelle.</li>
+            <li><strong>Pour une partie sur l'éloquence&nbsp;:&nbsp;</strong> analysez les questions rhétoriques, les exclamations, les images et la tonalité polémique.</li>
+            <li><strong>Pour éviter la paraphrase&nbsp;:&nbsp;</strong> reliez toujours un procédé à son effet&nbsp;:&nbsp;convaincre la raison, toucher le lecteur, réveiller la liberté.</li>
+          </ul>
+          <div class="tag-list" aria-label="Mots-clés">
+            <span>Argumentation directe</span>
+            <span>Convaincre</span>
+            <span>Persuader</span>
+            <span>Question rhétorique</span>
+            <span>Humanisme</span>
+            <span>Éloquence</span>
+            <span>Servitude volontaire</span>
+          </div>
+        </section>
+
+        <section id="questions" class="study-section">
+          <h2>Questions possibles</h2>
+          <ul>
+            <li>En quoi le <em>Discours de la servitude volontaire</em> est-il un texte d'argumentation directe&nbsp;?</li>
+            <li>Comment La Boétie construit-il une démonstration progressive&nbsp;?</li>
+            <li>Pourquoi peut-on dire que La Boétie cherche à la fois à convaincre et à persuader&nbsp;?</li>
+            <li>Comment l'éloquence renforce-t-elle la portée politique du <em>Discours</em>&nbsp;?</li>
+            <li>Le style de La Boétie est-il seulement décoratif ou fait-il partie de sa stratégie argumentative&nbsp;?</li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <p class="made-with">
+        Créé avec <i class="fas fa-heart" aria-hidden="true"></i> par
+        <a href="https://www.linkedin.com/in/yann-houry-a2350651/" target="_blank" rel="noopener noreferrer">Yann Houry</a>
+      </p>
+      <div class="license">
+        <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
+          <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="CC">
+          <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt="BY">
+          <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt="SA">
+        </p>
+      </div>
+      <p class="year"><span id="current-year"></span></p>
+    </div>
+  </footer>
+  <script src="../header.js?v=20260516-1" defer></script>
+  <script>const yearEl = document.getElementById('current-year'); if (yearEl) yearEl.textContent = new Date().getFullYear();</script>
+</body>
+</html>

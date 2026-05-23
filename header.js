@@ -1,4 +1,8 @@
 (() => {
+  if (document.body.classList.contains("matu-page")) {
+    ensureMatuHeaderTools();
+  }
+
   const els = {
     search: document.querySelector("#searchInput"),
     searchPanel: document.querySelector("#headerSearch"),
@@ -25,6 +29,93 @@
     microphone.setAttribute("aria-hidden", "true");
     microphone.innerHTML = '<i class="fa-solid fa-microphone-lines"></i>';
     brand.prepend(microphone);
+  }
+
+  function ensureMatuHeaderTools() {
+    const topbar = document.querySelector(".topbar");
+    if (!topbar) return;
+
+    let tools = topbar.querySelector(".topbar-tools");
+    if (!tools) {
+      tools = document.createElement("div");
+      tools.className = "topbar-tools";
+      topbar.append(tools);
+    }
+
+    let main = tools.querySelector(".topbar-main");
+    if (!main) {
+      main = document.createElement("div");
+      main.className = "topbar-main";
+      tools.prepend(main);
+    }
+
+    let actions = main.querySelector(".header-actions");
+    if (!actions) {
+      actions = document.createElement("div");
+      actions.className = "header-actions";
+      main.prepend(actions);
+    }
+
+    if (!actions.querySelector("#searchToggle")) {
+      const searchToggle = document.createElement("button");
+      searchToggle.id = "searchToggle";
+      searchToggle.className = "icon-button search-toggle";
+      searchToggle.type = "button";
+      searchToggle.setAttribute("aria-label", "Rechercher");
+      searchToggle.setAttribute("aria-expanded", "false");
+      searchToggle.setAttribute("aria-controls", "headerSearch");
+      searchToggle.innerHTML = '<i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>';
+      actions.prepend(searchToggle);
+    }
+
+    if (!actions.querySelector("#themeToggle")) {
+      const themeToggle = document.createElement("button");
+      themeToggle.id = "themeToggle";
+      themeToggle.className = "icon-button theme-toggle";
+      themeToggle.type = "button";
+      themeToggle.setAttribute("aria-label", "Activer le mode sombre");
+      themeToggle.title = "Activer le mode sombre";
+      themeToggle.innerHTML = '<i class="fa-solid fa-moon" aria-hidden="true"></i>';
+      actions.append(themeToggle);
+    }
+
+    if (!main.querySelector(".progress-panel")) {
+      const progressPanel = document.createElement("div");
+      progressPanel.className = "progress-panel";
+      progressPanel.dataset.progressTotal = "109";
+      progressPanel.setAttribute("aria-live", "polite");
+      progressPanel.innerHTML = `
+        <span id="progressText">Chargement...</span>
+        <div class="progress-track" aria-hidden="true">
+          <span id="progressBar"></span>
+        </div>
+      `;
+      main.append(progressPanel);
+    }
+
+    if (!tools.querySelector("#headerSearch")) {
+      const searchPanel = document.createElement("form");
+      searchPanel.id = "headerSearch";
+      searchPanel.className = "header-search";
+      searchPanel.hidden = true;
+      searchPanel.action = getPodcastIndexHref(topbar);
+      searchPanel.innerHTML = `
+        <label for="searchInput" class="sr-only">Rechercher</label>
+        <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+        <input id="searchInput" type="search" placeholder="Auteur, titre, émission...">
+        <button id="searchClose" class="icon-button search-close" type="button" aria-label="Fermer la recherche">
+          <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+        </button>
+      `;
+      tools.append(searchPanel);
+    }
+  }
+
+  function getPodcastIndexHref(topbar) {
+    const podcastLink = [...topbar.querySelectorAll(".quick-menu a")]
+      .find((link) => /podcasts/i.test(link.textContent) || /(^|\/)index\.html(?:$|[?#])/.test(link.getAttribute("href") || ""));
+
+    return podcastLink?.getAttribute("href") || "index.html";
   }
 
   function initSearch() {
@@ -103,7 +194,7 @@
 
   function renderProgress() {
     if (!els.progressText || !els.progressBar) return;
-    const total = Number(els.progressPanel?.dataset.progressTotal || 103);
+    const total = Number(els.progressPanel?.dataset.progressTotal || 109);
     let listened = 0;
     for (let index = 0; index < localStorage.length; index += 1) {
       const key = localStorage.key(index);

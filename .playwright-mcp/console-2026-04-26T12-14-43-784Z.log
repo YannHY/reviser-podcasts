@@ -1,2 +1,0 @@
-[    6617ms] [ERROR] Access to fetch at 'https://www.radiofrance.fr/transistor/aod/d007a622-b7bb-4422-926f-9fd849768702' from origin 'http://127.0.0.1:8000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://127.0.0.1:8000/:0
-[    6618ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://www.radiofrance.fr/transistor/aod/d007a622-b7bb-4422-926f-9fd849768702:0
