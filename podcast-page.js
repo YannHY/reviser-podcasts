@@ -199,9 +199,7 @@
         <a class="source-link" href="${shared.escapeHtml(podcast.url || "#")}" target="_blank" rel="noreferrer" aria-label="Voir la source" title="Voir la source" ${podcast.url ? "" : "hidden"}>
           <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
         </a>
-        <button class="listen-button" type="button" aria-label="Écouter ici" title="Écouter ici" data-frame-src="${shared.escapeHtml(frameSrc)}" data-frame-title="${shared.escapeHtml(podcast.title)}" ${frameSrc ? "" : "hidden"}>
-          <i class="fa-solid fa-play" aria-hidden="true"></i>
-        </button>
+        ${listenActionHtml(podcast, frameSrc)}
         <button class="summary-button" type="button" aria-label="Résumé" title="Résumé" ${summaryText ? "" : "hidden"}>
           <i class="fa-regular fa-file-lines" aria-hidden="true"></i>
         </button>
@@ -222,7 +220,7 @@
   function bindCard(card, podcast, summaryText, options) {
     const checkbox = card.querySelector(".listened input");
     const favoriteButton = card.querySelector(".favorite-button");
-    const listenButton = card.querySelector(".listen-button");
+    const listenButton = card.querySelector("button.listen-button");
     const summaryButton = card.querySelector(".summary-button");
     const player = card.querySelector(".player");
     const summaryPanel = card.querySelector(".summary-panel");
@@ -283,6 +281,30 @@
       podcast.station || podcast.origin || null,
     ].filter(Boolean).map((part) => `<span>${shared.escapeHtml(part)}</span>`);
     return parts.join('<span class="dot" aria-hidden="true">·</span>');
+  }
+
+  function listenActionHtml(podcast, frameSrc) {
+    if (frameSrc) {
+      return `
+        <button class="listen-button" type="button" aria-label="Écouter ici" title="Écouter ici" data-frame-src="${shared.escapeHtml(frameSrc)}" data-frame-title="${shared.escapeHtml(podcast.title)}">
+          <i class="fa-solid fa-play" aria-hidden="true"></i>
+        </button>
+      `;
+    }
+
+    if (podcast.url) {
+      return `
+        <a class="listen-button listen-link" href="${shared.escapeHtml(podcast.url)}" target="_blank" rel="noreferrer" aria-label="Écouter sur le site source" title="Écouter sur le site source">
+          <i class="fa-solid fa-play" aria-hidden="true"></i>
+        </a>
+      `;
+    }
+
+    return `
+      <button class="listen-button" type="button" aria-label="Écouter ici" title="Écouter ici" hidden>
+        <i class="fa-solid fa-play" aria-hidden="true"></i>
+      </button>
+    `;
   }
 
   function formatDate(date) {

@@ -694,7 +694,7 @@ button,
 }
 
 .listen-button {
-  border-color: var(--accent);
+  border: 1px solid var(--accent);
   background: #fff;
   color: var(--accent);
 }
