@@ -1,33 +1,11 @@
 const state = {
   podcasts: [],
   sections: [],
-  activeSection: "all",
-  favoritesOnly: false,
   audioSources: {},
   summaryData: {},
 };
 
 const shared = window.BacPodcastUtils;
-
-const els = {
-  search: document.querySelector("#searchInput"),
-  searchPanel: document.querySelector("#headerSearch"),
-  searchToggle: document.querySelector("#searchToggle"),
-  searchClose: document.querySelector("#searchClose"),
-  themeToggle: document.querySelector("#themeToggle"),
-  sort: document.querySelector("#sortSelect"),
-  duration: document.querySelector("#durationFilter"),
-  status: document.querySelector("#statusFilter"),
-  favorites: document.querySelector("#favoritesToggle"),
-  tabs: document.querySelector("#sectionTabs"),
-  sections: document.querySelector("#podcastSections"),
-  resultCount: document.querySelector("#resultCount"),
-  totalTime: document.querySelector("#totalTime"),
-  doneCount: document.querySelector("#doneCount"),
-  progressText: document.querySelector("#progressText"),
-  progressBar: document.querySelector("#progressBar"),
-  template: document.querySelector("#cardTemplate"),
-};
 
 const authorsByWork = {
   "Discours de la servitude volontaire": "Étienne de La Boétie",
@@ -154,24 +132,50 @@ const quizLinks = {
   "manon-lescaut-manon-lescaut-de-l-abbe-prevost-https-www-radiofrance-fr-franceculture-podcasts-le-book-club-manon-lescaut-de-l-abbe-prevost-5524353": "quiz/114-manon-lescaut-de-l-abbe-prevost.html",
 };
 
-init();
+init().catch((error) => {
+  console.error(error);
+  render();
+});
 
-function init() {
-  const source = document.querySelector("#podcastSource");
-  const audioSource = document.querySelector("#audioSources");
-  const summarySource = document.querySelector("#summaryData");
-  const markdown = source ? source.value : "";
+async function init() {
+  const data = document.body.dataset;
+  const pageData = window.BacPodcastPageData || {};
+  const [markdown, audioSources, summaryData] = await Promise.all([
+    pageData.podcastSource ?? shared.loadTextData({
+      selector: "#podcastSource",
+      url: data.podcastSource,
+      fallback: "",
+    }),
+    pageData.audioSources ?? shared.loadJsonData({
+      selector: "#audioSources",
+      url: data.audioSources,
+      fallback: {},
+    }),
+    pageData.summaryData ?? shared.loadJsonData({
+      selector: "#summaryData",
+      url: data.summaryData,
+      fallback: {},
+    }),
+  ]);
 
-  state.audioSources = audioSource ? JSON.parse(audioSource.textContent) : {};
-  state.summaryData = summarySource ? JSON.parse(summarySource.textContent) : {};
+  state.audioSources = audioSources;
+  state.summaryData = summaryData;
   state.podcasts = parseMarkdown(markdown);
   state.sections = [...new Set(state.podcasts.map((podcast) => podcast.section))];
-  shared.initHeaderMark();
-  buildFilters();
-  initTheme();
-  bindEvents();
-  applyInitialSearch();
-  render();
+
+  window.BacPodcastPage.init({
+    podcasts: state.podcasts,
+    sections: state.sections,
+    summaryData: state.summaryData,
+    quizLinks,
+    renderSummary: shared.renderMarkdown,
+    getDisplayTitle(podcast) {
+      const prefix = podcast.series ? podcast.series + " - " : "";
+      return prefix && podcast.title.startsWith(prefix)
+        ? podcast.title.slice(prefix.length)
+        : podcast.title;
+    },
+  });
 }
 
 function parseMarkdown(markdown) {
@@ -354,284 +358,3 @@ function makeId(section, title, suffix) {
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-|-$/g, "");
 }
-
-function buildFilters() {
-  els.tabs.innerHTML = "";
-  ["all", ...state.sections].forEach((section) => {
-    const button = document.createElement("button");
-    button.type = "button";
-    button.textContent = section === "all" ? "Tous" : shared.frenchTypography(section);
-    button.dataset.section = section;
-    button.setAttribute("aria-selected", section === state.activeSection ? "true" : "false");
-    els.tabs.append(button);
-  });
-}
-
-function bindEvents() {
-  [els.search, els.sort, els.duration, els.status].forEach((control) => {
-    control.addEventListener("input", render);
-  });
-
-  els.searchToggle.addEventListener("click", () => {
-    const willOpen = els.searchPanel.hidden;
-    setSearchOpen(willOpen);
-    if (willOpen) els.search.focus();
-  });
-
-  els.searchClose.addEventListener("click", () => {
-    els.search.value = "";
-    setSearchOpen(false);
-    render();
-  });
-
-  els.search.addEventListener("keydown", (event) => {
-    if (event.key !== "Escape") return;
-    els.search.value = "";
-    setSearchOpen(false);
-    render();
-    els.searchToggle.focus();
-  });
-
-  els.favorites.addEventListener("click", () => {
-    state.favoritesOnly = !state.favoritesOnly;
-    render();
-  });
-
-  els.tabs.addEventListener("click", (event) => {
-    const button = event.target.closest("button");
-    if (!button) return;
-    state.activeSection = button.dataset.section;
-    if (state.activeSection === "all") {
-      els.search.value = "";
-      setSearchOpen(false);
-      els.status.value = "all";
-      els.duration.value = "all";
-      state.favoritesOnly = false;
-    }
-    render();
-  });
-}
-
-function applyInitialSearch() {
-  shared.applyInitialSearch(els.search, () => setSearchOpen(true));
-}
-
-function setSearchOpen(open) {
-  shared.setSearchOpen(els.searchPanel, els.searchToggle, open);
-}
-
-function initTheme() {
-  shared.initThemeToggle(els.themeToggle);
-}
-
-function render() {
-  const visible = getVisiblePodcasts();
-  renderProgress();
-  renderFavoriteFilter();
-  renderTabs();
-  renderSummary(visible);
-  renderSections(visible);
-}
-
-function getVisiblePodcasts() {
-  const query = els.search.value.trim().toLocaleLowerCase("fr-FR");
-  const listenedFilter = els.status.value;
-  const maxDuration = els.duration.value;
-
-  const filtered = state.podcasts.filter((podcast) => {
-    const sectionMatch = state.activeSection === "all" || podcast.section === state.activeSection;
-    const searchMatch = !query || podcast.searchable.includes(query);
-    const listened = isListened(podcast.id);
-    const favoriteMatch = !state.favoritesOnly || isFavorite(podcast.id);
-    const statusMatch =
-      listenedFilter === "all" ||
-      (listenedFilter === "done" && listened) ||
-      (listenedFilter === "todo" && !listened);
-    const durationMatch = maxDuration === "all" || podcast.duration <= Number(maxDuration);
-    return sectionMatch && searchMatch && favoriteMatch && statusMatch && durationMatch;
-  });
-
-  const sorters = {
-    source: (a, b) => a.order - b.order,
-    longest: (a, b) => b.duration - a.duration || a.order - b.order,
-    shortest: (a, b) => a.duration - b.duration || a.order - b.order,
-    newest: (a, b) => String(b.date).localeCompare(String(a.date)) || a.order - b.order,
-    oldest: (a, b) => String(a.date).localeCompare(String(b.date)) || a.order - b.order,
-  };
-
-  return filtered.sort(sorters[els.sort.value]);
-}
-
-function renderFavoriteFilter() {
-  shared.renderFavoriteFilter(els.favorites, state.favoritesOnly, state.podcasts);
-}
-
-function renderTabs() {
-  shared.renderTabs(els.tabs, state.activeSection);
-}
-
-function renderSummary(podcasts) {
-  shared.renderSummary(podcasts, els);
-}
-
-function renderProgress() {
-  shared.renderProgress(state.podcasts, els);
-}
-
-function renderSections(podcasts) {
-  els.sections.innerHTML = "";
-  if (podcasts.length === 0) {
-    els.sections.innerHTML = `<p class="empty">Aucun podcast ne correspond aux filtres.</p>`;
-    return;
-  }
-
-  const grouped = groupBy(podcasts, "section");
-  const sectionOrder = els.sort.value === "source"
-    ? state.sections.filter((s) => grouped.has(s))
-    : [...grouped.keys()];
-  sectionOrder.forEach((section) => {
-      const items = grouped.get(section);
-      const wrapper = document.createElement("section");
-      wrapper.className = "object-section";
-      wrapper.innerHTML = `
-        <div class="section-title">
-          <h2>${shared.escapeHtml(shared.frenchTypography(section))}</h2>
-          <span>${shared.escapeHtml(items[0].author || "")}</span>
-        </div>
-        <div class="grid"></div>
-      `;
-      const grid = wrapper.querySelector(".grid");
-      items.forEach((podcast) => grid.append(renderCard(podcast)));
-      els.sections.append(wrapper);
-    });
-}
-
-function renderCard(podcast) {
-  const fragment = els.template.content.cloneNode(true);
-  const card = fragment.querySelector(".card");
-  const checkbox = fragment.querySelector("input[type='checkbox']");
-  const favorite = fragment.querySelector(".favorite-button");
-  const player = fragment.querySelector(".player");
-  const summaryPanel = fragment.querySelector(".summary-panel");
-  const button = fragment.querySelector(".listen-button");
-  const summaryButton = fragment.querySelector(".summary-button");
-  const quizLink = fragment.querySelector(".quiz-link");
-  const source = fragment.querySelector(".source-link");
-
-  card.classList.toggle("is-done", isListened(podcast.id));
-  card.classList.toggle("is-favorite", isFavorite(podcast.id));
-  const prefix = podcast.series ? podcast.series + " - " : "";
-  const displayTitle = prefix && podcast.title.startsWith(prefix)
-    ? podcast.title.slice(prefix.length)
-    : podcast.title;
-  fragment.querySelector("h2").textContent = shared.frenchTypography(displayTitle);
-  fragment.querySelector(".meta").innerHTML = metaHtml(podcast);
-  checkbox.checked = isListened(podcast.id);
-  updateFavoriteButton(favorite, isFavorite(podcast.id));
-  source.href = podcast.url || "#";
-  source.hidden = !podcast.url;
-  source.title = "Voir la source";
-  source.setAttribute("aria-label", "Voir la source");
-  source.innerHTML = `<i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>`;
-  quizLink.href = quizLinks[podcast.id] || "#";
-  quizLink.hidden = !quizLinks[podcast.id];
-  quizLink.title = "Quiz";
-  quizLink.setAttribute("aria-label", `Quiz : ${podcast.title}`);
-  quizLink.innerHTML = `<i class="fa-solid fa-brain" aria-hidden="true"></i>`;
-  button.title = "Écouter ici";
-  button.setAttribute("aria-label", "Écouter ici");
-  button.innerHTML = `<i class="fa-solid fa-play" aria-hidden="true"></i>`;
-  button.hidden = !podcast.audioUrl;
-
-  const summaryText = state.summaryData[podcast.id] || "";
-  summaryButton.hidden = !summaryText;
-
-  checkbox.addEventListener("change", () => {
-    setListened(podcast.id, checkbox.checked);
-    render();
-  });
-
-  favorite.addEventListener("click", () => {
-    setFavorite(podcast.id, !isFavorite(podcast.id));
-    render();
-  });
-
-  button.addEventListener("click", () => {
-    const isOpen = !player.hidden;
-    player.hidden = isOpen;
-    button.title = isOpen ? "Écouter ici" : "Fermer";
-    button.setAttribute("aria-label", isOpen ? "Écouter ici" : "Fermer");
-    button.innerHTML = isOpen
-      ? `<i class="fa-solid fa-play" aria-hidden="true"></i>`
-      : `<i class="fa-solid fa-chevron-up" aria-hidden="true"></i>`;
-    if (!isOpen && player.childElementCount === 0) {
-      player.classList.toggle("is-podcastics", podcast.audioUrl.includes("player.podcastics.com"));
-      player.innerHTML = `<iframe src="${podcast.audioUrl}" width="100%" height="144" frameborder="0" allowtransparency="true" allowfullscreen title="${shared.escapeHtml(shared.frenchTypography(podcast.title))}"></iframe>`;
-    }
-  });
-
-  summaryButton.title = "Résumé";
-  summaryButton.setAttribute("aria-label", "Résumé");
-  summaryButton.addEventListener("click", () => {
-    const isOpen = !summaryPanel.hidden;
-    summaryPanel.hidden = isOpen;
-    summaryButton.title = isOpen ? "Résumé" : "Fermer le résumé";
-    summaryButton.setAttribute("aria-label", isOpen ? "Résumé" : "Fermer le résumé");
-    summaryButton.innerHTML = isOpen
-      ? `<i class="fa-regular fa-file-lines" aria-hidden="true"></i>`
-      : `<i class="fa-solid fa-chevron-up" aria-hidden="true"></i>`;
-    if (!isOpen && summaryPanel.childElementCount === 0) {
-      summaryPanel.innerHTML = shared.renderMarkdown(summaryText);
-    }
-  });
-  summaryButton.innerHTML = `<i class="fa-regular fa-file-lines" aria-hidden="true"></i>`;
-
-  return fragment;
-}
-
-function updateFavoriteButton(button, favorite) {
-  shared.updateFavoriteButton(button, favorite);
-}
-
-function metaHtml(podcast) {
-  const parts = [
-    formatDuration(podcast.duration),
-    podcast.date ? formatDate(podcast.date) : null,
-    podcast.station || null,
-  ].filter(Boolean).map(p => `<span>${shared.escapeHtml(p)}</span>`);
-  return parts.join('<span class="dot" aria-hidden="true">·</span>');
-}
-
-function formatDuration(minutes) {
-  return shared.formatDuration(minutes);
-}
-
-function formatDate(date) {
-  return new Intl.DateTimeFormat("fr-FR", { dateStyle: "medium" }).format(new Date(`${date}T12:00:00`));
-}
-
-function groupBy(items, key) {
-  return shared.groupBy(items, key);
-}
-
-function isListened(id) {
-  return shared.isListened(id);
-}
-
-function setListened(id, listened) {
-  shared.setListened(id, listened);
-}
-
-function isFavorite(id) {
-  return shared.isFavorite(id);
-}
-
-function setFavorite(id, favorite) {
-  shared.setFavorite(id, favorite);
-}
-
-function escapeHtml(value) {
-  return shared.escapeHtml(value);
-}
-
-shared.setCurrentYear();

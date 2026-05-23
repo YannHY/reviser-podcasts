@@ -7020,6 +7020,396 @@ window.quizData = [
     ]
   },
   {
+      "id": "incendies-fictions-theatre-et-cie-incendies-de-wajdi-mouawad-0",
+      "podcastId": "matu-incendies-fictions-theatre-et-cie-incendies-de-wajdi-mouawad-0",
+      "title": "\"Incendies\" de Wajdi Mouawad",
+      "work": "Incendies",
+      "duration": "1 h 55 min",
+      "source": "France Culture, 26/04/2020",
+      "questions": [
+          {
+              "prompt": "Quel événement met en marche la quête de Jeanne et Simon dans Incendies ?",
+              "choices": [
+                  "La disparition soudaine du notaire Hermile Lebel.",
+                  "Le testament de leur mère Nawal, qui leur remet deux lettres à transmettre.",
+                  "La découverte d'un journal intime écrit par leur père.",
+                  "Le retour d'un frère parti combattre à l'étranger."
+              ],
+              "answer": 1,
+              "feedback": "La mort de Nawal et son testament lancent l'intrigue : Jeanne et Simon doivent retrouver un père et un frère dont l'existence bouleverse leur histoire familiale."
+          },
+          {
+              "prompt": "Pourquoi Simon refuse-t-il d'abord la mission confiée par sa mère ?",
+              "choices": [
+                  "Il pense que Jeanne a déjà résolu l'énigme.",
+                  "Il ne sait pas lire les lettres remises par le notaire.",
+                  "Il est dominé par la colère et refuse de se soumettre au silence de Nawal après sa mort.",
+                  "Il préfère partir immédiatement au pays natal de Nawal."
+              ],
+              "answer": 2,
+              "feedback": "Simon vit le testament comme une violence supplémentaire : il reproche à Nawal son mutisme et refuse d'abord d'entrer dans cette quête."
+          },
+          {
+              "prompt": "Quel procédé de construction caractérise fortement la pièce ?",
+              "choices": [
+                  "Une intrigue strictement chronologique, sans retour en arrière.",
+                  "Une alternance entre le présent de l'enquête et le passé de Nawal.",
+                  "Une succession de scènes comiques indépendantes.",
+                  "Un récit uniquement raconté par un narrateur extérieur."
+              ],
+              "answer": 1,
+              "feedback": "La force d'Incendies tient à l'entrelacement des temps : l'enquête des enfants fait ressurgir la vie de Nawal et les violences du passé."
+          },
+          {
+              "prompt": "Quelle grande question la pièce pose-t-elle à travers l'histoire familiale ?",
+              "choices": [
+                  "Comment effacer définitivement le passé pour vivre librement ?",
+                  "Comment hériter d'une histoire marquée par le secret, la guerre et la souffrance ?",
+                  "Comment choisir entre la science et la religion ?",
+                  "Comment transformer une tragédie en comédie sociale ?"
+              ],
+              "answer": 1,
+              "feedback": "La pièce interroge la transmission : les enfants doivent comprendre ce qui leur a été légué malgré le silence, la violence et la honte."
+          },
+          {
+              "prompt": "Quel contresens faut-il éviter sur le dénouement d'Incendies ?",
+              "choices": [
+                  "Le prendre pour une simple coïncidence mélodramatique sans portée symbolique.",
+                  "Y voir une révélation qui recompose brutalement les liens de parenté.",
+                  "Comprendre qu'il relie l'intime et le politique.",
+                  "Reconnaître qu'il donne un autre sens au silence de Nawal."
+              ],
+              "answer": 0,
+              "feedback": "La révélation finale n'est pas un simple effet de surprise : elle condense les thèmes de la filiation, de la violence historique et de l'impossibilité de séparer l'intime du politique."
+          }
+      ]
+  },
+  {
+      "id": "incendies-fictions-theatre-et-cie-incendies-de-wajdi-mouawad-1",
+      "podcastId": "matu-incendies-fictions-theatre-et-cie-incendies-de-wajdi-mouawad-1",
+      "title": "Incendies de Wajdi Mouawad",
+      "work": "Incendies",
+      "duration": "1 h 55 min",
+      "source": "France Culture, 13/03/2016",
+      "questions": [
+          {
+              "prompt": "Quel événement met en marche la quête de Jeanne et Simon dans Incendies ?",
+              "choices": [
+                  "La disparition soudaine du notaire Hermile Lebel.",
+                  "Le testament de leur mère Nawal, qui leur remet deux lettres à transmettre.",
+                  "La découverte d'un journal intime écrit par leur père.",
+                  "Le retour d'un frère parti combattre à l'étranger."
+              ],
+              "answer": 1,
+              "feedback": "La mort de Nawal et son testament lancent l'intrigue : Jeanne et Simon doivent retrouver un père et un frère dont l'existence bouleverse leur histoire familiale."
+          },
+          {
+              "prompt": "Pourquoi Simon refuse-t-il d'abord la mission confiée par sa mère ?",
+              "choices": [
+                  "Il pense que Jeanne a déjà résolu l'énigme.",
+                  "Il ne sait pas lire les lettres remises par le notaire.",
+                  "Il est dominé par la colère et refuse de se soumettre au silence de Nawal après sa mort.",
+                  "Il préfère partir immédiatement au pays natal de Nawal."
+              ],
+              "answer": 2,
+              "feedback": "Simon vit le testament comme une violence supplémentaire : il reproche à Nawal son mutisme et refuse d'abord d'entrer dans cette quête."
+          },
+          {
+              "prompt": "Quel procédé de construction caractérise fortement la pièce ?",
+              "choices": [
+                  "Une intrigue strictement chronologique, sans retour en arrière.",
+                  "Une alternance entre le présent de l'enquête et le passé de Nawal.",
+                  "Une succession de scènes comiques indépendantes.",
+                  "Un récit uniquement raconté par un narrateur extérieur."
+              ],
+              "answer": 1,
+              "feedback": "La force d'Incendies tient à l'entrelacement des temps : l'enquête des enfants fait ressurgir la vie de Nawal et les violences du passé."
+          },
+          {
+              "prompt": "Quelle grande question la pièce pose-t-elle à travers l'histoire familiale ?",
+              "choices": [
+                  "Comment effacer définitivement le passé pour vivre librement ?",
+                  "Comment hériter d'une histoire marquée par le secret, la guerre et la souffrance ?",
+                  "Comment choisir entre la science et la religion ?",
+                  "Comment transformer une tragédie en comédie sociale ?"
+              ],
+              "answer": 1,
+              "feedback": "La pièce interroge la transmission : les enfants doivent comprendre ce qui leur a été légué malgré le silence, la violence et la honte."
+          },
+          {
+              "prompt": "Quel contresens faut-il éviter sur le dénouement d'Incendies ?",
+              "choices": [
+                  "Le prendre pour une simple coïncidence mélodramatique sans portée symbolique.",
+                  "Y voir une révélation qui recompose brutalement les liens de parenté.",
+                  "Comprendre qu'il relie l'intime et le politique.",
+                  "Reconnaître qu'il donne un autre sens au silence de Nawal."
+              ],
+              "answer": 0,
+              "feedback": "La révélation finale n'est pas un simple effet de surprise : elle condense les thèmes de la filiation, de la violence historique et de l'impossibilité de séparer l'intime du politique."
+          }
+      ]
+  },
+  {
+      "id": "incendies-fictions-theatre-et-cie-incendies-de-wajdi-mouawad-2",
+      "podcastId": "matu-incendies-fictions-theatre-et-cie-incendies-de-wajdi-mouawad-2",
+      "title": "Incendies de Wajdi Mouawad",
+      "work": "Incendies",
+      "duration": "2 h 00 min",
+      "source": "France Culture, 22/04/2007",
+      "questions": [
+          {
+              "prompt": "Quel événement met en marche la quête de Jeanne et Simon dans Incendies ?",
+              "choices": [
+                  "La disparition soudaine du notaire Hermile Lebel.",
+                  "Le testament de leur mère Nawal, qui leur remet deux lettres à transmettre.",
+                  "La découverte d'un journal intime écrit par leur père.",
+                  "Le retour d'un frère parti combattre à l'étranger."
+              ],
+              "answer": 1,
+              "feedback": "La mort de Nawal et son testament lancent l'intrigue : Jeanne et Simon doivent retrouver un père et un frère dont l'existence bouleverse leur histoire familiale."
+          },
+          {
+              "prompt": "Pourquoi Simon refuse-t-il d'abord la mission confiée par sa mère ?",
+              "choices": [
+                  "Il pense que Jeanne a déjà résolu l'énigme.",
+                  "Il ne sait pas lire les lettres remises par le notaire.",
+                  "Il est dominé par la colère et refuse de se soumettre au silence de Nawal après sa mort.",
+                  "Il préfère partir immédiatement au pays natal de Nawal."
+              ],
+              "answer": 2,
+              "feedback": "Simon vit le testament comme une violence supplémentaire : il reproche à Nawal son mutisme et refuse d'abord d'entrer dans cette quête."
+          },
+          {
+              "prompt": "Quel procédé de construction caractérise fortement la pièce ?",
+              "choices": [
+                  "Une intrigue strictement chronologique, sans retour en arrière.",
+                  "Une alternance entre le présent de l'enquête et le passé de Nawal.",
+                  "Une succession de scènes comiques indépendantes.",
+                  "Un récit uniquement raconté par un narrateur extérieur."
+              ],
+              "answer": 1,
+              "feedback": "La force d'Incendies tient à l'entrelacement des temps : l'enquête des enfants fait ressurgir la vie de Nawal et les violences du passé."
+          },
+          {
+              "prompt": "Quelle grande question la pièce pose-t-elle à travers l'histoire familiale ?",
+              "choices": [
+                  "Comment effacer définitivement le passé pour vivre librement ?",
+                  "Comment hériter d'une histoire marquée par le secret, la guerre et la souffrance ?",
+                  "Comment choisir entre la science et la religion ?",
+                  "Comment transformer une tragédie en comédie sociale ?"
+              ],
+              "answer": 1,
+              "feedback": "La pièce interroge la transmission : les enfants doivent comprendre ce qui leur a été légué malgré le silence, la violence et la honte."
+          },
+          {
+              "prompt": "Quel contresens faut-il éviter sur le dénouement d'Incendies ?",
+              "choices": [
+                  "Le prendre pour une simple coïncidence mélodramatique sans portée symbolique.",
+                  "Y voir une révélation qui recompose brutalement les liens de parenté.",
+                  "Comprendre qu'il relie l'intime et le politique.",
+                  "Reconnaître qu'il donne un autre sens au silence de Nawal."
+              ],
+              "answer": 0,
+              "feedback": "La révélation finale n'est pas un simple effet de surprise : elle condense les thèmes de la filiation, de la violence historique et de l'impossibilité de séparer l'intime du politique."
+          }
+      ]
+  },
+  {
+      "id": "incendies-fictions-theatre-et-cie-incendies-3",
+      "podcastId": "matu-incendies-fictions-theatre-et-cie-incendies-3",
+      "title": "Incendies",
+      "work": "Incendies",
+      "duration": "1 h 59 min",
+      "source": "France Culture, 23/10/2011",
+      "questions": [
+          {
+              "prompt": "Quel événement met en marche la quête de Jeanne et Simon dans Incendies ?",
+              "choices": [
+                  "La disparition soudaine du notaire Hermile Lebel.",
+                  "Le testament de leur mère Nawal, qui leur remet deux lettres à transmettre.",
+                  "La découverte d'un journal intime écrit par leur père.",
+                  "Le retour d'un frère parti combattre à l'étranger."
+              ],
+              "answer": 1,
+              "feedback": "La mort de Nawal et son testament lancent l'intrigue : Jeanne et Simon doivent retrouver un père et un frère dont l'existence bouleverse leur histoire familiale."
+          },
+          {
+              "prompt": "Pourquoi Simon refuse-t-il d'abord la mission confiée par sa mère ?",
+              "choices": [
+                  "Il pense que Jeanne a déjà résolu l'énigme.",
+                  "Il ne sait pas lire les lettres remises par le notaire.",
+                  "Il est dominé par la colère et refuse de se soumettre au silence de Nawal après sa mort.",
+                  "Il préfère partir immédiatement au pays natal de Nawal."
+              ],
+              "answer": 2,
+              "feedback": "Simon vit le testament comme une violence supplémentaire : il reproche à Nawal son mutisme et refuse d'abord d'entrer dans cette quête."
+          },
+          {
+              "prompt": "Quel procédé de construction caractérise fortement la pièce ?",
+              "choices": [
+                  "Une intrigue strictement chronologique, sans retour en arrière.",
+                  "Une alternance entre le présent de l'enquête et le passé de Nawal.",
+                  "Une succession de scènes comiques indépendantes.",
+                  "Un récit uniquement raconté par un narrateur extérieur."
+              ],
+              "answer": 1,
+              "feedback": "La force d'Incendies tient à l'entrelacement des temps : l'enquête des enfants fait ressurgir la vie de Nawal et les violences du passé."
+          },
+          {
+              "prompt": "Quelle grande question la pièce pose-t-elle à travers l'histoire familiale ?",
+              "choices": [
+                  "Comment effacer définitivement le passé pour vivre librement ?",
+                  "Comment hériter d'une histoire marquée par le secret, la guerre et la souffrance ?",
+                  "Comment choisir entre la science et la religion ?",
+                  "Comment transformer une tragédie en comédie sociale ?"
+              ],
+              "answer": 1,
+              "feedback": "La pièce interroge la transmission : les enfants doivent comprendre ce qui leur a été légué malgré le silence, la violence et la honte."
+          },
+          {
+              "prompt": "Quel contresens faut-il éviter sur le dénouement d'Incendies ?",
+              "choices": [
+                  "Le prendre pour une simple coïncidence mélodramatique sans portée symbolique.",
+                  "Y voir une révélation qui recompose brutalement les liens de parenté.",
+                  "Comprendre qu'il relie l'intime et le politique.",
+                  "Reconnaître qu'il donne un autre sens au silence de Nawal."
+              ],
+              "answer": 0,
+              "feedback": "La révélation finale n'est pas un simple effet de surprise : elle condense les thèmes de la filiation, de la violence historique et de l'impossibilité de séparer l'intime du politique."
+          }
+      ]
+  },
+  {
+      "id": "incendies-livre-et-vous-a-moi-incendies-de-wajdi-mouawad-5",
+      "podcastId": "matu-incendies-livre-et-vous-a-moi-incendies-de-wajdi-mouawad-5",
+      "title": "Incendies de Wajdi Mouawad",
+      "work": "Incendies",
+      "duration": "18 min",
+      "source": "Spotify, 11/11/2020",
+      "questions": [
+          {
+              "prompt": "Que représentent les deux lettres confiées à Jeanne et Simon ?",
+              "choices": [
+                  "Des lettres d'adieu sans destinataire précis.",
+                  "Des missions qui les obligent à chercher leur père et leur frère.",
+                  "Deux preuves juridiques pour contester l'héritage.",
+                  "Des extraits de la pièce à apprendre par cœur."
+              ],
+              "answer": 1,
+              "feedback": "Les lettres adressées au père et au frère inconnus transforment le deuil en enquête sur les origines."
+          },
+          {
+              "prompt": "Quelle opposition initiale distingue Jeanne et Simon ?",
+              "choices": [
+                  "Jeanne veut comprendre, tandis que Simon refuse d'abord la quête.",
+                  "Simon veut lire toute la pièce, tandis que Jeanne refuse le théâtre.",
+                  "Jeanne connaît déjà toute la vérité, Simon non.",
+                  "Simon part seul au pays de Nawal et Jeanne reste chez le notaire."
+              ],
+              "answer": 0,
+              "feedback": "Jeanne s'engage dans la recherche avec davantage de disponibilité, alors que Simon reste d'abord enfermé dans la colère."
+          },
+          {
+              "prompt": "Quel thème majeur le podcast associe-t-il à la figure de Nawal ?",
+              "choices": [
+                  "La réussite sociale et l'ambition mondaine.",
+                  "Le silence, la survivance et la transmission d'un passé violent.",
+                  "La nostalgie légère de l'enfance heureuse.",
+                  "La satire des institutions scolaires."
+              ],
+              "answer": 1,
+              "feedback": "Nawal concentre les enjeux de mémoire : son silence protège et blesse à la fois, jusqu'à ce que les enfants en découvrent les raisons."
+          },
+          {
+              "prompt": "Pourquoi Incendies peut-elle être rapprochée d'une tragédie ?",
+              "choices": [
+                  "Parce qu'elle respecte toutes les règles classiques du XVIIe siècle.",
+                  "Parce qu'elle montre des personnages pris dans une révélation familiale irréversible.",
+                  "Parce qu'elle finit par un mariage réparateur.",
+                  "Parce qu'elle évite tout lien avec l'histoire collective."
+              ],
+              "answer": 1,
+              "feedback": "La pièce reprend une puissance tragique : les personnages découvrent une vérité qui les dépasse et modifie définitivement leur identité."
+          },
+          {
+              "prompt": "Quel sens symbolique peut prendre le titre Incendies ?",
+              "choices": [
+                  "Un simple accident matériel au début de la pièce.",
+                  "Les embrasements de la guerre, de la mémoire et des liens familiaux.",
+                  "Un décor pittoresque sans conséquence narrative.",
+                  "Un code secret inventé par le notaire."
+              ],
+              "answer": 1,
+              "feedback": "Le titre renvoie aux destructions concrètes et intérieures : guerre, douleur, secrets et brûlures de la filiation."
+          }
+      ]
+  },
+  {
+      "id": "incendies-audition-une-voix-un-texte-cnsad-incendies-de-wajdi-mouawad-par-salome-dienis-meulien-7",
+      "podcastId": "matu-incendies-audition-une-voix-un-texte-cnsad-incendies-de-wajdi-mouawad-par-salome-dienis-meulien-7",
+      "title": "CNSAD / « Incendies » de Wajdi Mouawad par Salomé Dienis Meulien",
+      "work": "Incendies",
+      "duration": "",
+      "source": "France Culture, 03/08/2015",
+      "questions": [
+          {
+              "prompt": "Que met particulièrement en valeur une lecture seule d'un extrait d'Incendies ?",
+              "choices": [
+                  "La scénographie spectaculaire de la pièce.",
+                  "La puissance de la voix, de l'adresse et du témoignage.",
+                  "Les costumes des personnages secondaires.",
+                  "La chronologie complète de toute l'intrigue."
+              ],
+              "answer": 1,
+              "feedback": "Le format 'une voix, un texte' fait ressortir la force orale de l'écriture de Mouawad et son intensité testimoniale."
+          },
+          {
+              "prompt": "Dans les grands monologues d'Incendies, à quoi sert souvent la parole ?",
+              "choices": [
+                  "À divertir le public par un aparté comique.",
+                  "À faire revenir une vérité longtemps empêchée ou tue.",
+                  "À résumer mécaniquement les scènes précédentes.",
+                  "À interrompre définitivement l'action sans enjeu."
+              ],
+              "answer": 1,
+              "feedback": "La parole porte la mémoire : elle nomme ce qui a été tu, nié ou rendu impossible par la violence."
+          },
+          {
+              "prompt": "Quel élément de l'écriture de Mouawad devient plus perceptible à l'écoute ?",
+              "choices": [
+                  "La musicalité des répétitions et la montée de l'intensité.",
+                  "L'absence totale de rythme.",
+                  "Le refus de toute émotion.",
+                  "La disparition de l'adresse au destinataire."
+              ],
+              "answer": 0,
+              "feedback": "À l'oral, les reprises, les silences et les variations d'intensité donnent au texte une énergie proche du chant ou de l'incantation."
+          },
+          {
+              "prompt": "Pourquoi la mémoire est-elle centrale dans cet extrait comme dans l'ensemble de la pièce ?",
+              "choices": [
+                  "Parce qu'elle permet d'éviter toute enquête.",
+                  "Parce qu'elle relie le corps, l'histoire familiale et la violence politique.",
+                  "Parce qu'elle efface les liens entre les personnages.",
+                  "Parce qu'elle n'a aucune conséquence sur Jeanne et Simon."
+              ],
+              "answer": 1,
+              "feedback": "Incendies montre que la mémoire n'est pas abstraite : elle traverse les corps, les familles et l'histoire collective."
+          },
+          {
+              "prompt": "Quel contresens faut-il éviter devant une telle lecture ?",
+              "choices": [
+                  "Croire qu'il s'agit seulement d'un exercice vocal sans enjeu dramatique.",
+                  "Observer que la voix peut porter une situation théâtrale.",
+                  "Entendre que le texte est adressé à quelqu'un.",
+                  "Reconnaître la dimension tragique de la parole."
+              ],
+              "answer": 0,
+              "feedback": "Même sans décor, la lecture garde une force dramatique : la voix engage une situation, une mémoire et une adresse."
+          }
+      ]
+  },
+  {
     "id": "incendies-du-cote-de-chez-jules-wajdi-mouawad-incendies-4",
     "podcastId": "matu-incendies-du-cote-de-chez-jules-wajdi-mouawad-incendies-4",
     "title": "Wajdi Mouawad - Incendies",

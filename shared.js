@@ -252,6 +252,41 @@
       .replace(/\s(href|src)\s*=\s*(['"])\s*javascript:[\s\S]*?\2/gi, "");
   }
 
+  async function loadTextData({ selector, url, fallback = "" }) {
+    const inline = selector ? document.querySelector(selector) : null;
+    const inlineValue = inline ? (inline.value ?? inline.textContent ?? "").trim() : "";
+
+    if (!url) return inlineValue || fallback;
+
+    try {
+      const response = await fetch(url);
+      if (!response.ok) throw new Error(`Unable to load ${url}`);
+      return response.text();
+    } catch (error) {
+      console.warn(error);
+      return inlineValue || fallback;
+    }
+  }
+
+  async function loadJsonData({ selector, url, fallback = {} }) {
+    const parseInline = () => {
+      const inline = selector ? document.querySelector(selector) : null;
+      if (!inline?.textContent?.trim()) return fallback;
+      return JSON.parse(inline.textContent);
+    };
+
+    if (!url) return parseInline();
+
+    try {
+      const response = await fetch(url);
+      if (!response.ok) throw new Error(`Unable to load ${url}`);
+      return response.json();
+    } catch (error) {
+      console.warn(error);
+      return parseInline();
+    }
+  }
+
   function setCurrentYear(selector = "#current-year") {
     const yearEl = document.querySelector(selector);
     if (yearEl) yearEl.textContent = new Date().getFullYear();
@@ -286,6 +321,8 @@
     renderMarkdown,
     inlineMarkdown,
     sanitizeSummaryHtml,
+    loadTextData,
+    loadJsonData,
     setCurrentYear,
   };
 })();

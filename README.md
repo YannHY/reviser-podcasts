@@ -72,7 +72,7 @@ Le sommaire des quiz Maturité couvre actuellement :
 - Madame Bovary : 25 questionnaires.
 - Le mariage de Figaro : 18 questionnaires.
 - Hernani : 9 questionnaires.
-- Incendies : 3 questionnaires.
+- Incendies : 9 questionnaires.
 
 Une fiche de révision est disponible pour **Candide de Voltaire**.
 
