@@ -29,14 +29,14 @@
       order: index,
       id: podcast.id || shared.makeSlug(`matu-${podcast.work}-${podcast.series || ""}-${podcast.title}-${workIndex}`),
       dateValue: shared.parseFrenchDateValue(podcast.date),
-      searchable: [
+      searchable: shared.normalizeSearchText([
         podcast.work,
         podcast.author,
         podcast.title,
         podcast.series,
         podcast.origin,
         podcast.date,
-      ].filter(Boolean).join(" ").toLocaleLowerCase("fr-FR"),
+      ].filter(Boolean).join(" ")),
     };
   });
 

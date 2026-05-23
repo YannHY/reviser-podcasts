@@ -115,7 +115,7 @@
   }
 
   function getVisiblePodcasts(state, els) {
-    const query = (els.search?.value || "").trim().toLocaleLowerCase("fr-FR");
+    const query = shared.normalizeSearchText(els.search?.value || "").trim();
     const listenedFilter = els.status?.value || "all";
     const maxDuration = els.duration?.value || "all";
 

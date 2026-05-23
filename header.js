@@ -1,5 +1,9 @@
 (() => {
   const headerScript = document.currentScript;
+  const PROGRESS_TOTALS = {
+    fr: 114,
+    matu: 156,
+  };
 
   loadShared().finally(initHeader);
 
@@ -58,9 +62,11 @@
 
   initHeaderMark();
   ensureHomeLink();
+  ensureFooter();
   initTheme();
   initSearch();
   renderProgress();
+  setCurrentYear();
 
   function initHeaderMark() {
     if (shared?.initHeaderMark) {
@@ -97,6 +103,36 @@
     const podcastHref = podcastLink?.getAttribute("href") || "index.html";
     const sectionPrefix = podcastHref.replace(/index\.html(?:[?#].*)?$/, "");
     return `${sectionPrefix}../${filename}`;
+  }
+
+  function ensureFooter() {
+    if (document.querySelector(".footer")) return;
+
+    const footer = document.createElement("footer");
+    footer.className = "footer";
+    footer.innerHTML = `
+      <div class="footer-content">
+        <p class="made-with">
+          Créé avec <i class="fas fa-heart" aria-hidden="true"></i> par
+          <a href="https://www.linkedin.com/in/yann-houry-a2350651/" target="_blank" rel="noopener noreferrer">Yann Houry</a>, responsable de l'innovation à l'institut Florimont de Genève
+        </p>
+        <div class="license">
+          <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
+            <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr" target="_blank" rel="license noopener noreferrer" aria-label="Licence Creative Commons BY-SA 4.0">
+              <i class="fa-brands fa-creative-commons" aria-hidden="true"></i>
+            </a>
+            <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr" target="_blank" rel="license noopener noreferrer" aria-label="Attribution requise">
+              <i class="fa-brands fa-creative-commons-by" aria-hidden="true"></i>
+            </a>
+            <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr" target="_blank" rel="license noopener noreferrer" aria-label="Partage dans les mêmes conditions">
+              <i class="fa-brands fa-creative-commons-sa" aria-hidden="true"></i>
+            </a>
+          </p>
+        </div>
+        <p class="year"><span id="current-year"></span></p>
+      </div>
+    `;
+    document.body.append(footer);
   }
 
   function ensureMatuHeaderTools() {
@@ -150,7 +186,7 @@
     if (!main.querySelector(".progress-panel")) {
       const progressPanel = document.createElement("div");
       progressPanel.className = "progress-panel";
-      progressPanel.dataset.progressTotal = "109";
+      progressPanel.dataset.progressScope = "matu";
       progressPanel.setAttribute("aria-live", "polite");
       progressPanel.innerHTML = `
         <span id="progressText">Chargement...</span>
@@ -272,17 +308,48 @@
 
   function renderProgress() {
     if (!els.progressText || !els.progressBar) return;
-    const total = Number(els.progressPanel?.dataset.progressTotal || 109);
+    const scope = getProgressScope();
+    const total = PROGRESS_TOTALS[scope] || Number(els.progressPanel?.dataset.progressTotal || 0);
     let listened = 0;
     for (let index = 0; index < localStorage.length; index += 1) {
       const key = localStorage.key(index);
-      if (key?.startsWith("bac-podcast:") && localStorage.getItem(key) === "1") {
+      if (isProgressKeyForScope(key, scope) && localStorage.getItem(key) === "1") {
         listened += 1;
       }
     }
     const percent = total ? Math.round((listened / total) * 100) : 0;
     els.progressText.textContent = `${listened}/${total} podcasts écoutés`;
     els.progressBar.style.width = `${percent}%`;
+  }
+
+  function getProgressScope() {
+    if (els.progressPanel?.dataset.progressScope) {
+      return els.progressPanel.dataset.progressScope;
+    }
+    if (document.body.classList.contains("matu-page") || window.location.pathname.includes("/matu/")) {
+      return "matu";
+    }
+    if (window.location.pathname.includes("/fr/")) {
+      return "fr";
+    }
+    return "";
+  }
+
+  function isProgressKeyForScope(key, scope) {
+    if (!key?.startsWith("bac-podcast:")) return false;
+    if (scope === "matu") return key.startsWith("bac-podcast:matu-");
+    if (scope === "fr") return !key.startsWith("bac-podcast:matu-");
+    return true;
+  }
+
+  function setCurrentYear() {
+    if (shared?.setCurrentYear) {
+      shared.setCurrentYear();
+      return;
+    }
+
+    const yearEl = document.querySelector("#current-year");
+    if (yearEl) yearEl.textContent = new Date().getFullYear();
   }
   }
 })();

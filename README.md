@@ -1,6 +1,6 @@
 # Réviser avec les podcasts
 
-Site statique pour réviser la littérature française à partir de podcasts, de quiz et de fiches. Le projet propose désormais plusieurs parcours depuis une page d'accueil commune : bac français, maturité cantonale suisse et une section IB en préparation.
+Site statique pour réviser la littérature française à partir de podcasts, de quiz, de résumés et de fiches. Le projet propose plusieurs parcours depuis une page d'accueil commune : bac français, maturité cantonale suisse et une section IB en préparation.
 
 ## Objectif
 
@@ -15,7 +15,7 @@ Le principe reste simple : choisir un parcours, écouter, comprendre, mémoriser
 La page `index.html` sert de porte d'entrée vers les trois espaces du site :
 
 - **Bac français** : parcours principal historique.
-- **Maturité** : nouveau parcours pour la maturité cantonale.
+- **Maturité** : parcours complet pour la maturité cantonale.
 - **IB** : page d'attente pour une future section International Baccalaureate.
 
 ### Bac français
@@ -26,6 +26,8 @@ Le parcours bac français comprend les pages principales suivantes :
 - `fr/quiz.html` : sommaire des questionnaires.
 - `fr/fiches.html` : sommaire des fiches de révision.
 
+Les données du catalogue sont externalisées dans `fr/podcast-data.js`, puis affichées par `fr/app.js` et les composants partagés.
+
 Les oeuvres et parcours couverts sont :
 
 - **Discours de la servitude volontaire**, d'Étienne de La Boétie.
@@ -34,7 +36,7 @@ Les oeuvres et parcours couverts sont :
 - **Sido**, de Colette.
 - **Manon Lescaut**, de l'Abbé Prévost.
 
-Le sommaire des quiz du bac compte **114 questionnaires**, répartis ainsi :
+Le catalogue Bac compte **114 podcasts**, **114 lecteurs audio référencés**, **114 résumés** et **114 questionnaires**, répartis ainsi :
 
 - Discours de la servitude volontaire : 19 questionnaires.
 - On ne badine pas avec l'amour : 11 questionnaires.
@@ -46,14 +48,15 @@ Le parcours bac contient aussi des fiches HTML dédiées à La Boétie et Montai
 
 ### Maturité cantonale
 
-Le nouveau dossier `matu/` contient un espace complet pour la maturité cantonale :
+Le dossier `matu/` contient un espace complet pour la maturité cantonale :
 
 - `matu/index.html` : catalogue de podcasts.
 - `matu/quiz.html` : sommaire des questionnaires.
 - `matu/fiches.html` : sommaire des fiches.
+- `matu/podcast-data.js` : données du catalogue, résumés et liens vers les quiz.
 - `matu/matu.js` et `matu/matu.css` : logique et styles propres à ce parcours.
 
-Le catalogue Maturité contient **154 podcasts**, répartis entre :
+Le catalogue Maturité contient **156 podcasts**, répartis entre :
 
 - Candide : 14 épisodes ou émissions.
 - Les Fleurs du mal : 42 épisodes ou émissions.
@@ -61,11 +64,11 @@ Le catalogue Maturité contient **154 podcasts**, répartis entre :
 - Le mariage de Figaro : 18 épisodes ou émissions.
 - Hernani : 9 épisodes ou émissions.
 - Incendies : 9 épisodes ou émissions.
-- Jacques le fataliste : 22 épisodes ou émissions.
+- Jacques le fataliste : 24 épisodes ou émissions.
 - La Prose du Transsibérien : 10 épisodes ou émissions.
 - Les faux-monnayeurs : 4 épisodes ou émissions.
 
-Le sommaire des quiz Maturité couvre actuellement :
+Le sommaire des quiz Maturité contient **155 questionnaires** et **155 résumés associés**. Il couvre actuellement :
 
 - Candide : 14 questionnaires.
 - Les Fleurs du mal : 42 questionnaires.
@@ -73,6 +76,9 @@ Le sommaire des quiz Maturité couvre actuellement :
 - Le mariage de Figaro : 18 questionnaires.
 - Hernani : 9 questionnaires.
 - Incendies : 9 questionnaires.
+- Jacques le fataliste : 24 questionnaires.
+- La Prose du Transsibérien : 10 questionnaires.
+- Les faux-monnayeurs : 4 questionnaires.
 
 Une fiche de révision est disponible pour **Candide de Voltaire**.
 
@@ -92,7 +98,7 @@ Les podcasts sont regroupés par oeuvre ou objet d'étude. Des onglets permetten
 
 ### Recherche
 
-Une recherche permet de retrouver un contenu à partir d'un titre, d'un auteur, d'une oeuvre, d'une émission ou d'une source. Depuis les pages de quiz et de fiches, la recherche renvoie vers le catalogue.
+Une recherche permet de retrouver un contenu à partir d'un titre, d'un auteur, d'une oeuvre, d'une émission ou d'une source. Elle ignore les accents et les ligatures courantes, ce qui permet par exemple de retrouver `La Boétie` avec `boetie` ou `œuvre` avec `oeuvre`. Depuis les pages de quiz et de fiches, la recherche renvoie vers le catalogue avec le paramètre `?search=`.
 
 ### Tris et filtres
 
@@ -108,7 +114,7 @@ Les catalogues proposent :
 
 ### Progression locale
 
-Chaque podcast peut être marqué comme écouté. La progression est conservée dans le navigateur grâce au stockage local. Une barre de progression affiche le nombre d'épisodes terminés, le total et le pourcentage d'avancement.
+Chaque podcast peut être marqué comme écouté. La progression est conservée dans le navigateur grâce au stockage local. Les compteurs Bac et Maturité sont séparés : le Bac affiche sa progression sur 114 podcasts, la Maturité sur 156 podcasts.
 
 ### Favoris
 
@@ -116,15 +122,15 @@ Les podcasts peuvent être ajoutés aux favoris. Un filtre permet ensuite de n'a
 
 ### Lecteur intégré
 
-Quand un lecteur est disponible, l'écoute peut se faire directement depuis la carte grâce aux intégrations Radio France.
+Quand un lecteur est disponible, l'écoute peut se faire directement depuis la carte grâce aux intégrations embarquées : Radio France, Podcastics, Spotify, Acast, fichiers audio ou lecteurs vidéo selon les sources.
 
 ### Résumés pédagogiques
 
-Certains contenus disposent de résumés structurés ou de transcriptions nettoyées. Ces données alimentent les pages de révision et les scripts de génération.
+Les contenus disposent de résumés structurés ou de transcriptions nettoyées. Les résumés Bac sont stockés sous forme de Markdown dans `fr/podcast-data.js`; les résumés Maturité sont stockés dans `matu/podcast-data.js`. Le HTML de résumé est nettoyé par allowlist avant injection dans la page.
 
 ### Quiz
 
-Les quiz proposent des questions à choix multiples, une correction immédiate, un score et des explications. Les questionnaires sont accessibles depuis les sommaires par oeuvre.
+Les quiz proposent des questions à choix multiples, une correction immédiate, un score et des explications. Les questionnaires sont accessibles depuis les sommaires par oeuvre, puis depuis chaque carte de podcast quand un quiz est lié.
 
 ### Fiches
 
@@ -136,14 +142,16 @@ Le site dispose d'un mode sombre. Le choix est conservé dans le navigateur.
 
 ### Interface responsive
 
-Les pages sont pensées pour fonctionner sur ordinateur, tablette et mobile.
+Les pages sont pensées pour fonctionner sur ordinateur, tablette et mobile. Le header, la recherche, le thème, la progression et le footer sont partagés entre les parcours quand c'est possible.
 
 ## Structure du projet
 
 ```text
 .
 ├── index.html                # Page d'entrée vers Bac, Maturité et IB
-├── header.js                 # Recherche, thème et progression partagés
+├── header.js                 # Header, recherche, thème, progression et footer partagés
+├── shared.js                 # Utilitaires communs : stockage, rendu, Markdown, sanitisation
+├── podcast-page.js           # Composants communs des catalogues de podcasts
 ├── styles.css                # Styles communs
 ├── assets/                   # Logos et éléments graphiques
 ├── fr/                       # Parcours Bac français
@@ -151,6 +159,7 @@ Les pages sont pensées pour fonctionner sur ordinateur, tablette et mobile.
 │   ├── quiz.html             # Sommaire des quiz Bac français
 │   ├── fiches.html           # Sommaire des fiches Bac français
 │   ├── app.js                # Logique du catalogue Bac
+│   ├── podcast-data.js       # Données Bac : podcasts, lecteurs, résumés
 │   ├── liste.md              # Liste source des podcasts Bac
 │   ├── summaries.json        # Transcriptions et résumés Bac
 │   ├── summaries-clean.json  # Transcriptions nettoyées
@@ -165,10 +174,13 @@ Les pages sont pensées pour fonctionner sur ordinateur, tablette et mobile.
 │   ├── index.html
 │   ├── quiz.html
 │   ├── fiches.html
+│   ├── podcast-data.js       # Données Maturité : podcasts, résumés, liens quiz
 │   ├── matu.css
 │   ├── matu.js
 │   ├── summaries.json
 │   ├── podcasts.md
+│   ├── generate-transcript-study-data.js
+│   ├── generate-madame-bovary-study-data.js
 │   ├── fiches/
 │   └── quiz/
 └── IB/
@@ -191,6 +203,8 @@ http://localhost:8000/
 
 ## Scripts utiles
 
+Le site charge actuellement les catalogues depuis `fr/podcast-data.js` et `matu/podcast-data.js`. Les scripts Bac ci-dessous sont des scripts historiques d'intégration : s'ils sont relancés sur `fr/index.html`, il faut ensuite reporter ou régénérer les données externalisées dans `fr/podcast-data.js`.
+
 ### Intégrer les lecteurs audio
 
 ```bash
@@ -198,7 +212,7 @@ cd fr
 node build-audio-map.js
 ```
 
-Ce script lit les podcasts présents dans `index.html`, récupère les identifiants Radio France et injecte les URLs d'embed dans le bloc `audioSources`.
+Ce script lit les podcasts présents dans `fr/index.html`, récupère les identifiants Radio France et injecte les URLs d'embed dans le bloc `audioSources`.
 
 ### Intégrer les résumés
 
@@ -207,7 +221,7 @@ cd fr
 node build-summaries.js
 ```
 
-Ce script lit `summaries.json`, nettoie les résumés disponibles et les intègre dans `index.html`.
+Ce script lit `summaries.json`, nettoie les résumés disponibles et les intègre dans `fr/index.html`.
 
 ### Nettoyer les transcriptions
 
@@ -234,7 +248,7 @@ node matu/generate-transcript-study-data.js
 node matu/generate-madame-bovary-study-data.js
 ```
 
-Ces scripts servent à produire ou enrichir des données de révision pour le parcours Maturité.
+Ces scripts servent à produire ou enrichir les données de révision pour le parcours Maturité : résumés, quiz, pages HTML de quiz, liens vers les quiz et blocs de données dans `matu/podcast-data.js`. Les pages générées utilisent le footer commun et le script partagé de quiz.
 
 ## Données et contenus
 

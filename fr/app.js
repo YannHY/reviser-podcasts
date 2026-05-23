@@ -134,7 +134,7 @@ const quizLinks = {
 
 init().catch((error) => {
   console.error(error);
-  render();
+  renderLoadError();
 });
 
 async function init() {
@@ -176,6 +176,24 @@ async function init() {
         : podcast.title;
     },
   });
+}
+
+function renderLoadError() {
+  const sections = document.querySelector("#podcasts");
+  const resultCount = document.querySelector("#resultCount");
+  const totalTime = document.querySelector("#totalTime");
+  const doneCount = document.querySelector("#doneCount");
+  const progressText = document.querySelector("#progressText");
+  const progressBar = document.querySelector("#progressBar");
+
+  if (resultCount) resultCount.textContent = "0";
+  if (totalTime) totalTime.textContent = "0 min";
+  if (doneCount) doneCount.textContent = "0";
+  if (progressText) progressText.textContent = "0/0 podcasts écoutés";
+  if (progressBar) progressBar.style.width = "0%";
+  if (sections) {
+    sections.innerHTML = '<p class="error" role="alert">Impossible de charger les podcasts pour le moment.</p>';
+  }
 }
 
 function parseMarkdown(markdown) {
@@ -316,13 +334,13 @@ function enrichPodcast(podcast) {
   return {
     ...podcast,
     audioUrl: state.audioSources[podcast.id] || "",
-    searchable: [
+    searchable: shared.normalizeSearchText([
       podcast.title,
       podcast.section,
       podcast.author,
       podcast.station,
       podcast.series,
-    ].join(" ").toLocaleLowerCase("fr-FR"),
+    ].join(" ")),
   };
 }
 

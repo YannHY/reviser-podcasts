@@ -2,6 +2,61 @@
   const THEME_KEY = "bac-podcasts-theme";
   const LISTENED_PREFIX = "bac-podcast:";
   const FAVORITE_PREFIX = "bac-podcast-favorite:";
+  const SUMMARY_ALLOWED_TAGS = new Set([
+    "a",
+    "abbr",
+    "article",
+    "b",
+    "blockquote",
+    "br",
+    "code",
+    "div",
+    "em",
+    "h1",
+    "h2",
+    "h3",
+    "h4",
+    "h5",
+    "h6",
+    "i",
+    "li",
+    "ol",
+    "p",
+    "section",
+    "span",
+    "strong",
+    "ul",
+  ]);
+  const SUMMARY_BLOCKED_TAGS = new Set([
+    "audio",
+    "base",
+    "button",
+    "canvas",
+    "embed",
+    "form",
+    "iframe",
+    "img",
+    "input",
+    "link",
+    "math",
+    "meta",
+    "object",
+    "picture",
+    "script",
+    "select",
+    "source",
+    "style",
+    "svg",
+    "template",
+    "textarea",
+    "video",
+  ]);
+  const SUMMARY_ALLOWED_ATTRIBUTES = {
+    a: new Set(["href", "title"]),
+    abbr: new Set(["title"]),
+  };
+  const SUMMARY_EMPTY_ATTRIBUTES = new Set();
+  const SUMMARY_ALLOWED_URL_PROTOCOLS = new Set(["http:", "https:", "mailto:"]);
 
   function getSavedTheme() {
     try {
@@ -177,6 +232,15 @@
       .replace(/^-|-$/g, "");
   }
 
+  function normalizeSearchText(value) {
+    return String(value || "")
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .replace(/[œŒ]/g, "oe")
+      .replace(/[æÆ]/g, "ae")
+      .toLocaleLowerCase("fr-FR");
+  }
+
   function frenchTypography(value) {
     return String(value)
       .replace(/([^\s:;?!/])[\t \u00a0\u202f]*([:;?!])(?!\/)/g, "$1\u202f$2");
@@ -245,11 +309,59 @@
   }
 
   function sanitizeSummaryHtml(value) {
-    return String(value)
-      .replace(/<script[\s\S]*?<\/script>/gi, "")
-      .replace(/\son[a-z]+\s*=\s*"[^"]*"/gi, "")
-      .replace(/\son[a-z]+\s*=\s*'[^']*'/gi, "")
-      .replace(/\s(href|src)\s*=\s*(['"])\s*javascript:[\s\S]*?\2/gi, "");
+    const template = document.createElement("template");
+    template.innerHTML = String(value || "");
+    sanitizeSummaryChildren(template.content);
+    return template.innerHTML;
+  }
+
+  function sanitizeSummaryChildren(parent) {
+    Array.from(parent.childNodes).forEach((node) => {
+      if (node.nodeType === 3) return;
+      if (node.nodeType !== 1) {
+        node.remove();
+        return;
+      }
+
+      const tagName = node.tagName.toLowerCase();
+      if (SUMMARY_BLOCKED_TAGS.has(tagName)) {
+        node.remove();
+        return;
+      }
+
+      sanitizeSummaryChildren(node);
+
+      if (!SUMMARY_ALLOWED_TAGS.has(tagName)) {
+        node.replaceWith(...Array.from(node.childNodes));
+        return;
+      }
+
+      sanitizeSummaryAttributes(node, tagName);
+    });
+  }
+
+  function sanitizeSummaryAttributes(element, tagName) {
+    const allowedAttributes = SUMMARY_ALLOWED_ATTRIBUTES[tagName] || SUMMARY_EMPTY_ATTRIBUTES;
+    Array.from(element.attributes).forEach((attribute) => {
+      const name = attribute.name.toLowerCase();
+      if (!allowedAttributes.has(name)) {
+        element.removeAttribute(attribute.name);
+      }
+    });
+
+    const href = element.getAttribute("href");
+    if (href && !isSafeSummaryUrl(href)) {
+      element.removeAttribute("href");
+    }
+  }
+
+  function isSafeSummaryUrl(value) {
+    try {
+      const url = new URL(String(value || "").trim(), window.location.href);
+      return SUMMARY_ALLOWED_URL_PROTOCOLS.has(url.protocol);
+    } catch (error) {
+      return false;
+    }
   }
 
   async function loadTextData({ selector, url, fallback = "" }) {
@@ -315,6 +427,7 @@
     formatDuration,
     groupBy,
     makeSlug,
+    normalizeSearchText,
     frenchTypography,
     escapeHtml,
     renderSummaryContent,
