@@ -3701,39 +3701,6 @@ window.quizData = [
         ],
         "answer": 0,
         "feedback": "Le mariage avec Héloïse renforce la passivité de Charles : sa vie se décide largement autour de lui, par intérêt et convenance."
-      },
-      {
-        "prompt": "Pourquoi Emma n'apparaît-elle pas immédiatement dans cette première étape ?",
-        "choices": [
-          "Parce que Flaubert veut d'abord installer le cadre médiocre auquel son désir d'absolu va se heurter.",
-          "Parce que le roman s'intéresse finalement davantage à Héloïse qu'à Emma.",
-          "Parce que l'épisode cherche à faire de Charles un héros romantique complet.",
-          "Parce que l'intrigue principale commence seulement après la mort de Charles."
-        ],
-        "answer": 0,
-        "feedback": "Le détour par Charles prépare le contraste : avant le rêve d'Emma, Flaubert installe la banalité du monde qui l'attend."
-      },
-      {
-        "prompt": "Quel contresens faut-il éviter sur Charles dans cet incipit ?",
-        "choices": [
-          "Voir en Charles un simple faire-valoir comique, alors qu'il porte aussi une critique de la médiocrité ordinaire.",
-          "Dire que Charles est présenté à travers des scènes d'humiliation.",
-          "Relier la casquette à une forme de portrait indirect.",
-          "Comprendre que l'ironie passe par des détails concrets."
-        ],
-        "answer": 0,
-        "feedback": "Charles est drôle, oui, mais pas seulement : il incarne un rapport pauvre au monde, aux désirs et au langage."
-      },
-      {
-        "prompt": "Quelle phrase serait la plus solide dans une copie ?",
-        "choices": [
-          "Charles est ridicule uniquement parce que ses camarades sont méchants avec lui.",
-          "L'ouverture de Madame Bovary transforme l'entrée d'un collégien maladroit en diagnostic social : avant Emma, le roman donne à voir la médiocrité qui l'enfermera.",
-          "La première scène sert surtout à expliquer objectivement le métier de médecin au XIXe siècle.",
-          "La casquette est un détail pittoresque que l'on peut supprimer sans perdre le sens de l'incipit."
-        ],
-        "answer": 1,
-        "feedback": "Cette formulation relie détail narratif, portrait de Charles et enjeu global du roman : c'est exactement le type de phrase réutilisable."
       }
     ]
   },
@@ -7244,6 +7211,2476 @@ window.quizData = [
         ],
         "answer": 1,
         "feedback": "Il explique que ce choix de l'être au sens littéral montre que ces personnages sont ses alter-egos, d'autres versions de lui-même, qu'il porte comme un masque."
+      }
+    ]
+  },
+  {
+    "id": "jacques-le-fataliste-les-chemins-de-la-philosophie-jacques-le-fataliste-et-son-maitre-0",
+    "podcastId": "matu-jacques-le-fataliste-les-chemins-de-la-philosophie-jacques-le-fataliste-et-son-maitre-0",
+    "title": "Jacques le Fataliste et son maître",
+    "work": "Jacques le fataliste",
+    "duration": "59 min",
+    "source": "France Culture, 10/12/2020",
+    "questions": [
+      {
+        "prompt": "Quelle est la caractéristique structurelle principale du roman *Jacques le fataliste* mentionnée dans le podcast ?",
+        "choices": [
+          "Il est divisé en chapitres numérotés de manière stricte.",
+          "Il n'a ni chapitre ni parti, brouillant les frontières narratives.",
+          "Il est composé uniquement de dialogues sans narration.",
+          "Il suit un ordre chronologique linéaire et rigoureux."
+        ],
+        "answer": 1,
+        "feedback": "Le podcast indique explicitement que le roman de Diderot « n'a ni chapitre ni parti », ce qui contribue à la déconstruction de la forme romanesque traditionnelle."
+      },
+      {
+        "prompt": "Comment le podcast explique-t-il la relation de pouvoir entre Jacques et son maître ?",
+        "choices": [
+          "Le maître conserve l'autorité absolue sur Jacques tout au long du récit.",
+          "Jacques est le valet soumis, tandis que le maître est le véritable héros libre.",
+          "Jacques prend le pouvoir sur son maître, inversant les rôles sociaux.",
+          "Les deux personnages partagent un pouvoir égal et constant."
+        ],
+        "answer": 2,
+        "feedback": "L'intervenant précise que « le maître est le valet de Jacques et Jacques est le maître du maître », car Jacques prend le pouvoir sur son maître qui agit comme un automate."
+      },
+      {
+        "prompt": "Quelle nuance est apportée concernant le « fatalisme » de Diderot par rapport à celui du personnage Jacques ?",
+        "choices": [
+          "Ils sont identiques : Diderot croit que tout est écrit à l'avance.",
+          "Le fatalisme de Diderot est une croyance religieuse stricte.",
+          "Il ne faut pas confondre les deux : le fatalisme de Diderot est différent de celui de Jacques.",
+          "Diderot rejette totalement le concept de destin, contrairement à Jacques."
+        ],
+        "answer": 2,
+        "feedback": "L'émission insiste sur le fait qu'il « ne faut pas confondre Jacques et son maître » et que le fatalisme de Diderot, tel qu'il est présenté, n'est pas exactement celui de Jacques."
+      },
+      {
+        "prompt": "Quel mouvement littéraire du XXe siècle s'est inspiré de *Jacques le fataliste* ?",
+        "choices": [
+          "Le Romantisme du XIXe siècle.",
+          "Le Nouveau Roman, avec des auteurs comme Butor et Sarraute.",
+          "Le Surréalisme des années 1920.",
+          "Le Naturalisme de Zola."
+        ],
+        "answer": 1,
+        "feedback": "Le podcast mentionne que les tenants du « nouveau roman », tels que Butor et Sarraute, se sont inspirés de Diderot et ont beaucoup apprécié *Jacques le fataliste*."
+      },
+      {
+        "prompt": "Pourquoi le titre complet *Jacques le fataliste et son maître* est-il important selon l'analyse proposée ?",
+        "choices": [
+          "Il indique que le maître est le personnage principal et Jacques le narrateur.",
+          "Il souligne que le maître, bien que se croyant libre, agit comme un automate.",
+          "Il montre que les deux personnages sont égaux en statut social.",
+          "Il prouve que le roman est une biographie du maître."
+        ],
+        "answer": 1,
+        "feedback": "L'intervenant explique que le maître « se croit libre d'ailleurs, qui ne l'est pas, parce que le maître... agit comme un automate », justifiant ainsi l'importance de sa présence dans le titre et l'inversion des rôles."
+      }
+    ]
+  },
+  {
+    "id": "jacques-le-fataliste-avec-philosophie-diderot-philosophe-athee-et-materialiste-1",
+    "podcastId": "matu-jacques-le-fataliste-avec-philosophie-diderot-philosophe-athee-et-materialiste-1",
+    "title": "Diderot, philosophe athée et matérialiste",
+    "work": "Jacques le fataliste",
+    "duration": "58 min",
+    "source": "France Culture, 22/04/2024",
+    "questions": [
+      {
+        "prompt": "Quelle est la conséquence directe de l'emprisonnement de Diderot en 1749 sur la diffusion de sa pensée ?",
+        "choices": [
+          "Il a cessé d'écrire toute forme de philosophie.",
+          "Il a publié systématiquement tous ses manuscrits personnels immédiatement après sa libération.",
+          "Il a arrêté de publier systématiquement ses textes personnels, retardant la connaissance de sa pensée.",
+          "Il a été contraint de se convertir au déisme pour éviter la censure."
+        ],
+        "answer": 2,
+        "feedback": "La transcription indique que la police cherchait ses manuscrits et qu'il ne les publiera plus systématiquement, ce qui explique pourquoi sa pensée a mis du temps à être bien connue."
+      },
+      {
+        "prompt": "Comment l'intervenant définit-il l'athéisme de Diderot par rapport à la notion de Dieu ?",
+        "choices": [
+          "Diderot nie l'existence de toute forme de principe premier ou de déisme.",
+          "Diderot est athée au sens de l'absence de Dieu providentiel, mais cela n'implique pas qu'il ait un concept clair de la matière.",
+          "Diderot rejette la matière au profit d'un spiritualisme pur et simple.",
+          "Diderot croit en un Dieu personnel qui intervient directement dans l'histoire humaine."
+        ],
+        "answer": 1,
+        "feedback": "L'intervenant précise que si l'on entend par athéisme l'absence de Dieu providentiel, Diderot est athée, mais qu'il ne faut pas en déduire qu'il a un concept très clair de la matière."
+      },
+      {
+        "prompt": "Quelle est la position de Diderot concernant la religion des autres, comme illustré par son dialogue avec la Maréchale de Breuil ?",
+        "choices": [
+          "Il considère qu'il est indispensable de supprimer les religions pour libérer l'humanité.",
+          "Il est prosélyte et cherche à convertir systématiquement ses interlocuteurs à l'athéisme.",
+          "Il n'est pas prosélyte et accepte que la Maréchale vive sa vie morale en croyante.",
+          "Il méprise les croyants et refuse tout dialogue avec eux."
+        ],
+        "answer": 2,
+        "feedback": "La transcription note explicitement que Diderot dit qu'il n'est pas prosélyte et que si la Maréchale vit en croyante, cela ne pose pas de problème à Diderot."
+      },
+      {
+        "prompt": "Quel concept l'intervenant propose-t-il comme étant le seul « transcendantal » que l'on pourrait assigner à la pensée de Diderot ?",
+        "choices": [
+          "La raison pure.",
+          "La métamorphose.",
+          "L'accumulation quantitative du plaisir.",
+          "L'atomisme mécanique."
+        ],
+        "answer": 1,
+        "feedback": "L'intervenant suggère que le seul transcendantal que Diderot aurait pu accepter est la métamorphose, contrairement à ce que les contemporains ou les positivistes pourraient penser."
+      },
+      {
+        "prompt": "En quoi le matérialisme de Diderot diffère-t-il du matérialisme mécaniste hérité de Descartes ?",
+        "choices": [
+          "Il affirme la sensibilité de la matière (matérialisme organiciste).",
+          "Il considère la matière comme purement inerte et étendue.",
+          "Il nie l'existence de la matière au profit de l'esprit.",
+          "Il rejette toute forme d'analogie ou de rêve dans la compréhension du monde."
+        ],
+        "answer": 0,
+        "feedback": "La transcription explique que Diderot s'oriente vers un matérialisme « organiciste » qui affirme la sensibilité de la matière, dépassant ainsi le mécanisme cartésien."
+      }
+    ]
+  },
+  {
+    "id": "jacques-le-fataliste-avec-philosophie-diderot-en-dialogue-avec-les-femmes-2",
+    "podcastId": "matu-jacques-le-fataliste-avec-philosophie-diderot-en-dialogue-avec-les-femmes-2",
+    "title": "Diderot en dialogue...avec les femmes",
+    "work": "Jacques le fataliste",
+    "duration": "57 min",
+    "source": "France Culture, 23/04/2024",
+    "questions": [
+      {
+        "prompt": "Selon la transcription, quel fondement philosophique permet à Diderot d'aborder la question des femmes avec une liberté particulière ?",
+        "choices": [
+          "Le respect strict des lois religieuses de l'époque.",
+          "L'athéisme et le matérialisme.",
+          "Le soutien des salons littéraires parisiens.",
+          "La croyance en la supériorité naturelle des hommes."
+        ],
+        "answer": 1,
+        "feedback": "La transcription indique explicitement que l'athéisme et le matérialisme permettent à Diderot d'aborder la question des femmes avec une évidente liberté, en rejetant les interdits religieux contraires à la nature."
+      },
+      {
+        "prompt": "Comment Diderot perçoit-il les conditions de vie et la place des femmes dans la société de son temps, à travers le personnage de Madame de la Pommeray ?",
+        "choices": [
+          "Il les ignore complètement dans ses fictions.",
+          "Il exprime une sensibilité à la prison sociale dont souffrent les femmes qui veulent aimer.",
+          "Il les idéalise comme des figures de pouvoir absolu.",
+          "Il les critique pour leur manque de rationalité."
+        ],
+        "answer": 1,
+        "feedback": "L'intervenante souligne que Diderot exprime, via ce personnage complexe, une vraie sensibilité à la prison sociale dans laquelle les femmes, notamment celles qui veulent aimer, se trouvent."
+      },
+      {
+        "prompt": "Quelle est la nature de la relation intellectuelle entre Diderot et Catherine II de Russie, selon le podcast ?",
+        "choices": [
+          "Une collaboration directe et quotidienne dans les salons.",
+          "Une relation amoureuse secrète et passionnée.",
+          "Une correspondance épistolaire intellectuelle majeure.",
+          "Une rivalité littéraire ouverte et publique."
+        ],
+        "answer": 2,
+        "feedback": "La transcription mentionne la relation de Diderot avec Catherine II comme une correspondance (lettres de la campagne) et une amitié philosophique, précisant qu'on est loin de la collaboration dans les salons."
+      },
+      {
+        "prompt": "Quel est le rôle de la philosophie dans la conception du plaisir chez Diderot, telle que décrite dans l'émission ?",
+        "choices": [
+          "Elle doit encourager la course quantitative vers les plaisirs sensoriels.",
+          "Elle doit orienter vers le plaisir par la justice et lutter contre les plaisirs négatifs.",
+          "Elle doit interdire tout plaisir pour se concentrer sur la vertu religieuse.",
+          "Elle doit accepter le plaisir même s'il cause la souffrance d'autrui."
+        ],
+        "answer": 1,
+        "feedback": "La transcription explique qu'il faut s'orienter dans le plaisir par la philosophie et par la justice, et lutter contre les forces qui orientent vers des plaisirs négatifs ou nuisibles."
+      },
+      {
+        "prompt": "Comment Diderot crée-t-il ses personnages féminins dans ses dialogues, selon l'analyse présentée ?",
+        "choices": [
+          "Il se base uniquement sur des femmes qu'il a fréquentées dans les salons.",
+          "Il mélange les qualités de plusieurs personnes réelles de son entourage.",
+          "Il invente des personnages entièrement fictifs sans aucun modèle réel.",
+          "Il copie les traits de Mademoiselle de l'Espinay sans aucune modification."
+        ],
+        "answer": 1,
+        "feedback": "L'intervenante précise que Diderot a mélangé les qualités de plusieurs personnes réelles (comme Julie de l'Espinay et Sophie Volant) pour créer ses personnages, plutôt que de se limiter à une seule source."
+      }
+    ]
+  },
+  {
+    "id": "jacques-le-fataliste-avec-philosophie-l-encyclopedie-la-veritable-uvre-de-diderot-3",
+    "podcastId": "matu-jacques-le-fataliste-avec-philosophie-l-encyclopedie-la-veritable-uvre-de-diderot-3",
+    "title": "L'Encyclopédie : la véritable œuvre de Diderot ?",
+    "work": "Jacques le fataliste",
+    "duration": "58 min",
+    "source": "France Culture, 24/04/2024",
+    "questions": [
+      {
+        "prompt": "Quelle est la conception principale que Diderot se fait de l'encyclopédie, selon la transcription ?",
+        "choices": [
+          "Une compilation statique et définitive du savoir des siècles passés.",
+          "Une mémoire exceptionnelle du savoir de son temps, reconnue comme non définitive et évolutive.",
+          "Un outil purement technique pour former les artisans sans portée philosophique.",
+          "Une œuvre destinée uniquement à la cour de Russie pour satisfaire la Tsarine."
+        ],
+        "answer": 1,
+        "feedback": "La transcription indique que Diderot désire matérialiser la mémoire du savoir de son temps tout en reconnaissant que ce savoir 'n'a rien de définitif et qu'il changera donc à l'avenir'."
+      },
+      {
+        "prompt": "Quel rôle la censure, notamment celle de Maurepas, a-t-elle joué dans la genèse de l'encyclopédie ?",
+        "choices": [
+          "Elle a soutenu financièrement le projet dès le début pour contrôler la diffusion des idées.",
+          "Elle a interdit la publication dès 1747, empêchant la réalisation de l'œuvre.",
+          "Elle a tenté de bloquer le projet en accusant les auteurs d'hérésie, forçant Diderot à cacher les volumes.",
+          "Elle a validé tous les articles après une révision stricte par le chancelier."
+        ],
+        "answer": 2,
+        "feedback": "La transcription explique que Maurepas a prévenu Diderot de cacher les volumes en état de préparation face à une perquisition, après que l'abbé de Pratt a tenté de prouver que l'encyclopédie était un 'repère d'hérétiques'."
+      },
+      {
+        "prompt": "Comment Diderot entend-il définir les mots dans l'encyclopédie ?",
+        "choices": [
+          "Uniquement par leur étymologie latine pour respecter la tradition.",
+          "Selon des opinions philosophiques et politiques, comme le matérialisme ou le fatalisme.",
+          "En se basant exclusivement sur les dictionnaires monolingues existants sans ajout critique.",
+          "En évitant toute référence aux débats religieux pour rester neutre."
+        ],
+        "answer": 1,
+        "feedback": "La transcription précise que Diderot définit les mots 'du point de vue des opinions philosophiques', en cherchant par exemple le matérialisme, et que la langue est définie pour l'époque où elle va mourir."
+      },
+      {
+        "prompt": "Quelle est la nature des collaborateurs qui ont participé à l'encyclopédie ?",
+        "choices": [
+          "Un groupe homogène de philosophes athées dirigé par Diderot.",
+          "Des auteurs aux convictions variées, incluant des catholiques fervents, des protestants et des matérialistes.",
+          "Uniquement des savants anglais inspirés par l'encyclopédie de Chambers.",
+          "Des membres exclusifs de la cour de Versailles."
+        ],
+        "answer": 1,
+        "feedback": "La transcription souligne la diversité des contributeurs : 'il y a des catholiques fervents... il y a des protestants tout aussi fervents comme Jogour... il y a des matérialistes athées comme Diderot'."
+      },
+      {
+        "prompt": "Quelle nuance importante est apportée concernant l'origine de l'idée de l'encyclopédie ?",
+        "choices": [
+          "L'idée première revient à Diderot qui l'a conçue seul dès le départ.",
+          "L'idée première ne revient pas à Diderot mais à l'éditeur Le Breton.",
+          "L'idée est entièrement copiée de l'encyclopédie anglaise de Chambers sans adaptation.",
+          "L'idée a été imposée par le chancelier pour contrôler la pensée publique."
+        ],
+        "answer": 1,
+        "feedback": "La transcription précise explicitement : 'je crois que l'idée première, si vous voulez, de l'encyclopédie ne revient pas à Diderot, mais à Le Breton'."
+      }
+    ]
+  },
+  {
+    "id": "jacques-le-fataliste-avec-philosophie-diderot-et-jacques-le-fataliste-4",
+    "podcastId": "matu-jacques-le-fataliste-avec-philosophie-diderot-et-jacques-le-fataliste-4",
+    "title": "Diderot et \"Jacques le Fataliste\"",
+    "work": "Jacques le fataliste",
+    "duration": "58 min",
+    "source": "France Culture, 25/04/2024",
+    "questions": [
+      {
+        "prompt": "Quelle est la thèse centrale concernant la nature du fatalisme dans le roman \"Jacques le fataliste\" telle qu'expliquée dans l'épisode ?",
+        "choices": [
+          "Le fatalisme est une doctrine stricte où tout est écrit d'avance, sans aucune place pour le hasard.",
+          "Le fatalisme est une attitude qui s'en remet à une force dépassant la volonté humaine, mêlant hasard et destin.",
+          "Le fatalisme est une philosophie qui nie l'existence de toute force extérieure à la volonté humaine.",
+          "Le fatalisme est une conception exclusivement déterministe, rejetant totalement l'idée de hasard."
+        ],
+        "answer": 1,
+        "feedback": "L'épisode précise que le fatalisme est une attitude qui s'en remet au hasard ou au destin, ces deux notions produisant le même discours sur une force qui dépasse la volonté humaine."
+      },
+      {
+        "prompt": "Quelle nuance importante est apportée par l'experte concernant le personnage de Jacques ?",
+        "choices": [
+          "Jacques est un déterministe pur qui nie l'existence du libre arbitre.",
+          "Jacques tient les deux discours, tantôt celui du hasard, tantôt celui du destin écrit.",
+          "Jacques est un personnage purement comique sans profondeur philosophique.",
+          "Jacques refuse toute philosophie et se contente d'obéir à son maître."
+        ],
+        "answer": 1,
+        "feedback": "L'experte explique que Jacques tient les deux discours : tantôt il dit qu'il n'y a que des hasards, tantôt qu'il est déterministe, montrant la coexistence de ces conceptions dans le roman."
+      },
+      {
+        "prompt": "Quel rôle spécifique joue le narrateur ou l'auteur Diderot dans la structure du roman selon l'analyse proposée ?",
+        "choices": [
+          "Le narrateur suit strictement le destin de Jacques sans aucune intervention.",
+          "Le narrateur révèle l'arbitraire du roman en intervenant directement dans l'intrigue.",
+          "Le narrateur laisse Jacques écrire son propre destin sans contrôle extérieur.",
+          "Le narrateur se contente de rapporter les faits sans commenter l'action."
+        ],
+        "answer": 1,
+        "feedback": "L'épisode mentionne que Diderot, en tant qu'auteur et narrateur, prévient le lecteur et révèle l'arbitraire du roman, montrant qu'il tire les ficelles."
+      },
+      {
+        "prompt": "Quelle est la position philosophique de Diderot en tant qu'auteur, selon l'experte Sylviane Albertan-Copola ?",
+        "choices": [
+          "Diderot prend parti définitivement pour le fatalisme dans son roman.",
+          "Diderot expose les différents points de vue sans jamais prendre parti définitivement.",
+          "Diderot rejette toutes les philosophies de son temps au profit du plaisir.",
+          "Diderot impose une seule vérité morale à travers le personnage de Jacques."
+        ],
+        "answer": 1,
+        "feedback": "L'experte souligne que Diderot a la liberté d'exposer les différents points de vue sans jamais prendre parti, en tout cas pas un parti définitif."
+      },
+      {
+        "prompt": "Quel contresens courant sur le personnage de Jacques est corrigé dans l'épisode ?",
+        "choices": [
+          "On pense souvent que Jacques est un philosophe érudit, alors qu'il est illettré.",
+          "On croit souvent que Jacques est un fataliste pur, alors qu'il est aussi déterministe.",
+          "On suppose que Jacques est le maître de la situation, alors qu'il est esclave.",
+          "On imagine que Jacques rejette la philosophie, alors qu'il l'adopte pleinement."
+        ],
+        "answer": 1,
+        "feedback": "L'épisode corrige l'idée que Jacques est uniquement fataliste en précisant qu'il est aussi déterministe, tenant les deux discours simultanément."
+      }
+    ]
+  },
+  {
+    "id": "jacques-le-fataliste-fictions-theatre-et-cie-jacques-le-fataliste-variations-d-apres-denis-diderot-5",
+    "podcastId": "matu-jacques-le-fataliste-fictions-theatre-et-cie-jacques-le-fataliste-variations-d-apres-denis-diderot-5",
+    "title": "\"Jacques le fataliste, variations\" d’après Denis Diderot",
+    "work": "Jacques le fataliste",
+    "duration": "71 min",
+    "source": "France Culture, 15/09/2024",
+    "questions": [
+      {
+        "prompt": "Quelle est la thèse centrale du fatalisme telle qu'elle est présentée dans l'extrait ?",
+        "choices": [
+          "Les humains ont un libre arbitre total et peuvent changer leur destin par la volonté.",
+          "Tout est prédéterminé par une force supérieure, comme si tout était « écrit là-haut ».",
+          "Le destin est une illusion créée par la peur de l'inconnu.",
+          "Les hommes sont libres tant qu'ils ignorent ce qui leur arrive."
+        ],
+        "answer": 1,
+        "feedback": "L'extrait affirme explicitement : « Il est écrit là-haut que tant que Jacques vivra... on dira à Jacques et son maître », illustrant l'idée d'un destin fixe et prédéterminé."
+      },
+      {
+        "prompt": "Comment le maître tente-t-il de contrôler le récit de Jacques ?",
+        "choices": [
+          "En lui ordonnant de sauter dans une fondrière.",
+          "En lui demandant de cesser de digresser et de continuer l'histoire de ses amours.",
+          "En lui interdisant de parler de son cheval.",
+          "En lui racontant sa propre histoire à la place."
+        ],
+        "answer": 1,
+        "feedback": "Le maître interrompt Jacques en disant : « S'il vous plaît, l'histoire des amours de Jacques, sinon nous n'en verrons jamais la fin », cherchant à ramener le récit à son sujet principal."
+      },
+      {
+        "prompt": "Quelle nuance le texte apporte-t-il à la relation entre Jacques et son maître ?",
+        "choices": [
+          "Jacques est entièrement soumis et n'a aucune volonté propre.",
+          "Le maître est le seul à avoir un destin écrit, pas Jacques.",
+          "Leur destin est lié et ils sont tous deux « également insensés » dans leurs souhaits.",
+          "Ils sont en conflit permanent et ne se parlent plus."
+        ],
+        "answer": 2,
+        "feedback": "Le texte conclut en disant qu'ils marchent « également insensés dans nos souhaits, dans notre joie et dans notre affliction », montrant leur lien indissoluble et leur condition commune."
+      },
+      {
+        "prompt": "Quel exemple concret illustre le destin inéluctable de Jacques dans l'extrait ?",
+        "choices": [
+          "Il tombe amoureux d'une femme qu'il ne peut épouser.",
+          "Son cheval le mène deux fois aux potences malgré ses efforts.",
+          "Il est arrêté par la police pour vagabondage.",
+          "Il perd son maître lors d'une tempête."
+        ],
+        "answer": 1,
+        "feedback": "L'extrait décrit comment le cheval, malgré les efforts de Jacques, le mène aux potences (« fourches patibulaires ») deux fois, prouvant que son parcours est tracé."
+      },
+      {
+        "prompt": "Quel contresens faut-il éviter concernant l'identité de Jacques selon le maître ?",
+        "choices": [
+          "Jacques est un homme comme un autre, sans particularité.",
+          "Jacques est un personnage secondaire sans importance.",
+          "Un Jacques n'est pas un homme comme un autre, car son nom est lié à celui de son maître.",
+          "Jacques est un personnage historique réel."
+        ],
+        "answer": 2,
+        "feedback": "Le maître répond à Jacques : « Tu te trompes, un Jacques n'est pas un homme comme un autre... si bien que l'un ne va jamais sans l'autre », soulignant que son identité est définie par sa relation au maître."
+      }
+    ]
+  },
+  {
+    "id": "jacques-le-fataliste-le-gai-savoir-jacques-le-fataliste-diderot-6",
+    "podcastId": "matu-jacques-le-fataliste-le-gai-savoir-jacques-le-fataliste-diderot-6",
+    "title": "Jacques le Fataliste – Diderot",
+    "work": "Jacques le fataliste",
+    "duration": "60 min",
+    "source": "France Culture, 05/05/2013",
+    "questions": [
+      {
+        "prompt": "Quelle est la nature du paradoxe central de *Jacques le fataliste* selon l'intervenant ?",
+        "choices": [
+          "Diderot défend le déterminisme tout en écrivant un roman d'aventures.",
+          "Diderot, matérialiste, défend la liberté tout en adoptant une posture fataliste.",
+          "Jacques est libre de ses actes mais esclave de son maître.",
+          "Le roman est à la fois un roman et un essai philosophique pur."
+        ],
+        "answer": 1,
+        "feedback": "L'intervenant souligne que le cœur du paradoxe est que Diderot, en tant que matérialiste, défend la liberté tout en menant un discours où « tout est écrit »."
+      },
+      {
+        "prompt": "Quelle est l'origine de la philosophie fataliste de Jacques ?",
+        "choices": [
+          "Une lecture directe et approfondie des œuvres de Spinoza.",
+          "Une réflexion personnelle approfondie sur le stoïcisme romain.",
+          "Un « digest » de Spinoza transmis par son capitaine, interprété à sa sauce.",
+          "Une influence directe de Voltaire et de son conte *Candide*."
+        ],
+        "answer": 2,
+        "feedback": "L'intervenant précise que Jacques prend Spinoza pour un partisan du destin grâce à un « compendium » ou « digest » transmis par son capitaine, constituant un Spinoza de « troisième main »."
+      },
+      {
+        "prompt": "Quel rôle le lecteur joue-t-il dans la structure narrative de *Jacques le fataliste* ?",
+        "choices": [
+          "Il est un personnage secondaire qui guide Jacques vers la vérité.",
+          "Il sert de « respiration » (diastole/systole) entre les récits emboîtés.",
+          "Il est constamment ignoré par le narrateur pour maintenir le suspense.",
+          "Il doit deviner la fin du roman pour comprendre la leçon morale."
+        ],
+        "answer": 1,
+        "feedback": "L'intervenant décrit le lecteur comme la « respiration » du livre, permettant une pause entre l'irruption du narrateur et les récits de Jacques."
+      },
+      {
+        "prompt": "Pourquoi le compliment du maître à Jacques est-il ironique ou révélateur ?",
+        "choices": [
+          "Parce que Jacques est toujours conforme à ses principes philosophiques.",
+          "Parce que Jacques meurt effectivement de manière stoïque à la fin du livre.",
+          "Parce que Jacques est impétueux et ne suit pas ses principes, contrairement à ce que le maître suppose.",
+          "Parce que le maître rejette le fatalisme au profit de l'action immédiate."
+        ],
+        "answer": 2,
+        "feedback": "L'intervenant note que le compliment prouve la contradiction : Jacques est fataliste en discours mais impétueux en réalité, donc il n'est pas conforme à ses principes la plupart du temps."
+      },
+      {
+        "prompt": "Quelle stratégie commune partagent Diderot et Voltaire selon l'analyse du podcast ?",
+        "choices": [
+          "Utiliser un narrateur omniscient qui connaît l'avenir des personnages.",
+          "Raconter la contingence par le discours de la nécessité.",
+          "Écrire des romans strictement réalistes sans intervention du narrateur.",
+          "Démontrer que le destin est toujours favorable aux héros."
+        ],
+        "answer": 1,
+        "feedback": "L'intervenant explique que le point commun entre *Jacques le fataliste* et *Candide* est de « raconter la contingence » tout en « disant la nécessité »."
+      }
+    ]
+  },
+  {
+    "id": "jacques-le-fataliste-les-nuits-de-france-culture-jacques-le-fataliste-et-son-maitre-2-10-1ere-diffusion-12-11-1963-rtf-promotion-7",
+    "podcastId": "matu-jacques-le-fataliste-les-nuits-de-france-culture-jacques-le-fataliste-et-son-maitre-2-10-1ere-diffusion-12-11-1963-rtf-promotion-7",
+    "title": "Jacques le Fataliste et son maître 2/10 (1ère diffusion : 12/11/1963 RTF Promotion)",
+    "work": "Jacques le fataliste",
+    "duration": "40 min",
+    "source": "France Culture, 17/09/2019",
+    "questions": [
+      {
+        "prompt": "Selon la théorie exposée au début de l'extrait, que signifie l'expression « c'est écrit là-haut » ?",
+        "choices": [
+          "Que les personnages doivent suivre scrupuleusement les lois divines pour être sauvés.",
+          "Que le destin est prédéterminé et que les actions humaines sont soumises à une force supérieure.",
+          "Que les romanciers doivent écrire des histoires avec une morale religieuse stricte.",
+          "Que le hasard n'existe pas et que tout est le fruit du libre arbitre conscient."
+        ],
+        "answer": 1,
+        "feedback": "Le texte établit un lien direct entre le bonheur ou le malheur et ce qui est « écrit là-haut », définissant ainsi une vision fataliste où le destin est fixé par une autorité supérieure."
+      },
+      {
+        "prompt": "Comment Diderot caractérise-t-il son œuvre dans ce passage ?",
+        "choices": [
+          "Comme un roman réaliste détaillant la géographie du voyage.",
+          "Comme un roman métaphysique, de voyage et de parole.",
+          "Comme une biographie historique du capitaine de Jacques.",
+          "Comme un traité philosophique sans aucune intrigue narrative."
+        ],
+        "answer": 1,
+        "feedback": "L'auteur décrit explicitement son travail comme un « Roman métaphysique, roman de voyage, roman de parole et de récit dans le récit », soulignant sa nature hybride et réflexive."
+      },
+      {
+        "prompt": "Quelle est la conséquence logique du fatalisme pour Jacques concernant la montre de son maître ?",
+        "choices": [
+          "Il doit la rendre immédiatement pour éviter le péché.",
+          "Il la garde car il est « écrit là-haut » qu'il la récupère.",
+          "Il la perd définitivement car son maître est trop généreux.",
+          "Il la vend pour financer la suite du voyage."
+        ],
+        "answer": 1,
+        "feedback": "Le texte indique que Jacques récupère la montre et que « c'était écrit là-haut » qu'il paierait ou récupérerait ce qui lui était dû, illustrant l'accomplissement inévitable du destin."
+      },
+      {
+        "prompt": "Quel rôle joue l'interlocuteur adressé par le terme « auditeur » dans la structure du récit ?",
+        "choices": [
+          "Il est un personnage secondaire qui guide Jacques dans la ville.",
+          "Il sert de témoin judiciaire pour valider les actions de Jacques.",
+          "Il permet à l'auteur de briser la quatrième murale et de commenter le récit.",
+          "Il représente le maître du maître de Jacques dans une mise en abyme."
+        ],
+        "answer": 2,
+        "feedback": "L'auteur s'adresse directement à l'« auditeur » pour l'avertir de ne pas confondre le vrai et le faux, créant une distance critique et une interaction directe avec le public."
+      },
+      {
+        "prompt": "Quelle nuance est apportée par la question « Mais qui était le maître du maître de Jacques ? »",
+        "choices": [
+          "Elle confirme que le maître de Jacques a un seul maître absolu.",
+          "Elle suggère une hiérarchie infinie et instable des pouvoirs.",
+          "Elle indique que le maître de Jacques est un capitaine de marine.",
+          "Elle prouve que Jacques est en réalité le maître de son propre destin."
+        ],
+        "answer": 1,
+        "feedback": "Le texte précise que le maître de Jacques en avait « cent pour un » et changeait souvent, suggérant une chaîne de commandement complexe, multiple et instable plutôt qu'une autorité unique."
+      }
+    ]
+  },
+  {
+    "id": "jacques-le-fataliste-les-nuits-de-france-culture-jacques-le-fataliste-et-son-maitre-3-10-1ere-diffusion-13-11-1963-rtf-promotion-8",
+    "podcastId": "matu-jacques-le-fataliste-les-nuits-de-france-culture-jacques-le-fataliste-et-son-maitre-3-10-1ere-diffusion-13-11-1963-rtf-promotion-8",
+    "title": "Jacques le Fataliste et son maître 3/10 (1ère diffusion : 13/11/1963 RTF Promotion)",
+    "work": "Jacques le fataliste",
+    "duration": "40 min",
+    "source": "France Culture, 18/09/2019",
+    "questions": [
+      {
+        "prompt": "Selon le narrateur, quelle est la fonction principale du « mauvais temps » dans le déroulement de l'histoire ?",
+        "choices": [
+          "Il empêche physiquement les personnages de voyager vers leur destination finale.",
+          "Il sert de prétexte narratif pour retarder le récit des amours de Jacques.",
+          "Il symbolise la colère divine envers les péchés des personnages.",
+          "Il force Jacques à rester à l'auberge pour payer ses dettes."
+        ],
+        "answer": 1,
+        "feedback": "Le narrateur explique explicitement que le ciel a envoyé ce mauvais temps « pour que vous entendissiez mes amours » plus tard, utilisant ainsi la météo comme un outil de mise en scène pour gagner du temps."
+      },
+      {
+        "prompt": "Quelle comparaison le narrateur utilise-t-il pour décrire la situation narrative dans laquelle il s'est engagé avec le roman ?",
+        "choices": [
+          "Un labyrinthe sans issue où les personnages se perdent.",
+          "Un cul-de-sac ou une impasse d'où il cherche à sortir.",
+          "Un pont jeté entre deux rives que l'on traverse difficilement.",
+          "Un théâtre où les acteurs oublient leurs répliques."
+        ],
+        "answer": 1,
+        "feedback": "Le narrateur confesse qu'il s'est « fourré dans une impasse à la Voltaire ou vulgairement dans un cul-de-sac d'où vous ne savez comment sortir »."
+      },
+      {
+        "prompt": "Que signifie l'expression « ne payez jamais d'avance si vous ne voulez pas être mal servi » dans le contexte de la réflexion de Jacques ?",
+        "choices": [
+          "C'est un conseil financier pour éviter les arnaques des aubergistes.",
+          "C'est une maxime fataliste suggérant que le destin réserve des surprises désagréables si l'on agit trop tôt.",
+          "C'est une critique de l'hôtesse qui est bavarde et peu fiable.",
+          "C'est une référence à la dette que Jacques doit encore au chirurgien."
+        ],
+        "answer": 1,
+        "feedback": "Jacques se dit cela « apparemment », liant cette maxime à sa philosophie du fatalisme et à l'idée que l'on ne sait pas ce que l'avenir réserve, plutôt qu'à un simple conseil pratique."
+      },
+      {
+        "prompt": "Comment le narrateur gère-t-il la présence des auditeurs lors des descriptions sensorielles (comme le vacarme ou la vue des personnages) ?",
+        "choices": [
+          "Il les invite à fermer les yeux pour imaginer la scène.",
+          "Il les exclut en leur rappelant qu'ils n'étaient pas présents sur les lieux.",
+          "Il leur demande de visualiser les personnages en se basant sur leur propre expérience.",
+          "Il ignore complètement leur existence pour se concentrer sur le dialogue."
+        ],
+        "answer": 1,
+        "feedback": "Le narrateur répète ironiquement : « Vous n'y étiez pas, il ne s'agit pas de vous » pour souligner l'impossibilité pour les auditeurs de percevoir directement les événements décrits."
+      },
+      {
+        "prompt": "Quel est le rôle de l'histoire du pâtissier et de la prison de Gousse dans cet extrait ?",
+        "choices": [
+          "Elle sert de prétexte pour expliquer pourquoi Jacques et son maître sont restés bloqués.",
+          "Elle illustre la détresse morale et sociale, servant de parallèle ou de distraction au récit principal.",
+          "Elle permet au narrateur de critiquer directement la justice de l'époque.",
+          "Elle est racontée par Jacques pour justifier son retard auprès de son maître."
+        ],
+        "answer": 1,
+        "feedback": "Le narrateur interrompt le récit principal pour revenir à cette histoire (« je veux revenir à la prison de Gousse »), utilisant cet insert pour explorer des thèmes de souffrance et d'injustice, tout en marquant une pause dans l'intrigue de Jacques."
+      }
+    ]
+  },
+  {
+    "id": "jacques-le-fataliste-les-nuits-de-france-culture-jacques-le-fataliste-et-son-maitre-4-10-1ere-diffusion-14-11-1963-rtf-promotion-9",
+    "podcastId": "matu-jacques-le-fataliste-les-nuits-de-france-culture-jacques-le-fataliste-et-son-maitre-4-10-1ere-diffusion-14-11-1963-rtf-promotion-9",
+    "title": "Jacques le Fataliste et son maître 4/10 (1ère diffusion : 14/11/1963 RTF Promotion)",
+    "work": "Jacques le fataliste",
+    "duration": "75 min",
+    "source": "France Culture, 19/09/2019",
+    "questions": [
+      {
+        "prompt": "Quelle est la caractéristique principale de la structure narrative de cet épisode, selon l'introduction ?",
+        "choices": [
+          "Une narration linéaire et chronologique sans interruption.",
+          "Des interruptions, des digressions et des récits emboîtés.",
+          "Un monologue intérieur du maître seul.",
+          "Une absence totale de dialogue entre les personnages."
+        ],
+        "answer": 1,
+        "feedback": "L'introduction précise que l'épisode est « très long grâce aux interruptions, aux digressions et puis aussi à un récit dans Le Récit », ce qui correspond à la structure digressive typique de Diderot."
+      },
+      {
+        "prompt": "Comment Jacques réagit-il aux « grandes sentences » de son maître concernant les bottes ?",
+        "choices": [
+          "Il les accepte sans réserve comme une vérité absolue.",
+          "Il les ignore complètement et se met à dormir.",
+          "Il les compare à une vieille fable de son village, les jugeant inférieures.",
+          "Il les note soigneusement pour les appliquer plus tard."
+        ],
+        "answer": 2,
+        "feedback": "Jacques déclare explicitement : « toutes ces grandes sentences que vous venez de débiter à propos de bottes Ne valent pas une vieille fable des écragnes de mon village », montrant son rejet de l'abstraction au profit du concret."
+      },
+      {
+        "prompt": "Quel est le rôle de l'hôtesse dans cet extrait ?",
+        "choices": [
+          "Elle est une figure autoritaire qui impose le silence à Jacques.",
+          "Elle sert d'intermédiaire narratif mais est critiquée pour son bavardage.",
+          "Elle est la seule à connaître la fin de l'histoire de Madame de la Pommeray.",
+          "Elle refuse de parler pour laisser Jacques et son maître discuter."
+        ],
+        "answer": 1,
+        "feedback": "L'hôtesse intervient pour transmettre des informations (le dîner, le garde), mais Jacques la qualifie de « bavarde » et son maître lui demande de se taire, indiquant que son rôle est celui d'une source narrative perturbatrice."
+      },
+      {
+        "prompt": "Quelle est la situation finale de Jacques et de son maître à la fin de l'extrait ?",
+        "choices": [
+          "Ils discutent calmement de la suite de l'histoire.",
+          "Le maître ronfle tandis que Jacques, ivre, fait du bruit en rôdant.",
+          "Ils se sont endormis ensemble après avoir bu.",
+          "Ils ont quitté la chambre pour aller chez l'hôtesse."
+        ],
+        "answer": 1,
+        "feedback": "Le narrateur indique que « Le maître de Jacques ronfle » et que « Jacques... rôde dans la chambre, en chemise et pieds nus, culbute tout ce qu'il rencontre », soulignant le chaos provoqué par l'ivresse de Jacques."
+      },
+      {
+        "prompt": "Pourquoi Jacques refuse-t-il de juger du caractère de Mlle Duquénois comme le fait son maître ?",
+        "choices": [
+          "Parce qu'il ne connaît pas Mlle Duquénois personnellement.",
+          "Parce qu'il estime que son maître juge d'après son propre caractère, et non celui de la femme.",
+          "Parce que l'hôtesse lui a interdit de parler.",
+          "Parce qu'il pense que Mlle Duquénois est une menteuse."
+        ],
+        "answer": 1,
+        "feedback": "Jacques rétorque : « vous n'avez jamais été femme... et vous jugez d'après votre caractère, qui n'est pas celui de Madame de la Pomeraye », soulignant le biais subjectif du maître."
+      }
+    ]
+  },
+  {
+    "id": "jacques-le-fataliste-les-nuits-de-france-culture-jacques-le-fataliste-et-son-maitre-5-10-1ere-diffusion-15-11-1963-rtf-promotion-10",
+    "podcastId": "matu-jacques-le-fataliste-les-nuits-de-france-culture-jacques-le-fataliste-et-son-maitre-5-10-1ere-diffusion-15-11-1963-rtf-promotion-10",
+    "title": "Jacques le Fataliste et son maître 5/10 (1ère diffusion : 15/11/1963 RTF Promotion)",
+    "work": "Jacques le fataliste",
+    "duration": "35 min",
+    "source": "France Culture, 20/09/2019",
+    "questions": [
+      {
+        "prompt": "Quelle est la raison principale invoquée par Jacques pour refuser de descendre au petit-déjeuner et imposer ses conditions ?",
+        "choices": [
+          "Il est en colère parce que l'hôtesse a servi une soupe aux oignons.",
+          "Il considère que leur lien est déterminé par le destin, rendant son maître dépendant de lui.",
+          "Il veut punir son maître pour l'avoir réveillé trop tard.",
+          "Il a oublié où se trouve la chambre de l'hôtesse."
+        ],
+        "answer": 1,
+        "feedback": "Jacques affirme que « tout cela fut scellé là-haut » et que « tant que Jacques vivra... on dira Jacques et son maître », utilisant cette fatalité pour justifier son insolence et son ascendant."
+      },
+      {
+        "prompt": "Comment le maître tente-t-il de reprendre l'ascendant sur Jacques lors de leur dispute ?",
+        "choices": [
+          "En menaçant de le renvoyer immédiatement.",
+          "En lui rappelant l'histoire de ses amours passées et ses erreurs.",
+          "En lui ordonnant de payer la facture de l'hôtesse.",
+          "En lui parlant de son propre passé militaire."
+        ],
+        "answer": 1,
+        "feedback": "Le maître dit : « Reprenez l'histoire de vos amours et souvenez-vous que vous n'êtes et ne serez jamais qu'un Jacques », tentant de rabaisser Jacques en rappelant son passé sentimental."
+      },
+      {
+        "prompt": "Quelle nuance le texte apporte-t-il concernant l'attachement de Jacques pour les animaux ?",
+        "choices": [
+          "Jacques déteste les animaux et les traite avec cruauté.",
+          "Cet attachement est une particularité exclusive aux petites gens.",
+          "Cet attachement n'est pas seulement présent chez les petites gens, mais aussi chez des personnages comme le marquis des Arcis.",
+          "Jacques aime les animaux uniquement parce qu'il a été moine."
+        ],
+        "answer": 2,
+        "feedback": "Le narrateur précise : « Jacques, cet attachement pour les animaux, je ne le remarque pas seulement dans les petites gens », indiquant que ce trait dépasse les classes sociales."
+      },
+      {
+        "prompt": "Quel contresens faut-il éviter concernant la relation entre Jacques et son maître selon le texte ?",
+        "choices": [
+          "Penser que le maître a un contrôle absolu et incontesté sur Jacques.",
+          "Penser que Jacques est toujours obéissant et soumis.",
+          "Penser que les deux personnages se détestent profondément.",
+          "Penser qu'ils voyagent pour leur seul plaisir."
+        ],
+        "answer": 0,
+        "feedback": "Jacques explique que « tous vos ordres ne sont que des clous à souffler s'ils n'ont été ratifiés par Jacques », montrant que le maître ne peut agir sans l'accord implicite ou explicite de Jacques."
+      },
+      {
+        "prompt": "Quelle observation Jacques fait-il à voix basse en entrant dans le logis, et quelle est la réaction du maître ?",
+        "choices": [
+          "Il remarque un trésor caché et le maître est enthousiaste.",
+          "Il soupçonne le jeune homme d'avoir été moine et le maître confirme qu'il a rencontré juste.",
+          "Il critique la propreté de la chambre et le maître s'excuse.",
+          "Il identifie un ennemi juré et le maître ordonne de l'expulser."
+        ],
+        "answer": 1,
+        "feedback": "Jacques dit : « Je gagerais qu'il a été moine » et le maître répond : « Il a rencontré juste », validant l'analyse de Jacques sur le jeune homme."
+      }
+    ]
+  },
+  {
+    "id": "jacques-le-fataliste-les-nuits-de-france-culture-jacques-le-fataliste-et-son-maitre-6-10-1ere-diffusion-18-11-1963-rtf-promotion-11",
+    "podcastId": "matu-jacques-le-fataliste-les-nuits-de-france-culture-jacques-le-fataliste-et-son-maitre-6-10-1ere-diffusion-18-11-1963-rtf-promotion-11",
+    "title": "Jacques le Fataliste et son maître 6/10 (1ère diffusion : 18/11/1963 RTF Promotion)",
+    "work": "Jacques le fataliste",
+    "duration": "40 min",
+    "source": "France Culture, 23/09/2019",
+    "questions": [
+      {
+        "prompt": "Quelle est la relation narrative principale établie entre Jacques et son maître dans cet extrait ?",
+        "choices": [
+          "Le maître raconte les aventures de Jacques de manière linéaire et chronologique.",
+          "Jacques impose ses digressions et ses récits, tandis que le maître tente de les contrôler ou de les interrompre.",
+          "Les deux personnages racontent simultanément leurs propres histoires sans interaction.",
+          "Le maître ignore complètement Jacques et se concentre uniquement sur ses propres pensées."
+        ],
+        "answer": 1,
+        "feedback": "La transcription montre que Jacques interrompt constamment le maître (« Si souvent interrompu déjà par le maître de Jacques ») et que le maître essaie de diriger la conversation (« Croyez que je suis tout autant que vous affligé ») avant de céder aux récits de Jacques ou de proposer ceux de Richard."
+      },
+      {
+        "prompt": "Pourquoi le maître refuse-t-il initialement d'écouter les amours de Jacques ?",
+        "choices": [
+          "Il trouve les histoires d'amour de Jacques trop tristes et déprimantes.",
+          "Il est trop malade pour écouter des récits longs et complexes.",
+          "Il préfère écouter les aventures du secrétaire Richard, qu'il juge plus piquantes ou plus faciles à suivre.",
+          "Il considère que Jacques ment systématiquement sur ses exploits amoureux."
+        ],
+        "answer": 2,
+        "feedback": "Le maître dit : « au défaut des amours de Jacques, de vous accommoder des aventures du secrétaire du marquis des Arcies », suggérant un choix narratif ou une lassitude envers le style de Jacques, tout en acceptant ensuite l'histoire de Richard."
+      },
+      {
+        "prompt": "Quel est le rôle de l'habit de prémontré dans l'histoire de Richard ?",
+        "choices": [
+          "Il permet à Richard de fuir la justice en se cachant parmi les religieux.",
+          "Il sert de couverture pour manipuler les commissaires de police et attirer l'orage sur leurs têtes.",
+          "Il est le symbole de sa repentance sincère et de son retour à la foi après ses péchés.",
+          "Il est utilisé pour séduire la duchesse et la marquise mentionnées dans le texte."
+        ],
+        "answer": 1,
+        "feedback": "Le texte indique que Richard et son compagnon, sous l'habit religieux, procèdent « sourdement aux informations » et que Richard s'occupe de la manière « d'attirer [l'orage] sur la tête des deux commissaires », utilisant leur apparence pour les tromper."
+      },
+      {
+        "prompt": "Que révèle l'échange sur le mot « honnête » concernant le ton de l'œuvre ?",
+        "choices": [
+          "Que Diderot insiste sur la moralité stricte des personnages principaux.",
+          "Que le maître rejette la censure morale et accepte la vulgarité ou la réalité crue des récits.",
+          "Que le mot « honnête » est techniquement incorrect dans le contexte juridique de l'époque.",
+          "Que les personnages sont obligés de parler de manière euphémiste par respect des conventions sociales."
+        ],
+        "answer": 1,
+        "feedback": "Le maître dit : « convenez qu'ici, comme dans une infinité de bons comptes, le mot honnête gâterait tout », ce qui implique que la franchise ou la vulgarité est préférable à l'euphémisme moralisateur dans ce contexte narratif."
+      },
+      {
+        "prompt": "Quelle est la nature de la relation entre Jacques et Denise à la fin de l'extrait ?",
+        "choices": [
+          "Elle est sa maîtresse officielle qu'il a épousée secrètement.",
+          "Elle est une servante qui le soigne, et Jacques évoque une relation sexuelle passée ou présente basée sur le troc plutôt que la perte.",
+          "Elle est une inconnue qu'il rencontre pour la première fois au château.",
+          "Elle est la sœur du marquis des Arcies venue le visiter."
+        ],
+        "answer": 1,
+        "feedback": "Jacques dit à Denise : « Je ne le perdis pas, je le troquais bel et bien », et mentionne qu'elle le visite quatre fois par jour pour le soigner, indiquant une intimité physique et une relation de soin au château de Deglan."
+      }
+    ]
+  },
+  {
+    "id": "jacques-le-fataliste-les-nuits-de-france-culture-jacques-le-fataliste-et-son-maitre-7-10-1ere-diffusion-19-11-1963-rtf-promotion-12",
+    "podcastId": "matu-jacques-le-fataliste-les-nuits-de-france-culture-jacques-le-fataliste-et-son-maitre-7-10-1ere-diffusion-19-11-1963-rtf-promotion-12",
+    "title": "Jacques le Fataliste et son maître 7/10 (1ère diffusion : 19/11/1963 RTF Promotion)",
+    "work": "Jacques le fataliste",
+    "duration": "40 min",
+    "source": "France Culture, 28/07/2021",
+    "questions": [
+      {
+        "prompt": "Quelle est la thèse centrale défendue par Jacques concernant les événements qui touchent Bigre le fils ?",
+        "choices": [
+          "Bigre agit par pur hasard et sans aucune conséquence morale.",
+          "Le destin est écrit « là-haut », rendant les actions de Bigre inéluctables.",
+          "Bigre doit subir une punition divine pour ses péchés.",
+          "Le maître a le pouvoir d'annuler les décisions de Bigre par la volonté."
+        ],
+        "answer": 1,
+        "feedback": "Jacques affirme explicitement : « Mon maître, il est écrit là-haut que vous en avez pour le reste de vos jours », indiquant que la destinée est prédéterminée."
+      },
+      {
+        "prompt": "Quelle nuance l'intervenant ou le texte apporte-t-il concernant la relation entre les pères et les enfants ?",
+        "choices": [
+          "Les pères exercent toujours un contrôle absolu et incontesté sur leurs enfants.",
+          "Les enfants imitent toujours les vices de leurs pères sans réserve.",
+          "Ils sont alternativement dupes les uns des autres, dans un cycle perpétuel.",
+          "La relation est basée sur une transparence totale et une honnêteté absolue."
+        ],
+        "answer": 2,
+        "feedback": "Jacques conclut sa réflexion en disant : « ils ont été de tout temps et seront à jamais alternativement dupes les uns des autres. »"
+      },
+      {
+        "prompt": "Comment l'exemple de Bigre le fils est-il analysé dans le contexte de la narration ?",
+        "choices": [
+          "Comme un exemple de courage face à l'autorité paternelle.",
+          "Comme une victime innocente des caprices de son père.",
+          "Comme un personnage dont les actions sont dictées par une nécessité fatale.",
+          "Comme un modèle de vertu chrétienne et de retenue."
+        ],
+        "answer": 2,
+        "feedback": "Le texte lie les actions de Bigre (rencontrer Justine, fuir) à l'idée que « c'est écrit là-haut », illustrant le fatalisme plutôt que le libre arbitre moral."
+      },
+      {
+        "prompt": "Quel est le rôle de la figure du « maître » dans cet extrait ?",
+        "choices": [
+          "Il guide Jacques vers une révélation spirituelle profonde.",
+          "Il tente de diriger le récit et la morale, mais est contredit par Jacques.",
+          "Il est un personnage passif qui n'intervient jamais dans l'intrigue.",
+          "Il représente l'autorité divine qui valide les actions de Bigre."
+        ],
+        "answer": 1,
+        "feedback": "Le maître essaie d'imposer sa logique (« Mais tu ne veux jamais en faire qu'à ta tête ») et de contrôler la narration, mais Jacques résiste et impose sa propre vision fataliste."
+      },
+      {
+        "prompt": "Quel contresens faut-il éviter concernant la comparaison finale faite par Jacques/Suétone ?",
+        "choices": [
+          "Penser que Jacques critique la morale chrétienne de Justine.",
+          "Croire que l'auteur se sent coupable d'écrire sur les vices de Jacques.",
+          "Interpréter la scène de Bigre comme une condamnation religieuse stricte.",
+          "Supposer que Jacques rejette totalement l'autorité de son maître."
+        ],
+        "answer": 1,
+        "feedback": "Jacques dit : « je ne me sens pas plus coupable, peut-être moins, quand j'écris Les Sottises de Jacques, que Suétone quand il nous transmet les débauches de Tibère », montrant une distance ironique et non une culpabilité morale."
+      }
+    ]
+  },
+  {
+    "id": "jacques-le-fataliste-les-nuits-de-france-culture-jacques-le-fataliste-et-son-maitre-8-10-1ere-diffusion-20-11-1963-rtf-promotion-13",
+    "podcastId": "matu-jacques-le-fataliste-les-nuits-de-france-culture-jacques-le-fataliste-et-son-maitre-8-10-1ere-diffusion-20-11-1963-rtf-promotion-13",
+    "title": "Jacques le Fataliste et son maître 8/10 (1ère diffusion : 20/11/1963 RTF Promotion)",
+    "work": "Jacques le fataliste",
+    "duration": "35 min",
+    "source": "France Culture, 25/09/2019",
+    "questions": [
+      {
+        "prompt": "Quelle est la caractéristique principale de la relation narrative entre Jacques et son maître telle qu'elle est décrite dans l'extrait ?",
+        "choices": [
+          "Le maître raconte toujours l'histoire sans interruption.",
+          "Jacques interrompt constamment le maître pour boire de son vin.",
+          "Le maître essaie de contrôler le récit mais est souvent interrompu ou contredit par Jacques.",
+          "Les deux personnages racontent leurs histoires simultanément sans interaction."
+        ],
+        "answer": 2,
+        "feedback": "L'extrait montre que le maître tente de continuer ou d'interrompre ('tu descendras', 'je ne descendrai pas'), mais Jacques résiste et reprend la main, illustrant un jeu de pouvoir narratif où le maître est souvent dépassé."
+      },
+      {
+        "prompt": "Pourquoi Jacques boit-il de sa gourde lors des interactions avec son maître ?",
+        "choices": [
+          "Parce qu'il a soif après avoir couru.",
+          "Pour marquer son refus d'être interrompu et reprendre le contrôle de la conversation.",
+          "Parce que le vin est une condition sine qua non de sa philosophie.",
+          "Pour s'endormir pendant les longs discours du maître."
+        ],
+        "answer": 1,
+        "feedback": "Le texte indique que Jacques détache sa gourde et boit 'à la régalade' précisément quand son maître l'interrompt, pour ne la remettre que lorsque le maître a cessé de parler, utilisant ainsi le geste comme un acte de résistance."
+      },
+      {
+        "prompt": "Quelle référence littéraire Jacques cite-t-il pour justifier son style de narration ou son attitude ?",
+        "choices": [
+          "Molière, pour le comique de situation.",
+          "Rabelais, en affirmant aimer la vérité plus que lui.",
+          "Voltaire, pour la satire sociale.",
+          "La Fontaine, pour les fables morales."
+        ],
+        "answer": 1,
+        "feedback": "Jacques déclare explicitement : 'J'aime Rabelais, mais j'aime mieux la vérité que Rabelais', établissant un lien avec l'auteur connu pour son langage libre et son réalisme."
+      },
+      {
+        "prompt": "Quel est le problème financier principal qui affecte le maître dans cet extrait ?",
+        "choices": [
+          "Il a perdu tout son argent au jeu.",
+          "Il doit de l'argent à plusieurs usuriers et craint de perdre sa maîtresse.",
+          "Il a été volé par son valet Jacques.",
+          "Il a dépensé toute sa fortune en vin."
+        ],
+        "answer": 1,
+        "feedback": "Le texte mentionne que le maître a partagé son argent avec des usuriers (Lebrun, Merval, etc.) et que ces derniers cherchent à le tromper en partageant sa femme, créant une double perte financière et émotionnelle."
+      },
+      {
+        "prompt": "Quelle est la conséquence de l'intervention du 'gros prieur' dans la scène du cabriolet ?",
+        "choices": [
+          "Le prieur devient l'amant de la belle du maître.",
+          "Le narrateur suggère que cette scène pourrait révéler les secrets des amours de Jacques et du maître.",
+          "Le prieur paie les dettes du maître.",
+          "Le prieur interdit au maître de raconter son histoire."
+        ],
+        "answer": 1,
+        "feedback": "Le narrateur imagine que si on arrêtait ce cabriolet, on en ferait sortir une 'suite d'événements' qui permettrait de connaître les amours de Jacques et de son maître, liant ainsi le personnage du prieur à la révélation des secrets narratifs."
+      }
+    ]
+  },
+  {
+    "id": "jacques-le-fataliste-les-nuits-de-france-culture-jacques-le-fataliste-et-son-maitre-9-10-1ere-diffusion-21-11-1963-rtf-promotion-14",
+    "podcastId": "matu-jacques-le-fataliste-les-nuits-de-france-culture-jacques-le-fataliste-et-son-maitre-9-10-1ere-diffusion-21-11-1963-rtf-promotion-14",
+    "title": "Jacques le Fataliste et son maître 9/10 (1ère diffusion : 21/11/1963 RTF Promotion)",
+    "work": "Jacques le fataliste",
+    "duration": "40 min",
+    "source": "France Culture, 26/09/2019",
+    "questions": [
+      {
+        "prompt": "Quelle est la thèse principale que le maître tente de démontrer à Jacques dans l'extrait ?",
+        "choices": [
+          "Que Jacques est un vaurien incapable de respecter ses engagements.",
+          "Que Jacques n'est pas fataliste car il a le pouvoir de choisir de cesser d'aimer Agathe à tout moment.",
+          "Que la volonté humaine est totalement indépendante de toute influence extérieure.",
+          "Que les romans de Richardson sont supérieurs à ceux de Diderot."
+        ],
+        "answer": 1,
+        "feedback": "Le maître argue que si Jacques est maître de vouloir, il devrait pouvoir cesser d'aimer Agathe quand il le veut, ce qui contredit l'idée qu'il soit fataliste."
+      },
+      {
+        "prompt": "Comment Jacques répond-il à l'argument de son maître sur la liberté de volonté ?",
+        "choices": [
+          "En acceptant immédiatement que son maître a raison et en cessant d'aimer Agathe.",
+          "En affirmant que l'on passe les trois quarts de sa vie à vouloir sans faire.",
+          "En refusant de parler car il est occupé à boire de la tisane.",
+          "En racontant l'histoire de l'emplâtre de Deglant pour changer de sujet."
+        ],
+        "answer": 1,
+        "feedback": "Jacques rétorque que vouloir ne suffit pas à agir, soulignant le décalage entre l'intention et l'action, ce qui soutient sa position fataliste."
+      },
+      {
+        "prompt": "Quel est le rôle de l'histoire de l'emplâtre de Deglant dans cet extrait ?",
+        "choices": [
+          "Elle sert à illustrer la rigueur scientifique de la médecine du XVIIIe siècle.",
+          "Elle montre comment un détail physique (l'emplâtre) devient un symbole de la réduction progressive de la blessure ou de la réalité.",
+          "Elle prouve que le curé est un homme pieux et généreux.",
+          "Elle explique pourquoi le chevalier a quitté Paris."
+        ],
+        "answer": 1,
+        "feedback": "L'extrait décrit comment Deglant rétrécit son emplâtre à chaque combat, illustrant une adaptation physique à la situation, dans un style typiquement diderotien mêlant le concret et l'absurde."
+      },
+      {
+        "prompt": "Quelle nuance le texte apporte-t-il concernant la notion de « fatalité » chez Jacques ?",
+        "choices": [
+          "Jacques croit que tout est écrit là-haut, mais le maître cherche à lui prouver le contraire par la logique.",
+          "Jacques rejette totalement la fatalité et croit en la liberté absolue.",
+          "La fatalité n'est mentionnée que pour critiquer les romans de Richardson.",
+          "Jacques est fataliste uniquement parce qu'il est un valet et non un maître."
+        ],
+        "answer": 0,
+        "feedback": "Le maître tente de prouver à Jacques qu'il n'est pas écrit qu'il sera toujours interrompu, cherchant à démontrer que Jacques a le contrôle sur sa vie, contrairement à ce que Jacques croit."
+      },
+      {
+        "prompt": "Quel contresens faut-il éviter en lisant la phrase « Jean-Jacques n'est pas Jacques » ?",
+        "choices": [
+          "Il s'agit d'une erreur de nommage due à une confusion entre l'auteur et le personnage.",
+          "Cela signifie que l'opinion personnelle de Jean-Jacques (Rousseau) ne doit pas être confondue avec celle du personnage de Jacques.",
+          "Cela indique que Jacques refuse de parler à quiconque portant le nom de Jean-Jacques.",
+          "Cela veut dire que le personnage de Jacques est inspiré de Jean-Jacques Rousseau."
+        ],
+        "answer": 1,
+        "feedback": "Le texte distingue explicitement l'avis de Jean-Jacques (probablement Rousseau, contemporain de Diderot) de celui du personnage Jacques, soulignant que chacun a son avis et qu'il ne faut pas les confondre."
+      }
+    ]
+  },
+  {
+    "id": "jacques-le-fataliste-les-nuits-de-france-culture-jacques-le-fataliste-et-son-maitre-10-10-1ere-diffusion-22-11-1963-rtf-promotion-15",
+    "podcastId": "matu-jacques-le-fataliste-les-nuits-de-france-culture-jacques-le-fataliste-et-son-maitre-10-10-1ere-diffusion-22-11-1963-rtf-promotion-15",
+    "title": "Jacques le Fataliste et son maître 10/10 (1ère diffusion : 22/11/1963 RTF Promotion)",
+    "work": "Jacques le fataliste",
+    "duration": "40 min",
+    "source": "France Culture, 27/09/2019",
+    "questions": [
+      {
+        "prompt": "Quelle est la conception du destin défendue par Jacques dans cet épisode ?",
+        "choices": [
+          "Le destin est une construction sociale que l'on peut modifier par la volonté.",
+          "Le destin est écrit « là-haut » et l'action humaine est impuissante face à lui.",
+          "Le destin est aléatoire et dépend uniquement du hasard des rencontres.",
+          "Le destin est déterminé par les dieux grecs qui interviennent directement."
+        ],
+        "answer": 1,
+        "feedback": "Jacques répète que s'il est écrit qu'il sera cocu ou non, il le sera quoi qu'il fasse, illustrant l'impuissance face à un destin prédéterminé."
+      },
+      {
+        "prompt": "Quel événement permet à Jacques d'obtenir la place de concierge du château ?",
+        "choices": [
+          "Il sauve le maître de la mort lors d'une dispute.",
+          "Il aide un laboureur dont le cheval refusait de se lever.",
+          "Il soigne une blessure au genou avec une flanelle.",
+          "Il découvre un corps étranger dans la chair d'un patient."
+        ],
+        "answer": 1,
+        "feedback": "Le texte indique que Jacques aperçoit un laboureur frappant inutilement son cheval, et après cet épisode, le vieux concierge décède et Jacques obtient sa place."
+      },
+      {
+        "prompt": "Quelle nuance Diderot introduit-il concernant la narration dans cet extrait ?",
+        "choices": [
+          "Le narrateur est omniscient et ne laisse aucune place à l'interprétation.",
+          "Le lecteur ou l'auditeur peut changer la trame du roman s'il le souhaite.",
+          "La narration est strictement linéaire et chronologique sans aparté.",
+          "L'auteur refuse toute intervention du public dans la lecture."
+        ],
+        "answer": 1,
+        "feedback": "L'introduction précise que « Au lecteur, à l'auditeur, de changer, parfois, et s'il le veut, la trame du roman », soulignant l'interactivité potentielle."
+      },
+      {
+        "prompt": "Que ressent le maître en voyant Jacques soigner Denise avec tant de délicatesse ?",
+        "choices": [
+          "Il est soulagé que Jacques soit guéri de son mal de gorge.",
+          "Il craint que Jacques n'ait le diable au corps ou ne soit amoureux de sa femme.",
+          "Il est fier de la loyauté absolue de son valet envers lui.",
+          "Il est indifférent car il pense uniquement à son propre voyage."
+        ],
+        "answer": 1,
+        "feedback": "Le maître dit : « Je crains que vous n'ayez le diable au corps » et on mentionne qu'on a voulu le persuader que lui et Deglant étaient amoureux de Denise."
+      },
+      {
+        "prompt": "Quel contresens faut-il éviter concernant la relation entre Jacques et son maître ?",
+        "choices": [
+          "Ils sont en conflit ouvert et violent depuis le début de l'histoire.",
+          "Jacques méprise son maître et cherche à le quitter définitivement.",
+          "Leur relation est complexe, mêlant obéissance, affection et jalousie potentielle.",
+          "Le maître est totalement dépendant de Jacques pour survivre."
+        ],
+        "answer": 2,
+        "feedback": "Le texte montre des moments de tendresse (le maître pleurant de joie, Jacques le rattrapant) mais aussi des doutes sur la fidélité de Jacques, indiquant une relation nuancée."
+      }
+    ]
+  },
+  {
+    "id": "jacques-le-fataliste-les-chemins-de-la-philosophie-diderot-5-5-le-neveu-de-rameau-et-jacques-le-fataliste-rediffusion-16",
+    "podcastId": "matu-jacques-le-fataliste-les-chemins-de-la-philosophie-diderot-5-5-le-neveu-de-rameau-et-jacques-le-fataliste-rediffusion-16",
+    "title": "Diderot 5/5 : Le Neveu de Rameau et Jacques le Fataliste (rediffusion)",
+    "work": "Jacques le fataliste",
+    "duration": "59 min",
+    "source": "France Culture, 22/04/2011",
+    "questions": [
+      {
+        "prompt": "Selon Raymond Trousson, quelle caractéristique fondamentale distingue le *Neveu de Rameau* des dialogues de Platon ?",
+        "choices": [
+          "L'absence de système et de démonstration, privilégiant une parole qui ne mène nulle part.",
+          "L'utilisation exclusive de la poésie en vers pour exprimer la philosophie.",
+          "La construction d'un argumentaire rigoureux et linéaire aboutissant à une vérité unique.",
+          "Le rejet total de la conversation au profit d'un monologue didactique."
+        ],
+        "answer": 0,
+        "feedback": "Trousson explique que le *Neveu de Rameau* se distingue par son caractère anti-platonicien car il n'y a pas de système ni de démonstration, mais une conversation qui virevolte sans avancer, contrairement aux dialogues platoniciens."
+      },
+      {
+        "prompt": "Quelle notion Diderot introduit-il pour expliquer la difficulté de l'éducation et l'hérédité dans le contexte du déterminisme ?",
+        "choices": [
+          "La molécule paternelle.",
+          "Le hasard quantique.",
+          "L'âme immortelle.",
+          "La volonté souveraine."
+        ],
+        "answer": 0,
+        "feedback": "Le transcript mentionne que Diderot ajoute un déterminisme biologique qu'il appelle la \"molécule paternelle\", représentant l'hérédité qui fait suivre sa pente à l'individu, rendant l'éducation difficile."
+      },
+      {
+        "prompt": "Comment l'émission décrit-elle la structure narrative de *Jacques le Fataliste* par rapport au roman traditionnel ?",
+        "choices": [
+          "C'est un récit cent fois interrompu qui ne sera jamais achevé, déconstruisant l'intrigue traditionnelle.",
+          "C'est un roman classique avec un début, un milieu et une fin clairs et linéaires.",
+          "C'est un poème en vers qui suit une métrique stricte et régulière.",
+          "C'est un traité systématique qui expose une philosophie complète sans digression."
+        ],
+        "answer": 0,
+        "feedback": "Trousson souligne que le récit de Jacques est cent fois interrompu et ne sera jamais achevé, ce qui explique pourquoi l'œuvre a été analysée comme une déconstruction des procédés romanesques traditionnels."
+      },
+      {
+        "prompt": "Selon l'analyse présentée, quel est le véritable sujet du drame dans *La Religieuse* de Diderot ?",
+        "choices": [
+          "La claustration, qui dérègle tant l'esprit que le corps.",
+          "L'athéisme militant contre l'Église catholique.",
+          "La quête d'une vérité métaphysique absolue.",
+          "La critique des mœurs de la bourgeoisie du XVIIIe siècle."
+        ],
+        "answer": 0,
+        "feedback": "L'émission précise que Diderot montre que l'esprit et le corps se dérèglent dans la claustration, indiquant que le drame n'est pas l'attaque de la religion mais la condition de l'enfermement."
+      },
+      {
+        "prompt": "Quelle est la position de Diderot concernant les traités systématiques et la cohérence de son œuvre ?",
+        "choices": [
+          "Il n'aime pas les traités systématiques, mais son œuvre possède une cohérence souterraine liée à la matière.",
+          "Il prône l'écriture de traités systématiques pour expliquer le monde de manière logique.",
+          "Il rejette toute forme de cohérence, considérant que tout est pure absurdité.",
+          "Il pense que la cohérence doit être visible dès le premier chapitre du roman."
+        ],
+        "answer": 0,
+        "feedback": "Trousson note que Diderot n'aime pas le traité systématique, mais qu'il existe une cohérence souterraine dans son œuvre, reposant sur l'existence d'une matière non organisée."
+      }
+    ]
+  },
+  {
+    "id": "jacques-le-fataliste-les-chemins-de-la-philosophie-portrait-d-un-homme-indiscret-17",
+    "podcastId": "matu-jacques-le-fataliste-les-chemins-de-la-philosophie-portrait-d-un-homme-indiscret-17",
+    "title": "Portrait d’un homme indiscret",
+    "work": "Jacques le fataliste",
+    "duration": "58 min",
+    "source": "France Culture, 07/12/2020",
+    "questions": [
+      {
+        "prompt": "Quelle est la raison principale de l'emprisonnement de Diderot en 1749, selon la transcription ?",
+        "choices": [
+          "Il a refusé de payer ses impôts au roi Louis XV.",
+          "La publication de textes jugés scandaleux et anti-chrétiens, comme la *Lettre sur les aveugles*.",
+          "Il a organisé une révolte politique à Paris.",
+          "Il a critiqué publiquement Madame de Pompadour dans un journal."
+        ],
+        "answer": 1,
+        "feedback": "La transcription indique que le lieutenant général de police l'a envoyé à Vincennes après qu'il a publié la *Lettre sur les aveugles* et d'autres textes considérés comme ayant passé les bornes."
+      },
+      {
+        "prompt": "Quelle différence fondamentale Diderot partage-t-il avec Voltaire concernant la notion de Dieu ?",
+        "choices": [
+          "Diderot est déiste comme Voltaire, mais rejette l'Église.",
+          "Diderot est athée, tandis que Voltaire est déiste.",
+          "Diderot croit en un Dieu créateur, contrairement à Voltaire.",
+          "Les deux sont athées, mais Diderot accepte la morale chrétienne."
+        ],
+        "answer": 1,
+        "feedback": "L'intervenant précise que Voltaire est déiste (il croit en un Dieu créateur) et comprend que Diderot est athée en lisant ses œuvres."
+      },
+      {
+        "prompt": "Selon la philosophie de Diderot exposée dans le podcast, sur quoi repose la morale ?",
+        "choices": [
+          "Sur le respect strict des dogmes catholiques traditionnels.",
+          "Sur la recherche du plaisir égoïste sans aucune contrainte sociale.",
+          "Sur la nature, la vie et la bienfaisance pour favoriser la vie sociale.",
+          "Sur la volonté individuelle absolue et indépendante des causes."
+        ],
+        "answer": 2,
+        "feedback": "Le texte explique que pour Diderot, la morale s'appuie sur la nature et la vie, et que le critère distinguant les hommes est la bienfaisance, car l'homme est naturellement sociable."
+      },
+      {
+        "prompt": "Quel rôle joue le roman *Les Bijoux indiscrets* dans la compréhension de la pensée de Diderot ?",
+        "choices": [
+          "C'est un simple divertissement sans portée philosophique.",
+          "C'est une encyclopédie satirique et philosophique servant d'entrée dans sa pensée.",
+          "C'est un texte religieux visant à réconcilier Diderot avec l'Église.",
+          "C'est une autobiographie détaillant sa vie amoureuse avec Madame de Puysieux."
+        ],
+        "answer": 1,
+        "feedback": "La transcription décrit *Les Bijoux indiscrets* comme une sorte d'encyclopédie satirique et philosophique, constituant une entrée possible dans la philosophie de Diderot."
+      },
+      {
+        "prompt": "Comment Diderot conçoit-il la liberté et la responsabilité morale des actions humaines ?",
+        "choices": [
+          "L'homme est totalement libre et donc entièrement responsable de ses actes.",
+          "Il n'y a ni vice ni vertu, mais la bienfaisance distingue les hommes.",
+          "La liberté est une illusion totale, rendant toute action indifférente.",
+          "La morale dépend uniquement de la volonté divine qui guide les hommes."
+        ],
+        "answer": 1,
+        "feedback": "Le podcast cite Diderot : s'il n'y a point de liberté, il n'y a ni vice ni vertu, mais la bienfaisance et la malfaisance servent de critère pour distinguer les hommes dans la société."
+      }
+    ]
+  },
+  {
+    "id": "jacques-le-fataliste-les-chemins-de-la-philosophie-le-reve-de-d-alembert-voir-le-monde-entier-dans-une-goutte-d-eau-18",
+    "podcastId": "matu-jacques-le-fataliste-les-chemins-de-la-philosophie-le-reve-de-d-alembert-voir-le-monde-entier-dans-une-goutte-d-eau-18",
+    "title": "Le rêve de D'Alembert : voir le monde entier dans une goutte d’eau ?",
+    "work": "Jacques le fataliste",
+    "duration": "58 min",
+    "source": "France Culture, 08/12/2020",
+    "questions": [
+      {
+        "prompt": "Quelle est la thèse centrale de Diderot concernant la nature de la matière et de la vie dans *Le Rêve de d'Alembert* ?",
+        "choices": [
+          "La vie est une force mystique distincte de la matière inerte.",
+          "Il n'y a rien de précis dans la nature ; tout est un flux perpétuel où la matière inerte contient les puissances de la vie.",
+          "Les espèces sont des formes fixes et immuables, séparées par des frontières absolues.",
+          "La vie ne peut émerger que de l'intervention divine directe sur la matière."
+        ],
+        "answer": 1,
+        "feedback": "La transcription cite Diderot affirmant que « tout est un flux perpétuel » et que « il n'y a rien de précis dans la nature », indiquant que la vie émerge de puissances matérielles fondamentales."
+      },
+      {
+        "prompt": "Comment l'intervenant définit-il le « vitalisme » de Diderot dans ce contexte ?",
+        "choices": [
+          "C'est la croyance que la vie est une substance indépendante qui anime le corps.",
+          "C'est l'idée que la vie est une illusion créée par l'esprit humain.",
+          "C'est la position selon laquelle la spécificité de la vie dépend de puissances profondes de la matière inerte.",
+          "C'est la théorie selon laquelle seuls les animaux possèdent une âme vitale."
+        ],
+        "answer": 2,
+        "feedback": "L'intervenant explique que pour Diderot, « vitalisme signifie à la fois qu'il y a une spécificité de la vie et que cette spécificité dépend quand même de puissances profondes de la matière »."
+      },
+      {
+        "prompt": "Quelle référence scientifique concrète illustre l'image de la goutte d'eau contenant le monde ?",
+        "choices": [
+          "Les expériences de Louis Pasteur sur la génération spontanée.",
+          "Les observations au microscope de John Needham sur les micro-organismes dans l'eau.",
+          "Les théories de Darwin sur l'évolution des espèces.",
+          "Les travaux de Lavoisier sur la chimie de l'air."
+        ],
+        "answer": 1,
+        "feedback": "La transcription précise que l'image de la goutte d'eau fait référence à « une goutte d'eau bien réelle, celle de John Needham, qui avait pour habitude d'observer au microscope les micro-organismes »."
+      },
+      {
+        "prompt": "Quel est le statut de publication de *Le Rêve de d'Alembert* par rapport à sa rédaction ?",
+        "choices": [
+          "Il a été publié immédiatement en 1769 avec les volumes de l'Encyclopédie.",
+          "Il a été rédigé en 1769 mais publié beaucoup plus tard, pour des raisons de respectabilité.",
+          "Il n'a jamais été publié du vivant de Diderot.",
+          "Il a été publié posthume par ses disciples en 1850."
+        ],
+        "answer": 1,
+        "feedback": "L'intervenant note que le texte a été « rédigé en 1769 » mais « publié beaucoup plus tard », car son aspect pouvait ne pas plaire à ceux qui voulaient assurer la respectabilité de Diderot."
+      },
+      {
+        "prompt": "Selon l'analyse de François Pépin, quel est le lien entre la forme et le fond dans l'écriture de Diderot ?",
+        "choices": [
+          "La forme littéraire est secondaire par rapport à la rigueur scientifique des arguments.",
+          "Diderot utilise le dialogue pour cacher ses véritables convictions philosophiques.",
+          "La philosophie de Diderot est indissociable de sa manière d'écrire : « tout est dans tout ».",
+          "Le style délirant du texte annule la valeur philosophique de ses propos."
+        ],
+        "answer": 2,
+        "feedback": "L'intervenant souligne que « Diderot, en philosophie, n'est personne. On va dire Diderot, en gros, tout est dans tout, à la fois c'est sa philosophie et en même temps c'est sa manière d'écrire »."
+      }
+    ]
+  },
+  {
+    "id": "jacques-le-fataliste-les-chemins-de-la-philosophie-s-o-s-d-une-religieuse-en-detresse-19",
+    "podcastId": "matu-jacques-le-fataliste-les-chemins-de-la-philosophie-s-o-s-d-une-religieuse-en-detresse-19",
+    "title": "S.O.S. d’une religieuse en détresse",
+    "work": "Jacques le fataliste",
+    "duration": "59 min",
+    "source": "France Culture, 09/12/2020",
+    "questions": [
+      {
+        "prompt": "Quelle est la nature initiale de l'écriture du roman *La Religieuse* selon l'intervenante ?",
+        "choices": [
+          "Un traité philosophique sérieux sur la laïcité",
+          "Une plaisanterie née d'une correspondance entre amis",
+          "Une biographie officielle de Suzanne Simonin",
+          "Un manifeste politique pour la révolution française"
+        ],
+        "answer": 1,
+        "feedback": "L'intervenante précise que tout commence avec une plaisanterie et que le groupe autour de Diderot s'amusait à écrire au fur et à mesure des lettres."
+      },
+      {
+        "prompt": "Comment l'intervenante caractérise-t-elle la position de Diderot par rapport à la religion dans son argumentation ?",
+        "choices": [
+          "Il est un fervent défenseur de l'Église catholique",
+          "Il est athée et volontiers irreligieux",
+          "Il est indifférent aux questions religieuses",
+          "Il cherche à réconcilier foi et raison"
+        ],
+        "answer": 1,
+        "feedback": "L'intervenante indique que Diderot est athée et qu'il est volontiers irreligieux dans les modalités mêmes de son argumentation."
+      },
+      {
+        "prompt": "Quel aspect de la condition de Suzanne Simonin est mis en avant par l'analyse de l'impact des interdits sexuels ?",
+        "choices": [
+          "Sa joie d'embrasser la vie religieuse",
+          "Son rôle actif dans la gestion du couvent",
+          "Le poids des interdits sur les sujets enfermés",
+          "Son indépendance financière"
+        ],
+        "answer": 2,
+        "feedback": "L'émission souligne la manière dont Diderot manifeste le poids des interdits sexuels sur les sujets enfermés dans le roman de cloître."
+      },
+      {
+        "prompt": "Quelle est la particularité de la fin du roman *La Religieuse* selon l'analyse proposée ?",
+        "choices": [
+          "Elle est résolue avec le mariage de Suzanne",
+          "Elle est ouverte et laisse la possibilité pour l'héroïne de s'en sortir sans conclure",
+          "Elle est tragique avec la mort de Suzanne",
+          "Elle est absente car le roman est inachevé sans suite"
+        ],
+        "answer": 1,
+        "feedback": "L'intervenante explique que Diderot n'a pas voulu laisser en suspens la possibilité ouverte pour son héroïne de réussir à s'en sortir, mais il ne conclut pas définitivement."
+      },
+      {
+        "prompt": "Pourquoi l'annulation de l'interdiction du film de Jacques Rivette est-elle mentionnée dans le contexte de l'émission ?",
+        "choices": [
+          "Pour critiquer la censure moderne",
+          "Pour illustrer la fidélité du film au texte de Diderot et l'écho contemporain de l'œuvre",
+          "Pour promouvoir le film de Guillaume Nicloux",
+          "Pour discuter de la carrière de Denis Podalidès"
+        ],
+        "answer": 1,
+        "feedback": "L'émission lie l'annulation de l'interdiction à la discussion sur la fidélité du film et l'écho de la mise en scène de la religion avec les questions contemporaines."
+      }
+    ]
+  },
+  {
+    "id": "jacques-le-fataliste-kosmos-diderot-jacques-le-fataliste-20",
+    "podcastId": "matu-jacques-le-fataliste-kosmos-diderot-jacques-le-fataliste-20",
+    "title": "DIDEROT - JACQUES LE FATALISTE",
+    "work": "Jacques le fataliste",
+    "duration": "26 min",
+    "source": "Acast, 28/10/2022",
+    "questions": [
+      {
+        "prompt": "Selon l'analyse du podcast, pourquoi *Jacques le fataliste* est-il qualifié d'« anti-roman » ?",
+        "choices": [
+          "Parce qu'il ne contient aucun dialogue entre les personnages principaux.",
+          "Parce qu'il manque de repères, de début, de fin et de progression logique, reflétant un monde sans sens.",
+          "Parce que l'auteur a refusé de publier l'œuvre de son vivant.",
+          "Parce que le protagoniste refuse de suivre les règles sociales de l'époque."
+        ],
+        "answer": 1,
+        "feedback": "L'intervenant explique que ce roman est sans début ni fin et ne progresse vers rien, imitant ainsi un monde qui n'a aucun sens ni finalité."
+      },
+      {
+        "prompt": "Quelle est la position de Diderot envers le personnage de Jacques, qui affirme que tout est écrit d'avance ?",
+        "choices": [
+          "Il l'admire car il incarne la sagesse stoïcienne face à l'adversité.",
+          "Il le critique car cette posture permet toujours d'avoir raison a posteriori et nie la part de liberté.",
+          "Il l'ignore car il se concentre uniquement sur la description physique des personnages.",
+          "Il le soutient car il prouve que le hasard n'existe pas dans l'univers."
+        ],
+        "answer": 1,
+        "feedback": "Le podcast indique que Diderot se moque de cette posture car elle est facile à adopter pour « avoir toujours raison » et sert à défendre la liberté des hommes contre le déterminisme absolu."
+      },
+      {
+        "prompt": "Comment Diderot justifie-t-il le mouvement et l'existence du monde selon la transcription ?",
+        "choices": [
+          "Par l'intervention directe d'une divinité qui orchestre chaque événement.",
+          "Par la rencontre d'atomes et de vide, où le hasard joue un rôle crucial dans l'enchaînement des événements.",
+          "Par une progression téléologique vers un but ultime et connu.",
+          "Par la volonté consciente des individus de modeler leur destin."
+        ],
+        "answer": 1,
+        "feedback": "L'intervenant précise que tout est explicable par les atomes et le vide, et que si le mouvement est déterminé, il épouse la forme du hasard, rendant la prédiction impossible."
+      },
+      {
+        "prompt": "Quel est le lien établi entre la philosophie de Diderot et la morale dans le podcast ?",
+        "choices": [
+          "La morale doit être fondée sur des dogmes religieux stricts pour structurer la société.",
+          "La morale découle de la sensibilité, car le monde n'a pas de sens intrinsèque à lui imposer.",
+          "La morale est inutile car les hommes sont déterminés par leur passé.",
+          "La morale repose sur la recherche d'un sens caché derrière les apparences du monde."
+        ],
+        "answer": 1,
+        "feedback": "Le podcast mentionne que pour Diderot, si le monde est sans sens, la vraie philosophie consiste à ne pas chercher de sens artificiel, et la morale dépend de la sensibilité."
+      },
+      {
+        "prompt": "Quelle est la conséquence principale du matérialisme de Diderot selon l'intervenant ?",
+        "choices": [
+          "Il conduit à une vision optimiste où tout arrive pour le mieux.",
+          "Il vise les dogmes, les systèmes et les religions qui tentent d'imposer un sens au monde.",
+          "Il prouve que l'âme est immortelle et indépendante de la matière.",
+          "Il encourage le lecteur à accepter passivement son sort sans aucune révolte."
+        ],
+        "answer": 1,
+        "feedback": "L'intervenant explique que Diderot met dans son viseur les dogmes et les religions, car ils projettent un sens artificiel et illusoire sur un monde qui n'en a pas."
+      }
+    ]
+  },
+  {
+    "id": "jacques-le-fataliste-les-idees-claires-denis-attali-et-jacques-diderot-22",
+    "podcastId": "matu-jacques-le-fataliste-les-idees-claires-denis-attali-et-jacques-diderot-22",
+    "title": "Denis Attali et Jacques Diderot",
+    "work": "Jacques le fataliste",
+    "duration": "4 min",
+    "source": "France Culture, 05/12/2012",
+    "questions": [
+      {
+        "prompt": "Selon la transcription, quelle est la stratégie principale de Diderot pour diffuser ses idées subversives après son emprisonnement en 1749 ?",
+        "choices": [
+          "Il publie ouvertement ses œuvres les plus radicales dans des journaux publics.",
+          "Il écrit essentiellement pour la postérité et utilise des canaux confidentiels comme la correspondance.",
+          "Il s'exile définitivement en Angleterre pour échapper à la censure royale.",
+          "Il se tourne exclusivement vers la peinture et les arts visuels pour exprimer sa pensée."
+        ],
+        "answer": 1,
+        "feedback": "La transcription indique que Diderot cesse de prendre le risque de publier directement et écrit essentiellement pour la postérité, tout en utilisant la correspondance littéraire confidentielle."
+      },
+      {
+        "prompt": "Quel rôle l'Encyclopédie joue-t-elle selon l'analyse présentée dans le podcast ?",
+        "choices": [
+          "Un outil de propagande religieuse pour renforcer l'autorité de l'Église.",
+          "Une simple compilation de recettes de cuisine et de modes vestimentaires.",
+          "Une somme intellectuelle et pratique promouvant le progrès technique et les arts mécaniques.",
+          "Un manuel scolaire obligatoire pour former les aristocrates aux privilèges."
+        ],
+        "answer": 2,
+        "feedback": "Le texte décrit l'Encyclopédie comme une somme intellectuelle et pratique où Diderot se passionne pour les arts mécaniques et promeut le progrès technique."
+      },
+      {
+        "prompt": "Quelle nuance Jacques Attali apporte-t-il concernant l'attitude des élites françaises face à la crise actuelle, en écho au XVIIIe siècle ?",
+        "choices": [
+          "Elles cherchent activement à innover et à accepter de nouveaux modèles économiques.",
+          "Elles refusent toute réforme par faiblesse, rendant les changements futurs plus douloureux.",
+          "Elles ont déjà réussi à éviter la faillite grâce à des réformes précoces et efficaces.",
+          "Elles privilégient la violence révolutionnaire comme seul moyen de changer le système."
+        ],
+        "answer": 1,
+        "feedback": "Attali souligne que des réformes trop longtemps repoussées par faiblesse n'en deviennent que plus pressantes et douloureuses, critisant l'accrochage à l'existant."
+      },
+      {
+        "prompt": "Pourquoi Diderot a-t-il cessé de publier ses textes les plus célèbres de son vivant ?",
+        "choices": [
+          "Parce qu'il n'avait plus d'intérêt pour l'écriture après la publication de l'Encyclopédie.",
+          "Parce qu'il craignait les conséquences de la censure après son expérience du fort de Vincennes.",
+          "Parce que ses éditeurs ont refusé de publier des œuvres traitant de la religion.",
+          "Parce qu'il voulait attendre d'être célèbre pour publier ses écrits philosophiques."
+        ],
+        "answer": 1,
+        "feedback": "Après avoir tâté du cachot au fort de Vincennes pour des libelles audacieux, Diderot cesse de prendre le risque de publier, écrivant dorénavant pour la postérité."
+      },
+      {
+        "prompt": "Quelle est la position commune entre Diderot et Jacques Attali selon l'intervenant ?",
+        "choices": [
+          "Les deux croient que la violence révolutionnaire est la seule issue aux crises politiques.",
+          "Les deux comptent sur la diffusion de la connaissance et des lumières pour transformer la société.",
+          "Les deux pensent que le retour à la normale est la solution la plus sage pour la France.",
+          "Les deux rejettent l'importance des arts mécaniques au profit de la philosophie pure."
+        ],
+        "answer": 1,
+        "feedback": "L'intervenant note qu'Attali, comme Diderot, compte plus sur la diffusion de la connaissance et des lumières que sur la violence révolutionnaire pour ordonner le monde."
+      }
+    ]
+  },
+  {
+    "id": "jacques-le-fataliste-2000-ans-d-histoire-denis-diderot-23",
+    "podcastId": "matu-jacques-le-fataliste-2000-ans-d-histoire-denis-diderot-23",
+    "title": "Denis Diderot",
+    "work": "Jacques le fataliste",
+    "duration": "59 min",
+    "source": "France Inter, 20/01/2010",
+    "questions": [
+      {
+        "prompt": "Selon l'intervenant, quelle est la raison principale pour laquelle Diderot est souvent moins connu du grand public que pour son rôle dans l'Encyclopédie ?",
+        "choices": [
+          "Ses livres les plus célèbres n'ont été publiés qu'après sa mort.",
+          "Il a refusé de signer la plupart de ses œuvres majeures.",
+          "L'Encyclopédie a été interdite par Louis XV dès le premier volume.",
+          "Il a passé toute sa vie à Saint-Pétersbourg sous la protection de Catherine II."
+        ],
+        "answer": 0,
+        "feedback": "La transcription indique explicitement que ses livres les plus célèbres, comme *Jacques le fataliste*, n'ont été publiés qu'après sa mort, ce qui explique pourquoi ses contemporains le connaissaient surtout comme le maître d'œuvre de l'Encyclopédie."
+      },
+      {
+        "prompt": "Quel événement marque le véritable départ de la pensée de Diderot selon l'analyse présentée ?",
+        "choices": [
+          "La publication de *La Religieuse*.",
+          "Sa rencontre avec Rousseau en 1742.",
+          "Son emprisonnement à Vincennes en 1749.",
+          "L'achat de sa bibliothèque par Catherine II."
+        ],
+        "answer": 2,
+        "feedback": "L'intervenant précise que c'est lors de son enfermement à Vincennes en 1749, à cause de *La Lettre sur les aveugles*, que « toute la pensée de Diderot se met en marche, là, et qui va décoller »."
+      },
+      {
+        "prompt": "Comment l'intervenant définit-elle le matérialisme de Diderot concernant l'origine de l'homme ?",
+        "choices": [
+          "L'homme est créé par un Dieu bienveillant mais lointain.",
+          "L'homme est le résultat d'une évolution issue d'un amas de matière.",
+          "L'homme est une création divine distincte des autres animaux.",
+          "L'homme est une illusion créée par l'esprit humain."
+        ],
+        "answer": 1,
+        "feedback": "La transcription cite directement l'idée que « les espèces animales, y compris l'homme, ne sont pas sorties telles qu'elles des mains d'un créateur, mais résultent d'une évolution d'un amas de matière »."
+      },
+      {
+        "prompt": "Quel paradoxe majeur de la fin de vie de Diderot est souligné par l'intervenant ?",
+        "choices": [
+          "Il a écrit des œuvres clandestines tout en étant un fonctionnaire royal.",
+          "Il a critiqué la monarchie tout en acceptant d'être « acheté » par une impératrice.",
+          "Il a détesté Rousseau tout en étant son ami proche.",
+          "Il a refusé l'Encyclopédie tout en en étant le chef de file."
+        ],
+        "answer": 1,
+        "feedback": "L'intervenant décrit comme un « grand ombre » sur sa fin de vie le fait qu'il ait « accepté d'être acheté une fois dans sa vie » par Catherine II, malgré son rôle de penseur de la révolte."
+      },
+      {
+        "prompt": "Quelle nuance l'intervenant apporte-t-elle concernant la relation entre Diderot et Voltaire ?",
+        "choices": [
+          "Voltaire a toujours soutenu Diderot sans réserve.",
+          "Voltaire a aidé Diderot à publier ses œuvres clandestines.",
+          "Voltaire s'est fâché avec Diderot car il trouvait ses idées trop radicales.",
+          "Voltaire a ignoré les écrits de Diderot par jalousie."
+        ],
+        "answer": 2,
+        "feedback": "La transcription rapporte que Diderot et d'Alembert se sont « fâchés un peu avec Voltaire » car ce dernier estimait que Diderot « l'attaquait » trop violemment avec ses idées matérialistes."
+      }
+    ]
+  },
+  {
+    "id": "jacques-le-fataliste-ca-peut-pas-faire-de-mal-diderot-le-philosophe-amoureux-24",
+    "podcastId": "matu-jacques-le-fataliste-ca-peut-pas-faire-de-mal-diderot-le-philosophe-amoureux-24",
+    "title": "Diderot, le philosophe amoureux",
+    "work": "Jacques le fataliste",
+    "duration": "47 min",
+    "source": "France Inter, 11/01/2014",
+    "questions": [
+      {
+        "prompt": "Selon l'intervenant, quelle caractéristique principale distingue Diderot par rapport à ses contemporains du XVIIIe siècle ?",
+        "choices": [
+          "Il était le seul à avoir écrit des romans d'aventure.",
+          "Il anticipait des concepts philosophiques comme la dialectique, dépassant ainsi son époque.",
+          "Il refusait catégoriquement toute participation à l'Encyclopédie.",
+          "Il prônait un retour strict aux valeurs cartésiennes de la raison."
+        ],
+        "answer": 1,
+        "feedback": "L'intervenant souligne que Diderot « dépassait son époque de façon considérable » et que l'on trouve en lui des « pressentiments » de la dialectique de Marx."
+      },
+      {
+        "prompt": "Dans *La Lettre sur les aveugles*, quelle position Diderot défend-il concernant la connaissance et l'âme ?",
+        "choices": [
+          "L'âme est située dans le cœur, source des sentiments religieux.",
+          "La raison divine est la seule lumière capable d'éclairer l'homme.",
+          "L'âme est placée au bout des doigts, défendant un matérialisme sensoriel.",
+          "Les aveugles possèdent une perception du beau plus étendue que les voyants."
+        ],
+        "answer": 2,
+        "feedback": "Le texte indique que pour un philosophe aveugle, l'âme serait placée « au bout des doigts », illustrant le rôle des sens dans la connaissance et le matérialisme de Diderot."
+      },
+      {
+        "prompt": "Comment l'intervenant qualifie-t-il la relation entre Diderot et Sophie Volland par rapport au modèle proposé par Rousseau dans *Émile* ?",
+        "choices": [
+          "Elle est identique, car toutes deux sont condamnées à servir leur époux.",
+          "Elle est plus passive, car Sophie Volland est décrite comme une enfant.",
+          "Elle est fondée sur une égalité intellectuelle et une liberté, contrairement au modèle de Rousseau.",
+          "Elle est purement physique, sans aucune dimension intellectuelle ou philosophique."
+        ],
+        "answer": 2,
+        "feedback": "L'intervenant oppose la Sophie de Diderot, « femme intelligente, libre, non mariée » entretenant des relations de « pure égalité », à celle de Rousseau, réduite à sa nature de femme soumise."
+      },
+      {
+        "prompt": "Quelle est l'origine principale du roman *Jacques le fataliste et son maître* selon la transcription ?",
+        "choices": [
+          "Une commande officielle de l'Académie française pour critiquer les couvents.",
+          "Un jeu littéraire entre Diderot et ses amis pour faire revenir un proche à Paris.",
+          "Une autobiographie directe des aventures amoureuses de Diderot lui-même.",
+          "Une réponse directe aux critiques de la *Lettre sur les aveugles*."
+        ],
+        "answer": 1,
+        "feedback": "Le texte précise que « l'origine du roman est un jeu littéraire entre Diderot et quelques amis pour faire revenir à Paris l'un de leurs proches, le marquis de Croix-Mars »."
+      },
+      {
+        "prompt": "Quel contresens l'intervenant invite-t-il implicitement à éviter concernant la perception de Diderot ?",
+        "choices": [
+          "Le voir uniquement comme un satiriste sans profondeur philosophique.",
+          "Le considérer comme un auteur qui n'a jamais écrit de théâtre.",
+          "Penser qu'il a toujours défendu la philosophie de Descartes sans nuance.",
+          "Croire qu'il a épousé Sophie Volland contre la volonté de son père."
+        ],
+        "answer": 0,
+        "feedback": "L'intervenant insiste sur le fait que Diderot « a encore beaucoup à nous dire » et qu'il est un « homme attachant » dépassant son époque, invitant à ne pas le réduire à une simple figure de satire ou de légèreté."
+      }
+    ]
+  },
+  {
+    "id": "la-prose-du-transsiberien-la-piece-jointe-la-prose-du-transsiberien-le-poeme-en-couleurs-de-blaise-cendrars-0",
+    "podcastId": "matu-la-prose-du-transsiberien-la-piece-jointe-la-prose-du-transsiberien-le-poeme-en-couleurs-de-blaise-cendrars-0",
+    "title": "La Prose du transsibérien, le poème en couleurs de Blaise Cendrars",
+    "work": "La Prose du Transsibérien",
+    "duration": "3 min",
+    "source": "France Culture, 20/09/2021",
+    "questions": [
+      {
+        "prompt": "Quelle est la fonction principale de la phrase « j'étais si mauvais poète qu'il ne savait pas aller jusqu'au bout » dans le poème ?",
+        "choices": [
+          "Elle sert de conclusion morale à l'œuvre.",
+          "Elle agit comme un refrain répété tout au long du texte.",
+          "Elle justifie la publication tardive du livre.",
+          "Elle critique le style de Sonia Delaunay."
+        ],
+        "answer": 1,
+        "feedback": "La transcription indique explicitement que cette confession est « répétée plusieurs fois comme un refrain dans une chanson »."
+      },
+      {
+        "prompt": "Comment le texte relie-t-il la forme du livre à l'expérience du voyage ?",
+        "choices": [
+          "Le livre est petit pour symboliser l'enfance du narrateur.",
+          "Le dépliant de plus de deux mètres imite l'étirement des paysages sibériens.",
+          "La couverture est rouge pour rappeler la place Rouge de Moscou.",
+          "Les pages sont pliées pour symboliser la complexité du trajet."
+        ],
+        "answer": 1,
+        "feedback": "Le texte explique que « tout s'étire dans le poème, comme les paysages de plaines sibériennes » et que cela correspond à la description du livre-objet déplié."
+      },
+      {
+        "prompt": "Quelle est la nature du lien entre les mots de Cendrars et les peintures de Delaunay ?",
+        "choices": [
+          "Les peintures illustrent simplement les lieux géographiques décrits.",
+          "Les mots et les couleurs communiquent et se répondent.",
+          "Les couleurs dominent le texte pour l'accompagner.",
+          "Il n'y a aucun lien direct entre les deux artistes."
+        ],
+        "answer": 1,
+        "feedback": "La transcription précise que « les mots et les couleurs communiquent et se répondent » dans cet objet poème-tableau."
+      },
+      {
+        "prompt": "Que suggère la référence au Mexique dans le poème ?",
+        "choices": [
+          "Cendrars a réellement visité le Mexique avant d'écrire.",
+          "Le train s'est effectivement dirigé vers le Mexique.",
+          "Le texte délire la géographie, comme si le train pouvait dérailler vers n'importe où.",
+          "C'est une erreur de transcription du poème original."
+        ],
+        "answer": 2,
+        "feedback": "Le texte indique que le poème « délire la géographie mondiale, comme si le train pouvait dérailler et nous emmener partout », citant le Mexique comme exemple."
+      },
+      {
+        "prompt": "Quelle influence sonore est citée comme fondant la « nouvelle poésie orphique » dans ce contexte ?",
+        "choices": [
+          "Le silence absolu de la plaine sibérienne.",
+          "Le bruit incessant de la machine et les faux accords du piano.",
+          "Les clochers de Moscou et les gares.",
+          "La musique classique jouée dans les salons parisiens."
+        ],
+        "answer": 1,
+        "feedback": "La transcription conclut en disant que le bruit de la machine et la suite de faux accords du piano « fondent la nouvelle poésie orphique »."
+      }
+    ]
+  },
+  {
+    "id": "la-prose-du-transsiberien-secret-professionnel-le-secret-de-blaise-cendrars-en-russie-la-prose-du-transsiberien-et-la-legende-de-novgorod-1",
+    "podcastId": "matu-la-prose-du-transsiberien-secret-professionnel-le-secret-de-blaise-cendrars-en-russie-la-prose-du-transsiberien-et-la-legende-de-novgorod-1",
+    "title": "Le secret de Blaise Cendrars en Russie: la \"Prose du Transsibérien\" et la \"Légende de Novgorod\"",
+    "work": "La Prose du Transsibérien",
+    "duration": "29 min",
+    "source": "France Culture, 14/01/2012",
+    "questions": [
+      {
+        "prompt": "Que signifie principalement l’image du « rouge Cendrars » dans l’introduction de l’émission ?",
+        "choices": [
+          "Une énergie de charbon, de soute et de désir du nouveau qui lutte contre le désespoir.",
+          "Une couleur strictement politique héritée de la révolution russe.",
+          "Un hommage direct au rouge Mayakovsky et aux manifestes futuristes.",
+          "Une simple description des couleurs utilisées par Sonia Delaunay."
+        ],
+        "answer": 0,
+        "feedback": "L’introduction distingue le rouge Cendrars du rouge Mayakovsky et l’associe au charbon, à la soute et à la gloutonnerie du nouveau."
+      },
+      {
+        "prompt": "Quelle nuance l’émission apporte-t-elle à l’image de Cendrars aventurier ?",
+        "choices": [
+          "Elle montre que le mythe du bourlingueur cache une part douloureuse et une forte culture de lecteur.",
+          "Elle affirme que Cendrars n’a jamais voyagé et que tout est inventé.",
+          "Elle réduit Cendrars à un simple reporter exact et documentaire.",
+          "Elle présente ses voyages comme uniquement mondains et aristocratiques."
+        ],
+        "answer": 0,
+        "feedback": "L’émission insiste à la fois sur l’aventure, sur la douleur et sur l’importance des livres dans la formation de Cendrars."
+      },
+      {
+        "prompt": "Quel sens prend la réponse de Cendrars à Pierre Lazareff sur le Transsibérien ?",
+        "choices": [
+          "La vérité décisive est l’expérience donnée au lecteur, plus que la preuve biographique du trajet.",
+          "Cendrars reconnaît publiquement que son poème n’a aucun rapport avec le train.",
+          "Cendrars préfère l’exactitude documentaire à toute puissance d’imagination.",
+          "Le poète refuse que le lecteur participe au voyage par la lecture."
+        ],
+        "answer": 0,
+        "feedback": "La formule rapportée affirme que l’essentiel est d’avoir fait prendre le Transsibérien au lecteur."
+      },
+      {
+        "prompt": "Comment Dimitri Bortnikov situe-t-il la Prose du Transsibérien dans son imaginaire de lecteur russe ?",
+        "choices": [
+          "Il la lit à travers Rimbaud, comme une sorte de train ivre plutôt qu’un bateau ivre.",
+          "Il la rattache uniquement au réalisme socialiste soviétique.",
+          "Il la présente comme un texte inconnu et sans traduction russe marquante.",
+          "Il en fait un poème calme, réaliste et dépourvu de violence."
+        ],
+        "answer": 0,
+        "feedback": "Bortnikov rapproche explicitement la Prose du Bateau ivre de Rimbaud, tout en déplaçant l’image vers le train."
+      },
+      {
+        "prompt": "Pourquoi la blessure de 1915 est-elle décisive dans le portrait de Cendrars ?",
+        "choices": [
+          "Parce qu’elle l’oblige à réapprendre à écrire de la main gauche après la perte du bras droit.",
+          "Parce qu’elle met fin définitivement à toute écriture après la guerre.",
+          "Parce qu’elle prouve qu’il était d’abord un militaire et non un écrivain.",
+          "Parce qu’elle n’a aucune conséquence dans la construction de sa légende."
+        ],
+        "answer": 0,
+        "feedback": "L’émission rappelle que Cendrars perd son bras droit et réapprend à écrire autrement."
+      }
+    ]
+  },
+  {
+    "id": "la-prose-du-transsiberien-athenavox-31-jours-en-poesie-11-mars-blaise-cendrars-3",
+    "podcastId": "matu-la-prose-du-transsiberien-athenavox-31-jours-en-poesie-11-mars-blaise-cendrars-3",
+    "title": "11 mars, Blaise Cendrars",
+    "work": "La Prose du Transsibérien",
+    "duration": "15 min",
+    "source": "Audioblog ARTE Radio, 12/03/2018",
+    "questions": [
+      {
+        "prompt": "Selon Eric Senna, quelle est la condition préalable indispensable pour qu'un lecteur puisse investir un texte avec sa propre émotion lors d'une lecture à voix haute ?",
+        "choices": [
+          "Avoir une voix puissante et une bonne projection scénique.",
+          "Comprendre parfaitement le sens et la structure du texte.",
+          "Connaître par cœur la biographie de l'auteur.",
+          "Choisir un texte connu du grand public pour faciliter l'adhésion."
+        ],
+        "answer": 1,
+        "feedback": "Eric Senna explique que sans compréhension du texte, il est très difficile d'y mettre de l'affect ou sa propre sensibilité, ce qui est le fondement de l'investissement personnel."
+      },
+      {
+        "prompt": "Dans l'extrait lu, comment le narrateur justifie-t-il sa préférence pour les levers de soleil par rapport aux couchers de soleil ?",
+        "choices": [
+          "Il trouve les couchers de soleil trop clichés et décrits dans trop de livres.",
+          "Il préfère la fraîcheur du matin pour nager dans la mer.",
+          "Il considère que les couchers de soleil sont uniquement tropicaux.",
+          "Il attend de voir les étoiles polaires qui ne sont visibles qu'au matin."
+        ],
+        "answer": 0,
+        "feedback": "Le narrateur note que tout le monde parle des couchers de soleil et qu'il y a plein de livres qui ne les décrivent que, exprimant ainsi une lassitude face à ce motif trop fréquent."
+      },
+      {
+        "prompt": "Quelle fonction remplissent les détails sur les objets personnels du narrateur (espadrilles, bonnet basque, livre sterling) dans la description de son personnage ?",
+        "choices": [
+          "Ils montrent qu'il est un collectionneur d'antiquités russes et françaises.",
+          "Ils illustrent son statut de voyageur cosmopolite, libre et matériellement aisé.",
+          "Ils prouvent qu'il a oublié ses bagages et doit se débrouiller avec ce qu'il a.",
+          "Ils servent à identifier sa nationalité d'origine parmi les passagers."
+        ],
+        "answer": 1,
+        "feedback": "Ces objets, achetés dans différents lieux (Dakar, Villa Garcia, Biarritz, Londres), accompagnés de la mention d'être 'riche comme un milliardaire' et 'libre comme un homme', caractérisent son indépendance et son expérience mondiale."
+      },
+      {
+        "prompt": "Comment le narrateur décrit-il la forme des îlots et des montagnes observés depuis le navire approchant du Brésil ?",
+        "choices": [
+          "Comme des structures géométriques parfaites et régulières.",
+          "En les comparant à des œufs bigarrés, des chiantes volcaniques ou des sphinctéas de vautours.",
+          "En les assimilant à des cadavres étendus ou à des figures mythologiques.",
+          "En les qualifiant de simples lignes horizontales uniformes."
+        ],
+        "answer": 1,
+        "feedback": "Le texte utilise explicitement les comparaisons 'œufs bigarrés', 'chiantes volcaniques' et 'sphinctéas de vautours' pour décrire la côte et les îlots, soulignant leur aspect organique et bizarre."
+      },
+      {
+        "prompt": "Quel sentiment domine la relation entre le narrateur et ses compagnons de voyage (Monsieur Loparte, Boubou-Blanc) à la fin de l'extrait ?",
+        "choices": [
+          "Une rivalité intellectuelle et professionnelle acharnée.",
+          "Une indifférence polie due à la distance culturelle.",
+          "Une joie intense et une complicité amicale profonde.",
+          "Un malaise face aux différences de classe sociale."
+        ],
+        "answer": 2,
+        "feedback": "Le narrateur décrit un groupe 'très gai' qui 'pleurait aux larmes à force de rire', soulignant qu'il n'a jamais autant ri depuis dix ans, ce qui témoigne d'une complicité et d'une joie partagée."
+      }
+    ]
+  },
+  {
+    "id": "la-prose-du-transsiberien-la-compagnie-des-auteurs-vivre-est-un-acte-magique-episode-1-4-du-podcast-blaise-cendrars-6",
+    "podcastId": "matu-la-prose-du-transsiberien-la-compagnie-des-auteurs-vivre-est-un-acte-magique-episode-1-4-du-podcast-blaise-cendrars-6",
+    "title": "Vivre est un acte magique : épisode 1/4 du podcast Blaise Cendrars",
+    "work": "La Prose du Transsibérien",
+    "duration": "59 min",
+    "source": "France Culture, 20/11/2017",
+    "questions": [
+      {
+        "prompt": "Selon l'analyse proposée dans le podcast, quelle est la fonction principale de la légende biographique de Blaise Cendrars par rapport à sa réalité vécue ?",
+        "choices": [
+          "Elle sert à corriger les erreurs historiques des biographes ultérieurs.",
+          "Elle permet de sublimer et d'enjoliver les expériences pour en faire des récits plus intenses.",
+          "Elle vise à prouver que Cendrars n'a jamais voyagé hors d'Europe.",
+          "Elle est une tentative désespérée de se conformer aux normes sociales de l'époque."
+        ],
+        "answer": 1,
+        "feedback": "Le podcast explique que Cendrars a tendance à sublimer et enjoliver ce qu'il vit pour en faire quelque chose de plus intense, car il se perçoit comme un survivant dont la légende prime sur les faits bruts."
+      },
+      {
+        "prompt": "Quelle nuance l'intervenant établit-il entre la figure de Blaise Cendrars et celle de Jean Genet ?",
+        "choices": [
+          "Cendrars partage le même côté suicidaire et transgressif épidermique que Genet.",
+          "Cendrars est moins transgressif et moins suicidaire que Genet, car il a voulu vivre longtemps.",
+          "Genet a écrit plus de poésie que Cendrars, qui se concentrait sur le roman.",
+          "Les deux auteurs ont rejeté le voyage au profit d'une vie sédentaire."
+        ],
+        "answer": 1,
+        "feedback": "L'émission précise que, contrairement à Genet, Cendrars avait « moins le côté transgressif, moins l'inclination épidermique [...] moins le côté suicidaire », car il « a voulu vivre quand même, a voulu vivre longtemps »."
+      },
+      {
+        "prompt": "Dans l'anecdote rapportée concernant Pierre Lazareff, que signifie la réponse de Cendrars sur le Transsibérien ?",
+        "choices": [
+          "Il admet qu'il n'a jamais pris ce train et a inventé le voyage.",
+          "Il affirme que l'impact littéraire sur le lecteur est plus important que la véracité géographique du voyage.",
+          "Il critique Lazareff pour ne pas avoir lu attentivement le texte.",
+          "Il explique que le train était trop long et fatigant pour être raconté fidèlement."
+        ],
+        "answer": 1,
+        "feedback": "Cendrars répond à Lazareff : « du moment que tu l'as pris en me lisant, c'est ça qui est important, le reste on s'en fout », soulignant la primauté de l'expérience de lecture sur la réalité du trajet."
+      },
+      {
+        "prompt": "Quel rôle symbolique joue l'anecdote du bras artificiel laissé à la gare Saint-Lazare dans la caractérisation de Cendrars ?",
+        "choices": [
+          "Elle montre qu'il était un homme de santé fragile et dépendant des soins médicaux.",
+          "Elle illustre sa volonté de « casser la vieille vaisselle symbolique » et de ne pas être un poète assis.",
+          "Elle prouve qu'il avait un faible pour les objets perdus et les consignes de gare.",
+          "Elle indique qu'il cherchait à attirer l'attention du public par des gestes provocateurs."
+        ],
+        "answer": 1,
+        "feedback": "Le podcast interprète ce geste comme une façon pour Cendrars de « casser la vieille vaisselle symbolique » et d'affirmer qu'il n'est pas un poète contemplatif ou assis, mais un homme d'action."
+      },
+      {
+        "prompt": "Pourquoi l'émission qualifie-t-elle *La Prose du Transsibérien* de « poème fondateur » de la poésie moderne ?",
+        "choices": [
+          "Parce qu'il décrit avec exactitude le trajet ferroviaire de Paris à Moscou.",
+          "Parce qu'il introduit une forme de dilatation du réel et une intensité narrative qui rompent avec la tradition.",
+          "Parce qu'il est le seul poème écrit par Cendrars durant la Première Guerre mondiale.",
+          "Parce qu'il a été publié dans une revue prestigieuse qui a imposé un nouveau style."
+        ],
+        "answer": 1,
+        "feedback": "Le texte le place parmi les « trois, quatre poèmes fondateurs de la poésie moderne », en lien avec sa capacité à transformer le voyage en une expérience où les « ports se dilatent » et où le réel devient une « crapaud buffle » vivant, illustrant une rupture stylistique et sensorielle."
+      }
+    ]
+  },
+  {
+    "id": "la-prose-du-transsiberien-la-compagnie-des-auteurs-moderne-comme-cendrars-episode-2-4-du-podcast-blaise-cendrars-7",
+    "podcastId": "matu-la-prose-du-transsiberien-la-compagnie-des-auteurs-moderne-comme-cendrars-episode-2-4-du-podcast-blaise-cendrars-7",
+    "title": "Moderne comme Cendrars : épisode 2/4 du podcast Blaise Cendrars",
+    "work": "La Prose du Transsibérien",
+    "duration": "59 min",
+    "source": "France Culture, 21/11/2017",
+    "questions": [
+      {
+        "prompt": "Que révèle l’expression « le Blair de Blaise » dans l’ouverture de l’épisode ?",
+        "choices": [
+          "Cendrars appréhende le monde par le flair, les odeurs, les présences et les milieux humains.",
+          "Cendrars refuse toute perception sensible au profit d’une écriture abstraite.",
+          "Cendrars est surtout défini par une élégance mondaine et immobile.",
+          "Cendrars ne s’intéresse qu’aux paysages naturels et jamais aux villes."
+        ],
+        "answer": 0,
+        "feedback": "L’ouverture insiste sur le flair comme manière cendrarsienne de saisir les êtres et les lieux."
+      },
+      {
+        "prompt": "Pourquoi l’image de l’« errant des bibliothèques » est-elle importante ?",
+        "choices": [
+          "Elle montre que le voyage de Cendrars est aussi nourri par la lecture et l’imprimé.",
+          "Elle signifie que Cendrars a renoncé aux voyages réels pour vivre enfermé.",
+          "Elle présente les bibliothèques comme des lieux que Cendrars déteste.",
+          "Elle réduit son œuvre à un savoir scolaire sans expérience vécue."
+        ],
+        "answer": 0,
+        "feedback": "Claude Leroy souligne l’importance vitale des livres et de l’imprimé chez cet écrivain du mouvement."
+      },
+      {
+        "prompt": "Quelle est la « drogue » que Cendrars revendique le plus nettement dans l’épisode ?",
+        "choices": [
+          "L’imprimé, c’est-à-dire les livres, les textes et la matière même de la lecture.",
+          "La vitesse automobile, considérée comme son unique source d’écriture.",
+          "La reconnaissance institutionnelle des milieux littéraires parisiens.",
+          "La peinture abstraite, séparée de toute expérience poétique."
+        ],
+        "answer": 0,
+        "feedback": "L’épisode insiste sur la dépendance de Cendrars à l’imprimé, plus fondamentale que les autres excitants."
+      },
+      {
+        "prompt": "Comment l’épisode situe-t-il La Prose du Transsibérien dans la modernité de Cendrars ?",
+        "choices": [
+          "Comme un poème de mobilité et de simultanéité où texte, couleur et voyage entrent en relation.",
+          "Comme un récit réaliste qui refuse toute expérimentation visuelle.",
+          "Comme un texte secondaire sans lien avec Sonia Delaunay.",
+          "Comme une œuvre uniquement nostalgique, tournée contre les formes nouvelles."
+        ],
+        "answer": 0,
+        "feedback": "La Prose est liée à la couleur, au voyage et aux formes modernes de perception."
+      },
+      {
+        "prompt": "Quel rôle joue le Brésil dans la trajectoire évoquée par l’épisode ?",
+        "choices": [
+          "Il devient un lieu de relance et de réinvention, où Cendrars se présente presque comme un découvreur.",
+          "Il marque l’abandon définitif de toute écriture romanesque.",
+          "Il représente un simple décor exotique sans effet sur son œuvre.",
+          "Il remplace la Russie comme unique source de La Prose du Transsibérien."
+        ],
+        "answer": 0,
+        "feedback": "Le Brésil est présenté comme un espace de recommencement et d’invention littéraire."
+      }
+    ]
+  },
+  {
+    "id": "la-prose-du-transsiberien-la-compagnie-des-auteurs-ecrire-la-guerre-episode-3-4-du-podcast-blaise-cendrars-8",
+    "podcastId": "matu-la-prose-du-transsiberien-la-compagnie-des-auteurs-ecrire-la-guerre-episode-3-4-du-podcast-blaise-cendrars-8",
+    "title": "Ecrire la guerre : épisode 3/4 du podcast Blaise Cendrars",
+    "work": "La Prose du Transsibérien",
+    "duration": "59 min",
+    "source": "France Culture, 22/11/2017",
+    "questions": [
+      {
+        "prompt": "Quelle est la nature exacte du voyage décrit dans *La Prose du Transsibérien* selon l'analyse présentée ?",
+        "choices": [
+          "Un voyage initiatique spirituel vers la Russie pour fuir sa famille.",
+          "Un voyage commercial effectué alors qu'il était apprenti chez son patron Rogovine.",
+          "Un périple touristique effectué après la guerre pour retrouver ses amis artistes.",
+          "Une fugue adolescente vers la Chine et les États-Unis."
+        ],
+        "answer": 1,
+        "feedback": "La transcription précise que le personnage de Blaise Cendrars y raconte un « voyage commercial » qu'il aurait fait quand il était apprenti, poussé par son patron Rogovine pour vendre de la marchandise."
+      },
+      {
+        "prompt": "Comment Cendrars justifie-t-il son refus d'écrire des poèmes dans les tranchées, contrairement à Apollinaire ?",
+        "choices": [
+          "Il estime que la guerre est trop triste pour être poétisée.",
+          "Il considère que la guerre l'a sauvé de la vie et refuse d'y ajouter l'écriture.",
+          "Il affirme qu'il combattra la guerre avec un fusil, pas avec un porte-plume.",
+          "Il pense que les tranchées ne sont pas un lieu propice à la création littéraire."
+        ],
+        "answer": 2,
+        "feedback": "Le texte rapporte explicitement : « Lui ne fera pas la guerre avec un porte-plume, Sandrars, mais avec un fusil », soulignant son rejet de l'écriture poétique au milieu du combat."
+      },
+      {
+        "prompt": "Quelle affirmation paradoxale Cendrars fait-il concernant son expérience de la guerre dans un entretien avec Robert-Jean Vidal ?",
+        "choices": [
+          "Il regrette d'avoir survécu à la perte de son bras.",
+          "Il dit que la guerre lui a sauvé la vie s'il avait continué à vivre avec les gens d'avant-guerre.",
+          "Il affirme qu'il aurait dû écrire plus de romans pendant la guerre.",
+          "Il déclare que la peur était une drogue agréable à découvrir."
+        ],
+        "answer": 1,
+        "feedback": "La transcription cite Cendrars disant : « cent fois, je me suis dit depuis que si j'avais continué à vivre avec tous ces gens-là, la guerre m'a sauvé la vie », suggérant que le conflit a interrompu un mode de vie qu'il aurait pu regretter plus tard."
+      },
+      {
+        "prompt": "Quel est le statut d'un livre écrit par Cendrars sur la guerre, mentionné dans l'émission ?",
+        "choices": [
+          "Il a été publié sous le titre *Souvenir d'un amputé* et est très connu.",
+          "Il a été publié mais brûlé par l'auteur peu de temps après.",
+          "Il a été dicté après la blessure mais n'a jamais été publié, voire brûlé par Cendrars.",
+          "Il a été perdu lors d'un voyage en Russie."
+        ],
+        "answer": 2,
+        "feedback": "L'intervenante précise que Cendrars a dicté ses souvenirs au lendemain de sa blessure, mais que ce livre, racontant la guerre et sa vie, n'a jamais été publié, « soi-disant, il aurait été brûlé par Sandrard »."
+      },
+      {
+        "prompt": "Comment la peur est-elle caractérisée dans l'œuvre *L'Homme foudroyé* selon les éléments de l'émission ?",
+        "choices": [
+          "Comme un sentiment passager qui disparaît avec la fin des combats.",
+          "Comme une drogue qui n'a jamais quitté Cendrars pendant la guerre.",
+          "Comme une réaction normale à la végétation d'avant-guerre.",
+          "Comme un outil littéraire pour décrire les lilas et les rosiers."
+        ],
+        "answer": 1,
+        "feedback": "La transcription indique explicitement : « la peur est une drogue qui ne l'a jamais quittée pendant la guerre », soulignant la persistance de cet état psychologique."
+      }
+    ]
+  },
+  {
+    "id": "la-prose-du-transsiberien-la-compagnie-des-auteurs-le-monde-est-ma-representation-episode-4-4-du-podcast-blaise-cendrars-9",
+    "podcastId": "matu-la-prose-du-transsiberien-la-compagnie-des-auteurs-le-monde-est-ma-representation-episode-4-4-du-podcast-blaise-cendrars-9",
+    "title": "\"Le monde est ma représentation\" : épisode 4/4 du podcast Blaise Cendrars",
+    "work": "La Prose du Transsibérien",
+    "duration": "59 min",
+    "source": "France Culture, 23/11/2017",
+    "questions": [
+      {
+        "prompt": "Selon Philippe Forest, quelle est la fonction principale de la poésie dans l'œuvre de Cendrars ?",
+        "choices": [
+          "Elle sert à mythifier les lieux géographiques parcourus par l'auteur.",
+          "Elle constitue une nécessité vitale unie aux cicatrices de l'expérience.",
+          "Elle permet de distinguer clairement l'autofiction de l'exofiction.",
+          "Elle est un outil pour échapper à la réalité du monde moderne."
+        ],
+        "answer": 1,
+        "feedback": "Philippe Forest affirme que le rapport à la poésie est « absolument nécessaire absolument vitale » et que les cicatrices de la poésie font l'unité de l'œuvre."
+      },
+      {
+        "prompt": "Comment Philippe Forest définit-il le genre de *Le Lotissement du ciel* ?",
+        "choices": [
+          "Un roman purement autobiographique sans éléments fictionnels.",
+          "Un essai philosophique sur la guerre mondiale.",
+          "Un roman du deuil où le monde est vu comme plein de signes.",
+          "Une chronique journalistique des voyages en Amérique du Sud."
+        ],
+        "answer": 2,
+        "feedback": "Forest décrit explicitement *Le Lotissement du ciel* comme « essentiellement un roman du deuil » où le personnage regarde sa vie comme si elle était « pleine de signes »."
+      },
+      {
+        "prompt": "Quel rôle le personnage d'Osvaldo Padroso joue-t-il dans l'analyse de l'œuvre ?",
+        "choices": [
+          "Il représente le fils aviateur de Cendrars.",
+          "Il incarne la figure du nouveau patron de l'aviation.",
+          "Il rattache l'œuvre aux rêveries sur l'Amérique latine par sa mélancolie.",
+          "Il symbolise la main coupée de Cendrars."
+        ],
+        "answer": 2,
+        "feedback": "Le texte indique qu'Osvaldo Padroso, personnage mélancolique, « rattache le lotissement du ciel à toutes les rêveries de Sandrard sur l'Amérique latine »."
+      },
+      {
+        "prompt": "Quelle nuance Philippe Forest apporte-t-il concernant le renoncement de Cendrars à la poésie ?",
+        "choices": [
+          "Cendrars a totalement abandonné la poésie au profit du roman.",
+          "Cendrars a fait renaître la poésie sous la forme du roman ou de l'autobiographie.",
+          "Cendrars a refusé d'écrire de la poésie après la guerre.",
+          "Cendrars considère la poésie comme inférieure à la prose."
+        ],
+        "answer": 1,
+        "feedback": "Forest explique que Cendrard dit adieu à la poésie « pour finalement donner à la poésie une chance de renaître également, mais sous la forme du roman ou sous la forme de l'autobiographie »."
+      },
+      {
+        "prompt": "Quelle est la relation entre l'autofiction et l'exofiction selon la discussion ?",
+        "choices": [
+          "L'exofiction est un synonyme exact de l'autofiction.",
+          "L'exofiction est le contraire absolu de l'autofiction sans aucun lien.",
+          "L'exofiction est à la fois la même chose que l'autofiction et son contraire.",
+          "L'exofiction ne concerne que les romans de guerre."
+        ],
+        "answer": 2,
+        "feedback": "Le texte précise que l'exofiction est « à la fois la même chose que l'autofiction et le contraire de l'autofiction »."
+      }
+    ]
+  },
+  {
+    "id": "la-prose-du-transsiberien-le-labo-peut-on-encore-rever-le-transsiberien-5",
+    "podcastId": "matu-la-prose-du-transsiberien-le-labo-peut-on-encore-rever-le-transsiberien-5",
+    "title": "Peut-on encore rêver le Transsibérien?",
+    "work": "La Prose du Transsibérien",
+    "duration": "116 min",
+    "source": "RTS, 16/03/2014",
+    "questions": [
+      {
+        "prompt": "Quel est l’objectif central du voyage radiophonique raconté dans l’émission ?",
+        "choices": [
+          "Faire dialoguer le mythe poétique de Cendrars avec les réalités sonores, historiques et humaines du trajet actuel.",
+          "Prouver définitivement que Cendrars a accompli exactement le même itinéraire.",
+          "Remplacer le poème par une enquête uniquement ferroviaire et technique.",
+          "Comparer les tarifs des différents trains reliant Moscou à la Mongolie."
+        ],
+        "answer": 0,
+        "feedback": "L’émission part sur les traces du poème pour croiser littérature, musique, histoire et expérience contemporaine."
+      },
+      {
+        "prompt": "Comment le Transsibérien est-il présenté par les témoignages de l’émission ?",
+        "choices": [
+          "Comme une réalité concrète de transport et, en même temps, comme un puissant mythe d’espace et d’imaginaire.",
+          "Comme une invention uniquement française, sans importance pour les Russes.",
+          "Comme un train disparu qui ne subsiste que dans les archives.",
+          "Comme une ligne touristique sans lien avec l’histoire politique ou culturelle."
+        ],
+        "answer": 0,
+        "feedback": "Les intervenants évoquent à la fois l’usage réel du train et sa dimension mythique liée à l’immensité."
+      },
+      {
+        "prompt": "Quel effet produit la description de la neige et de l’absence de civilisation visible depuis le train ?",
+        "choices": [
+          "Elle donne le sentiment d’une traversée de l’immensité, où seuls demeurent le ciel, la neige et le passage du train.",
+          "Elle montre que le voyage est devenu entièrement urbain et sans paysage.",
+          "Elle réduit le trajet à une expérience confortable et fermée sur elle-même.",
+          "Elle sert seulement à dénoncer l’ennui des passagers."
+        ],
+        "answer": 0,
+        "feedback": "Le témoignage insiste sur l’effacement des repères et sur la puissance sensorielle de l’espace traversé."
+      },
+      {
+        "prompt": "Pourquoi les décembristes sont-ils importants dans la partie consacrée à Irkoutsk ?",
+        "choices": [
+          "Ils sont présentés comme un lien culturel entre la Russie européenne et la Sibérie.",
+          "Ils expliquent la naissance technique du chemin de fer transsibérien.",
+          "Ils incarnent le rejet complet de toute vie culturelle à Irkoutsk.",
+          "Ils sont mentionnés seulement comme des personnages du poème de Cendrars."
+        ],
+        "answer": 0,
+        "feedback": "Le musée et les témoignages soulignent leur rôle dans le développement culturel et social d’Irkoutsk."
+      },
+      {
+        "prompt": "Quelle image de la Mongolie ressort de la fin du voyage ?",
+        "choices": [
+          "Un pays qui cherche à concilier modernité et traditions plutôt qu’à les opposer.",
+          "Un espace entièrement coupé du monde moderne.",
+          "Un territoire où les traditions ont complètement disparu.",
+          "Un simple prolongement indifférencié de la Sibérie russe."
+        ],
+        "answer": 0,
+        "feedback": "La parole recueillie insiste sur la coexistence entre développement moderne et retour des traditions mongoles."
+      }
+    ]
+  },
+  {
+    "id": "les-faux-monnayeurs-la-compagnie-des-auteurs-les-faux-monnayeurs-le-roman-d-une-vie-0",
+    "podcastId": "matu-les-faux-monnayeurs-la-compagnie-des-auteurs-les-faux-monnayeurs-le-roman-d-une-vie-0",
+    "title": "Les Faux-Monnayeurs, le roman d’une vie",
+    "work": "Les faux-monnayeurs",
+    "duration": "59 min",
+    "source": "France Culture, 23/05/2017",
+    "questions": [
+      {
+        "prompt": "Pourquoi Gide peut-il présenter *Les Faux-Monnayeurs* comme son « premier roman » malgré ses œuvres narratives antérieures ?",
+        "choices": [
+          "Parce qu'il renie entièrement *L'Immoraliste* et *La Porte étroite*.",
+          "Parce qu'il réserve ici le mot roman à une forme profuse, faite de personnages, de récits et de points de vue multiples.",
+          "Parce que le livre est le premier texte qu'il publie dans la NRF.",
+          "Parce que Roger Martin du Gard lui impose cette appellation dans la dédicace."
+        ],
+        "answer": 1,
+        "feedback": "L'émission explique que Gide distingue ses récits ou soties antérieurs du roman, qu'il associe à la profusion et à la multiplicité."
+      },
+      {
+        "prompt": "Quel rôle Roger Martin du Gard joue-t-il dans la conception des *Faux-Monnayeurs* selon l'émission ?",
+        "choices": [
+          "Il remplace Gide pour écrire les chapitres consacrés à Édouard.",
+          "Il fournit le fait divers du suicide de Clermont-Ferrand.",
+          "Il conseille Gide et l'incite à créer des liens entre des récits d'abord plus séparés.",
+          "Il exige que le roman devienne un récit linéaire centré sur une seule famille."
+        ],
+        "answer": 2,
+        "feedback": "Frédéric Maget insiste sur les conseils de Martin du Gard, en particulier sur la création de passerelles entre les intrigues."
+      },
+      {
+        "prompt": "Pourquoi le journal d'Édouard est-il central dans le dispositif du roman ?",
+        "choices": [
+          "Il constitue une préface extérieure sans effet sur l'action.",
+          "Il fait de l'écrivain un simple porte-parole biographique de Gide.",
+          "Il donne seulement la chronologie des faits divers utilisés par Gide.",
+          "Il met en abyme l'écriture du roman tout en apportant des éléments qui font avancer le récit."
+        ],
+        "answer": 3,
+        "feedback": "L'archive de Gide et le commentaire de Maget soulignent que le journal d'Édouard est intégré au récit et contribue à sa progression."
+      },
+      {
+        "prompt": "Quel contresens l'émission invite-t-elle à éviter à propos du rapport entre fiction et personnes réelles ?",
+        "choices": [
+          "Croire que le roman serait une pure autobiographie où Édouard équivaudrait simplement à Gide.",
+          "Croire que le roman refuse toute allusion à la vie littéraire de son temps.",
+          "Croire que Passavant est le seul personnage inventé du livre.",
+          "Croire que les personnages réels cités empêchent toute lecture littéraire du roman."
+        ],
+        "answer": 0,
+        "feedback": "Le podcast admet des résonances avec des personnes réelles, mais refuse la lecture mécanique du roman à clé."
+      },
+      {
+        "prompt": "Comment Frédéric Maget nuance-t-il le rapprochement entre *Les Faux-Monnayeurs* et le Nouveau Roman ?",
+        "choices": [
+          "Il affirme que Gide appartient historiquement au Nouveau Roman.",
+          "Il oppose la potentialité romanesque ouverte par Gide à l'impossibilité du roman qu'il associe au Nouveau Roman d'après-guerre.",
+          "Il nie tout point commun entre Gide et les écrivains du XXe siècle.",
+          "Il présente *Les Faux-Monnayeurs* comme un retour complet au roman balzacien."
+        ],
+        "answer": 1,
+        "feedback": "Maget reconnaît des points communs, mais insiste sur la différence entre un roman nouveau chez Gide et le Nouveau Roman historique."
+      }
+    ]
+  },
+  {
+    "id": "les-faux-monnayeurs-ca-peut-pas-faire-de-mal-les-faux-monnayeurs-d-andre-gide-1",
+    "podcastId": "matu-les-faux-monnayeurs-ca-peut-pas-faire-de-mal-les-faux-monnayeurs-d-andre-gide-1",
+    "title": "\"Les faux-monnayeurs\" d'André Gide",
+    "work": "Les faux-monnayeurs",
+    "duration": "49 min",
+    "source": "France Inter, 18/05/2019",
+    "questions": [
+      {
+        "prompt": "Pourquoi la structure foisonnante du roman est-elle justifiée dans le podcast ?",
+        "choices": [
+          "Elle reproduit le désordre de la vie, où les drames s'amorcent sans toujours suivre une ligne attendue.",
+          "Elle sert principalement à cacher l'absence de personnages importants.",
+          "Elle imite les codes du roman policier et de l'enquête criminelle.",
+          "Elle permet de supprimer toute réflexion sur l'écriture."
+        ],
+        "answer": 0,
+        "feedback": "La transcription cite l'idée que la vie ne file pas ses drames comme le font les romanciers conventionnels."
+      },
+      {
+        "prompt": "Que révèle la lettre de Bernard avant son départ ?",
+        "choices": [
+          "Une simple crise de paresse scolaire.",
+          "Une rupture brutale avec l'autorité familiale après la découverte du secret de sa naissance.",
+          "Une volonté de rejoindre Passavant pour diriger une revue.",
+          "Une confession adressée à Édouard sur son projet de roman."
+        ],
+        "answer": 1,
+        "feedback": "Bernard découvre qu'il est enfant illégitime et transforme cette révélation en geste de rupture avec le foyer."
+      },
+      {
+        "prompt": "Comment la scène nocturne entre Bernard et Olivier caractérise-t-elle leur relation ?",
+        "choices": [
+          "Comme un rapport de pure indifférence.",
+          "Comme un duel intellectuel sans émotion.",
+          "Comme un mélange d'amitié intense, d'admiration, d'inquiétude et de pudeur affective.",
+          "Comme une rivalité professionnelle entre deux écrivains."
+        ],
+        "answer": 2,
+        "feedback": "Olivier admire Bernard et s'inquiète pour lui, tandis que la scène laisse percevoir des sentiments retenus."
+      },
+      {
+        "prompt": "En quoi Édouard donne-t-il au roman une dimension réflexive ?",
+        "choices": [
+          "Il écrit un manuel scolaire sur Gide.",
+          "Il est romancier dans le roman et travaille à un livre intitulé *Les Faux-Monnayeurs*.",
+          "Il remplace le narrateur par des notes historiques sur la NRF.",
+          "Il raconte uniquement l'enfance de Bernard."
+        ],
+        "answer": 1,
+        "feedback": "Le podcast insiste sur ce roman dans le roman, qui interroge la transformation de la vie en matière littéraire."
+      },
+      {
+        "prompt": "Quel rôle Passavant joue-t-il dans le parcours d'Olivier ?",
+        "choices": [
+          "Il protège Olivier de toute tentation mondaine.",
+          "Il l'encourage à revenir vers Bernard et Édouard sans ambiguïté.",
+          "Il représente une séduction dangereuse, mêlant prestige, revue littéraire et goût du scandale.",
+          "Il agit seulement comme un éditeur neutre et désintéressé."
+        ],
+        "answer": 2,
+        "feedback": "La lettre d'Olivier montre Passavant comme un compagnon charmeur qui l'attire vers la pose d'avant-garde et le scandale."
+      }
+    ]
+  },
+  {
+    "id": "les-faux-monnayeurs-l-essence-des-livres-resumes-et-analyses-10-les-faux-monnayeurs-andre-gide-resume-et-analyse-2",
+    "podcastId": "matu-les-faux-monnayeurs-l-essence-des-livres-resumes-et-analyses-10-les-faux-monnayeurs-andre-gide-resume-et-analyse-2",
+    "title": "[10] Les faux Monnayeurs - André Gide - Résumé et Analyse",
+    "work": "Les faux-monnayeurs",
+    "duration": "9 min",
+    "source": "Spotify, 30/10/2024",
+    "questions": [
+      {
+        "prompt": "Quelle fonction le podcast attribue-t-il à la métaphore des faux-monnayeurs ?",
+        "choices": [
+          "Elle désigne seulement un détail policier sans portée morale.",
+          "Elle sert à penser les faux-semblants qui traversent les relations affectives, familiales et sociales.",
+          "Elle valorise les jeunes personnages comme des rebelles économiques.",
+          "Elle explique uniquement la pauvreté matérielle de Bernard."
+        ],
+        "answer": 1,
+        "feedback": "Le podcast élargit le motif de la fausse monnaie à l'hypocrisie morale et aux apparences trompeuses."
+      },
+      {
+        "prompt": "Pourquoi Bernard est-il présenté comme un personnage en crise ?",
+        "choices": [
+          "Parce qu'il découvre son illégitimité et remet en cause l'autorité familiale.",
+          "Parce qu'il échoue à publier son premier roman.",
+          "Parce qu'il veut devenir aristocrate comme Passavant.",
+          "Parce qu'il refuse toute relation avec Olivier dès le début."
+        ],
+        "answer": 0,
+        "feedback": "La découverte de sa naissance illégitime déclenche sa révolte et sa quête d'une identité propre."
+      },
+      {
+        "prompt": "Comment Édouard nourrit-il la dimension métalittéraire du roman ?",
+        "choices": [
+          "Il commente uniquement les erreurs scolaires de Bernard.",
+          "Il écrit dans le roman un livre qui porte le même titre et réfléchit à la transformation du réel en fiction.",
+          "Il supprime tous les autres points de vue pour imposer le sien.",
+          "Il représente un juge moral extérieur à l'action."
+        ],
+        "answer": 1,
+        "feedback": "Le roman d'Édouard dans le roman crée une mise en abyme de l'écriture romanesque."
+      },
+      {
+        "prompt": "Quel danger Robert de Passavant représente-t-il pour les jeunes personnages ?",
+        "choices": [
+          "Une austérité morale qui interdit toute expérience.",
+          "Une séduction manipulatrice qui transforme le prestige littéraire en moyen d'influence.",
+          "Une autorité familiale traditionnelle qui enferme Bernard chez lui.",
+          "Une indifférence totale à Olivier et à la jeunesse."
+        ],
+        "answer": 1,
+        "feedback": "Passavant est décrit comme aristocrate corrompu et séducteur, exerçant une mauvaise influence sur Olivier."
+      },
+      {
+        "prompt": "Quel contresens faut-il éviter sur la vérité dans l'analyse proposée ?",
+        "choices": [
+          "Penser que Gide donne une vérité simple et absolue que les personnages n'auraient qu'à appliquer.",
+          "Comprendre que plusieurs personnages se cherchent dans des vérités partielles.",
+          "Relier la vérité au problème des apparences et des mensonges sociaux.",
+          "Voir dans la forme fragmentée une manière d'interroger l'authenticité."
+        ],
+        "answer": 0,
+        "feedback": "Le podcast insiste au contraire sur une quête difficile, subjective et traversée par les contradictions."
+      }
+    ]
+  },
+  {
+    "id": "les-faux-monnayeurs-la-compagnie-des-auteurs-l-invention-d-une-modernite-selon-gide-3",
+    "podcastId": "matu-les-faux-monnayeurs-la-compagnie-des-auteurs-l-invention-d-une-modernite-selon-gide-3",
+    "title": "L’invention d’une modernité selon Gide",
+    "work": "Les faux-monnayeurs",
+    "duration": "59 min",
+    "source": "France Culture, 24/05/2017",
+    "questions": [
+      {
+        "prompt": "Pourquoi la gestation des œuvres est-elle essentielle chez Gide selon Alain Goulet ?",
+        "choices": [
+          "Parce qu'il refuse tout travail de reprise après le premier jet.",
+          "Parce qu'il doit laisser refroidir le sujet avant de chercher une expression juste.",
+          "Parce qu'il publie toujours ses brouillons sans les corriger.",
+          "Parce qu'il délègue ensuite l'écriture à ses proches."
+        ],
+        "answer": 1,
+        "feedback": "Goulet explique que Gide attend une catharsis et reprend les choses à froid pour trouver l'expression adéquate."
+      },
+      {
+        "prompt": "Que signifie l'étiquette de « sotie » appliquée aux *Caves du Vatican* ?",
+        "choices": [
+          "Un récit réaliste où chaque valeur morale est clairement fixée.",
+          "Une forme ironique d'inversion des valeurs, dans laquelle rien ne doit être pris au premier degré.",
+          "Un journal intime sans intrigue ni personnages.",
+          "Une simple imitation du roman d'aventures traditionnel."
+        ],
+        "answer": 1,
+        "feedback": "L'émission rattache la sotie à la fête des fous et à une logique de satire où tout se retourne."
+      },
+      {
+        "prompt": "Comment l'émission invite-t-elle à comprendre Lafcadio ?",
+        "choices": [
+          "Comme un modèle de liberté que Gide demanderait d'imiter sans réserve.",
+          "Comme un personnage séduisant mais dangereux, dont le geste gratuit pose un problème au lecteur.",
+          "Comme un personnage entièrement positif parce qu'il échappe à la famille et à la religion.",
+          "Comme un simple criminel de roman policier sans portée philosophique."
+        ],
+        "answer": 1,
+        "feedback": "Gide pose un problème plutôt qu'une morale : Lafcadio fascine, mais son crime gratuit montre les limites d'une liberté sans règle."
+      },
+      {
+        "prompt": "En quoi *Paludes* occupe-t-il une place particulière dans le parcours de Gide ?",
+        "choices": [
+          "Il est présenté comme un texte de pure démonstration morale.",
+          "Il naît d'une écriture presque inconsciente, faite de bribes, d'ironie et de mise en abyme.",
+          "Il constitue le premier volume des *Faux-Monnayeurs*.",
+          "Il abandonne toute recherche formelle au profit d'un récit linéaire."
+        ],
+        "answer": 1,
+        "feedback": "Goulet décrit *Paludes* comme un texte de l'inconscient, avec un narrateur écrivant lui-même *Paludes*."
+      },
+      {
+        "prompt": "Quelle réserve éthique Alain Goulet formule-t-il à propos de *Coridon* et du *Ramier* ?",
+        "choices": [
+          "Gide se demande trop longuement si ses textes peuvent choquer les lecteurs adultes.",
+          "Gide ignore largement l'effet possible de relations avec des hommes beaucoup plus âgés sur de très jeunes adolescents.",
+          "Gide condamne explicitement toute relation entre adultes et adolescents.",
+          "Gide transforme ces textes en plaidoyer pour la famille bourgeoise traditionnelle."
+        ],
+        "answer": 1,
+        "feedback": "L'intervenant souligne que Gide ne se pose pas vraiment la question de l'impact psychologique sur des jeunes de onze à treize ans."
+      }
+    ]
+  },
+  {
+    "id": "la-prose-du-transsiberien-le-club-des-poetes-la-prose-du-transsiberien-et-de-la-petite-jehanne-de-france-2",
+    "podcastId": "matu-la-prose-du-transsiberien-le-club-des-poetes-la-prose-du-transsiberien-et-de-la-petite-jehanne-de-france-2",
+    "title": "La prose du Transsibérien et de la petite Jehanne de France",
+    "work": "La Prose du Transsibérien",
+    "duration": "23 min",
+    "source": "Spotify, 27/10/2024",
+    "questions": [
+      {
+        "prompt": "Quelle est la fonction principale de la figure de Jehanne de France dans le récit du voyage ?",
+        "choices": [
+          "Elle représente la réalité historique de la guerre qui empêche le départ.",
+          "Elle incarne une pureté fragile et un souvenir émotionnel qui contraste avec la violence du contexte.",
+          "Elle sert de guide pratique pour traverser la Russie en période de révolution.",
+          "Elle symbolise la richesse matérielle transportée dans les coffres du train."
+        ],
+        "answer": 1,
+        "feedback": "Le texte la décrit comme une enfant « pâle, immaculée » dont les yeux tremblent d'un « doux liche d'argent », créant un contraste fort avec l'ambiance de guerre et de fuite."
+      },
+      {
+        "prompt": "Comment le narrateur perçoit-il les rythmes des trains européens par rapport à ceux des trains asiatiques ?",
+        "choices": [
+          "Les trains européens sont plus lents et plus mélancoliques que les trains asiatiques.",
+          "Les trains européens ont un rythme régulier à quatre temps, tandis que les trains asiatiques ont des rythmes irréguliers à cinq ou sept temps.",
+          "Les trains asiatiques sont perçus comme des berceuses monotones, contrairement aux trains européens qui sont bruyants.",
+          "Les trains européens sont comparés à la prose lourde de Mitterling, tandis que les asiatiques sont musicaux."
+        ],
+        "answer": 1,
+        "feedback": "Le narrateur précise explicitement : « Les trains d'Europe sont à quatre temps, tandis que ceux d'Asie sont à cinq ou sept temps », soulignant une différence structurelle perçue."
+      },
+      {
+        "prompt": "Quelle est la nuance apportée par le narrateur concernant la vitesse dans le monde moderne ?",
+        "choices": [
+          "La vitesse est présentée comme une solution miracle pour échapper à la tristesse.",
+          "La vitesse est considérée comme inoffensive et neutre dans ses conséquences.",
+          "La vitesse est accusée de ne pas être responsable du malaise du monde moderne (« la vitesse n'y peut mais »).",
+          "La vitesse est comparée à la lenteur des aïeuls se réchauffant dans les vieilles maisons."
+        ],
+        "answer": 2,
+        "feedback": "Le texte affirme ironiquement ou philosophiquement : « Basse-cour, le monde moderne, la vitesse n'y peut mais », suggérant que la vitesse n'est pas la cause première des problèmes humains."
+      },
+      {
+        "prompt": "Quel rôle joue le trésor de joaillerie dans la dynamique du voyage ?",
+        "choices": [
+          "Il est la cause principale des retards du train en raison de sa lourdeur.",
+          "Il sert de prétexte à une aventure romanesque et à une complicité avec le voyageur.",
+          "Il est vendu en route pour financer le retour à Paris.",
+          "Il est comparé au trésor de Golconde pour souligner sa valeur spirituelle plutôt que matérielle."
+        ],
+        "answer": 1,
+        "feedback": "Le narrateur décrit avoir « volé le trésor de Golconde » et voyager avec un voyageur en bijouterie, jouant avec le Browning qu'il lui a donné, ce qui crée une complicité aventurière."
+      },
+      {
+        "prompt": "Quelle est l'attitude finale du narrateur face à ses voyages, selon la conclusion du texte ?",
+        "choices": [
+          "Il exprime un regret profond, souhaitant n'avoir jamais voyagé.",
+          "Il célèbre la diversité des paysages rencontrés durant le voyage.",
+          "Il se réjouit d'avoir pu écrire un poème en l'honneur de Jehanne.",
+          "Il envisage de retourner à Moscou pour y retrouver ses souvenirs."
+        ],
+        "answer": 0,
+        "feedback": "Le texte se termine par une phrase de regret explicite : « Je voudrais, je voudrais n'avoir jamais fait mes voyages. »"
+      }
+    ]
+  },
+  {
+    "id": "la-prose-du-transsiberien-abstraction-sonia-delaunay-4",
+    "podcastId": "matu-la-prose-du-transsiberien-abstraction-sonia-delaunay-4",
+    "title": "Sonia Delaunay",
+    "work": "La Prose du Transsibérien",
+    "duration": "15 min",
+    "source": "Espace Multimédia Gantner, 17/11/2011",
+    "questions": [
+      {
+        "prompt": "Quelle est la nature spécifique du livre *La Prose du Transsibérien* créé par Sonia Delaunay et Blaise Cendrars ?",
+        "choices": [
+          "Un livre bibliophilique traditionnel illustré par des gravures après coup.",
+          "Un livre d'artiste où le texte et la composition picturale sont peints simultanément.",
+          "Un recueil de poèmes illustré uniquement par des photographies cubistes.",
+          "Un manifeste théorique sur l'abstraction géométrique sans élément visuel."
+        ],
+        "answer": 1,
+        "feedback": "La transcription précise que ce n'est pas un livre bibliophilique ni illustré, mais un livre « vraiment peinte simultanément » selon le principe des couleurs alternées, constituant une composition picturale faite ensemble avec le texte."
+      },
+      {
+        "prompt": "En quoi la démarche de Sonia Delaunay diffère-t-elle fondamentalement de celle de son mari Robert Delaunay selon le podcast ?",
+        "choices": [
+          "Sonia Delaunay utilise des couleurs sombres tandis que Robert utilise des couleurs vives.",
+          "Sonia Delaunay rejette l'abstraction au profit du réalisme strict.",
+          "Sonia Delaunay privilégie l'intuition et l'improvisation, contrairement à la construction méthodique de Robert.",
+          "Sonia Delaunay travaille seule tandis que Robert Delaunay collabore systématiquement."
+        ],
+        "answer": 2,
+        "feedback": "Le texte oppose la démarche de Robert, « beaucoup plus construit, abstrait, construit et figuratif », à celle de Sonia qui se « laisse aller complètement » et dont l'œuvre repose sur le « geste improvisé » sans brouillon ni calcul préalable."
+      },
+      {
+        "prompt": "Quelle origine personnelle Sonia Delaunay cite-t-elle comme influence majeure pour sa sensibilité aux couleurs ?",
+        "choices": [
+          "Sa formation académique rigoureuse dans les ateliers parisiens.",
+          "Les costumes colorés des paysans russes et ses voyages d'enfance.",
+          "La lecture des traités scientifiques sur l'optique au 19e siècle.",
+          "Les critiques négatives de la presse parisienne de l'époque."
+        ],
+        "answer": 1,
+        "feedback": "Sonia Delaunay explique avoir été influencée par les « paysans avec des choses colorées sur eux » en Russie et par ses voyages d'enfance en Italie et en Allemagne, où elle observait les détails et les couleurs."
+      },
+      {
+        "prompt": "Comment Sonia Delaunay perçoit-elle la relation artistique avec Blaise Cendrars ?",
+        "choices": [
+          "Une relation hiérarchique où elle illustre ses textes.",
+          "Une amitié immédiate basée sur une création commune et simultanée.",
+          "Une rivalité intellectuelle pour la domination du mouvement cubiste.",
+          "Une collaboration purement commerciale pour vendre des livres."
+        ],
+        "answer": 1,
+        "feedback": "Le podcast décrit leur rencontre comme une « amitié immédiate » et souligne qu'ils ont décidé de « construire ensemble » ce livre invraisemblable, le texte et la peinture étant réalisés simultanément."
+      },
+      {
+        "prompt": "Quelle est la position de Sonia Delaunay concernant Picasso, telle qu'exprimée dans la transcription ?",
+        "choices": [
+          "Elle le considère comme un mentor essentiel pour le cubisme.",
+          "Elle le critique pour avoir commercialisé les idées des autres artistes.",
+          "Elle ignore complètement son existence artistique.",
+          "Elle lui emprunte son style pour ses propres toiles."
+        ],
+        "answer": 1,
+        "feedback": "Sonia Delaunay déclare explicitement : « La lutte a commencé contre Picasso... Il ramassait tout... Et lui, il commercialisait ça. Non, j'étais absolument ennemie de lui. »"
       }
     ]
   }

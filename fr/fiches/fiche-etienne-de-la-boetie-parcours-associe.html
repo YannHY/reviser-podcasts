@@ -1,0 +1,482 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fiche - Étienne de La Boétie, le parcours associé</title>
+  <link rel="icon" href="data:,">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="../../styles.css?v=20260516-7">
+  <link rel="stylesheet" href="../quiz/quiz.css">
+  <style>
+    .study-page { background: var(--paper); }
+    .study-page .topbar { position: static; }
+    .study-page main { max-width: 1180px; }
+    .study-layout {
+      display: grid;
+      grid-template-columns: minmax(190px, 260px) minmax(0, 1fr);
+      gap: 18px;
+      align-items: start;
+    }
+    .study-nav,
+    .study-section,
+    .study-callout,
+    .reference-table {
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: var(--panel);
+      box-shadow: var(--shadow);
+    }
+    .study-nav {
+      position: sticky;
+      top: 16px;
+      padding: 12px;
+    }
+    .study-nav a {
+      display: block;
+      padding: 9px 10px;
+      border-radius: 6px;
+      color: var(--muted);
+      text-decoration: none;
+      font-size: .86rem;
+      line-height: 1.25;
+    }
+    .study-nav a:hover {
+      background: var(--paper);
+      color: var(--accent);
+    }
+    .study-content {
+      display: grid;
+      gap: 16px;
+    }
+    .study-section {
+      padding: clamp(18px, 4vw, 30px);
+    }
+    .study-section h2,
+    .study-section h3 {
+      margin: 0;
+      font-family: 'Lora', Georgia, serif;
+      color: var(--warm-dark);
+    }
+    .study-section h2 {
+      font-size: clamp(1.25rem, 2.2vw, 1.75rem);
+      line-height: 1.2;
+    }
+    .study-section h3 {
+      margin-top: 18px;
+      font-size: 1.05rem;
+    }
+    .study-section p,
+    .study-section li {
+      color: var(--ink);
+      font-size: .97rem;
+      line-height: 1.72;
+    }
+    .study-section p {
+      margin: 12px 0 0;
+    }
+    .study-section ul,
+    .study-section ol {
+      margin: 12px 0 0;
+      padding-left: 20px;
+    }
+    .study-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 16px;
+    }
+    .study-card {
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 14px;
+      background: var(--paper);
+    }
+    .study-card strong {
+      display: block;
+      margin-bottom: 6px;
+      color: var(--accent);
+    }
+    .study-card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: .9rem;
+      line-height: 1.55;
+    }
+    .study-callout {
+      padding: 16px 18px;
+      border-left: 4px solid var(--accent);
+    }
+    .study-callout strong {
+      color: var(--accent);
+    }
+    .podcast-admonition {
+      display: grid;
+      gap: 12px;
+      padding: 16px 18px;
+      border: 1px solid var(--line);
+      border-left: 4px solid var(--warm);
+      border-radius: 6px;
+      background: var(--panel);
+      box-shadow: var(--shadow);
+    }
+    .podcast-admonition summary {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-family: 'Lora', Georgia, serif;
+      color: var(--warm-dark);
+      font-size: 1.15rem;
+      font-weight: 700;
+      line-height: 1.25;
+      cursor: pointer;
+      list-style: none;
+    }
+    .podcast-admonition summary::-webkit-details-marker { display: none; }
+    .podcast-admonition summary::after {
+      margin-left: auto;
+      color: var(--muted);
+      font-family: "Font Awesome 6 Free";
+      font-size: .86rem;
+      font-weight: 900;
+      content: "\f078";
+      transition: transform .15s ease;
+    }
+    .podcast-admonition[open] summary::after { transform: rotate(180deg); }
+    .podcast-admonition p {
+      margin: 0;
+      color: var(--muted);
+      font-size: .92rem;
+      line-height: 1.55;
+    }
+    .podcast-admonition a {
+      color: var(--accent);
+      font-weight: 700;
+    }
+    .podcast-admonition-body {
+      display: grid;
+      gap: 12px;
+      margin-top: 12px;
+    }
+    .podcast-frame {
+      display: block;
+      width: 100%;
+      height: 58px;
+      border: 0;
+      border-radius: 0;
+      background: transparent;
+    }
+    .reference-table {
+      width: 100%;
+      margin-top: 16px;
+      border-collapse: separate;
+      border-spacing: 0;
+      overflow: hidden;
+      font-size: .92rem;
+    }
+    .reference-table th,
+    .reference-table td {
+      padding: 12px;
+      border-bottom: 1px solid var(--line);
+      vertical-align: top;
+      line-height: 1.55;
+      text-align: left;
+    }
+    .reference-table th {
+      color: var(--accent);
+      background: var(--paper);
+      font-size: .78rem;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+    .reference-table tr:last-child td { border-bottom: 0; }
+    .tag-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 14px;
+    }
+    .tag-list span {
+      display: inline-flex;
+      align-items: center;
+      min-height: 28px;
+      padding: 0 10px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: var(--paper);
+      color: var(--muted);
+      font-size: .82rem;
+      font-weight: 700;
+    }
+    .timeline {
+      display: grid;
+      gap: 10px;
+      margin-top: 14px;
+    }
+    .timeline div {
+      display: grid;
+      grid-template-columns: 44px minmax(0, 1fr);
+      gap: 12px;
+      align-items: start;
+      padding: 12px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: var(--paper);
+    }
+    .timeline strong { color: var(--accent); }
+    .timeline span {
+      color: var(--ink);
+      line-height: 1.55;
+    }
+    @media (max-width: 860px) {
+      .study-layout { grid-template-columns: 1fr; }
+      .study-nav {
+        position: static;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+      .study-grid { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 620px) {
+      .study-nav { grid-template-columns: 1fr; }
+      .reference-table,
+      .reference-table tbody,
+      .reference-table tr,
+      .reference-table th,
+      .reference-table td {
+        display: block;
+        width: 100%;
+      }
+      .reference-table thead { display: none; }
+      .reference-table td {
+        border-bottom: 0;
+        padding: 8px 12px;
+      }
+      .reference-table tr {
+        padding: 8px 0;
+        border-bottom: 1px solid var(--line);
+      }
+      .reference-table tr:last-child { border-bottom: 0; }
+      .reference-table td::before {
+        display: block;
+        margin-bottom: 2px;
+        color: var(--accent);
+        font-size: .72rem;
+        font-weight: 700;
+        letter-spacing: .08em;
+        text-transform: uppercase;
+        content: attr(data-label);
+      }
+      .timeline div { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body class="study-page quiz-page">
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">Bac français</p>
+      <h1>Réviser avec les podcasts</h1>
+      <nav class="quick-menu" aria-label="Accès rapides">
+        <a href="../index.html">Podcasts</a>
+        <a href="../quiz.html">Quiz</a>
+        <a href="../fiches.html" aria-current="page">Fiches</a>
+      </nav>
+    </div>
+    <div class="topbar-tools">
+      <div class="topbar-main">
+        <div class="header-actions">
+          <button id="searchToggle" class="icon-button search-toggle" type="button" aria-label="Rechercher" aria-expanded="false" aria-controls="headerSearch">
+            <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+          </button>
+          <button id="themeToggle" class="icon-button theme-toggle" type="button" aria-label="Activer le mode sombre" title="Activer le mode sombre">
+            <i class="fa-solid fa-moon" aria-hidden="true"></i>
+          </button>
+        </div>
+        <div class="progress-panel" aria-live="polite" data-progress-total="114">
+          <span id="progressText">Chargement...</span>
+          <div class="progress-track" aria-hidden="true">
+            <span id="progressBar"></span>
+          </div>
+        </div>
+      </div>
+      <form id="headerSearch" class="header-search" action="../index.html" hidden>
+        <label for="searchInput" class="sr-only">Rechercher</label>
+        <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+        <input id="searchInput" name="search" type="search" placeholder="Auteur, titre, émission...">
+        <button id="searchClose" class="icon-button search-close" type="button" aria-label="Fermer la recherche">
+          <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+        </button>
+      </form>
+    </div>
+  </header>
+
+  <main>
+    <div class="study-layout">
+      <nav class="study-nav" aria-label="Sommaire de la fiche">
+        <a href="#essentiel">L'essentiel</a>
+        <a href="#parcours">Le parcours associé</a>
+        <a href="#defendre">Défendre</a>
+        <a href="#entretenir">Entretenir</a>
+        <a href="#liberte">Liberté</a>
+        <a href="#dissertation">Pour la dissertation</a>
+        <a href="#questions">Questions possibles</a>
+      </nav>
+
+      <div class="study-content">
+        <details class="podcast-admonition" open>
+          <summary><i class="fa-solid fa-headphones" aria-hidden="true"></i> Podcast</summary>
+          <div class="podcast-admonition-body">
+            <p>
+              <a href="https://www.podcastics.com/podcast/episode/etienne-de-la-boetie-le-parcours-associe-404985/?s=5045" target="_blank" rel="noopener noreferrer">Etienne de La Boétie - Le parcours associé</a>
+              <span> - CLAPOTEE, 23 février 2026, 8 min.</span>
+            </p>
+            <iframe
+              class="podcast-frame"
+              title="Player Podcastics - Etienne de La Boétie - Le parcours associé"
+              src="https://player.podcastics.com/light/148/404985?s=5045"
+              loading="lazy"
+              allow="autoplay">
+            </iframe>
+          </div>
+        </details>
+
+        <section id="essentiel" class="study-section">
+          <h2>L'essentiel</h2>
+          <div class="study-callout">
+            <p><strong>Idée centrale&nbsp;:&nbsp;</strong>Le parcours associé « Défendre et entretenir la liberté » donne une méthode de lecture du <em>Discours de la servitude volontaire</em>. Il montre que la liberté n'est pas seulement un droit naturel&nbsp;:&nbsp;c'est une responsabilité collective qui demande vigilance, éducation et action.</p>
+          </div>
+          <div class="study-grid">
+            <article class="study-card">
+              <strong>Défendre</strong>
+              <p>Résister activement à la tyrannie, refuser la complaisance et interroger l'origine réelle du pouvoir.</p>
+            </article>
+            <article class="study-card">
+              <strong>Entretenir</strong>
+              <p>Faire vivre la liberté au quotidien par l'information, le débat, la réflexion critique et l'éducation.</p>
+            </article>
+            <article class="study-card">
+              <strong>Liberté</strong>
+              <p>Comprendre la liberté comme un droit naturel, mais aussi comme le fondement de la dignité humaine et de la justice.</p>
+            </article>
+            <article class="study-card">
+              <strong>Servitude volontaire</strong>
+              <p>La domination dure quand les peuples s'habituent, renoncent ou donnent au tyran la force qui les opprime.</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="parcours" class="study-section">
+          <h2>Le parcours associé</h2>
+          <p>L'épisode rappelle que le <em>Discours de la servitude volontaire</em> appartient à l'objet d'étude « La littérature d'idées du XVIe au XVIIIe siècle ». Le parcours associé, « Défendre et entretenir la liberté », n'est pas une simple formule à citer en introduction&nbsp;:&nbsp;il peut servir à construire des arguments de dissertation.</p>
+          <p>Les trois mots du parcours organisent une progression. Il faut d'abord <strong>défendre</strong> la liberté contre la tyrannie. Il faut ensuite l'<strong>entretenir</strong>, car une liberté qui n'est plus pensée ni exercée finit par s'affaiblir. Enfin, il faut définir la <strong>liberté</strong> comme une exigence morale et politique, indispensable à une société juste.</p>
+          <div class="tag-list" aria-label="Notions à retenir">
+            <span>vigilance</span>
+            <span>résistance</span>
+            <span>éducation</span>
+            <span>habitude</span>
+            <span>responsabilité</span>
+            <span>dignité</span>
+          </div>
+        </section>
+
+        <section id="defendre" class="study-section">
+          <h2>Défendre la liberté</h2>
+          <p>Dans la transcription, « défendre » désigne une action dynamique et collective. La liberté n'est pas menacée seulement par la violence visible du tyran&nbsp;:&nbsp;elle peut disparaître lentement, par complaisance, fatigue ou habitude de perdre des droits sans réagir.</p>
+          <p>La Boétie invite donc à remettre en question l'autorité. Sa question célèbre, « D'où a-t-il pris tant d'yeux dont il vous épie, si vous ne les lui donnez&nbsp;? », rappelle que le tyran ne possède pas sa force par lui-même. Il l'obtient de ceux qui acceptent de le servir.</p>
+          <p>Défendre la liberté suppose aussi la solidarité. La tyrannie prospère sur la division du peuple, les rivalités et les intérêts particuliers. À l'inverse, la liberté demande une conscience commune&nbsp;:&nbsp;le refus de servir ne peut devenir efficace que s'il est partagé.</p>
+        </section>
+
+        <section id="entretenir" class="study-section">
+          <h2>Entretenir la liberté</h2>
+          <p>« Entretenir » signifie que la liberté ne se conserve pas toute seule. Il ne suffit pas de la reconquérir quand elle est menacée&nbsp;:&nbsp;il faut la faire vivre chaque jour pour empêcher qu'elle ne s'éteigne peu à peu.</p>
+          <p>L'épisode met en avant deux dangers. Le premier est la <strong>coutumance</strong>&nbsp;:&nbsp;à force de vivre sous un pouvoir injuste, les hommes finissent par trouver cette situation normale, parfois même confortable. Le second est l'<strong>ignorance</strong>&nbsp;:&nbsp;un peuple qui ne comprend pas les mécanismes du pouvoir devient plus facile à manipuler.</p>
+          <p>Contre ces dangers, La Boétie s'inscrit dans une perspective humaniste. La lecture, la formation de l'esprit, la connaissance et la réflexion critique éveillent les consciences. Entretenir la liberté, c'est donc s'informer, débattre, penser, participer à la vie de la cité et refuser l'endormissement politique.</p>
+        </section>
+
+        <section id="liberte" class="study-section">
+          <h2>La liberté</h2>
+          <p>La liberté est présentée comme un droit naturel&nbsp;:&nbsp;les hommes ne naissent pas pour servir. La soumission n'est donc ni normale, ni acceptable. Mais l'épisode insiste sur un point essentiel&nbsp;:&nbsp;la liberté est aussi une responsabilité.</p>
+          <p>Pour La Boétie, sans liberté, il ne peut y avoir ni justice véritable, ni dignité humaine. Défendre la liberté ne vaut pas seulement pour soi-même&nbsp;:&nbsp;il s'agit aussi de préserver une société juste et de transmettre cette exigence aux générations suivantes.</p>
+          <p>La notion de servitude volontaire permet de formuler l'enjeu moral de l'œuvre. Les peuples ne sont pas toujours vaincus par la seule violence. Ils peuvent aussi se perdre par inaction, par complaisance, par renoncement. Dès lors, la liberté commence par une prise de conscience&nbsp;:&nbsp;si les hommes cessent de servir, le tyran tombe.</p>
+        </section>
+
+        <section id="dissertation" class="study-section">
+          <h2>Pour la dissertation</h2>
+          <p>Le parcours associé peut devenir une réserve d'arguments. Chaque mot permet de construire une idée claire, reliée au texte de La Boétie et utile pour répondre à un sujet sur la liberté, le pouvoir ou l'obéissance.</p>
+          <table class="reference-table">
+            <thead>
+              <tr>
+                <th>Mot du parcours</th>
+                <th>Argument possible</th>
+                <th>Exemple à mobiliser</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-label="Mot du parcours"><strong>Défendre</strong></td>
+                <td data-label="Argument possible">La liberté exige une vigilance active contre la tyrannie et contre l'habitude de renoncer à ses droits.</td>
+                <td data-label="Exemple à mobiliser">Le tyran n'a que la force que les sujets lui donnent&nbsp;:&nbsp;La Boétie interroge les fondements du pouvoir.</td>
+              </tr>
+              <tr>
+                <td data-label="Mot du parcours"><strong>Entretenir</strong></td>
+                <td data-label="Argument possible">La liberté doit être exercée quotidiennement par l'éducation, l'information et la réflexion critique.</td>
+                <td data-label="Exemple à mobiliser">L'accoutumance rend la servitude supportable ; la connaissance réveille les consciences.</td>
+              </tr>
+              <tr>
+                <td data-label="Mot du parcours"><strong>Liberté</strong></td>
+                <td data-label="Argument possible">La liberté est le fondement moral d'une société juste, car elle garantit la dignité humaine.</td>
+                <td data-label="Exemple à mobiliser">La servitude volontaire n'est pas une fatalité&nbsp;:&nbsp;elle vient de l'inaction et peut cesser avec le refus de servir.</td>
+              </tr>
+            </tbody>
+          </table>
+          <h3>Exemple de progression</h3>
+          <div class="timeline">
+            <div><strong>I</strong><span>Montrer que La Boétie dénonce la tyrannie et appelle à défendre la liberté.</span></div>
+            <div><strong>II</strong><span>Expliquer que la liberté se perd par l'habitude et doit donc être entretenue.</span></div>
+            <div><strong>III</strong><span>Élargir vers l'enjeu moral&nbsp;:&nbsp;être libre, c'est préserver la dignité et la justice.</span></div>
+          </div>
+        </section>
+
+        <section id="questions" class="study-section">
+          <h2>Questions possibles</h2>
+          <ul>
+            <li>Pourquoi le parcours associé insiste-t-il à la fois sur « défendre » et « entretenir » la liberté&nbsp;?</li>
+            <li>Comment La Boétie montre-t-il que le pouvoir du tyran dépend de ceux qui lui obéissent&nbsp;?</li>
+            <li>En quoi l'habitude est-elle un danger politique dans le <em>Discours de la servitude volontaire</em>&nbsp;?</li>
+            <li>Pourquoi l'éducation et la connaissance sont-elles nécessaires pour préserver la liberté&nbsp;?</li>
+            <li>Comment la notion de servitude volontaire transforme-t-elle la liberté en responsabilité collective&nbsp;?</li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <p class="made-with">
+        Créé avec <i class="fas fa-heart" aria-hidden="true"></i> par
+        <a href="https://www.linkedin.com/in/yann-houry-a2350651/" target="_blank" rel="noopener noreferrer">Yann Houry</a>
+      </p>
+      <div class="license">
+        <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
+          <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr" target="_blank" rel="license noopener noreferrer" aria-label="Licence Creative Commons BY-SA 4.0">
+            <i class="fa-brands fa-creative-commons" aria-hidden="true"></i>
+          </a>
+          <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr" target="_blank" rel="license noopener noreferrer" aria-label="Attribution requise">
+            <i class="fa-brands fa-creative-commons-by" aria-hidden="true"></i>
+          </a>
+          <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr" target="_blank" rel="license noopener noreferrer" aria-label="Partage dans les mêmes conditions">
+            <i class="fa-brands fa-creative-commons-sa" aria-hidden="true"></i>
+          </a>
+        </p>
+      </div>
+      <p class="year"><span id="current-year"></span></p>
+    </div>
+  </footer>
+  <script src="../../header.js?v=20260516-1" defer></script>
+  <script>const yearEl = document.getElementById('current-year'); if (yearEl) yearEl.textContent = new Date().getFullYear();</script>
+</body>
+</html>

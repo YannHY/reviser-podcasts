@@ -12,7 +12,7 @@ Le principe reste simple : choisir un parcours, écouter, comprendre, mémoriser
 
 ### Accueil
 
-La page `accueil.html` sert de porte d'entrée vers les trois espaces du site :
+La page `index.html` sert de porte d'entrée vers les trois espaces du site :
 
 - **Bac français** : parcours principal historique.
 - **Maturité** : nouveau parcours pour la maturité cantonale.
@@ -22,9 +22,9 @@ La page `accueil.html` sert de porte d'entrée vers les trois espaces du site :
 
 Le parcours bac français comprend les pages principales suivantes :
 
-- `index.html` : catalogue de podcasts.
-- `quiz.html` : sommaire des questionnaires.
-- `fiches.html` : sommaire des fiches de révision.
+- `fr/index.html` : catalogue de podcasts.
+- `fr/quiz.html` : sommaire des questionnaires.
+- `fr/fiches.html` : sommaire des fiches de révision.
 
 Les oeuvres et parcours couverts sont :
 
@@ -142,24 +142,25 @@ Les pages sont pensées pour fonctionner sur ordinateur, tablette et mobile.
 
 ```text
 .
-├── accueil.html              # Page d'entrée vers Bac, Maturité et IB
-├── index.html                # Catalogue Bac français
-├── quiz.html                 # Sommaire des quiz Bac français
-├── fiches.html               # Sommaire des fiches Bac français
-├── app.js                    # Logique du catalogue Bac
+├── index.html                # Page d'entrée vers Bac, Maturité et IB
 ├── header.js                 # Recherche, thème et progression partagés
 ├── styles.css                # Styles communs
-├── liste.md                  # Liste source des podcasts Bac
-├── summaries.json            # Transcriptions et résumés Bac
-├── summaries-clean.json      # Transcriptions nettoyées
-├── summaries-clean-report.json
-├── build-audio-map.js        # Script d'intégration des lecteurs Radio France
-├── build-summaries.js        # Script d'intégration des résumés
-├── clean-transcripts.js      # Script de nettoyage des transcriptions
-├── transcribe.py             # Script de transcription
 ├── assets/                   # Logos et éléments graphiques
-├── fiches/                   # Fiches Bac français
-├── quiz/                     # Quiz Bac français
+├── fr/                       # Parcours Bac français
+│   ├── index.html            # Catalogue Bac français
+│   ├── quiz.html             # Sommaire des quiz Bac français
+│   ├── fiches.html           # Sommaire des fiches Bac français
+│   ├── app.js                # Logique du catalogue Bac
+│   ├── liste.md              # Liste source des podcasts Bac
+│   ├── summaries.json        # Transcriptions et résumés Bac
+│   ├── summaries-clean.json  # Transcriptions nettoyées
+│   ├── summaries-clean-report.json
+│   ├── build-audio-map.js    # Script d'intégration des lecteurs Radio France
+│   ├── build-summaries.js    # Script d'intégration des résumés
+│   ├── clean-transcripts.js  # Script de nettoyage des transcriptions
+│   ├── transcribe.py         # Script de transcription
+│   ├── fiches/               # Fiches Bac français
+│   └── quiz/                 # Quiz Bac français
 ├── matu/                     # Parcours Maturité cantonale
 │   ├── index.html
 │   ├── quiz.html
@@ -176,7 +177,7 @@ Les pages sont pensées pour fonctionner sur ordinateur, tablette et mobile.
 
 ## Utilisation locale
 
-Le site est statique. Il peut être ouvert directement dans un navigateur depuis `accueil.html`, ou servi localement avec Python :
+Le site est statique. Il peut être ouvert directement dans un navigateur depuis `index.html`, ou servi localement avec Python :
 
 ```bash
 python3 -m http.server 8000
@@ -185,7 +186,7 @@ python3 -m http.server 8000
 Puis ouvrir :
 
 ```text
-http://localhost:8000/accueil.html
+http://localhost:8000/
 ```
 
 ## Scripts utiles
@@ -193,6 +194,7 @@ http://localhost:8000/accueil.html
 ### Intégrer les lecteurs audio
 
 ```bash
+cd fr
 node build-audio-map.js
 ```
 
@@ -201,6 +203,7 @@ Ce script lit les podcasts présents dans `index.html`, récupère les identifia
 ### Intégrer les résumés
 
 ```bash
+cd fr
 node build-summaries.js
 ```
 
@@ -209,6 +212,7 @@ Ce script lit `summaries.json`, nettoie les résumés disponibles et les intègr
 ### Nettoyer les transcriptions
 
 ```bash
+cd fr
 node clean-transcripts.js
 ```
 
@@ -217,6 +221,7 @@ Ce script lit `summaries.json` et produit `summaries-clean.json`, sans modifier 
 ### Générer les transcriptions
 
 ```bash
+cd fr
 python3 transcribe.py
 ```
 

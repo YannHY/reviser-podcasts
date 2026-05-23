@@ -95,42 +95,6 @@ const MANUAL_QUIZ_OVERRIDES = {
       feedback:
         "Le mariage avec Héloïse renforce la passivité de Charles : sa vie se décide largement autour de lui, par intérêt et convenance.",
     },
-    {
-      prompt: "Pourquoi Emma n'apparaît-elle pas immédiatement dans cette première étape ?",
-      choices: [
-        "Parce que Flaubert veut d'abord installer le cadre médiocre auquel son désir d'absolu va se heurter.",
-        "Parce que le roman s'intéresse finalement davantage à Héloïse qu'à Emma.",
-        "Parce que l'épisode cherche à faire de Charles un héros romantique complet.",
-        "Parce que l'intrigue principale commence seulement après la mort de Charles.",
-      ],
-      answer: 0,
-      feedback:
-        "Le détour par Charles prépare le contraste : avant le rêve d'Emma, Flaubert installe la banalité du monde qui l'attend.",
-    },
-    {
-      prompt: "Quel contresens faut-il éviter sur Charles dans cet incipit ?",
-      choices: [
-        "Voir en Charles un simple faire-valoir comique, alors qu'il porte aussi une critique de la médiocrité ordinaire.",
-        "Dire que Charles est présenté à travers des scènes d'humiliation.",
-        "Relier la casquette à une forme de portrait indirect.",
-        "Comprendre que l'ironie passe par des détails concrets.",
-      ],
-      answer: 0,
-      feedback:
-        "Charles est drôle, oui, mais pas seulement : il incarne un rapport pauvre au monde, aux désirs et au langage.",
-    },
-    {
-      prompt: "Quelle phrase serait la plus solide dans une copie ?",
-      choices: [
-        "Charles est ridicule uniquement parce que ses camarades sont méchants avec lui.",
-        "L'ouverture de Madame Bovary transforme l'entrée d'un collégien maladroit en diagnostic social : avant Emma, le roman donne à voir la médiocrité qui l'enfermera.",
-        "La première scène sert surtout à expliquer objectivement le métier de médecin au XIXe siècle.",
-        "La casquette est un détail pittoresque que l'on peut supprimer sans perdre le sens de l'incipit.",
-      ],
-      answer: 1,
-      feedback:
-        "Cette formulation relie détail narratif, portrait de Charles et enjeu global du roman : c'est exactement le type de phrase réutilisable.",
-    },
   ],
   "matu-madame-bovary-madame-bovary-french-version-madame-bovary-french-version-part-1-18": [
     {
@@ -365,8 +329,12 @@ Schema exact:
 }
 
 Objectif:
-- Le resume et les questions doivent s'appuyer sur la transcription fournie.
+- Le resume et les questions doivent s'appuyer exclusivement sur la transcription fournie: n'ajoute aucun savoir externe, meme s'il semble evident.
+- Le resume doit etre scolaire, precis et utile pour reviser: 2 a 4 paragraphes substantiels, puis 5 a 7 points essentiels.
+- Le resume doit donner acces au contenu effectif du podcast: these, cheminement de l'analyse, exemples commentes, extraits ou scenes evoques, notions importantes et nuances.
+- Le resume doit restituer les idees, exemples, analyses et nuances du podcast, pas seulement annoncer son theme.
 - Cree exactement 5 QCM qui testent la comprehension du podcast: these centrale, nuance de l'intervenant, exemple analyse, role d'un personnage/idee, contresens a eviter.
+- Les QCM doivent etre exigeants et scolaires: ils verifient la comprehension fine d'un raisonnement, d'un exemple precis, d'une distinction critique ou d'un contresens possible dans le podcast.
 - Chaque bonne reponse doit etre deduisible de la transcription.
 - Les distracteurs doivent etre plausibles, mais faux ou moins precis que la bonne reponse.
 - Le feedback explique en une phrase pourquoi la bonne reponse convient, en s'appuyant sur la transcription.
@@ -376,6 +344,7 @@ Interdictions absolues:
 - Aucune question dont la bonne reponse serait seulement le titre du podcast.
 - Aucun choix du type "ce podcast est interessant", "retenir la date", "presentation neutre", "reperes sans probleme".
 - N'invente pas un element qui ne figure pas dans la transcription.
+- N'utilise pas de connaissance externe pour completer la transcription.
 
 Metadonnees:
 - Oeuvre: ${entry.work || ""}
@@ -584,10 +553,16 @@ function makeQuiz(podcastId, entry, generatedContent) {
     podcastId,
     title: entry.title,
     work: entry.work,
-    duration: entry.duration ? `${entry.duration} min` : "",
+    duration: formatDuration(entry.duration),
     source: [entry.origin, entry.date].filter(Boolean).join(", "),
     questions: MANUAL_QUIZ_OVERRIDES[podcastId] || generatedContent.questions,
   };
+}
+
+function formatDuration(value) {
+  if (!value) return "";
+  const duration = String(value).trim();
+  return /\bmin\b|h/.test(duration) ? duration : `${duration} min`;
 }
 
 function makeQuizPage(quiz) {
@@ -605,7 +580,7 @@ function makeQuizPage(quiz) {
   <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="../../styles.css?v=20260516-7">
-  <link rel="stylesheet" href="../../quiz/quiz.css?v=20260509-2">
+  <link rel="stylesheet" href="../../fr/quiz/quiz.css?v=20260509-2">
   <link rel="stylesheet" href="../matu.css">
 </head>
 <body class="quiz-page matu-page">
@@ -634,7 +609,7 @@ function makeQuizPage(quiz) {
   </main>
   <script>window.QUIZ_ID = ${JSON.stringify(quiz.id)};</script>
   <script src="quiz-data.js"></script>
-  <script src="../../quiz/quiz.js?v=20260428-1"></script>
+  <script src="../../fr/quiz/quiz.js?v=20260428-1"></script>
   <script src="../../header.js?v=20260523-1" defer></script>
 </body>
 </html>

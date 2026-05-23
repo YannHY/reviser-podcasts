@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quiz - Sido</title>
+  <link rel="icon" href="data:,">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="../../styles.css?v=20260516-7">
+  <link rel="stylesheet" href="quiz.css?v=20260509-2">
+</head>
+<body class="quiz-page">
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">Quiz</p>
+      <h1>Sido</h1>
+      <p class="meta">58 questionnaires autonomes, reliés aux cartes de podcasts.</p>
+      <nav class="quick-menu" aria-label="Accès rapides">
+        <a href="../index.html">Podcasts</a>
+        <a href="../quiz.html" aria-current="page">Quiz</a>
+        <a href="../fiches.html">Fiches</a>
+      </nav>
+    </div>
+    <div class="topbar-tools">
+      <div class="topbar-main">
+        <div class="header-actions">
+          <button id="searchToggle" class="icon-button search-toggle" type="button" aria-label="Rechercher" aria-expanded="false" aria-controls="headerSearch">
+            <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+          </button>
+          <button id="themeToggle" class="icon-button theme-toggle" type="button" aria-label="Activer le mode sombre" title="Activer le mode sombre">
+            <i class="fa-solid fa-moon" aria-hidden="true"></i>
+          </button>
+        </div>
+        <div class="progress-panel" aria-live="polite" data-progress-total="114">
+          <span id="progressText">Chargement...</span>
+          <div class="progress-track" aria-hidden="true">
+            <span id="progressBar"></span>
+          </div>
+        </div>
+      </div>
+      <form id="headerSearch" class="header-search" action="../index.html" hidden>
+        <label for="searchInput" class="sr-only">Rechercher</label>
+        <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+        <input id="searchInput" name="search" type="search" placeholder="Auteur, titre, émission...">
+        <button id="searchClose" class="icon-button search-close" type="button" aria-label="Fermer la recherche">
+          <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+        </button>
+      </form>
+    </div>
+  </header>
+
+  <main>
+    <section class="quiz-index-list" aria-label="Questionnaires disponibles">
+        <a href="42-episode-1-la-couleur-des-etes.html"><strong>Épisode 1 La couleur des étés</strong><span>20 min • 5 questions</span></a>
+        <a href="43-episode-2-une-enfance-heureuse.html"><strong>Épisode 2 Une enfance heureuse</strong><span>19 min • 5 questions</span></a>
+        <a href="44-episode-3-le-capitaine.html"><strong>Épisode 3 Le capitaine</strong><span>20 min • 5 questions</span></a>
+        <a href="45-episode-4-sido-et-le-capitaine.html"><strong>Épisode 4 Sido et le capitaine</strong><span>19 min • 5 questions</span></a>
+        <a href="46-episode-5-les-sauvages.html"><strong>Épisode 5 Les sauvages</strong><span>19 min • 5 questions</span></a>
+        <a href="47-episode-1-les-vrilles-de-la-vigne-nuit-blanche-et-le-dernier-feu.html"><strong>Épisode 1 Les Vrilles de la vigne, Nuit blanche et Le dernier feu</strong><span>20 min • 5 questions</span></a>
+        <a href="48-episode-2-amours-un-reve-et-nonoche.html"><strong>Épisode 2 Amours, Un rêve et Nonoche</strong><span>20 min • 5 questions</span></a>
+        <a href="49-episode-3-toby-chien-parle-et-dialogues-de-betes.html"><strong>Épisode 3 Toby-chien parle et Dialogues de bêtes</strong><span>19 min • 5 questions</span></a>
+        <a href="50-episode-4-maquillages-et-belles-de-jour.html"><strong>Épisode 4 Maquillages et Belles-de-jour</strong><span>19 min • 5 questions</span></a>
+        <a href="51-episode-5-music-halls-et-le-miroir.html"><strong>Épisode 5 Music halls et Le miroir</strong><span>20 min • 5 questions</span></a>
+        <a href="52-sido-et-les-vrilles-de-la-vigne-de-colette.html"><strong>Sido et Les Vrilles de la vigne de Colette</strong><span>58 min • 8 questions</span></a>
+        <a href="53-episode-1-ne-pas-se-laisser-faire.html"><strong>Épisode 1 Ne pas se laisser faire</strong><span>29 min • 6 questions</span></a>
+        <a href="54-episode-2-explorer-les-interdits.html"><strong>Épisode 2 Explorer les interdits</strong><span>29 min • 6 questions</span></a>
+        <a href="55-episode-3-les-jouvenel-pere-et-fils-passions-limites.html"><strong>Épisode 3 Les Jouvenel père et fils : passions limites</strong><span>29 min • 6 questions</span></a>
+        <a href="56-episode-4-aimer-comme-une-mere.html"><strong>Épisode 4 Aimer comme une mère</strong><span>29 min • 6 questions</span></a>
+        <a href="57-episode-5-vieillir-ensemble.html"><strong>Épisode 5 Vieillir ensemble</strong><span>29 min • 6 questions</span></a>
+        <a href="58-episode-6-la-vie-sauvage.html"><strong>Épisode 6 La vie sauvage</strong><span>29 min • 6 questions</span></a>
+        <a href="59-colette-et-la-nature.html"><strong>Colette et la nature</strong><span>36 min • 6 questions</span></a>
+        <a href="60-episode-1-pourquoi-colette.html"><strong>Épisode 1 Pourquoi Colette ?</strong><span>4 min • 3 questions</span></a>
+        <a href="61-episode-2-comment-colette-se-mit-a-ecrire.html"><strong>Épisode 2 Comment Colette se mit à écrire ?</strong><span>4 min • 3 questions</span></a>
+        <a href="62-episode-3-ce-chameau-de-willy-le-mari-de-colette.html"><strong>Épisode 3 Ce chameau de Willy, le mari de Colette</strong><span>4 min • 3 questions</span></a>
+        <a href="63-episode-4-les-beaux-cheveux-d-or-de-colette.html"><strong>Épisode 4 Les beaux cheveux d&#39;or de Colette</strong><span>4 min • 3 questions</span></a>
+        <a href="64-episode-5-lesbos-ou-les-amours-saphiques-de-colette.html"><strong>Épisode 5 Lesbos ou les amours saphiques de Colette</strong><span>4 min • 3 questions</span></a>
+        <a href="65-episode-6-colette-et-sa-mere-sidonie-landoy-dite-sido.html"><strong>Épisode 6 Colette et sa mère, Sidonie Landoy dite « Sido »</strong><span>4 min • 3 questions</span></a>
+        <a href="66-episode-7-les-betes-la-relation-de-colette-avec-les-animaux.html"><strong>Épisode 7 Les bêtes : la relation de Colette avec les animaux</strong><span>4 min • 3 questions</span></a>
+        <a href="67-episode-8-le-faune-ou-quand-colette-reclamait-la-liberte-de-son-corps-et-de-sa-plume.html"><strong>Épisode 8 Le faune : ou quand Colette réclamait la liberté de son corps et de sa plume</strong><span>4 min • 3 questions</span></a>
+        <a href="68-episode-9-colette-j-appartiens-a-missy.html"><strong>Épisode 9 Colette : J’appartiens à Missy</strong><span>4 min • 3 questions</span></a>
+        <a href="69-episode-10-music-hall-colette-et-la-musique.html"><strong>Épisode 10 Music-hall : Colette et la musique</strong><span>4 min • 3 questions</span></a>
+        <a href="70-episode-11-colette-et-son-pere-jules-la-vertu-d-etre-triste-a-bon-escient-et-de-ne-jamais-se-trahir.html"><strong>Épisode 11 Colette et son père Jules : La vertu d’être triste à bon escient, et de ne jamais se trahir</strong><span>4 min • 3 questions</span></a>
+        <a href="71-episode-12-colette-et-l-amour.html"><strong>Épisode 12 Colette et l&#39;amour</strong><span>4 min • 3 questions</span></a>
+        <a href="72-episode-13-colette-la-sauvageonne-je-suis-restee-paysanne.html"><strong>Épisode 13 Colette la sauvageonne : Je suis restée paysanne</strong><span>4 min • 3 questions</span></a>
+        <a href="73-episode-14-colette-et-paris-j-ai-trouve-dans-paris-encore-une-province.html"><strong>Épisode 14 Colette et Paris : J’ai trouvé dans Paris encore une province</strong><span>4 min • 3 questions</span></a>
+        <a href="74-episode-15-colette-et-son-amour-pour-henry-de-jouvenel-alias-le-pacha.html"><strong>Épisode 15 Colette et son amour pour Henry de Jouvenel alias Le Pacha</strong><span>4 min • 3 questions</span></a>
+        <a href="75-episode-16-plus-qu-ecrivaine-colette-se-voyait-journaliste.html"><strong>Épisode 16 Plus qu&#39;écrivaine, Colette se voyait journaliste</strong><span>4 min • 3 questions</span></a>
+        <a href="76-episode-17-colette-j-aime-etre-gourmande.html"><strong>Épisode 17 Colette : J&#39;aime être gourmande</strong><span>4 min • 3 questions</span></a>
+        <a href="77-episode-18-flore-et-pomone-la-botanique-poetique-de-colette.html"><strong>Épisode 18 Flore et Pomone, la botanique poétique de Colette</strong><span>4 min • 3 questions</span></a>
+        <a href="78-episode-19-colette-percut-tres-tot-l-interet-du-septieme-art.html"><strong>Épisode 19 Colette perçut très tôt l&#39;intérêt du septième art</strong><span>4 min • 3 questions</span></a>
+        <a href="79-episode-20-colette-feministe-avant-gardiste-et-paradoxale.html"><strong>Épisode 20 Colette féministe avant-gardiste et paradoxale</strong><span>4 min • 3 questions</span></a>
+        <a href="80-episode-21-colette-reflechissait-deja-sur-le-genre.html"><strong>Épisode 21 Colette réfléchissait déjà sur le genre</strong><span>4 min • 3 questions</span></a>
+        <a href="81-episode-22-colette-choisit-la-litterature-contre-la-maternite.html"><strong>Épisode 22 Colette choisit la littérature contre la maternité</strong><span>4 min • 3 questions</span></a>
+        <a href="82-episode-23-la-fratrie-de-colette.html"><strong>Épisode 23 La fratrie de Colette</strong><span>4 min • 3 questions</span></a>
+        <a href="83-episode-24-le-phalanstere-refuge-pour-colette-et-ses-amies.html"><strong>Épisode 24 Le phalanstère, refuge pour Colette et ses amies</strong><span>4 min • 3 questions</span></a>
+        <a href="84-episode-25-colette-dans-la-grande-guerre.html"><strong>Épisode 25 Colette dans la Grande Guerre</strong><span>4 min • 3 questions</span></a>
+        <a href="85-episode-26-quand-colette-ecrit-l-enfant-et-les-sortileges-livret-de-feerie-ballet-pour-opera-mis-en-musique-par-ravel.html"><strong>Épisode 26 Quand Colette écrit L’Enfant et les Sortilèges livret de féerie-ballet pour Opéra mis en musique par Ravel</strong><span>4 min • 3 questions</span></a>
+        <a href="86-episode-27-les-liaisons-de-colette.html"><strong>Épisode 27 Les Liaisons de Colette</strong><span>4 min • 3 questions</span></a>
+        <a href="87-episode-28-de-la-bretagne-au-midi-colette-sur-les-routes.html"><strong>Épisode 28 De la Bretagne au Midi, Colette sur les routes</strong><span>4 min • 3 questions</span></a>
+        <a href="88-episode-29-colette-entre-ranc-ur-et-vengeances-conjugales-posthumes.html"><strong>Épisode 29 Colette entre rancœur et vengeances conjugales posthumes</strong><span>4 min • 3 questions</span></a>
+        <a href="89-episode-30-colette-conte-les-petites-existences.html"><strong>Épisode 30 Colette conte les petites existences</strong><span>5 min • 5 questions</span></a>
+        <a href="90-episode-31-proust-et-colette-se-sont-connus-et-reconnus.html"><strong>Épisode 31 Proust et Colette se sont connus et reconnus</strong><span>4 min • 3 questions</span></a>
+        <a href="91-episode-32-cheri-reflet-de-la-plume-de-colette.html"><strong>Épisode 32 Chéri, reflet de la plume de Colette</strong><span>4 min • 3 questions</span></a>
+        <a href="92-episode-33-colette-et-l-occupation.html"><strong>Épisode 33 Colette et l&#39;Occupation</strong><span>4 min • 3 questions</span></a>
+        <a href="93-episode-34-colette-la-bonne-dame-du-palais-royal.html"><strong>Épisode 34 Colette, la bonne dame du Palais-Royal</strong><span>4 min • 3 questions</span></a>
+        <a href="94-episode-35-la-marque-colette.html"><strong>Épisode 35 La marque Colette</strong><span>4 min • 3 questions</span></a>
+        <a href="95-episode-36-colette-prend-de-l-age.html"><strong>Épisode 36 Colette prend de l&#39;âge</strong><span>4 min • 3 questions</span></a>
+        <a href="96-episode-37-colette-et-la-litterature-une-fausse-histoire-d-amour.html"><strong>Épisode 37 Colette et la littérature, une fausse histoire d&#39;amour ?</strong><span>4 min • 3 questions</span></a>
+        <a href="97-episode-38-gigi-le-rare-roman-de-colette-qui-finit-bien.html"><strong>Épisode 38 Gigi, le rare roman de Colette qui finit bien</strong><span>4 min • 3 questions</span></a>
+        <a href="98-episode-39-colette-attachee-aux-traditions.html"><strong>Épisode 39 Colette attachée aux traditions</strong><span>4 min • 3 questions</span></a>
+        <a href="99-episode-40-le-bleu-la-couleur-de-colette.html"><strong>Épisode 40 Le bleu, la couleur de Colette</strong><span>4 min • 3 questions</span></a>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer-content">
+      <p class="made-with">
+        Créé avec <i class="fas fa-heart" aria-hidden="true"></i> par
+        <a href="https://www.linkedin.com/in/yann-houry-a2350651/" target="_blank" rel="noopener noreferrer">Yann Houry</a>
+      </p>
+      <div class="license">
+        <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
+          <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr" target="_blank" rel="license noopener noreferrer" aria-label="Licence Creative Commons BY-SA 4.0">
+            <i class="fa-brands fa-creative-commons" aria-hidden="true"></i>
+          </a>
+          <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr" target="_blank" rel="license noopener noreferrer" aria-label="Attribution requise">
+            <i class="fa-brands fa-creative-commons-by" aria-hidden="true"></i>
+          </a>
+          <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr" target="_blank" rel="license noopener noreferrer" aria-label="Partage dans les mêmes conditions">
+            <i class="fa-brands fa-creative-commons-sa" aria-hidden="true"></i>
+          </a>
+        </p>
+      </div>
+      <p class="year"><span id="current-year"></span></p>
+    </div>
+  </footer>
+  <script src="../../header.js?v=20260516-1" defer></script>
+  <script>const yearEl = document.getElementById('current-year'); if (yearEl) yearEl.textContent = new Date().getFullYear();</script>
+</body>
+</html>

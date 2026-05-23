@@ -1,4 +1,46 @@
 (() => {
+  const headerScript = document.currentScript;
+
+  loadShared().finally(initHeader);
+
+  function loadShared() {
+    if (window.BacPodcastUtils) return Promise.resolve();
+    const sharedUrl = `${getSiblingScriptUrl("shared.js")}?v=20260523-1`;
+
+    return injectSharedScript(sharedUrl)
+      .then(() => window.BacPodcastUtils ? undefined : evaluateSharedScript(sharedUrl))
+      .catch(() => evaluateSharedScript(sharedUrl));
+  }
+
+  function injectSharedScript(src) {
+    return new Promise((resolve, reject) => {
+      const script = document.createElement("script");
+      script.src = src;
+      script.defer = true;
+      script.onload = resolve;
+      script.onerror = reject;
+      document.head.append(script);
+    });
+  }
+
+  async function evaluateSharedScript(src) {
+    if (window.BacPodcastUtils) return;
+    const response = await fetch(src);
+    if (!response.ok) throw new Error(`Unable to load ${src}`);
+    const code = await response.text();
+    (0, eval)(code);
+  }
+
+  function getSiblingScriptUrl(filename) {
+    const base = new URL(headerScript?.src || "header.js", window.location.href);
+    base.pathname = base.pathname.replace(/[^/]*$/, filename);
+    base.search = "";
+    return base.toString();
+  }
+
+  function initHeader() {
+  const shared = window.BacPodcastUtils;
+
   if (document.body.classList.contains("matu-page")) {
     ensureMatuHeaderTools();
   }
@@ -15,11 +57,17 @@
   };
 
   initHeaderMark();
+  ensureHomeLink();
   initTheme();
   initSearch();
   renderProgress();
 
   function initHeaderMark() {
+    if (shared?.initHeaderMark) {
+      shared.initHeaderMark();
+      return;
+    }
+
     const brand = document.querySelector(".topbar > div:first-child");
     if (!brand || brand.querySelector(".menu-microphone")) return;
 
@@ -29,6 +77,26 @@
     microphone.setAttribute("aria-hidden", "true");
     microphone.innerHTML = '<i class="fa-solid fa-microphone-lines"></i>';
     brand.prepend(microphone);
+  }
+
+  function ensureHomeLink() {
+    const menu = document.querySelector(".quick-menu");
+    if (!menu || [...menu.querySelectorAll("a")].some((link) => link.textContent.trim() === "Accueil")) {
+      return;
+    }
+
+    const homeLink = document.createElement("a");
+    homeLink.href = getRootRelativeHref(menu, "index.html");
+    homeLink.textContent = "Accueil";
+    menu.prepend(homeLink);
+  }
+
+  function getRootRelativeHref(menu, filename) {
+    const podcastLink = [...menu.querySelectorAll("a")]
+      .find((link) => link.textContent.trim() === "Podcasts");
+    const podcastHref = podcastLink?.getAttribute("href") || "index.html";
+    const sectionPrefix = podcastHref.replace(/index\.html(?:[?#].*)?$/, "");
+    return `${sectionPrefix}../${filename}`;
   }
 
   function ensureMatuHeaderTools() {
@@ -159,6 +227,11 @@
   }
 
   function setSearchOpen(open) {
+    if (shared?.setSearchOpen) {
+      shared.setSearchOpen(els.searchPanel, els.searchToggle, open);
+      return;
+    }
+
     els.searchPanel.hidden = !open;
     els.searchToggle.setAttribute("aria-expanded", open ? "true" : "false");
     document.body.classList.toggle("has-open-search", open);
@@ -166,6 +239,11 @@
 
   function initTheme() {
     if (!els.themeToggle) return;
+    if (shared?.initThemeToggle) {
+      shared.initThemeToggle(els.themeToggle);
+      return;
+    }
+
     const saved = localStorage.getItem("bac-podcasts-theme");
     applyTheme(saved === "dark" ? "dark" : "light");
     els.themeToggle.addEventListener("click", () => {
@@ -205,5 +283,6 @@
     const percent = total ? Math.round((listened / total) * 100) : 0;
     els.progressText.textContent = `${listened}/${total} podcasts écoutés`;
     els.progressBar.style.width = `${percent}%`;
+  }
   }
 })();

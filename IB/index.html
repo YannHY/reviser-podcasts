@@ -8,17 +8,67 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <script>
+    (() => {
+      try {
+        if (localStorage.getItem("bac-podcasts-theme") === "dark") {
+          document.documentElement.setAttribute("data-theme", "dark");
+        }
+      } catch (error) {}
+    })();
+  </script>
   <link rel="stylesheet" href="../styles.css?v=20260516-7">
   <style>
+    .pending-page {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .pending-page main {
+      flex: 1;
+    }
+
     .pending-page main {
       display: grid;
       place-items: center;
-      min-height: 46vh;
+      padding-top: clamp(72px, 10vh, 124px);
+      padding-bottom: clamp(72px, 10vh, 124px);
       text-align: center;
     }
 
     .pending-message {
-      max-width: 560px;
+      width: min(620px, 100%);
+      padding: 0 24px;
+    }
+
+    .pending-mark {
+      display: inline-grid;
+      width: 78px;
+      height: 78px;
+      margin-bottom: 24px;
+      place-items: center;
+      border: 1px solid rgba(2, 132, 199, .22);
+      border-radius: 50%;
+      background:
+        radial-gradient(circle at 50% 30%, rgba(2, 132, 199, .16), transparent 52%),
+        var(--panel);
+      box-shadow: var(--shadow);
+    }
+
+    .pending-mark img {
+      display: block;
+      width: 58px;
+      height: 58px;
+      object-fit: contain;
+    }
+
+    .pending-message h2 {
+      margin: 10px 0 0;
+      font-family: 'Lora', Georgia, serif;
+      font-size: clamp(1.9rem, 4vw, 3rem);
+      line-height: 1.12;
     }
 
     .pending-message p {
@@ -43,23 +93,101 @@
       color: var(--warm-dark);
       text-decoration: underline;
     }
+
+    .pending-tools {
+      align-items: center;
+    }
   </style>
 </head>
 <body class="pending-page">
   <header class="topbar">
     <div class="topbar-brand">
+      <span class="menu-microphone" aria-hidden="true">
+        <i class="fa-solid fa-microphone-lines"></i>
+      </span>
       <p class="eyebrow">IB</p>
       <h1>Réviser avec les podcasts</h1>
+      <nav class="quick-menu" aria-label="Accès rapides">
+        <a href="../index.html">Accueil</a>
+        <a aria-disabled="true" aria-current="page">Podcasts</a>
+        <a aria-disabled="true">Quiz</a>
+        <a aria-disabled="true">Fiches</a>
+      </nav>
+    </div>
+    <div class="topbar-tools pending-tools">
+      <button id="themeToggle" class="icon-button theme-toggle" type="button" aria-label="Activer le mode sombre" title="Activer le mode sombre">
+        <i class="fa-solid fa-moon" aria-hidden="true"></i>
+      </button>
     </div>
   </header>
 
   <main>
     <section class="pending-message" aria-label="Page en préparation">
+      <span class="pending-mark" aria-hidden="true">
+        <img src="../assets/logo-ib.svg" alt="">
+      </span>
       <p class="eyebrow">Page en préparation</p>
       <h2>Les podcasts IB arrivent bientôt.</h2>
-      <p>Cette section est en cours de construction.</p>
-      <a class="back-link" href="../accueil.html">Retour à l'accueil</a>
+      <a class="back-link" href="../index.html">Retour à l'accueil</a>
     </section>
   </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <p class="made-with">
+        Créé avec <i class="fas fa-heart" aria-hidden="true"></i> par
+        <a href="https://www.linkedin.com/in/yann-houry-a2350651/" target="_blank" rel="noopener noreferrer">Yann Houry</a>
+      </p>
+      <div class="license">
+        <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
+          <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr" target="_blank" rel="license noopener noreferrer" aria-label="Licence Creative Commons BY-SA 4.0">
+            <i class="fa-brands fa-creative-commons" aria-hidden="true"></i>
+          </a>
+          <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr" target="_blank" rel="license noopener noreferrer" aria-label="Attribution requise">
+            <i class="fa-brands fa-creative-commons-by" aria-hidden="true"></i>
+          </a>
+          <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr" target="_blank" rel="license noopener noreferrer" aria-label="Partage dans les mêmes conditions">
+            <i class="fa-brands fa-creative-commons-sa" aria-hidden="true"></i>
+          </a>
+        </p>
+      </div>
+      <p class="year"><span id="current-year"></span></p>
+    </div>
+  </footer>
+
+  <script>
+    (() => {
+      const button = document.getElementById("themeToggle");
+      const icon = button?.querySelector("i");
+      const year = document.getElementById("current-year");
+
+      if (year) {
+        year.textContent = new Date().getFullYear();
+      }
+
+      const setThemeButton = () => {
+        const isDark = document.documentElement.getAttribute("data-theme") === "dark";
+        button?.setAttribute("aria-label", isDark ? "Activer le mode clair" : "Activer le mode sombre");
+        button?.setAttribute("title", isDark ? "Activer le mode clair" : "Activer le mode sombre");
+        icon?.classList.toggle("fa-sun", isDark);
+        icon?.classList.toggle("fa-moon", !isDark);
+      };
+
+      button?.addEventListener("click", () => {
+        const isDark = document.documentElement.getAttribute("data-theme") === "dark";
+        if (isDark) {
+          document.documentElement.removeAttribute("data-theme");
+        } else {
+          document.documentElement.setAttribute("data-theme", "dark");
+        }
+        try {
+          localStorage.setItem("bac-podcasts-theme", isDark ? "light" : "dark");
+        } catch (error) {}
+        setThemeButton();
+      });
+
+      setThemeButton();
+    })();
+  </script>
 </body>
 </html>

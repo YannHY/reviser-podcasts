@@ -1,4 +1,5 @@
 (() => {
+  const shared = window.BacPodcastUtils;
   const dataSource = document.querySelector("#podcastData");
   const summarySource = document.querySelector("#summaryData");
   const quizLinkSource = document.querySelector("#quizLinks");
@@ -12,8 +13,8 @@
     return {
       ...podcast,
       order: index,
-      id: makeId(`matu-${podcast.work}-${podcast.series || ""}-${podcast.title}-${workIndex}`),
-      dateValue: parseDateValue(podcast.date),
+      id: podcast.id || makeId(`matu-${podcast.work}-${podcast.series || ""}-${podcast.title}-${workIndex}`),
+      dateValue: shared.parseFrenchDateValue(podcast.date),
     };
   });
 
@@ -28,7 +29,6 @@
   const searchToggle = document.querySelector("#searchToggle");
   const searchClose = document.querySelector("#searchClose");
   const themeToggle = document.querySelector("#themeToggle");
-  const yearEl = document.querySelector("#current-year");
   const sortSelect = document.querySelector("#sortSelect");
   const durationFilter = document.querySelector("#durationFilter");
   const statusFilter = document.querySelector("#statusFilter");
@@ -39,12 +39,12 @@
   let favoritesOnly = false;
   let cards = [];
 
-  initTheme();
+  shared.initThemeToggle(themeToggle);
   bindFilters();
   applyInitialSearch();
   buildTabs();
   render();
-  if (yearEl) yearEl.textContent = new Date().getFullYear();
+  shared.setCurrentYear();
 
   function bindFilters() {
     [searchInput, sortSelect, durationFilter, statusFilter].forEach((control) => {
@@ -92,19 +92,11 @@
   }
 
   function setSearchOpen(open) {
-    if (!searchPanel || !searchToggle) return;
-    searchPanel.hidden = !open;
-    searchToggle.setAttribute("aria-expanded", open ? "true" : "false");
-    document.body.classList.toggle("has-open-search", open);
+    shared.setSearchOpen(searchPanel, searchToggle, open);
   }
 
   function applyInitialSearch() {
-    if (!searchInput) return;
-    const query = new URLSearchParams(window.location.search).get("search");
-    if (!query) return;
-
-    searchInput.value = query;
-    setSearchOpen(true);
+    shared.applyInitialSearch(searchInput, () => setSearchOpen(true));
   }
 
   function buildTabs() {
@@ -196,8 +188,8 @@
       wrapper.setAttribute("aria-labelledby", makeId(`${work}-title`));
       wrapper.innerHTML = `
         <div class="section-title">
-          <h2 id="${makeId(`${work}-title`)}">${escapeHtml(work)}</h2>
-          <span>${escapeHtml(groupItems[0].author || "")}</span>
+          <h2 id="${makeId(`${work}-title`)}">${shared.escapeHtml(work)}</h2>
+          <span>${shared.escapeHtml(groupItems[0].author || "")}</span>
         </div>
         <div class="grid matu-grid"></div>
       `;
@@ -227,23 +219,23 @@
     card.innerHTML = `
       <div class="card-head">
         <label class="listened"><input type="checkbox"><span>Écouté</span></label>
-        <h2>${escapeHtml(podcast.title)}</h2>
+      <h2>${shared.escapeHtml(podcast.title)}</h2>
       </div>
-      <p class="meta">${meta.map((item) => `<span>${escapeHtml(item)}</span>`).join('<span class="dot" aria-hidden="true">·</span>')}</p>
+      <p class="meta">${meta.map((item) => `<span>${shared.escapeHtml(item)}</span>`).join('<span class="dot" aria-hidden="true">·</span>')}</p>
       <div class="actions">
         <button class="favorite-button" type="button" aria-pressed="false" aria-label="Ajouter aux favoris" title="Ajouter aux favoris">
           <i class="fa-regular fa-heart" aria-hidden="true"></i>
         </button>
-        <a class="source-link" href="${escapeHtml(podcast.url)}" target="_blank" rel="noreferrer" aria-label="Voir la source" title="Voir la source">
+        <a class="source-link" href="${shared.escapeHtml(podcast.url)}" target="_blank" rel="noreferrer" aria-label="Voir la source" title="Voir la source">
           <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
         </a>
-        <button class="listen-button" type="button" aria-label="Écouter ici" title="Écouter ici" data-frame-src="${escapeHtml(frameSrc)}" data-frame-title="${escapeHtml(podcast.title)}" ${hasPlayer ? "" : "hidden"}>
+        <button class="listen-button" type="button" aria-label="Écouter ici" title="Écouter ici" data-frame-src="${shared.escapeHtml(frameSrc)}" data-frame-title="${shared.escapeHtml(podcast.title)}" ${hasPlayer ? "" : "hidden"}>
           <i class="fa-solid fa-play" aria-hidden="true"></i>
         </button>
         <button class="summary-button" type="button" aria-label="Résumé" title="Résumé" ${summaryText ? "" : "hidden"}>
           <i class="fa-regular fa-file-lines" aria-hidden="true"></i>
         </button>
-        <a class="quiz-link" href="${escapeHtml(quizHref)}" aria-label="Quiz : ${escapeHtml(podcast.title)}" title="Quiz" ${quizHref ? "" : "hidden"}>
+        <a class="quiz-link" href="${shared.escapeHtml(quizHref)}" aria-label="Quiz : ${shared.escapeHtml(podcast.title)}" title="Quiz" ${quizHref ? "" : "hidden"}>
           <i class="fa-solid fa-brain" aria-hidden="true"></i>
         </a>
       </div>
@@ -253,28 +245,6 @@
       </div>
     `;
     return card;
-  }
-
-  function initTheme() {
-    if (!themeToggle) return;
-    const saved = localStorage.getItem("bac-podcasts-theme");
-    applyTheme(saved === "dark" ? "dark" : "light");
-    themeToggle.addEventListener("click", () => {
-      const current = document.documentElement.getAttribute("data-theme") === "dark" ? "dark" : "light";
-      applyTheme(current === "dark" ? "light" : "dark");
-    });
-  }
-
-  function applyTheme(theme) {
-    if (theme === "dark") {
-      document.documentElement.setAttribute("data-theme", "dark");
-    } else {
-      document.documentElement.removeAttribute("data-theme");
-    }
-    localStorage.setItem("bac-podcasts-theme", theme);
-    themeToggle.innerHTML = `<i class="fa-solid ${theme === "dark" ? "fa-sun" : "fa-moon"}" aria-hidden="true"></i>`;
-    themeToggle.setAttribute("aria-label", theme === "dark" ? "Activer le mode clair" : "Activer le mode sombre");
-    themeToggle.title = theme === "dark" ? "Activer le mode clair" : "Activer le mode sombre";
   }
 
   function initPodcastState() {
@@ -336,48 +306,30 @@
           : '<i class="fa-solid fa-chevron-up" aria-hidden="true"></i>';
 
         if (!isOpen && summaryPanel.childElementCount === 0) {
-          summaryPanel.innerHTML = renderSummaryContent(summaryData[podcast?.id] || "");
+          summaryPanel.innerHTML = shared.renderSummaryContent(summaryData[podcast?.id] || "");
         }
       });
     });
   }
 
   function renderProgress() {
-    const listened = podcastData.filter((podcast) => isListened(podcast.id)).length;
-    const total = podcastData.length;
-    const percent = total ? Math.round((listened / total) * 100) : 0;
-
-    if (progressText) progressText.textContent = `${listened}/${total} podcasts écoutés`;
-    if (progressBar) progressBar.style.width = `${percent}%`;
+    shared.renderProgress(podcastData, { progressText, progressBar });
   }
 
   function renderSummary(podcasts) {
-    if (resultCount) resultCount.textContent = podcasts.length;
-    if (totalTime) totalTime.textContent = formatDuration(podcasts.reduce((sum, podcast) => sum + Number(podcast.duration || 0), 0));
-    if (doneCount) doneCount.textContent = podcasts.filter((podcast) => isListened(podcast.id)).length;
+    shared.renderSummary(podcasts, { resultCount, totalTime, doneCount });
   }
 
   function renderFavoriteFilter() {
-    if (!favoritesToggle) return;
-    const favoritesCount = podcastData.filter((podcast) => isFavorite(podcast.id)).length;
-    favoritesToggle.setAttribute("aria-pressed", favoritesOnly ? "true" : "false");
-    favoritesToggle.innerHTML = `
-      <i class="${favoritesOnly ? "fa-solid" : "fa-regular"} fa-heart" aria-hidden="true"></i>
-      <span>Favoris${favoritesCount ? ` (${favoritesCount})` : ""}</span>
-    `;
+    shared.renderFavoriteFilter(favoritesToggle, favoritesOnly, podcastData);
   }
 
   function renderTabs() {
-    sectionTabs?.querySelectorAll("button").forEach((button) => {
-      button.setAttribute("aria-selected", button.dataset.section === activeSection ? "true" : "false");
-    });
+    shared.renderTabs(sectionTabs, activeSection);
   }
 
   function updateFavoriteButton(button, favorite) {
-    button.setAttribute("aria-pressed", favorite ? "true" : "false");
-    button.setAttribute("aria-label", favorite ? "Retirer des favoris" : "Ajouter aux favoris");
-    button.title = favorite ? "Retirer des favoris" : "Ajouter aux favoris";
-    button.innerHTML = `<i class="${favorite ? "fa-solid" : "fa-regular"} fa-heart" aria-hidden="true"></i>`;
+    shared.updateFavoriteButton(button, favorite);
   }
 
   function getFrameSrc(podcast) {
@@ -395,23 +347,23 @@
     if (isAudioFileUrl(src)) {
       return `
         <audio
-          src="${escapeHtml(src)}"
+          src="${shared.escapeHtml(src)}"
           controls
           preload="none"
-          title="${escapeHtml(title)}"></audio>
+          title="${shared.escapeHtml(title)}"></audio>
       `;
     }
 
     const spotify = isSpotifyUrl(src);
     return `
       <iframe
-        src="${escapeHtml(src)}"
+        src="${shared.escapeHtml(src)}"
         height="${getFrameHeight(src)}"
         frameborder="0"
         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
         allowfullscreen
         loading="lazy"
-        title="${escapeHtml(title)}"></iframe>
+        title="${shared.escapeHtml(title)}"></iframe>
     `;
   }
 
@@ -444,121 +396,34 @@
   }
 
   function isListened(id) {
-    return localStorage.getItem(`bac-podcast:${id}`) === "1";
+    return shared.isListened(id);
   }
 
   function setListened(id, listened) {
-    setState(`bac-podcast:${id}`, listened);
+    shared.setListened(id, listened);
   }
 
   function isFavorite(id) {
-    return localStorage.getItem(`bac-podcast-favorite:${id}`) === "1";
+    return shared.isFavorite(id);
   }
 
   function setFavorite(id, favorite) {
-    setState(`bac-podcast-favorite:${id}`, favorite);
-  }
-
-  function setState(key, enabled) {
-    if (enabled) {
-      localStorage.setItem(key, "1");
-    } else {
-      localStorage.removeItem(key);
-    }
-  }
-
-  function parseDateValue(date) {
-    const match = String(date || "").match(/^(\d{2})\/(\d{2})\/(\d{4})$/);
-    if (!match) return "";
-    return `${match[3]}-${match[2]}-${match[1]}`;
+    shared.setFavorite(id, favorite);
   }
 
   function formatDuration(minutes) {
-    if (!minutes) return "0 min";
-    const hours = Math.floor(minutes / 60);
-    const mins = minutes % 60;
-    return hours ? `${hours} h ${String(mins).padStart(2, "0")} min` : `${mins} min`;
+    return shared.formatDuration(minutes);
   }
 
   function groupBy(items, key) {
-    return items.reduce((map, item) => {
-      const value = item[key];
-      if (!map.has(value)) map.set(value, []);
-      map.get(value).push(item);
-      return map;
-    }, new Map());
+    return shared.groupBy(items, key);
   }
 
   function makeId(value) {
-    return String(value)
-      .normalize("NFD")
-      .replace(/[\u0300-\u036f]/g, "")
-      .toLowerCase()
-      .replace(/[^a-z0-9]+/g, "-")
-      .replace(/^-|-$/g, "");
+    return shared.makeSlug(value);
   }
 
   function escapeHtml(value) {
-    return String(value)
-      .replace(/&/g, "&amp;")
-      .replace(/</g, "&lt;")
-      .replace(/>/g, "&gt;")
-      .replace(/"/g, "&quot;")
-      .replace(/'/g, "&#039;");
-  }
-
-  function renderSummaryContent(text) {
-    const value = String(text || "").trim();
-    if (/^<(h[1-6]|p|ul|ol|section|article|div)\b/i.test(value)) {
-      return sanitizeSummaryHtml(value);
-    }
-    return renderMarkdown(value);
-  }
-
-  function renderMarkdown(text) {
-    const lines = text.split(/\r?\n/);
-    const html = [];
-    let inList = false;
-
-    lines.forEach((raw) => {
-      const line = raw.trimEnd();
-      if (line.startsWith("## ")) {
-        if (inList) {
-          html.push("</ul>");
-          inList = false;
-        }
-        html.push(`<h3>${inlineMarkdown(line.slice(3))}</h3>`);
-      } else if (line.startsWith("- ")) {
-        if (!inList) {
-          html.push("<ul>");
-          inList = true;
-        }
-        html.push(`<li>${inlineMarkdown(line.slice(2))}</li>`);
-      } else if (line.trim()) {
-        if (inList) {
-          html.push("</ul>");
-          inList = false;
-        }
-        html.push(`<p>${inlineMarkdown(line)}</p>`);
-      }
-    });
-
-    if (inList) html.push("</ul>");
-    return html.join("");
-  }
-
-  function inlineMarkdown(value) {
-    return escapeHtml(value)
-      .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
-      .replace(/\*([^*]+)\*/g, "<em>$1</em>")
-      .replace(/`([^`]+)`/g, "<code>$1</code>");
-  }
-
-  function sanitizeSummaryHtml(value) {
-    return String(value)
-      .replace(/<script[\s\S]*?<\/script>/gi, "")
-      .replace(/\son[a-z]+\s*=\s*"[^"]*"/gi, "")
-      .replace(/\son[a-z]+\s*=\s*'[^']*'/gi, "")
-      .replace(/\s(href|src)\s*=\s*(['"])\s*javascript:[\s\S]*?\2/gi, "");
+    return shared.escapeHtml(value);
   }
 })();
