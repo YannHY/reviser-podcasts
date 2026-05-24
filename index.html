@@ -465,6 +465,64 @@
       text-transform: uppercase;
     }
 
+    @media (max-width: 1366px) and (min-width: 901px) {
+      .home-shell {
+        grid-template-rows: auto auto;
+      }
+
+      .home-page main {
+        align-self: start;
+        padding-top: clamp(42px, 6vh, 72px);
+        padding-bottom: clamp(56px, 8vh, 86px);
+      }
+
+      .home-intro {
+        margin-bottom: clamp(52px, 6vh, 74px);
+      }
+
+      .home-grid {
+        gap: clamp(28px, 4vw, 54px);
+      }
+
+      .path-card {
+        width: min(100%, 232px);
+        padding: 34px 24px 30px;
+      }
+
+      .path-top {
+        top: 34px;
+      }
+
+      .exam-mark {
+        width: 62px;
+        height: 62px;
+      }
+
+      .path-body {
+        top: 112px;
+        left: 24px;
+        right: 24px;
+      }
+
+      .path-body h2 {
+        font-size: clamp(1.34rem, 2vw, 1.62rem);
+      }
+
+      .path-body p {
+        max-width: 168px;
+        font-size: .72rem;
+      }
+
+      .home-details {
+        max-width: 940px;
+        margin-top: clamp(76px, 8vh, 104px);
+      }
+
+      .home-quote {
+        margin-top: clamp(76px, 8vh, 108px);
+      }
+    }
+
     @media (max-width: 1050px) {
       .home-details {
         grid-template-columns: repeat(2, minmax(0, 280px));
@@ -617,7 +675,6 @@
         <blockquote>
           <p>une belle illustration de ce que peut donner l’IA lorsqu’elle est mise au service d’une intention pédagogique claire, par quelqu’un qui connaît à la fois la matière, les programmes et les élèves.</p>
           <cite>
-            Source :
             <a href="https://outilstice.com/2026/05/reviser-bac-francais-podcasts-ia/" target="_blank" rel="noopener noreferrer">Outils TICE</a>
           </cite>
         </blockquote>
